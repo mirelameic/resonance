@@ -1,4 +1,6 @@
 import { observeReveals } from './reveal.js';
+import { parseRoute } from './router.js';
+import { renderView } from './render.js';
 
 // Theme toggle
 (function () {
@@ -61,4 +63,12 @@ import { observeReveals } from './reveal.js';
   });
 })();
 
-observeReveals(document);
+function handleRouteChange() {
+  const { view, params, query } = parseRoute(window.location.hash);
+  const mount = document.getElementById('app');
+  renderView(mount, view, params, query);
+  observeReveals(mount);
+}
+
+window.addEventListener('hashchange', handleRouteChange);
+handleRouteChange();
