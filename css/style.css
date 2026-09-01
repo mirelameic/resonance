@@ -252,6 +252,17 @@ main { padding: 120px var(--edge) 0; }
 .surprise__actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
 #rerollBtn { font-family: var(--f-mono); }
 
+/* ===== Home / hero ===== */
+.hero { padding-top: 60px; min-height: 60vh; display: flex; flex-direction: column; justify-content: center; }
+.hero__index { display: block; margin-bottom: 18px; }
+.hero__title {
+  font-family: var(--f-display); font-weight: 700; font-size: clamp(1.85rem, 6vw, 4.2rem);
+  line-height: 0.98; letter-spacing: -0.01em; margin: 0 0 28px; max-width: 17ch;
+}
+.hero__title em { font-style: normal; color: var(--wine); }
+.hero__sub { max-width: 56ch; font-size: 1.1rem; color: var(--ink-soft); margin: 0 0 32px; }
+.hero__actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
 /* ===== Footer ===== */
 .footer {
   display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between;
