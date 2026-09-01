@@ -1,6 +1,7 @@
 import { observeReveals } from './reveal.js';
 import { parseRoute } from './router.js';
 import { renderView } from './render.js';
+import { works } from './data.js';
 
 // Theme toggle
 (function () {
@@ -68,6 +69,8 @@ function handleRouteChange() {
   const mount = document.getElementById('app');
   renderView(mount, view, params, query);
   observeReveals(mount);
+  const countEl = document.getElementById('workCount');
+  if (countEl) countEl.textContent = `[ ${works.length} WORKS ]`;
 }
 
 window.addEventListener('hashchange', handleRouteChange);

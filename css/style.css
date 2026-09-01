@@ -160,6 +160,47 @@ main { padding: 120px var(--edge) 0; }
 }
 .pill:hover { background: var(--wine); color: var(--bg); border-color: var(--wine); }
 
+/* ===== Explore view ===== */
+.explore__layout { display: grid; grid-template-columns: 1fr; gap: 32px; }
+@media (min-width: 900px) { .explore__layout { grid-template-columns: 260px 1fr; align-items: start; } }
+
+.filter-panel {
+  display: flex; flex-direction: column; gap: 22px;
+  border: 1px solid var(--line); padding: 18px; position: sticky; top: 100px;
+}
+.filter-panel__search {
+  font-family: var(--f-body); font-size: 15px; padding: 8px 10px;
+  background: transparent; border: 1px solid var(--line); color: var(--ink); border-radius: 4px;
+}
+.filter-group__label { display: block; margin-bottom: 8px; }
+.filter-group__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.03em;
+  padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.chip:hover { border-color: var(--wine); color: var(--ink); }
+.chip.is-active { background: var(--wine); border-color: var(--wine); color: var(--bg); }
+.filter-panel__clear {
+  align-self: flex-start; background: none; border: none; padding: 0; cursor: pointer; color: var(--wine);
+}
+
+.explore__count { display: block; margin-bottom: 16px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+
+.work-card {
+  display: block; text-decoration: none; color: inherit;
+  border: 1px solid var(--line); overflow: hidden; transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.work-card:hover { border-color: var(--wine); transform: translateY(-3px); }
+.work-card__art { line-height: 0; }
+.work-card__art svg { width: 100%; height: auto; display: block; }
+.work-card__meta { padding: 12px; display: flex; flex-direction: column; gap: 4px; }
+.work-card__medium { text-transform: uppercase; }
+.work-card__title { font-family: var(--f-display); font-size: 1rem; font-weight: 600; margin: 0; line-height: 1.3; }
+.work-card__creator { font-size: 13px; color: var(--ink-soft); }
+
 /* ===== Footer ===== */
 .footer {
   display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between;
