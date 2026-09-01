@@ -123,7 +123,7 @@ function renderWorkDetail(mount, id) {
       <div class="detail__layout reveal">
         <div class="detail__art">${generateArtworkSVG(work, 420)}</div>
         <div class="detail__info">
-          <span class="tag work-card__medium">${work.medium} — ${work.year} — ${escapeHtml(work.country)}</span>
+          <span class="tag work-card__medium">${escapeHtml(work.medium)} — ${work.year} — ${escapeHtml(work.country)}</span>
           <h1 class="detail__title">${escapeHtml(work.title)}</h1>
           <p class="detail__creator">${escapeHtml(work.creator)}</p>
           <p class="detail__description">${escapeHtml(work.description)}</p>
@@ -142,9 +142,9 @@ function renderWorkDetail(mount, id) {
             <a class="connection-card reveal" href="${buildHash('work', { id: c.work.id })}">
               <div class="connection-card__art">${generateArtworkSVG(c.work, 100)}</div>
               <div>
-                <span class="tag work-card__medium">${c.work.medium}</span>
+                <span class="tag work-card__medium">${escapeHtml(c.work.medium)}</span>
                 <h4>${escapeHtml(c.work.title)}</h4>
-                <p class="connection-card__reason">${c.reasons.join(' · ')}</p>
+                <p class="connection-card__reason">${escapeHtml(c.reasons.join(' · '))}</p>
               </div>
             </a>
           `).join('')}
