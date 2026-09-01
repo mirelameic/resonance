@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RESONANCE — an archive of connections</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="description" content="RESONANCE — an interactive archive for discovering connections between music, film, TV, literature, photography, and visual arts across Brazil and the world.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      document.documentElement.setAttribute('data-theme', saved || 'dark');
+    } catch (e) {}
+  })();
+</script>
+</head>
+<body>
+
+<div class="corner corner--bl" aria-hidden="true"></div>
+<div class="corner corner--br" aria-hidden="true"></div>
+<div class="ambient" aria-hidden="true" id="ambient"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true" id="cursorDot"></div>
+
+<header class="chrome">
+  <a class="chrome__brand" href="#/">
+    <svg class="chrome__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+      <g stroke="var(--blue)" stroke-width="2.4" stroke-linecap="round">
+        <line x1="8" y1="24" x2="16" y2="8"/>
+        <line x1="16" y1="8" x2="24" y2="20"/>
+        <line x1="24" y1="20" x2="8" y2="24"/>
+      </g>
+      <circle cx="8" cy="24" r="3.2" fill="var(--wine)"/>
+      <circle cx="16" cy="8" r="3.2" fill="var(--wine)"/>
+      <circle cx="24" cy="20" r="3.2" fill="var(--wine)"/>
+    </svg>
+    RESONANCE
+  </a>
+  <div class="chrome__meta">
+    <span class="tag" id="workCount">[ ARCHIVE ]</span>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false" aria-label="Toggle dark mode">
+      <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="5"/>
+        <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>
+      </svg>
+      <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<main id="app">
+  <section class="view">
+    <p class="tag">[ LOADING ARCHIVE… ]</p>
+  </section>
+</main>
+
+<footer class="footer">
+  <span class="tag">© 2026 RESONANCE — AN ARCHIVE OF CONNECTIONS</span>
+  <span class="tag">[ RUNS ENTIRELY LOCAL ]</span>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
