@@ -37,7 +37,7 @@ function scorePair(work, other) {
   const sharedMoods = sharedValues(work.mood, other.mood);
   if (sharedMoods.length) {
     score += sharedMoods.length * WEIGHTS.mood;
-    reasons.push(`shared mood: ${sharedMoods.join(', ')}`);
+    reasons.push(`shared mood${sharedMoods.length > 1 ? 's' : ''}: ${sharedMoods.join(', ')}`);
   }
 
   if (typeof work.year === 'number' && typeof other.year === 'number') {
@@ -45,7 +45,7 @@ function scorePair(work, other) {
     const periodScore = Math.max(0, PERIOD_WEIGHT - yearsApart / PERIOD_DECAY_YEARS);
     if (periodScore > 0) {
       score += periodScore;
-      if (yearsApart <= 5) reasons.push(`same era: both from around ${work.year}`);
+      reasons.push(`same era, ${yearsApart} years apart`);
     }
   }
 
