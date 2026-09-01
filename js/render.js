@@ -2,7 +2,8 @@ import { works } from './data.js';
 import { extractFacets, filterWorks } from './filters.js';
 import { generateArtworkSVG } from './artwork.js';
 import { buildHash } from './router.js';
-import { computeConnections } from './similarity.js';
+import { computeConnections, pickUnexpectedConnection } from './similarity.js';
+import { observeReveals } from './reveal.js';
 
 const FACET_LABELS = {
   medium: 'Medium', decade: 'Period', country: 'Country', movement: 'Movement',
@@ -18,7 +19,7 @@ export function renderView(mount, view, params, query) {
       renderWorkDetail(mount, params.id);
       break;
     case 'surprise':
-      mount.innerHTML = `<section class="view"><p class="tag">[ SURPRISE ME — COMING SOON ]</p></section>`;
+      renderSurprise(mount);
       break;
     default:
       mount.innerHTML = `<section class="view"><p class="tag">[ HOME — COMING SOON ]</p></section>`;
@@ -152,6 +153,50 @@ function renderWorkDetail(mount, id) {
       ` : ''}
     </section>
   `;
+}
+
+function renderSurprise(mount) {
+  const work = works[Math.floor(Math.random() * works.length)];
+  const connections = computeConnections(work, works, { limit: 8, minScore: 0.5 });
+  const hook = pickUnexpectedConnection(work, connections);
+
+  mount.innerHTML = `
+    <section class="view view--surprise">
+      <div class="section-label tag reveal">[ SERENDIPITY ]</div>
+      <div class="surprise__stage reveal">
+        <div class="surprise__art">${generateArtworkSVG(work, 320)}</div>
+        <div class="surprise__info">
+          <span class="tag work-card__medium">${escapeHtml(work.medium)} — ${work.year}</span>
+          <h1 class="detail__title">${escapeHtml(work.title)}</h1>
+          <p class="detail__creator">${escapeHtml(work.creator)} — ${escapeHtml(work.country)}</p>
+          <p class="detail__description">${escapeHtml(work.description)}</p>
+          ${hook ? `
+            <div class="surprise__hook">
+              <p class="tag">[ UNEXPECTED DISCOVERY ]</p>
+              <a class="connection-card connection-card--hook" href="${buildHash('work', { id: hook.work.id })}">
+                <div class="connection-card__art">${generateArtworkSVG(hook.work, 100)}</div>
+                <div>
+                  <span class="tag work-card__medium">${escapeHtml(hook.work.medium)}</span>
+                  <h4>${escapeHtml(hook.work.title)}</h4>
+                  <p class="connection-card__reason">${escapeHtml(hook.reasons.join(' · '))}</p>
+                </div>
+              </a>
+            </div>
+          ` : ''}
+          <div class="surprise__actions">
+            <a class="pill" href="${buildHash('work', { id: work.id })}">SEE FULL ENTRY</a>
+            <button type="button" class="pill" id="rerollBtn">ANOTHER DISCOVERY</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+
+  const reroll = mount.querySelector('#rerollBtn');
+  if (reroll) reroll.addEventListener('click', () => {
+    renderSurprise(mount);
+    observeReveals(mount);
+  });
 }
 
 function renderConstellation(connections) {

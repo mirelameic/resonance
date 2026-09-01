@@ -241,6 +241,17 @@ main { padding: 120px var(--edge) 0; }
 .connection-card h4 { font-family: var(--f-display); font-size: 0.95rem; margin: 2px 0; }
 .connection-card__reason { font-size: 12px; color: var(--ink-soft); margin: 0; }
 
+/* ===== Surprise Me view ===== */
+.surprise__stage { display: grid; grid-template-columns: 1fr; gap: 32px; }
+@media (min-width: 800px) { .surprise__stage { grid-template-columns: 320px 1fr; } }
+.surprise__art svg { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+.surprise__info { display: flex; flex-direction: column; gap: 14px; }
+.surprise__hook { margin-top: 8px; }
+.surprise__hook > .tag { display: block; margin-bottom: 8px; }
+.connection-card--hook { border-color: var(--wine); }
+.surprise__actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+#rerollBtn { font-family: var(--f-mono); }
+
 /* ===== Footer ===== */
 .footer {
   display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between;
