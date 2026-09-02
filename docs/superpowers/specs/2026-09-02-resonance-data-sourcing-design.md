@@ -39,13 +39,14 @@ collection originates from a sync run against a real API.
 
 | Medium | Source | Auth | Notes |
 |---|---|---|---|
-| Film, TV | [TMDB](https://www.themoviedb.org/) API | Free API key (self-service signup) | No CORS support — must be called server-side/in Node, which the sync-script architecture already requires. Provides poster images (hosted on TMDB's CDN), overview text, genres, keywords, production countries, original language, release date. |
+| Film, TV | [Wikidata](https://www.wikidata.org/) Query Service (SPARQL) | None — no key, no signup, no commercial-use fee, ever (CC0) | **Superseded TMDB** (2026-09-02): TMDB's free tier excludes commercial use — any monetized deployment would owe a $149/mo license fee. Wikidata's data is CC0 (public domain), explicitly permitting commercial use with no fee and no negotiation, which fits this project's eventual monetization intent. Trade-off: weaker image coverage than TMDB — official posters are typically copyrighted and not hosted on Wikimedia Commons, so most film/TV works will have no image, falling back to the typography-only card treatment (already built for exactly this case). Queried via `https://query.wikidata.org/sparql`, items where `wdt:P31` (instance of) is `wd:Q11424` (film) or `wd:Q5398426` (television series); relevant properties: `P577` (publication date), `P136` (genre), `P57` (director), `P495` (country of origin), `P364` (original language), `P18` (image, when present). No auth, but requires a descriptive `User-Agent` header per Wikidata's etiquette; rate-limited to 5 parallel queries per IP, back off on HTTP 429. |
 | Music | [MusicBrainz](https://musicbrainz.org/) API + [Cover Art Archive](https://coverartarchive.org/) | None | Open data, no key. Rate-limited to ~1 request/second — the sync script must throttle accordingly. MusicBrainz provides release/recording metadata, area (country), date, and folksonomy tags; Cover Art Archive provides album art keyed by MusicBrainz release ID. |
 | Literature | [Open Library](https://openlibrary.org/) API | None (generally) | Open data via Internet Archive. Provides title/author/subjects/first-publish-year/cover images. Crowd-sourced — coverage and metadata richness varies per book; be a good citizen with request pacing. |
 | Photography, Visual Arts | [The Met Open Access](https://www.metmuseum.org/) API (+ similar CC0 museum sources as a stretch goal: National Gallery of Art, Cleveland Museum of Art, Art Institute of Chicago) | None | CC0-licensed, no key. Strongest for historical/public-domain work; weak on living/contemporary artists and photographers — this is a known, accepted gap (no good open API solves this). Provides object title, artist/culture, date, medium, classification, and high-resolution images. |
 
-All four sources are queried only from the Node sync script — never from the
-browser — so API keys (TMDB) never ship to the client and CORS is a non-issue.
+All sources are queried only from the Node sync script — never from the
+browser — so CORS is a non-issue regardless of source, and no source in this
+revised lineup requires an API key at all.
 
 ## Architecture
 
@@ -53,7 +54,7 @@ browser — so API keys (TMDB) never ship to the client and CORS is a non-issue.
 scripts/
   sync-data.mjs            # orchestrator — `npm run sync-data [-- --new]`
   sources/
-    tmdb.mjs                # film + TV
+    wikidata.mjs             # film + TV (SPARQL)
     musicbrainz.mjs          # music metadata
     coverartarchive.mjs       # album art (paired with musicbrainz.mjs)
     openlibrary.mjs           # literature
@@ -82,9 +83,9 @@ from the original spec:
   // country, language, movement, genre, style[], themes[], mood[], context,
   // description)...
 
-  image: "https://image.tmdb.org/t/p/w500/xyz.jpg" | null,
-  imageCredit: "Poster courtesy of TMDB" | null,   // required by source terms where applicable; null for CC0 sources like the Met
-  source: { type: "tmdb" | "musicbrainz" | "openlibrary" | "met", sourceId: "598" },
+  image: "https://commons.wikimedia.org/wiki/Special:FilePath/xyz.jpg" | null,
+  imageCredit: "Image via Wikimedia Commons (CC0/public domain data via Wikidata)" | null,   // required by source terms where applicable; optional-but-good-practice for CC0 sources like Wikidata and the Met
+  source: { type: "wikidata" | "musicbrainz" | "openlibrary" | "met", sourceId: "Q186358" },
 }
 ```
 
@@ -110,13 +111,16 @@ Mitigation, built into `mapToWork.mjs`'s per-source mappers rather than left
 manual:
 
 - **`themes`**: derived from each source's own richer signal fields, not just
-  top-level genre — TMDB's per-title *keywords* endpoint, MusicBrainz's
-  folksonomy *tags*, Open Library's *subjects*, the Met's *classification* /
-  *culture* / *period* fields. These are real, source-provided data, not
-  invented.
+  top-level genre — Wikidata's genre property (`P136`, often multi-valued) and
+  main-subject property (`P921`, when present), MusicBrainz's folksonomy
+  *tags*, Open Library's *subjects*, the Met's *classification* / *culture* /
+  *period* fields. These are real, source-provided data, not invented.
 - **`description`**: the source's own synopsis/description text where
-  available (TMDB `overview`, Open Library `description`, the Met's object
-  description) — real content, not fabricated.
+  available (Wikidata's short `schema:description` / Wikipedia sitelink
+  summary where present, Open Library `description`, the Met's object
+  description) — real content, not fabricated. Wikidata's descriptions are
+  often terse (a one-line disambiguator, not a synopsis) — a shorter fallback
+  than TMDB's `overview` would have given, which is an accepted trade-off.
 - **`context`**: where no curated cultural-context prose exists, falls back to
   a short, honest, factually-generated line (e.g. "Released in {year} in
   {country}.") — never a fabricated claim, just thinner than hand-written
@@ -141,13 +145,15 @@ deliberately across multiple decades and countries/languages — not just
 "most popular" — targeting roughly 500-1,000 works per medium per run (~3,000-
 6,000 total on a first run). This is a starting rhythm, not a ceiling: the
 script is designed to be re-run to keep expanding the collection over time,
-since pulling every title a source has (TMDB alone holds over a million) in
-one run isn't practical or useful.
+since pulling every title a source has (Wikidata alone holds well over a
+million film/TV items) in one run isn't practical or useful.
 
 **Incremental mode** (`npm run sync-data -- --new`): queries each source's
-"recently released/added" surface (TMDB's now-playing/upcoming, MusicBrainz's
-recent releases, Open Library's recent additions) to pick up new works without
-re-walking the whole historical catalog. The Met's collection doesn't have a
+"recently released/added" surface — for Wikidata, a narrow `P577` (publication
+date) window covering roughly the last 18 months instead of a full
+historical decade sweep — MusicBrainz's recent releases, Open Library's recent
+additions — to pick up new works without re-walking the whole historical
+catalog. The Met's collection doesn't have a
 meaningful "recent" concept (museum accessions, not new artworks), so
 incremental mode skips it — full mode is re-run periodically instead.
 
