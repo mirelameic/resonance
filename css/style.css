@@ -268,3 +268,11 @@ main { padding: 120px var(--edge) 0; }
   display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between;
   padding: 30px var(--edge) 40px; max-width: 1040px; margin: 0 auto;
 }
+
+/* ===== Mobile adjustments ===== */
+@media (max-width: 899px) {
+  .filter-panel { position: static; }
+  .card-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  .detail__layout { gap: 20px; }
+  .hero__actions .pill { flex: 1 1 auto; text-align: center; }
+}
