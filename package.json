@@ -6,6 +6,7 @@
   "description": "RESONANCE — a local, static artistic discovery archive connecting works across music, film, TV, literature, photography, and visual arts.",
   "scripts": {
     "test": "node --test",
-    "serve": "python3 -m http.server 8000"
+    "serve": "python3 -m http.server 8000",
+    "sync-data": "node scripts/sync-data.mjs"
   }
 }
