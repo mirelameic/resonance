@@ -1,7 +1,7 @@
 import { createThrottle } from '../lib/rateLimit.mjs';
 
 const ENDPOINT = 'https://query.wikidata.org/sparql';
-const USER_AGENT = 'RESONANCE-sync/1.0 (personal art-discovery project; https://github.com/ — contact via project owner)';
+const USER_AGENT = 'RESONANCE-sync/1.0 (personal art-discovery project, non-commercial data sync script)';
 const throttle = createThrottle(1000); // conservative pacing per Wikidata's etiquette for unauthenticated clients
 
 function buildQuery({ itemType, startYear, endYear, countryQid, limit }) {
