@@ -5,10 +5,15 @@ import { works } from '../js/data.js';
 const VALID_MEDIA = new Set(['music', 'film', 'tv', 'literature', 'photography', 'visual-arts']);
 const REQUIRED_STRING_FIELDS = ['id', 'title', 'creator', 'medium', 'country', 'language', 'movement', 'genre', 'context', 'description'];
 const REQUIRED_ARRAY_FIELDS = ['style', 'themes', 'mood'];
+const VALID_SOURCE_TYPES = new Set(['tmdb', 'musicbrainz', 'openlibrary', 'met']);
 
-test('data.js exports at least 70 works', () => {
+// Grows as more source integrations land — see
+// docs/superpowers/specs/2026-09-02-resonance-data-sourcing-design.md.
+const SOURCED_MEDIA = ['film', 'tv'];
+
+test('data.js exports at least one work', () => {
   assert.ok(Array.isArray(works));
-  assert.ok(works.length >= 70, `expected >= 70 works, got ${works.length}`);
+  assert.ok(works.length >= 1, `expected at least 1 work, got ${works.length}`);
 });
 
 test('every work has all required string fields non-empty', () => {
@@ -35,8 +40,12 @@ test('every work has a valid medium', () => {
   }
 });
 
-test('every work has a plausible 4-digit year and matching decade', () => {
+test('every work has a plausible 4-digit year and matching decade, or an honest "unknown" pair', () => {
   for (const work of works) {
+    if (work.year === null) {
+      assert.equal(work.decade, 'unknown', `${work.id} has a null year but decade is not "unknown"`);
+      continue;
+    }
     assert.ok(Number.isInteger(work.year) && work.year > 1000 && work.year <= 2026, `${work.id} has invalid year ${work.year}`);
     assert.equal(work.decade, `${Math.floor(work.year / 10) * 10}s`, `${work.id} decade should match its year`);
   }
@@ -53,10 +62,33 @@ test('every id is a kebab-case slug', () => {
   }
 });
 
-test('the collection spans every medium and includes Brazilian works', () => {
+test('the collection spans every currently-integrated medium', () => {
   const mediaPresent = new Set(works.map((w) => w.medium));
-  for (const medium of VALID_MEDIA) {
+  for (const medium of SOURCED_MEDIA) {
     assert.ok(mediaPresent.has(medium), `no work found for medium "${medium}"`);
   }
+});
+
+test('the collection includes at least one Brazilian work', () => {
   assert.ok(works.some((w) => w.country === 'Brazil'), 'expected at least one Brazilian work');
+});
+
+test('every work has an image URL or an explicit null, with a matching credit rule', () => {
+  for (const work of works) {
+    assert.ok(work.image === null || typeof work.image === 'string', `${work.id}.image should be a string URL or null`);
+    if (work.image === null) {
+      assert.equal(work.imageCredit, null, `${work.id}.imageCredit should be null when there is no image`);
+    } else {
+      assert.ok(work.image.startsWith('https://'), `${work.id}.image should be a real https URL`);
+      assert.ok(typeof work.imageCredit === 'string' && work.imageCredit.length > 0, `${work.id}.imageCredit should be a non-empty string when an image exists`);
+    }
+  }
+});
+
+test('every work has a valid source object', () => {
+  for (const work of works) {
+    assert.ok(work.source && typeof work.source === 'object', `${work.id} is missing a source object`);
+    assert.ok(VALID_SOURCE_TYPES.has(work.source.type), `${work.id} has invalid source.type "${work.source && work.source.type}"`);
+    assert.ok(typeof work.source.sourceId === 'string' && work.source.sourceId.length > 0, `${work.id} is missing a non-empty source.sourceId`);
+  }
 });

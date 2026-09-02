@@ -1,6 +1,5 @@
 import { works } from './data.js';
 import { extractFacets, filterWorks } from './filters.js';
-import { generateArtworkSVG } from './artwork.js';
 import { buildHash } from './router.js';
 import { computeConnections, pickUnexpectedConnection } from './similarity.js';
 import { observeReveals } from './reveal.js';
@@ -28,6 +27,21 @@ export function renderView(mount, view, params, query) {
 
 function escapeHtml(str = '') {
   return String(str).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function renderWorkArt(work) {
+  if (work.image) {
+    const credit = work.imageCredit
+      ? `<span class="work-art__credit tag">${escapeHtml(work.imageCredit)}</span>`
+      : '';
+    return `<img class="work-art__image" src="${escapeHtml(work.image)}" alt="${escapeHtml(work.title)}" loading="lazy">${credit}`;
+  }
+  return `
+    <div class="work-art__fallback">
+      <span class="work-art__fallback-title">${escapeHtml(work.title)}</span>
+      <span class="tag work-art__fallback-medium">${escapeHtml(work.medium)}</span>
+    </div>
+  `;
 }
 
 function renderExplore(mount, query = {}) {
@@ -60,7 +74,7 @@ function renderExplore(mount, query = {}) {
           <div class="card-grid">
             ${results.map((work) => `
               <a class="work-card reveal" href="${buildHash('work', { id: work.id })}">
-                <div class="work-card__art">${generateArtworkSVG(work, 200)}</div>
+                <div class="work-card__art">${renderWorkArt(work)}</div>
                 <div class="work-card__meta">
                   <span class="tag work-card__medium">${escapeHtml(work.medium)}</span>
                   <h3 class="work-card__title">${escapeHtml(work.title)}</h3>
@@ -122,7 +136,7 @@ function renderWorkDetail(mount, id) {
     <section class="view view--detail">
       <a class="tag detail__back" href="${buildHash('explore')}">[ ← BACK TO ARCHIVE ]</a>
       <div class="detail__layout reveal">
-        <div class="detail__art">${generateArtworkSVG(work, 420)}</div>
+        <div class="detail__art">${renderWorkArt(work)}</div>
         <div class="detail__info">
           <span class="tag work-card__medium">${escapeHtml(work.medium)} — ${work.year} — ${escapeHtml(work.country)}</span>
           <h1 class="detail__title">${escapeHtml(work.title)}</h1>
@@ -141,7 +155,7 @@ function renderWorkDetail(mount, id) {
         <div class="connections-grid">
           ${connections.map((c) => `
             <a class="connection-card reveal" href="${buildHash('work', { id: c.work.id })}">
-              <div class="connection-card__art">${generateArtworkSVG(c.work, 100)}</div>
+              <div class="connection-card__art">${renderWorkArt(c.work)}</div>
               <div>
                 <span class="tag work-card__medium">${escapeHtml(c.work.medium)}</span>
                 <h4>${escapeHtml(c.work.title)}</h4>
@@ -164,7 +178,7 @@ function renderSurprise(mount) {
     <section class="view view--surprise">
       <div class="section-label tag reveal">[ SERENDIPITY ]</div>
       <div class="surprise__stage reveal">
-        <div class="surprise__art">${generateArtworkSVG(work, 320)}</div>
+        <div class="surprise__art">${renderWorkArt(work)}</div>
         <div class="surprise__info">
           <span class="tag work-card__medium">${escapeHtml(work.medium)} — ${work.year}</span>
           <h1 class="detail__title">${escapeHtml(work.title)}</h1>
@@ -174,7 +188,7 @@ function renderSurprise(mount) {
             <div class="surprise__hook">
               <p class="tag">[ UNEXPECTED DISCOVERY ]</p>
               <a class="connection-card connection-card--hook" href="${buildHash('work', { id: hook.work.id })}">
-                <div class="connection-card__art">${generateArtworkSVG(hook.work, 100)}</div>
+                <div class="connection-card__art">${renderWorkArt(hook.work)}</div>
                 <div>
                   <span class="tag work-card__medium">${escapeHtml(hook.work.medium)}</span>
                   <h4>${escapeHtml(hook.work.title)}</h4>
