@@ -69,3 +69,43 @@ test('pickUnexpectedConnection falls back to a period-only connection when nothi
   const result = pickUnexpectedConnection(source, [periodOnlyCrossMedium, anotherPeriodOnly]);
   assert.equal(result.work.id, 'y');
 });
+
+// Regression tests for finding #4 of the final review: sentinel fallback values emitted
+// by the Wikidata mapper when data is sparse (creator: 'Unknown', genre: 'Uncategorized',
+// style: ['Uncategorized'], themes: ['Storytelling'], mood: ['Evocative']) must never be
+// treated as a real shared attribute between two otherwise-unrelated works.
+
+test('two works that both have creator "Unknown" do not score a creator match', () => {
+  const workA = { id: 'a', medium: 'film', year: 1970, country: 'unknown', movement: 'drama, 1970s', genre: 'Uncategorized', creator: 'Unknown', themes: ['Storytelling'], mood: ['Evocative'] };
+  const workB = { id: 'b', medium: 'tv', year: 2015, country: 'unknown', movement: 'comedy, 2010s', genre: 'Uncategorized', creator: 'Unknown', themes: ['Storytelling'], mood: ['Evocative'] };
+  const results = computeConnections(workA, [workB], { minScore: 0 });
+  assert.equal(results.length, 1);
+  assert.ok(!results[0].reasons.some((r) => r.startsWith('same creator')), `expected no creator match, got reasons: ${results[0].reasons}`);
+  assert.ok(!results[0].reasons.some((r) => r.startsWith('same genre')), `expected no genre match, got reasons: ${results[0].reasons}`);
+  assert.ok(!results[0].reasons.some((r) => r.startsWith('same country')), `expected no country match, got reasons: ${results[0].reasons}`);
+});
+
+test('two works that both have themes: ["Storytelling"] do not score that as a shared theme', () => {
+  const workA = { id: 'a', medium: 'film', year: 1970, themes: ['Storytelling'], mood: ['Evocative'] };
+  const workB = { id: 'b', medium: 'tv', year: 2015, themes: ['Storytelling'], mood: ['Evocative'] };
+  const results = computeConnections(workA, [workB], { minScore: 0 });
+  assert.equal(results.length, 1);
+  assert.ok(!results[0].reasons.some((r) => r.startsWith('shared theme')), `expected no shared theme, got reasons: ${results[0].reasons}`);
+  assert.ok(!results[0].reasons.some((r) => r.startsWith('shared mood')), `expected no shared mood, got reasons: ${results[0].reasons}`);
+});
+
+test('a real, non-sentinel shared creator still scores a match (sentinel guard does not break real matches)', () => {
+  const workA = { id: 'a', medium: 'film', year: 1970, creator: 'Glauber Rocha', themes: [], mood: [] };
+  const workB = { id: 'b', medium: 'tv', year: 2015, creator: 'Glauber Rocha', themes: [], mood: [] };
+  const results = computeConnections(workA, [workB], { minScore: 0 });
+  assert.equal(results.length, 1);
+  assert.ok(results[0].reasons.some((r) => r === 'same creator: Glauber Rocha'));
+});
+
+test('a real, non-sentinel shared theme still scores a match (sentinel guard does not break real matches)', () => {
+  const workA = { id: 'a', medium: 'film', year: 1970, themes: ['Memory'], mood: [] };
+  const workB = { id: 'b', medium: 'tv', year: 2015, themes: ['Memory'], mood: [] };
+  const results = computeConnections(workA, [workB], { minScore: 0 });
+  assert.equal(results.length, 1);
+  assert.ok(results[0].reasons.some((r) => r.startsWith('shared theme') && r.includes('Memory')));
+});

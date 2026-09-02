@@ -2,9 +2,20 @@ const WEIGHTS = { movement: 5, genre: 2, theme: 1.5, mood: 1, country: 1, creato
 const PERIOD_WEIGHT = 2;
 const PERIOD_DECAY_YEARS = 10;
 
+// The Wikidata mapper (scripts/lib/mapWikidata.mjs) emits these fallback sentinel values
+// when the source data is sparse (e.g. no director on record, no genre at all). They are
+// placeholders, not real shared attributes — two unrelated works that both happen to be
+// missing a director must never score a "same creator" match just because they share the
+// literal string 'Unknown'.
+const SENTINEL_VALUES = new Set(['Unknown', 'unknown', 'Uncategorized', 'Storytelling', 'Evocative']);
+
+function isRealValue(value) {
+  return value != null && !SENTINEL_VALUES.has(value);
+}
+
 function sharedValues(a = [], b = []) {
-  const setB = new Set(b);
-  return a.filter((v) => setB.has(v));
+  const setB = new Set(b.filter(isRealValue));
+  return a.filter((v) => isRealValue(v) && setB.has(v));
 }
 
 // All period-proximity reason strings share the "same era" prefix so callers
@@ -20,19 +31,19 @@ function scorePair(work, other) {
   let score = 0;
   const reasons = [];
 
-  if (work.movement && work.movement === other.movement) {
+  if (isRealValue(work.movement) && work.movement === other.movement) {
     score += WEIGHTS.movement;
     reasons.push(`same movement: ${work.movement}`);
   }
-  if (work.genre && work.genre === other.genre) {
+  if (isRealValue(work.genre) && work.genre === other.genre) {
     score += WEIGHTS.genre;
     reasons.push(`same genre: ${work.genre}`);
   }
-  if (work.creator && work.creator === other.creator) {
+  if (isRealValue(work.creator) && work.creator === other.creator) {
     score += WEIGHTS.creator;
     reasons.push(`same creator: ${work.creator}`);
   }
-  if (work.country && work.country === other.country) {
+  if (isRealValue(work.country) && work.country === other.country) {
     score += WEIGHTS.country;
     reasons.push(`same country: ${work.country}`);
   }
