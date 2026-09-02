@@ -89,7 +89,7 @@ test('mapWikidataFilmToWork falls back gracefully when almost everything is miss
   const work = mapWikidataFilmToWork(sparseBinding);
   assert.equal(work.year, null);
   assert.equal(work.decade, 'unknown');
-  assert.equal(work.country, 'Unknown');
+  assert.equal(work.country, 'unknown');
   assert.equal(work.language, 'unknown');
   assert.equal(work.creator, 'Unknown');
   assert.ok(work.themes.length > 0, 'themes must never be empty');
@@ -103,4 +103,50 @@ test('mapWikidataFilmToWork falls back gracefully when almost everything is miss
 test('generated ids are kebab-case', () => {
   const work = mapWikidataFilmToWork(filmBinding);
   assert.match(work.id, /^[a-z0-9]+(-[a-z0-9]+)*$/);
+});
+
+// Regression test for finding #3 of the final review: the Brazil-guarantee query
+// restricts results to items with P495 including Brazil, but a co-production has
+// MULTIPLE P495 values — SAMPLE(?countryLabel) over ALL of them can arbitrarily
+// pick a different co-production partner instead of Brazil. buildQuery now also
+// projects a deterministic ?filteredCountry bound directly to the filtered QID's
+// label; the mapper must prefer it over the sampled ?country.
+const coProductionBinding = binding({
+  item: 'http://www.wikidata.org/entity/Q282761',
+  itemLabel: 'La Playa DC',
+  directors: 'Juan Andrés Arango',
+  country: 'France', // what SAMPLE(?countryLabel) arbitrarily picked in the live shipped bug
+  filteredCountry: 'Brazil', // the deterministic label for the Brazil QID the query was filtered on
+  language: 'Spanish',
+  genres: 'drama film',
+  date: '2012-01-01T00:00:00Z',
+});
+
+test('mapWikidataFilmToWork prefers the deterministic filteredCountry over the sampled country when both are present', () => {
+  const work = mapWikidataFilmToWork(coProductionBinding);
+  assert.equal(work.country, 'Brazil');
+});
+
+test('mapWikidataFilmToWork falls back to the sampled country when filteredCountry is absent (unfiltered query)', () => {
+  const work = mapWikidataFilmToWork(filmBinding);
+  assert.equal(work.country, 'Brazil');
+});
+
+// Regression test for the duplicate-id fix (see the "The QID is appended..." comment
+// in mapWikidata.mjs): two different real items that happen to share a title and
+// release date (remakes, common titles) must never collide on id.
+test('two bindings with the same itemLabel and date but different QIDs produce different ids', () => {
+  const bindingA = binding({
+    item: 'http://www.wikidata.org/entity/Q11111',
+    itemLabel: 'The Grudge',
+    date: '2004-01-01T00:00:00Z',
+  });
+  const bindingB = binding({
+    item: 'http://www.wikidata.org/entity/Q22222',
+    itemLabel: 'The Grudge',
+    date: '2004-01-01T00:00:00Z',
+  });
+  const workA = mapWikidataFilmToWork(bindingA);
+  const workB = mapWikidataFilmToWork(bindingB);
+  assert.notEqual(workA.id, workB.id);
 });

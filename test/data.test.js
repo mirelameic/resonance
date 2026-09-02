@@ -46,7 +46,8 @@ test('every work has a plausible 4-digit year and matching decade, or an honest 
       assert.equal(work.decade, 'unknown', `${work.id} has a null year but decade is not "unknown"`);
       continue;
     }
-    assert.ok(Number.isInteger(work.year) && work.year > 1000 && work.year <= 2026, `${work.id} has invalid year ${work.year}`);
+    const maxPlausibleYear = new Date().getFullYear() + 1; // Wikidata carries future-dated items for announced titles
+    assert.ok(Number.isInteger(work.year) && work.year > 1000 && work.year <= maxPlausibleYear, `${work.id} has invalid year ${work.year}`);
     assert.equal(work.decade, `${Math.floor(work.year / 10) * 10}s`, `${work.id} decade should match its year`);
   }
 });

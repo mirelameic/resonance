@@ -51,7 +51,7 @@ function deriveMood(genres) {
 function deriveMovement(genres, year, country) {
   const primaryGenre = genres[0] ? genres[0].toLowerCase() : 'work';
   const decade = year ? decadeLabel(year) : 'an unknown period';
-  return country && country !== 'Unknown' ? `${country} ${primaryGenre}, ${decade}` : `${primaryGenre}, ${decade}`;
+  return country && country !== 'unknown' ? `${country} ${primaryGenre}, ${decade}` : `${primaryGenre}, ${decade}`;
 }
 
 // Wikidata's SPARQL endpoint resolves a commonsMedia property (P18, queried
@@ -66,7 +66,14 @@ function buildImage(imageUri) {
 function mapWikidataToWork(binding, medium) {
   const title = value(binding, 'itemLabel') || 'Untitled';
   const year = parseYear(value(binding, 'date'));
-  const country = value(binding, 'country') || 'Unknown';
+  // When the query was restricted to a specific country (e.g. the Brazil-guarantee
+  // queries), ?filteredCountry is bound deterministically to that country. Prefer it
+  // over the sampled ?country, which aggregates over ALL of the item's countries of
+  // origin and can arbitrarily pick a co-production partner instead — see finding #3
+  // of the final review (Clandestine Childhood/La Playa DC/On the Road all being
+  // reported as their OTHER co-production country despite being fetched by the
+  // Brazil-filtered query).
+  const country = value(binding, 'filteredCountry') || value(binding, 'country') || 'unknown';
   const language = value(binding, 'language') || 'unknown';
   const creator = value(binding, 'directors') || 'Unknown';
   const genres = splitList(value(binding, 'genres'), '|');

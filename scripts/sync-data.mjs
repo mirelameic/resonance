@@ -102,6 +102,27 @@ async function fetchWikidataRecent(apiKey, enrichmentMap) {
   } catch (err) {
     console.warn(`[wikidata] recent tv failed: ${err.message}`);
   }
+
+  // Guarantee Brazilian representation explicitly in incremental syncs too, mirroring
+  // fetchWikidataFull — this is a first-principles product requirement, not something
+  // that should only hold true right after a full resync.
+  try {
+    const brazilFilmRows = await wikidata.queryRecentFilms({ limit: 10, countryQid: BRAZIL_QID });
+    for (const row of brazilFilmRows) {
+      fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
+    }
+  } catch (err) {
+    console.warn(`[wikidata] recent Brazil films failed: ${err.message}`);
+  }
+  try {
+    const brazilTvRows = await wikidata.queryRecentTv({ limit: 10, countryQid: BRAZIL_QID });
+    for (const row of brazilTvRows) {
+      fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
+    }
+  } catch (err) {
+    console.warn(`[wikidata] recent Brazil tv failed: ${err.message}`);
+  }
+
   return fresh;
 }
 
