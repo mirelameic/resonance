@@ -71,6 +71,15 @@ async function fetchWikidataFull(apiKey, enrichmentMap) {
     } catch (err) {
       console.warn(`[wikidata] Brazil film query failed for ${start}-${end}: ${err.message}`);
     }
+
+    try {
+      const brazilTvRows = await wikidata.queryTv({ startYear: start, endYear: end, limit: 10, countryQid: BRAZIL_QID });
+      for (const row of brazilTvRows) {
+        fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
+      }
+    } catch (err) {
+      console.warn(`[wikidata] Brazil tv query failed for ${start}-${end}: ${err.message}`);
+    }
   }
   return fresh;
 }
