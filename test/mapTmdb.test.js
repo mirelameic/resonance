@@ -33,7 +33,6 @@ const minimalMovieFixture = {
   title: 'Unknown Film',
   overview: '',
   release_date: '',
-  original_language: 'xx',
   poster_path: null,
   genres: [],
   production_countries: [],
@@ -70,6 +69,24 @@ test('mapTmdbMovieToWork uses the real overview as description', () => {
   assert.match(work.description, /Cidade de Deus/);
 });
 
+test('mapTmdbMovieToWork derives movement from country, primary genre, and decade', () => {
+  const work = mapTmdbMovieToWork(movieFixture);
+  assert.equal(work.movement, 'Brazil crime, 2000s');
+});
+
+test('mapTmdbMovieToWork derives genre and style from the genres list', () => {
+  const work = mapTmdbMovieToWork(movieFixture);
+  assert.equal(work.genre, 'Crime');
+  assert.deepEqual(work.style, ['Crime', 'Drama']);
+});
+
+test('mapTmdbMovieToWork derives mood via keyword-matching rules when genres/keywords match', () => {
+  const work = mapTmdbMovieToWork(movieFixture);
+  // haystack is "Crime Drama poverty gang": "gang"/"Crime" match the Tense rule,
+  // "poverty" matches the Unflinching rule.
+  assert.deepEqual(work.mood, ['Tense', 'Unflinching']);
+});
+
 test('mapTmdbMovieToWork falls back gracefully when data is sparse', () => {
   const work = mapTmdbMovieToWork(minimalMovieFixture);
   assert.equal(work.image, null);
@@ -78,6 +95,7 @@ test('mapTmdbMovieToWork falls back gracefully when data is sparse', () => {
   assert.equal(work.decade, 'unknown');
   assert.equal(work.country, 'Unknown');
   assert.equal(work.creator, 'Unknown');
+  assert.equal(work.language, 'unknown', 'language must fall back to "unknown" when original_language is missing');
   assert.ok(work.themes.length > 0, 'themes must never be empty even with no genres/keywords');
   assert.ok(work.mood.length > 0, 'mood must never be empty even with no signal');
   assert.ok(work.description.length > 0, 'description must never be empty even with no overview');
