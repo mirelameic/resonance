@@ -29,15 +29,14 @@ SELECT ?item ?itemLabel
        ${filteredCountrySelect}
        (SAMPLE(?langLabel) AS ?language)
        (GROUP_CONCAT(DISTINCT ?genreLabel; separator="|") AS ?genres)
-       (SAMPLE(?date) AS ?date)
+       (MIN(?date) AS ?firstDate)
        (SAMPLE(?image) AS ?image)
 WHERE {
   ?item wdt:P31 wd:${itemType} .
   ${countryClause}
   ${filteredCountryClause}
   ?item wdt:P577 ?date .
-  FILTER NOT EXISTS { ?item wdt:P577 ?earlierDate . FILTER(?earlierDate < ?date) }
-  FILTER(YEAR(?date) >= ${startYear} && YEAR(?date) <= ${endYear})
+  FILTER(YEAR(?date) <= ${endYear})
   ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = "en")
   OPTIONAL { ?item wdt:P57 ?director. ?director rdfs:label ?directorLabel. FILTER(LANG(?directorLabel) = "en") }
   OPTIONAL { ?item wdt:P495 ?country. ?country rdfs:label ?countryLabel. FILTER(LANG(?countryLabel) = "en") }
@@ -46,6 +45,7 @@ WHERE {
   OPTIONAL { ?item wdt:P18 ?image. }
 }
 GROUP BY ?item ?itemLabel
+HAVING(YEAR(MIN(?date)) >= ${startYear} && YEAR(MIN(?date)) <= ${endYear})
 LIMIT ${limit}
 `.trim();
 }

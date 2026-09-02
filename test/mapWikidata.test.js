@@ -25,7 +25,7 @@ const filmBinding = binding({
   country: 'Brazil',
   language: 'Portuguese',
   genres: 'crime film|drama film',
-  date: '2002-01-01T00:00:00Z',
+  firstDate: '2002-01-01T00:00:00Z',
   image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20God%20poster.jpg',
 });
 
@@ -39,7 +39,7 @@ const tvBinding = binding({
   country: 'United States of America',
   language: 'English',
   genres: 'crime drama',
-  date: '2008-01-20T00:00:00Z',
+  firstDate: '2008-01-20T00:00:00Z',
   // no image field at all
 });
 
@@ -119,7 +119,7 @@ const coProductionBinding = binding({
   filteredCountry: 'Brazil', // the deterministic label for the Brazil QID the query was filtered on
   language: 'Spanish',
   genres: 'drama film',
-  date: '2012-01-01T00:00:00Z',
+  firstDate: '2012-01-01T00:00:00Z',
 });
 
 test('mapWikidataFilmToWork prefers the deterministic filteredCountry over the sampled country when both are present', () => {
@@ -139,12 +139,12 @@ test('two bindings with the same itemLabel and date but different QIDs produce d
   const bindingA = binding({
     item: 'http://www.wikidata.org/entity/Q11111',
     itemLabel: 'The Grudge',
-    date: '2004-01-01T00:00:00Z',
+    firstDate: '2004-01-01T00:00:00Z',
   });
   const bindingB = binding({
     item: 'http://www.wikidata.org/entity/Q22222',
     itemLabel: 'The Grudge',
-    date: '2004-01-01T00:00:00Z',
+    firstDate: '2004-01-01T00:00:00Z',
   });
   const workA = mapWikidataFilmToWork(bindingA);
   const workB = mapWikidataFilmToWork(bindingB);

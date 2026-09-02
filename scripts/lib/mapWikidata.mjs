@@ -65,7 +65,10 @@ function buildImage(imageUri) {
 
 function mapWikidataToWork(binding, medium) {
   const title = value(binding, 'itemLabel') || 'Untitled';
-  const year = parseYear(value(binding, 'date'));
+  // Bound as MIN(?date) AS ?firstDate (not a plain SAMPLE) so a multi-dated item (original
+  // release, re-releases, restorations) is always pinned to its earliest date, not an
+  // arbitrary one — see the SPARQL query in scripts/sources/wikidata.mjs.
+  const year = parseYear(value(binding, 'firstDate'));
   // When the query was restricted to a specific country (e.g. the Brazil-guarantee
   // queries), ?filteredCountry is bound deterministically to that country. Prefer it
   // over the sampled ?country, which aggregates over ALL of the item's countries of
