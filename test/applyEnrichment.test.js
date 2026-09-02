@@ -4,7 +4,7 @@ import { applyEnrichment } from '../scripts/lib/applyEnrichment.mjs';
 
 const work = {
   id: 'cidade-de-deus-2002',
-  source: { type: 'tmdb', sourceId: '598' },
+  source: { type: 'wikidata', sourceId: '598' },
   movement: 'Brazil drama, 2000s',
   themes: ['Crime'],
   mood: ['Evocative'],
@@ -13,7 +13,7 @@ const work = {
 
 test('applyEnrichment overlays matching fields when a curated entry exists', () => {
   const enrichmentMap = {
-    'tmdb:598': { movement: 'Cinema de favela', mood: ['Frenetic', 'Unflinching'] },
+    'wikidata:598': { movement: 'Cinema de favela', mood: ['Frenetic', 'Unflinching'] },
   };
   const result = applyEnrichment(work, enrichmentMap);
   assert.equal(result.movement, 'Cinema de favela');
@@ -27,7 +27,7 @@ test('applyEnrichment returns the work unchanged (by value) when no matching ent
 });
 
 test('applyEnrichment does not mutate the original work object', () => {
-  const enrichmentMap = { 'tmdb:598': { movement: 'Cinema de favela' } };
+  const enrichmentMap = { 'wikidata:598': { movement: 'Cinema de favela' } };
   applyEnrichment(work, enrichmentMap);
   assert.equal(work.movement, 'Brazil drama, 2000s');
 });

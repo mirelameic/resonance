@@ -12,8 +12,8 @@ test('runSync writes a fresh js/data.js and reports accurate counts when nothing
   writeFileSync(enrichmentFile, '{}');
 
   const fakeFresh = [
-    { id: 'a', title: 'A', source: { type: 'tmdb', sourceId: '1' } },
-    { id: 'b', title: 'B', source: { type: 'tmdb', sourceId: '2' } },
+    { id: 'a', title: 'A', source: { type: 'wikidata', sourceId: '1' } },
+    { id: 'b', title: 'B', source: { type: 'wikidata', sourceId: '2' } },
   ];
   const fetchFresh = async () => fakeFresh;
 
@@ -35,10 +35,10 @@ test('runSync merges fresh works into an existing generated data.js without dupl
   const enrichmentFile = join(dir, 'enrichment.json');
   writeFileSync(enrichmentFile, '{}');
   writeFileSync(dataFile, `export const works = ${JSON.stringify([
-    { id: 'a', title: 'Old A', source: { type: 'tmdb', sourceId: '1' } },
+    { id: 'a', title: 'Old A', source: { type: 'wikidata', sourceId: '1' } },
   ])};\n`);
 
-  const fetchFresh = async () => [{ id: 'a', title: 'New A', source: { type: 'tmdb', sourceId: '1' } }];
+  const fetchFresh = async () => [{ id: 'a', title: 'New A', source: { type: 'wikidata', sourceId: '1' } }];
   const result = await runSync({ dataFile, enrichmentFile, fetchFresh, apiKey: 'fake', incremental: false });
 
   assert.equal(result.totalCount, 1);
@@ -52,7 +52,7 @@ test('runSync passes the enrichment map and incremental flag through to fetchFre
   const dir = mkdtempSync(join(tmpdir(), 'resonance-sync-'));
   const dataFile = join(dir, 'data.js');
   const enrichmentFile = join(dir, 'enrichment.json');
-  writeFileSync(enrichmentFile, JSON.stringify({ 'tmdb:1': { movement: 'Curated' } }));
+  writeFileSync(enrichmentFile, JSON.stringify({ 'wikidata:1': { movement: 'Curated' } }));
 
   let capturedEnrichment;
   let capturedIncremental;
@@ -64,7 +64,7 @@ test('runSync passes the enrichment map and incremental flag through to fetchFre
 
   await runSync({ dataFile, enrichmentFile, fetchFresh, apiKey: 'fake', incremental: true });
 
-  assert.deepEqual(capturedEnrichment, { 'tmdb:1': { movement: 'Curated' } });
+  assert.deepEqual(capturedEnrichment, { 'wikidata:1': { movement: 'Curated' } });
   assert.equal(capturedIncremental, true);
 
   rmSync(dir, { recursive: true, force: true });

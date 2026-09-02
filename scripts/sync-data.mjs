@@ -2,18 +2,19 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { dirname, join } from 'node:path';
 
-import { LANGUAGE_SAMPLES, DECADES } from './lib/coverage.mjs';
+import { DECADES } from './lib/coverage.mjs';
 import { mergeWorks } from './lib/mergeWorks.mjs';
 import { applyEnrichment } from './lib/applyEnrichment.mjs';
-import { mapTmdbMovieToWork, mapTmdbTvToWork } from './lib/mapTmdb.mjs';
-import * as tmdb from './sources/tmdb.mjs';
+import { mapWikidataFilmToWork, mapWikidataTvToWork } from './lib/mapWikidata.mjs';
+import * as wikidata from './sources/wikidata.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REAL_DATA_FILE = join(__dirname, '..', 'js', 'data.js');
 const REAL_ENRICHMENT_FILE = join(__dirname, '..', 'data', 'enrichment.json');
 
-const TARGET_PER_LANGUAGE_MOVIE = 40; // ~40 x 15 languages ≈ 600 movies per full run
-const TARGET_PER_LANGUAGE_TV = 30;    // ~30 x 15 languages ≈ 450 TV shows per full run
+const TARGET_PER_DECADE_MOVIE = 40;  // ~40 x 13 decades ≈ 520 movies per full run
+const TARGET_PER_DECADE_TV = 25;     // ~25 x 13 decades ≈ 325 TV shows per full run
+const BRAZIL_QID = 'Q155';
 const RECENT_TARGET = 100;
 
 export async function loadExistingWorks(dataFile) {
@@ -38,59 +39,59 @@ export function writeDataFile(dataFile, works) {
   writeFileSync(dataFile, `${header}export const works = ${JSON.stringify(works, null, 2)};\n`, 'utf8');
 }
 
-async function fetchTmdbFull(apiKey, enrichmentMap) {
+async function fetchWikidataFull(apiKey, enrichmentMap) {
   const fresh = [];
-  for (const { code } of LANGUAGE_SAMPLES) {
-    for (const { start, end } of DECADES) {
-      try {
-        const movieIds = await tmdb.discoverMovieIds(apiKey, {
-          languageCode: code, startYear: start, endYear: end,
-          targetCount: Math.max(1, Math.ceil(TARGET_PER_LANGUAGE_MOVIE / DECADES.length)),
-        });
-        for (const id of movieIds) {
-          const detail = await tmdb.fetchMovieDetail(apiKey, id);
-          fresh.push(applyEnrichment(mapTmdbMovieToWork(detail), enrichmentMap));
-        }
-      } catch (err) {
-        console.warn(`[tmdb] movie discover failed for ${code} ${start}-${end}: ${err.message}`);
+  for (const { start, end } of DECADES) {
+    try {
+      const filmRows = await wikidata.queryFilms({ startYear: start, endYear: end, limit: TARGET_PER_DECADE_MOVIE });
+      for (const row of filmRows) {
+        fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
       }
+    } catch (err) {
+      console.warn(`[wikidata] film query failed for ${start}-${end}: ${err.message}`);
+    }
 
-      try {
-        const tvIds = await tmdb.discoverTvIds(apiKey, {
-          languageCode: code, startYear: start, endYear: end,
-          targetCount: Math.max(1, Math.ceil(TARGET_PER_LANGUAGE_TV / DECADES.length)),
-        });
-        for (const id of tvIds) {
-          const detail = await tmdb.fetchTvDetail(apiKey, id);
-          fresh.push(applyEnrichment(mapTmdbTvToWork(detail), enrichmentMap));
-        }
-      } catch (err) {
-        console.warn(`[tmdb] tv discover failed for ${code} ${start}-${end}: ${err.message}`);
+    try {
+      const tvRows = await wikidata.queryTv({ startYear: start, endYear: end, limit: TARGET_PER_DECADE_TV });
+      for (const row of tvRows) {
+        fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
       }
+    } catch (err) {
+      console.warn(`[wikidata] tv query failed for ${start}-${end}: ${err.message}`);
+    }
+
+    // Guarantee Brazilian representation explicitly per decade, rather than leaving it to chance —
+    // this is a first-principles requirement of the product (Brazilian + international works),
+    // not an incidental nice-to-have.
+    try {
+      const brazilFilmRows = await wikidata.queryFilms({ startYear: start, endYear: end, limit: 10, countryQid: BRAZIL_QID });
+      for (const row of brazilFilmRows) {
+        fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
+      }
+    } catch (err) {
+      console.warn(`[wikidata] Brazil film query failed for ${start}-${end}: ${err.message}`);
     }
   }
   return fresh;
 }
 
-async function fetchTmdbRecent(apiKey, enrichmentMap) {
+async function fetchWikidataRecent(apiKey, enrichmentMap) {
   const fresh = [];
   try {
-    const movieIds = await tmdb.fetchRecentMovieIds(apiKey, { targetCount: RECENT_TARGET });
-    for (const id of movieIds) {
-      const detail = await tmdb.fetchMovieDetail(apiKey, id);
-      fresh.push(applyEnrichment(mapTmdbMovieToWork(detail), enrichmentMap));
+    const filmRows = await wikidata.queryRecentFilms({ limit: RECENT_TARGET });
+    for (const row of filmRows) {
+      fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
     }
   } catch (err) {
-    console.warn(`[tmdb] recent movies failed: ${err.message}`);
+    console.warn(`[wikidata] recent films failed: ${err.message}`);
   }
   try {
-    const tvIds = await tmdb.fetchRecentTvIds(apiKey, { targetCount: RECENT_TARGET });
-    for (const id of tvIds) {
-      const detail = await tmdb.fetchTvDetail(apiKey, id);
-      fresh.push(applyEnrichment(mapTmdbTvToWork(detail), enrichmentMap));
+    const tvRows = await wikidata.queryRecentTv({ limit: RECENT_TARGET });
+    for (const row of tvRows) {
+      fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
     }
   } catch (err) {
-    console.warn(`[tmdb] recent tv failed: ${err.message}`);
+    console.warn(`[wikidata] recent tv failed: ${err.message}`);
   }
   return fresh;
 }
@@ -105,21 +106,12 @@ export async function runSync({ dataFile, enrichmentFile, fetchFresh, apiKey, in
 }
 
 async function main() {
-  const apiKey = process.env.TMDB_API_KEY;
-  if (!apiKey) {
-    console.error(
-      'Missing TMDB_API_KEY environment variable.\n' +
-      'Get a free key at https://www.themoviedb.org/settings/api and run:\n' +
-      '  TMDB_API_KEY=your-key npm run sync-data'
-    );
-    process.exit(1);
-  }
   const incremental = process.argv.includes('--new');
   const result = await runSync({
     dataFile: REAL_DATA_FILE,
     enrichmentFile: REAL_ENRICHMENT_FILE,
-    fetchFresh: incremental ? fetchTmdbRecent : fetchTmdbFull,
-    apiKey,
+    fetchFresh: incremental ? fetchWikidataRecent : fetchWikidataFull,
+    apiKey: null, // Wikidata needs no credential — kept as a parameter only because runSync's signature (Task 5 of the prior plan) still passes it through to fetchFresh
     incremental,
   });
   console.log(`Sync complete: ${result.freshCount} fetched, ${result.totalCount} total works in js/data.js (was ${result.existingCount}).`);

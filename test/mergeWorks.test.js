@@ -2,13 +2,13 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { mergeWorks, sourceKey } from '../scripts/lib/mergeWorks.mjs';
 
-const existingA = { id: 'a', title: 'Old Title A', source: { type: 'tmdb', sourceId: '1' } };
-const existingB = { id: 'b', title: 'B', source: { type: 'tmdb', sourceId: '2' } };
-const freshA = { id: 'a', title: 'Refreshed Title A', source: { type: 'tmdb', sourceId: '1' } };
-const freshC = { id: 'c', title: 'C', source: { type: 'tmdb', sourceId: '3' } };
+const existingA = { id: 'a', title: 'Old Title A', source: { type: 'wikidata', sourceId: '1' } };
+const existingB = { id: 'b', title: 'B', source: { type: 'wikidata', sourceId: '2' } };
+const freshA = { id: 'a', title: 'Refreshed Title A', source: { type: 'wikidata', sourceId: '1' } };
+const freshC = { id: 'c', title: 'C', source: { type: 'wikidata', sourceId: '3' } };
 
 test('sourceKey combines source type and sourceId', () => {
-  assert.equal(sourceKey(existingA), 'tmdb:1');
+  assert.equal(sourceKey(existingA), 'wikidata:1');
 });
 
 test('mergeWorks updates an existing work in place by source key, preserving position', () => {

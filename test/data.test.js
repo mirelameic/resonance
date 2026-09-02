@@ -5,7 +5,7 @@ import { works } from '../js/data.js';
 const VALID_MEDIA = new Set(['music', 'film', 'tv', 'literature', 'photography', 'visual-arts']);
 const REQUIRED_STRING_FIELDS = ['id', 'title', 'creator', 'medium', 'country', 'language', 'movement', 'genre', 'context', 'description'];
 const REQUIRED_ARRAY_FIELDS = ['style', 'themes', 'mood'];
-const VALID_SOURCE_TYPES = new Set(['tmdb', 'musicbrainz', 'openlibrary', 'met']);
+const VALID_SOURCE_TYPES = new Set(['wikidata', 'musicbrainz', 'openlibrary', 'met']);
 
 // Grows as more source integrations land — see
 // docs/superpowers/specs/2026-09-02-resonance-data-sourcing-design.md.
