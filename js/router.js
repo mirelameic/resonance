@@ -18,7 +18,7 @@ export function parseRoute(hash) {
       if (!pair) continue;
       const [key, value] = pair.split('=');
       if (!key) continue;
-      query[decodeURIComponent(key)] = decodeURIComponent(value || '').split(',').filter(Boolean);
+      query[decodeURIComponent(key)] = (value || '').split(',').map(decodeURIComponent).filter(Boolean);
     }
   }
 

@@ -26,7 +26,7 @@ export function renderView(mount, view, params, query) {
   }
 }
 
-export function escapeHtml(str = '') {
+function escapeHtml(str = '') {
   return String(str).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
@@ -62,7 +62,7 @@ function renderExplore(mount, query = {}) {
               <a class="work-card reveal" href="${buildHash('work', { id: work.id })}">
                 <div class="work-card__art">${generateArtworkSVG(work, 200)}</div>
                 <div class="work-card__meta">
-                  <span class="tag work-card__medium">${work.medium}</span>
+                  <span class="tag work-card__medium">${escapeHtml(work.medium)}</span>
                   <h3 class="work-card__title">${escapeHtml(work.title)}</h3>
                   <span class="work-card__creator">${escapeHtml(work.creator)} — ${work.year}</span>
                 </div>

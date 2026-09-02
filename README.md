@@ -36,7 +36,7 @@ install.
 - `js/router.js` — parses `location.hash` into a view/params/query and
   builds hashes back from that shape. Filter state lives in the query
   string, so views are bookmarkable and back/forward works.
-- `js/data.js` — the curated dataset (~75 works) as a plain array.
+- `js/data.js` — the curated dataset (79 works) as a plain array.
 - `js/filters.js` — pure faceted filtering (`extractFacets`,
   `filterWorks`) that powers the Explore view.
 - `js/artwork.js` — a deterministic procedural SVG cover-art generator,

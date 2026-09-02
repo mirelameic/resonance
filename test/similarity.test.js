@@ -53,3 +53,19 @@ test('pickUnexpectedConnection falls back to the same-medium pool when nothing c
 test('pickUnexpectedConnection returns null when there are no connections', () => {
   assert.equal(pickUnexpectedConnection({ id: 'x', medium: 'film' }, []), null);
 });
+
+test('pickUnexpectedConnection prefers a substantive cross-medium match over a period-only cross-medium match', () => {
+  const source = { id: 'x', medium: 'film' };
+  const periodOnlyCrossMedium = { work: { id: 'y', medium: 'music' }, score: 1.5, reasons: ['same era, 1 year apart'] };
+  const substantiveCrossMedium = { work: { id: 'z', medium: 'photography' }, score: 2, reasons: ['shared theme: memory', 'shared mood: somber'] };
+  const result = pickUnexpectedConnection(source, [periodOnlyCrossMedium, substantiveCrossMedium]);
+  assert.equal(result.work.id, 'z');
+});
+
+test('pickUnexpectedConnection falls back to a period-only connection when nothing in the pool is substantive', () => {
+  const source = { id: 'x', medium: 'film' };
+  const periodOnlyCrossMedium = { work: { id: 'y', medium: 'music' }, score: 1.5, reasons: ['same era, 1 year apart'] };
+  const anotherPeriodOnly = { work: { id: 'z', medium: 'photography' }, score: 1.2, reasons: ['same era, 5 years apart'] };
+  const result = pickUnexpectedConnection(source, [periodOnlyCrossMedium, anotherPeriodOnly]);
+  assert.equal(result.work.id, 'y');
+});

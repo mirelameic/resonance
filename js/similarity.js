@@ -7,6 +7,15 @@ function sharedValues(a = [], b = []) {
   return a.filter((v) => setB.has(v));
 }
 
+// All period-proximity reason strings share the "same era" prefix so callers
+// (e.g. pickUnexpectedConnection) can identify a period-only match without
+// depending on the exact wording below.
+function periodReason(yearsApart) {
+  if (yearsApart === 0) return 'same era, released the same year';
+  if (yearsApart < PERIOD_DECAY_YEARS) return `same era, ${yearsApart} year${yearsApart === 1 ? '' : 's'} apart`;
+  return `same era (loosely), ${yearsApart} years apart`;
+}
+
 function scorePair(work, other) {
   let score = 0;
   const reasons = [];
@@ -45,7 +54,7 @@ function scorePair(work, other) {
     const periodScore = Math.max(0, PERIOD_WEIGHT - yearsApart / PERIOD_DECAY_YEARS);
     if (periodScore > 0) {
       score += periodScore;
-      reasons.push(`same era, ${yearsApart} years apart`);
+      reasons.push(periodReason(yearsApart));
     }
   }
 
@@ -68,5 +77,7 @@ export function pickUnexpectedConnection(sourceWork, connections) {
   if (!connections.length) return null;
   const crossMedium = connections.filter((c) => c.work.medium !== sourceWork.medium);
   const pool = crossMedium.length ? crossMedium : connections;
-  return [...pool].sort((a, b) => a.reasons.length - b.reasons.length || b.score - a.score)[0];
+  const substantive = pool.filter((c) => c.reasons.some((r) => !r.startsWith('same era')));
+  const finalPool = substantive.length ? substantive : pool;
+  return [...finalPool].sort((a, b) => a.reasons.length - b.reasons.length || b.score - a.score)[0];
 }

@@ -173,7 +173,10 @@ main { padding: 120px var(--edge) 0; }
   background: transparent; border: 1px solid var(--line); color: var(--ink); border-radius: 4px;
 }
 .filter-group__label { display: block; margin-bottom: 8px; }
-.filter-group__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.filter-group__chips {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  max-height: 300px; overflow-y: auto; padding-right: 4px;
+}
 .chip {
   font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.03em;
   padding: 5px 10px; border-radius: 999px; border: 1px solid var(--line);

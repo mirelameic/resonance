@@ -41,3 +41,10 @@ test('buildHash: work detail includes the id in the path', () => {
 test('buildHash: home has no trailing segment', () => {
   assert.equal(buildHash('home'), '#/');
 });
+
+test('roundtrip: a filter value containing a literal comma survives buildHash -> parseRoute intact', () => {
+  const original = ['Are-bure-boke (rough, blurred, out-of-focus)'];
+  const hash = buildHash('explore', {}, { movement: original });
+  const parsed = parseRoute(hash);
+  assert.deepEqual(parsed.query.movement, original);
+});
