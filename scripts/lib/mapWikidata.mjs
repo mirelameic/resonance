@@ -74,7 +74,11 @@ function mapWikidataToWork(binding, medium) {
   const qid = qidFromUri(value(binding, 'item'));
 
   return {
-    id: slugify(title, year ?? 'unknown'),
+    // The QID is appended so two different real works that happen to share a
+    // title and year (remakes, common titles, etc.) never collide on id —
+    // title+year alone is not a reliable uniqueness key across a large,
+    // real-world corpus (this was found via a live sync, not a unit test).
+    id: `${slugify(title, year ?? 'unknown')}-${qid.toLowerCase()}`,
     title,
     creator,
     medium,
