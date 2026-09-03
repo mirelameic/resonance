@@ -12,7 +12,7 @@ const RETRYABLE_STATUS_CODES = new Set([429, 502, 503, 504]);
 const MAX_RETRIES = 2;
 const RETRY_DELAY_MS = 2000;
 
-function buildQuery({ itemType, startYear, endYear, countryQid, limit }) {
+function buildQuery({ itemType, startYear, endYear, countryQid, limit, offset = 0 }) {
   const countryClause = countryQid ? `?item wdt:P495 wd:${countryQid} .` : '';
   // When a countryQid filter is supplied, also bind a dedicated label for THAT specific
   // country so the mapper can report it deterministically — SAMPLE(?countryLabel) below
@@ -47,6 +47,7 @@ WHERE {
 GROUP BY ?item ?itemLabel
 HAVING(YEAR(MIN(?date)) >= ${startYear} && YEAR(MIN(?date)) <= ${endYear})
 LIMIT ${limit}
+OFFSET ${offset}
 `.trim();
 }
 
@@ -74,12 +75,8 @@ async function runQuery(sparql) {
   throw new Error('Wikidata request failed: retries exhausted');
 }
 
-export async function queryFilms({ startYear, endYear, limit, countryQid }) {
-  return runQuery(buildQuery({ itemType: 'Q11424', startYear, endYear, countryQid, limit }));
-}
-
-export async function queryTv({ startYear, endYear, limit, countryQid }) {
-  return runQuery(buildQuery({ itemType: 'Q5398426', startYear, endYear, countryQid, limit }));
+export async function queryFilms({ startYear, endYear, limit, countryQid, offset = 0 }) {
+  return runQuery(buildQuery({ itemType: 'Q11424', startYear, endYear, countryQid, limit, offset }));
 }
 
 export async function queryRecentFilms({ limit, countryQid }) {
@@ -90,10 +87,4 @@ export async function queryRecentFilms({ limit, countryQid }) {
   // rolling ~18-month window.
   const startYear = now.getFullYear() - (now.getMonth() < 6 ? 2 : 1);
   return runQuery(buildQuery({ itemType: 'Q11424', startYear, endYear: now.getFullYear() + 1, countryQid, limit }));
-}
-
-export async function queryRecentTv({ limit, countryQid }) {
-  const now = new Date();
-  const startYear = now.getFullYear() - (now.getMonth() < 6 ? 2 : 1);
-  return runQuery(buildQuery({ itemType: 'Q5398426', startYear, endYear: now.getFullYear() + 1, countryQid, limit }));
 }

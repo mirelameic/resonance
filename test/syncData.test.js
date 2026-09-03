@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { runSync } from '../scripts/sync-data.mjs';
+import { runSync, runBucket } from '../scripts/sync-data.mjs';
 
 test('runSync writes a fresh js/data.js and reports accurate counts when nothing existed before', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'resonance-sync-'));
@@ -68,4 +68,48 @@ test('runSync passes the enrichment map and incremental flag through to fetchFre
   assert.equal(capturedIncremental, true);
 
   rmSync(dir, { recursive: true, force: true });
+});
+
+test('runBucket skips the query entirely when the bucket is already exhausted', async () => {
+  let queryCalled = false;
+  const state = { 'wikidata:film:1900-1909': { offset: 12, exhausted: true } };
+  const query = async () => { queryCalled = true; return []; };
+
+  const result = await runBucket({ label: 'film 1900-1909', bucketKey: 'wikidata:film:1900-1909', state, limit: 40, query });
+
+  assert.equal(queryCalled, false, 'an exhausted bucket must never make a query call');
+  assert.deepEqual(result.fresh, []);
+  assert.deepEqual(result.state, state, 'state is returned unchanged when skipped');
+});
+
+test('runBucket queries at the saved offset and advances the checkpoint on success', async () => {
+  let capturedOffset;
+  const state = { 'wikidata:film:2000-2009': { offset: 40, exhausted: false } };
+  const rows = Array.from({ length: 40 }, (_, i) => ({ id: `r${i}` }));
+  const query = async (offset) => { capturedOffset = offset; return rows; };
+
+  const result = await runBucket({ label: 'film 2000-2009', bucketKey: 'wikidata:film:2000-2009', state, limit: 40, query });
+
+  assert.equal(capturedOffset, 40, 'must query starting at the saved offset, not from 0');
+  assert.equal(result.fresh.length, 40);
+  assert.deepEqual(result.state['wikidata:film:2000-2009'], { offset: 80, exhausted: false });
+});
+
+test('runBucket marks the bucket exhausted when a query returns fewer results than the limit', async () => {
+  const state = {};
+  const query = async () => Array.from({ length: 7 }, (_, i) => ({ id: `r${i}` }));
+
+  const result = await runBucket({ label: 'film 1900-1909', bucketKey: 'wikidata:film:1900-1909', state, limit: 40, query });
+
+  assert.deepEqual(result.state['wikidata:film:1900-1909'], { offset: 7, exhausted: true });
+});
+
+test('runBucket leaves the checkpoint untouched when the query throws (a failure never advances or exhausts)', async () => {
+  const state = { 'wikidata:film:1970-1979': { offset: 40, exhausted: false } };
+  const query = async () => { throw new Error('Wikidata request failed: 504 Gateway Timeout'); };
+
+  const result = await runBucket({ label: 'film 1970-1979', bucketKey: 'wikidata:film:1970-1979', state, limit: 40, query });
+
+  assert.deepEqual(result.fresh, []);
+  assert.deepEqual(result.state, state, 'a failed query must not change the checkpoint, so the same offset is retried next run');
 });

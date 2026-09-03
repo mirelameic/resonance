@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { queryFilms, queryTv } from '../scripts/sources/wikidata.mjs';
+import { queryFilms } from '../scripts/sources/wikidata.mjs';
 
 test('queryFilms sends a SPARQL query with the right date range and a User-Agent header, returning parsed bindings', async (t) => {
   let capturedUrl;
@@ -28,6 +28,20 @@ test('queryFilms sends a SPARQL query with the right date range and a User-Agent
   // a non-Latin1 character (an em dash) in this header broke every single fetch call,
   // because fetch headers are ByteStrings and cannot carry arbitrary Unicode.
   assert.match(capturedHeaders['User-Agent'], /^[\x20-\x7E]+$/, 'User-Agent must be pure ASCII (fetch headers are ByteStrings)');
+});
+
+test('queryFilms defaults to OFFSET 0 and passes through a non-zero offset for pagination', async (t) => {
+  let capturedUrl;
+  t.mock.method(globalThis, 'fetch', async (url) => {
+    capturedUrl = url.toString();
+    return { ok: true, json: async () => ({ results: { bindings: [] } }) };
+  });
+
+  await queryFilms({ startYear: 2000, endYear: 2009, limit: 10 });
+  assert.ok(decodeURIComponent(capturedUrl).includes('OFFSET 0'), 'omitting offset must default to OFFSET 0');
+
+  await queryFilms({ startYear: 2000, endYear: 2009, limit: 10, offset: 80 });
+  assert.ok(decodeURIComponent(capturedUrl).includes('OFFSET 80'), 'a supplied offset must be reflected in the query');
 });
 
 test('queryFilms buckets a multi-dated item by its EARLIEST publication date, not an arbitrary one', async (t) => {
@@ -93,20 +107,6 @@ test('queryFilms without a countryQid does not project a ?filteredCountry variab
   await queryFilms({ startYear: 2000, endYear: 2009, limit: 10 });
 
   assert.ok(!decodeURIComponent(capturedUrl).includes('?filteredCountry'));
-});
-
-test('queryTv uses the TV series item type, not the film item type', async (t) => {
-  let capturedUrl;
-  t.mock.method(globalThis, 'fetch', async (url) => {
-    capturedUrl = url.toString();
-    return { ok: true, json: async () => ({ results: { bindings: [] } }) };
-  });
-
-  await queryTv({ startYear: 2000, endYear: 2009, limit: 10 });
-
-  const decoded = decodeURIComponent(capturedUrl);
-  assert.ok(decoded.includes('wd:Q5398426'));
-  assert.ok(!decoded.includes('wd:Q11424'));
 });
 
 test('queryFilms retries on transient errors (429/502/503/504) and eventually throws once retries are exhausted', async (t) => {

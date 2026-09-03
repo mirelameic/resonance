@@ -112,7 +112,3 @@ function mapWikidataToWork(binding, medium) {
 export function mapWikidataFilmToWork(binding) {
   return mapWikidataToWork(binding, 'film');
 }
-
-export function mapWikidataTvToWork(binding) {
-  return mapWikidataToWork(binding, 'tv');
-}

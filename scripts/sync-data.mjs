@@ -5,15 +5,16 @@ import { dirname, join } from 'node:path';
 import { DECADES } from './lib/coverage.mjs';
 import { mergeWorks } from './lib/mergeWorks.mjs';
 import { applyEnrichment } from './lib/applyEnrichment.mjs';
-import { mapWikidataFilmToWork, mapWikidataTvToWork } from './lib/mapWikidata.mjs';
+import { mapWikidataFilmToWork } from './lib/mapWikidata.mjs';
+import { loadSyncState, saveSyncState, getBucketProgress, recordBucketResult } from './lib/syncState.mjs';
 import * as wikidata from './sources/wikidata.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const REAL_DATA_FILE = join(__dirname, '..', 'js', 'data.js');
 const REAL_ENRICHMENT_FILE = join(__dirname, '..', 'data', 'enrichment.json');
+const REAL_SYNC_STATE_FILE = join(__dirname, '..', 'data', 'sync-state.json');
 
 const TARGET_PER_DECADE_MOVIE = 40;  // ~40 x 13 decades ≈ 520 movies per full run
-const TARGET_PER_DECADE_TV = 25;     // ~25 x 13 decades ≈ 325 TV shows per full run
 const BRAZIL_QID = 'Q155';
 const RECENT_TARGET = 100;
 
@@ -39,47 +40,62 @@ export function writeDataFile(dataFile, works) {
   writeFileSync(dataFile, `${header}export const works = ${JSON.stringify(works, null, 2)};\n`, 'utf8');
 }
 
+// Runs one bucket's query against its saved checkpoint: skips entirely if the bucket
+// is already known-exhausted (no network call at all), otherwise queries starting at
+// the saved offset and advances/exhausts the checkpoint on success. A failed query
+// (network/server error) leaves the checkpoint untouched, so the SAME offset is retried
+// on the next run — nothing is skipped or double-counted because of a transient error.
+export async function runBucket({ label, bucketKey, state, limit, query }) {
+  const progress = getBucketProgress(state, bucketKey);
+  if (progress.exhausted) {
+    console.log(`[wikidata] ${label}: exhausted, skipping`);
+    return { fresh: [], state };
+  }
+  try {
+    const rows = await query(progress.offset);
+    const nextState = recordBucketResult(state, bucketKey, rows.length, limit);
+    const updated = nextState[bucketKey];
+    console.log(`[wikidata] ${label}: +${rows.length} (offset now ${updated.offset}${updated.exhausted ? ', exhausted' : ''})`);
+    return { fresh: rows, state: nextState };
+  } catch (err) {
+    console.warn(`[wikidata] ${label} failed at offset ${progress.offset}: ${err.message}`);
+    return { fresh: [], state };
+  }
+}
+
 async function fetchWikidataFull(apiKey, enrichmentMap) {
   const fresh = [];
-  for (const { start, end } of DECADES) {
-    try {
-      const filmRows = await wikidata.queryFilms({ startYear: start, endYear: end, limit: TARGET_PER_DECADE_MOVIE });
-      for (const row of filmRows) {
-        fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
-      }
-    } catch (err) {
-      console.warn(`[wikidata] film query failed for ${start}-${end}: ${err.message}`);
-    }
+  let state = loadSyncState(REAL_SYNC_STATE_FILE);
 
-    try {
-      const tvRows = await wikidata.queryTv({ startYear: start, endYear: end, limit: TARGET_PER_DECADE_TV });
-      for (const row of tvRows) {
-        fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
-      }
-    } catch (err) {
-      console.warn(`[wikidata] tv query failed for ${start}-${end}: ${err.message}`);
+  for (const { start, end } of DECADES) {
+    const filmResult = await runBucket({
+      label: `film ${start}-${end}`,
+      bucketKey: `wikidata:film:${start}-${end}`,
+      state,
+      limit: TARGET_PER_DECADE_MOVIE,
+      query: (offset) => wikidata.queryFilms({ startYear: start, endYear: end, limit: TARGET_PER_DECADE_MOVIE, offset }),
+    });
+    state = filmResult.state;
+    for (const row of filmResult.fresh) {
+      fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
     }
+    saveSyncState(REAL_SYNC_STATE_FILE, state);
 
     // Guarantee Brazilian representation explicitly per decade, rather than leaving it to chance —
     // this is a first-principles requirement of the product (Brazilian + international works),
     // not an incidental nice-to-have.
-    try {
-      const brazilFilmRows = await wikidata.queryFilms({ startYear: start, endYear: end, limit: 10, countryQid: BRAZIL_QID });
-      for (const row of brazilFilmRows) {
-        fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
-      }
-    } catch (err) {
-      console.warn(`[wikidata] Brazil film query failed for ${start}-${end}: ${err.message}`);
+    const brazilResult = await runBucket({
+      label: `Brazil film ${start}-${end}`,
+      bucketKey: `wikidata:film:brazil:${start}-${end}`,
+      state,
+      limit: 10,
+      query: (offset) => wikidata.queryFilms({ startYear: start, endYear: end, limit: 10, countryQid: BRAZIL_QID, offset }),
+    });
+    state = brazilResult.state;
+    for (const row of brazilResult.fresh) {
+      fresh.push(applyEnrichment(mapWikidataFilmToWork(row), enrichmentMap));
     }
-
-    try {
-      const brazilTvRows = await wikidata.queryTv({ startYear: start, endYear: end, limit: 10, countryQid: BRAZIL_QID });
-      for (const row of brazilTvRows) {
-        fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
-      }
-    } catch (err) {
-      console.warn(`[wikidata] Brazil tv query failed for ${start}-${end}: ${err.message}`);
-    }
+    saveSyncState(REAL_SYNC_STATE_FILE, state);
   }
   return fresh;
 }
@@ -94,14 +110,6 @@ async function fetchWikidataRecent(apiKey, enrichmentMap) {
   } catch (err) {
     console.warn(`[wikidata] recent films failed: ${err.message}`);
   }
-  try {
-    const tvRows = await wikidata.queryRecentTv({ limit: RECENT_TARGET });
-    for (const row of tvRows) {
-      fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
-    }
-  } catch (err) {
-    console.warn(`[wikidata] recent tv failed: ${err.message}`);
-  }
 
   // Guarantee Brazilian representation explicitly in incremental syncs too, mirroring
   // fetchWikidataFull — this is a first-principles product requirement, not something
@@ -113,14 +121,6 @@ async function fetchWikidataRecent(apiKey, enrichmentMap) {
     }
   } catch (err) {
     console.warn(`[wikidata] recent Brazil films failed: ${err.message}`);
-  }
-  try {
-    const brazilTvRows = await wikidata.queryRecentTv({ limit: 10, countryQid: BRAZIL_QID });
-    for (const row of brazilTvRows) {
-      fresh.push(applyEnrichment(mapWikidataTvToWork(row), enrichmentMap));
-    }
-  } catch (err) {
-    console.warn(`[wikidata] recent Brazil tv failed: ${err.message}`);
   }
 
   return fresh;

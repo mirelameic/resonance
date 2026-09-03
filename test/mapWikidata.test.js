@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mapWikidataFilmToWork, mapWikidataTvToWork } from '../scripts/lib/mapWikidata.mjs';
+import { mapWikidataFilmToWork } from '../scripts/lib/mapWikidata.mjs';
 
 function binding(fields) {
   const row = {};
@@ -27,20 +27,6 @@ const filmBinding = binding({
   genres: 'crime film|drama film',
   firstDate: '2002-01-01T00:00:00Z',
   image: 'http://commons.wikimedia.org/wiki/Special:FilePath/City%20of%20God%20poster.jpg',
-});
-
-// wd:Q1079 — verified live: "Breaking Bad" television series.
-// (wd:Q886971, the QID originally assumed for this fixture, actually
-// resolves to a German chamber-orchestra ensemble — substituted here.)
-const tvBinding = binding({
-  item: 'http://www.wikidata.org/entity/Q1079',
-  itemLabel: 'Breaking Bad',
-  directors: 'Vince Gilligan',
-  country: 'United States of America',
-  language: 'English',
-  genres: 'crime drama',
-  firstDate: '2008-01-20T00:00:00Z',
-  // no image field at all
 });
 
 const sparseBinding = binding({
@@ -71,18 +57,6 @@ test('mapWikidataFilmToWork splits the pipe-separated genres into themes', () =>
   const work = mapWikidataFilmToWork(filmBinding);
   assert.ok(work.themes.includes('crime film'));
   assert.ok(work.themes.includes('drama film'));
-});
-
-test('mapWikidataTvToWork maps core fields and has no image when P18 is absent', () => {
-  const work = mapWikidataTvToWork(tvBinding);
-  assert.equal(work.title, 'Breaking Bad');
-  assert.equal(work.medium, 'tv');
-  assert.equal(work.year, 2008);
-  assert.equal(work.country, 'United States of America');
-  assert.equal(work.creator, 'Vince Gilligan');
-  assert.equal(work.image, null);
-  assert.equal(work.imageCredit, null);
-  assert.deepEqual(work.source, { type: 'wikidata', sourceId: 'Q1079' });
 });
 
 test('mapWikidataFilmToWork falls back gracefully when almost everything is missing', () => {
