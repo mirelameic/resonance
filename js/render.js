@@ -217,7 +217,7 @@ function renderHome(mount) {
   mount.innerHTML = `
     <section class="view view--home hero">
       <div class="hero__index tag reveal">[ 00 / ARCHIVE ]</div>
-      <h1 class="hero__title reveal">EVERY WORK<br><em>REMEMBERS ANOTHER.</em></h1>
+      <h1 class="hero__title reveal"><span class="hero__title-highlight">EVERY PIECE<br>ECHOES ANOTHER.</span></h1>
       <p class="hero__sub reveal">
         RESONANCE is an artistic memory archive — ${works.length} works of music, film, television,
         literature, photography, and visual art from Brazil and around the world, connected not by
