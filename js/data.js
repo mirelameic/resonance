@@ -70,7 +70,7 @@ export const works = [
   {
     "id": "the-trainer-s-daughter-or-a-race-for-love-1907-q1116960",
     "title": "The Trainer's Daughter; or, A Race for Love",
-    "creator": "J. Searle Dawley, Edwin Stanton Porter",
+    "creator": "Edwin Stanton Porter, J. Searle Dawley",
     "medium": "film",
     "year": 1907,
     "decade": "1900s",
@@ -165,23 +165,23 @@ export const works = [
     "decade": "1900s",
     "country": "Russian Empire",
     "language": "Russian",
-    "movement": "Russian Empire historical film, 1900s",
-    "genre": "historical film",
+    "movement": "Russian Empire live action, 1900s",
+    "genre": "live action",
     "style": [
-      "historical film",
       "live action",
+      "historical film",
       "silent film"
     ],
     "themes": [
-      "historical film",
       "live action",
+      "historical film",
       "silent film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1908 in Russian Empire.",
-    "description": "Stenka Razin, a historical film from Russian Empire (1908).",
+    "description": "Stenka Razin, a live action from Russian Empire (1908).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Razin%20film.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -202,13 +202,13 @@ export const works = [
     "genre": "adventure film",
     "style": [
       "adventure film",
-      "silent film",
-      "fantasy film"
+      "fantasy film",
+      "silent film"
     ],
     "themes": [
       "adventure film",
-      "silent film",
-      "fantasy film"
+      "fantasy film",
+      "silent film"
     ],
     "mood": [
       "Evocative"
@@ -664,161 +664,6 @@ export const works = [
     }
   },
   {
-    "id": "branding-hams-1901-q2923723",
-    "title": "Branding Hams",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 1901,
-    "decade": "1900s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1900s",
-    "genre": "silent film",
-    "style": [
-      "silent film"
-    ],
-    "themes": [
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1901 in United States.",
-    "description": "Branding Hams, a silent film from United States (1901).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2923723"
-    }
-  },
-  {
-    "id": "briton-and-boer-1909-q2925766",
-    "title": "Briton and Boer",
-    "creator": "Francis Boggs",
-    "medium": "film",
-    "year": 1909,
-    "decade": "1900s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States war film, 1900s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "silent film",
-      "action film"
-    ],
-    "themes": [
-      "war film",
-      "silent film",
-      "action film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1909 in United States.",
-    "description": "Briton and Boer, a war film from United States (1909).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2925766"
-    }
-  },
-  {
-    "id": "buffalo-street-parade-1901-q2927637",
-    "title": "Buffalo Street Parade",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 1901,
-    "decade": "1900s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1900s",
-    "genre": "silent film",
-    "style": [
-      "silent film"
-    ],
-    "themes": [
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1901 in United States.",
-    "description": "Buffalo Street Parade, a silent film from United States (1901).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2927637"
-    }
-  },
-  {
-    "id": "beatrice-cenci-1908-q2929423",
-    "title": "Béatrice Cenci",
-    "creator": "Albert Capellani",
-    "medium": "film",
-    "year": 1908,
-    "decade": "1900s",
-    "country": "France",
-    "language": "unknown",
-    "movement": "France silent film, 1900s",
-    "genre": "silent film",
-    "style": [
-      "silent film"
-    ],
-    "themes": [
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1908 in France.",
-    "description": "Béatrice Cenci, a silent film from France (1908).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2929423"
-    }
-  },
-  {
-    "id": "capture-of-boer-battery-by-british-1900-q2937693",
-    "title": "Capture of Boer Battery by British",
-    "creator": "James H. White",
-    "medium": "film",
-    "year": 1900,
-    "decade": "1900s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States war film, 1900s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "silent film",
-      "short film",
-      "documentary film"
-    ],
-    "themes": [
-      "war film",
-      "silent film",
-      "short film",
-      "documentary film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1900 in United States.",
-    "description": "Capture of Boer Battery by British, a war film from United States (1900).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2937693"
-    }
-  },
-  {
     "id": "chez-le-photographe-1900-q2963180",
     "title": "Chez le photographe",
     "creator": "Alice Guy-Blaché",
@@ -827,21 +672,21 @@ export const works = [
     "decade": "1900s",
     "country": "France",
     "language": "unknown",
-    "movement": "France silent film, 1900s",
-    "genre": "silent film",
+    "movement": "France comedy film, 1900s",
+    "genre": "comedy film",
     "style": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "themes": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1900 in France.",
-    "description": "Chez le photographe, a silent film from France (1900).",
+    "description": "Chez le photographe, a comedy film from France (1900).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -858,21 +703,21 @@ export const works = [
     "decade": "1900s",
     "country": "France",
     "language": "unknown",
-    "movement": "France silent film, 1900s",
-    "genre": "silent film",
+    "movement": "France comedy film, 1900s",
+    "genre": "comedy film",
     "style": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "themes": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1900 in France.",
-    "description": "Chirurgie fin de siècle, a silent film from France (1900).",
+    "description": "Chirurgie fin de siècle, a comedy film from France (1900).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -1034,21 +879,21 @@ export const works = [
     "decade": "1900s",
     "country": "France",
     "language": "unknown",
-    "movement": "France silent film, 1900s",
-    "genre": "silent film",
+    "movement": "France comedy film, 1900s",
+    "genre": "comedy film",
     "style": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "themes": [
-      "silent film",
-      "comedy film"
+      "comedy film",
+      "silent film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1903 in France.",
-    "description": "Comment monsieur prend son bain, a silent film from France (1903).",
+    "description": "Comment monsieur prend son bain, a comedy film from France (1903).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -1144,42 +989,38 @@ export const works = [
     }
   },
   {
-    "id": "the-little-train-robbery-1905-q3006368",
-    "title": "The Little Train Robbery",
-    "creator": "Edwin Stanton Porter",
+    "id": "ten-wives-for-one-husband-1905-q3032568",
+    "title": "Ten Wives for One Husband",
+    "creator": "Georges Hatot",
     "medium": "film",
     "year": 1905,
     "decade": "1900s",
-    "country": "United States",
+    "country": "France",
     "language": "unknown",
-    "movement": "United States crime film, 1900s",
-    "genre": "crime film",
+    "movement": "France silent film, 1900s",
+    "genre": "silent film",
     "style": [
-      "crime film",
-      "parody film",
       "silent film"
     ],
     "themes": [
-      "crime film",
-      "parody film",
       "silent film"
     ],
     "mood": [
-      "Tense"
+      "Evocative"
     ],
-    "context": "Released in 1905 in United States.",
-    "description": "The Little Train Robbery, a crime film from United States (1905).",
+    "context": "Released in 1905 in France.",
+    "description": "Ten Wives for One Husband, a silent film from France (1905).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q3006368"
+      "sourceId": "Q3032568"
     }
   },
   {
-    "id": "dans-la-tourmente-1909-q3015447",
-    "title": "Dans la tourmente",
-    "creator": "Gérard Bourgeois",
+    "id": "don-cesar-de-bazan-1909-q3035758",
+    "title": "Don César de Bazan",
+    "creator": "Victorin-Hippolyte Jasset",
     "medium": "film",
     "year": 1909,
     "decade": "1900s",
@@ -1197,12 +1038,167 @@ export const works = [
       "Evocative"
     ],
     "context": "Released in 1909 in France.",
-    "description": "Dans la tourmente, a silent film from France (1909).",
+    "description": "Don César de Bazan, a silent film from France (1909).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q3015447"
+      "sourceId": "Q3035758"
+    }
+  },
+  {
+    "id": "branding-hams-1901-q2923723",
+    "title": "Branding Hams",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 1901,
+    "decade": "1900s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1900s",
+    "genre": "silent film",
+    "style": [
+      "silent film"
+    ],
+    "themes": [
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1901 in United States.",
+    "description": "Branding Hams, a silent film from United States (1901).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2923723"
+    }
+  },
+  {
+    "id": "briton-and-boer-1909-q2925766",
+    "title": "Briton and Boer",
+    "creator": "Francis Boggs",
+    "medium": "film",
+    "year": 1909,
+    "decade": "1900s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States war film, 1900s",
+    "genre": "war film",
+    "style": [
+      "war film",
+      "silent film",
+      "action film"
+    ],
+    "themes": [
+      "war film",
+      "silent film",
+      "action film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1909 in United States.",
+    "description": "Briton and Boer, a war film from United States (1909).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2925766"
+    }
+  },
+  {
+    "id": "buffalo-street-parade-1901-q2927637",
+    "title": "Buffalo Street Parade",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 1901,
+    "decade": "1900s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1900s",
+    "genre": "silent film",
+    "style": [
+      "silent film"
+    ],
+    "themes": [
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1901 in United States.",
+    "description": "Buffalo Street Parade, a silent film from United States (1901).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2927637"
+    }
+  },
+  {
+    "id": "beatrice-cenci-1908-q2929423",
+    "title": "Béatrice Cenci",
+    "creator": "Albert Capellani",
+    "medium": "film",
+    "year": 1908,
+    "decade": "1900s",
+    "country": "France",
+    "language": "unknown",
+    "movement": "France silent film, 1900s",
+    "genre": "silent film",
+    "style": [
+      "silent film"
+    ],
+    "themes": [
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1908 in France.",
+    "description": "Béatrice Cenci, a silent film from France (1908).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2929423"
+    }
+  },
+  {
+    "id": "capture-of-boer-battery-by-british-1900-q2937693",
+    "title": "Capture of Boer Battery by British",
+    "creator": "James H. White",
+    "medium": "film",
+    "year": 1900,
+    "decade": "1900s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States war film, 1900s",
+    "genre": "war film",
+    "style": [
+      "war film",
+      "silent film",
+      "documentary film",
+      "short film"
+    ],
+    "themes": [
+      "war film",
+      "silent film",
+      "documentary film",
+      "short film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1900 in United States.",
+    "description": "Capture of Boer Battery by British, a war film from United States (1900).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2937693"
     }
   },
   {
@@ -1305,26 +1301,119 @@ export const works = [
     "decade": "1910s",
     "country": "Poland",
     "language": "Polish",
-    "movement": "Poland comedy film, 1910s",
-    "genre": "comedy film",
+    "movement": "Poland silent film, 1910s",
+    "genre": "silent film",
     "style": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "themes": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1913 in Poland.",
-    "description": "The Adventures of Anton, a comedy film from Poland (1913).",
+    "description": "The Adventures of Anton, a silent film from Poland (1913).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Przygody%20pana%20Antoniego.png",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
       "sourceId": "Q54986"
+    }
+  },
+  {
+    "id": "the-secret-of-delft-1916-q388305",
+    "title": "The Secret of Delft",
+    "creator": "Maurits Binger",
+    "medium": "film",
+    "year": 1916,
+    "decade": "1910s",
+    "country": "Netherlands",
+    "language": "unknown",
+    "movement": "Netherlands crime film, 1910s",
+    "genre": "crime film",
+    "style": [
+      "crime film",
+      "silent film"
+    ],
+    "themes": [
+      "crime film",
+      "silent film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 1916 in Netherlands.",
+    "description": "The Secret of Delft, a crime film from Netherlands (1916).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q388305"
+    }
+  },
+  {
+    "id": "a-romance-of-the-redwoods-1917-q403176",
+    "title": "A Romance of the Redwoods",
+    "creator": "Cecil B. DeMille",
+    "medium": "film",
+    "year": 1917,
+    "decade": "1910s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1910s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1917 in United States.",
+    "description": "A Romance of the Redwoods, a silent film from United States (1917).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Romance%20of%20the%20Redwoods.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q403176"
+    }
+  },
+  {
+    "id": "the-boy-in-blue-1919-q477703",
+    "title": "The Boy in Blue",
+    "creator": "F. W. Murnau",
+    "medium": "film",
+    "year": 1919,
+    "decade": "1910s",
+    "country": "German Reich",
+    "language": "German",
+    "movement": "German Reich silent film, 1910s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1919 in German Reich.",
+    "description": "The Boy in Blue, a silent film from German Reich (1919).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/O%20garoto%20vestido%20de%20azul%205.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q477703"
     }
   },
   {
@@ -1336,25 +1425,25 @@ export const works = [
     "decade": "1910s",
     "country": "Germany",
     "language": "German",
-    "movement": "Germany silent film, 1910s",
-    "genre": "silent film",
+    "movement": "Germany historical film, 1910s",
+    "genre": "historical film",
     "style": [
-      "silent film",
-      "drama film",
       "historical film",
-      "biographical film"
+      "biographical film",
+      "silent film",
+      "drama film"
     ],
     "themes": [
-      "silent film",
-      "drama film",
       "historical film",
-      "biographical film"
+      "biographical film",
+      "silent film",
+      "drama film"
     ],
     "mood": [
       "Unflinching"
     ],
     "context": "Released in 1919 in Germany.",
-    "description": "Madame DuBarry, a silent film from Germany (1919).",
+    "description": "Madame DuBarry, a historical film from Germany (1919).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Madame%20DuBarry%20%281919%29%20-%201.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -1532,13 +1621,13 @@ export const works = [
     "genre": "comedy film",
     "style": [
       "comedy film",
-      "Western film",
-      "silent film"
+      "silent film",
+      "Western film"
     ],
     "themes": [
       "comedy film",
-      "Western film",
-      "silent film"
+      "silent film",
+      "Western film"
     ],
     "mood": [
       "Playful"
@@ -1561,21 +1650,21 @@ export const works = [
     "decade": "1910s",
     "country": "United States",
     "language": "unknown",
-    "movement": "United States western film, 1910s",
-    "genre": "Western film",
+    "movement": "United States silent film, 1910s",
+    "genre": "silent film",
     "style": [
-      "Western film",
-      "silent film"
+      "silent film",
+      "Western film"
     ],
     "themes": [
-      "Western film",
-      "silent film"
+      "silent film",
+      "Western film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1917 in United States.",
-    "description": "Straight Shooting, a western film from United States (1917).",
+    "description": "Straight Shooting, a silent film from United States (1917).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%27Straight%20Shooting%27.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -1592,17 +1681,17 @@ export const works = [
     "decade": "1910s",
     "country": "Germany",
     "language": "unknown",
-    "movement": "Germany fantasy film, 1910s",
-    "genre": "fantasy film",
+    "movement": "Germany horror film, 1910s",
+    "genre": "horror film",
     "style": [
-      "fantasy film",
       "horror film",
+      "fantasy film",
       "silent film",
       "drama film"
     ],
     "themes": [
-      "fantasy film",
       "horror film",
+      "fantasy film",
       "silent film",
       "drama film"
     ],
@@ -1611,7 +1700,7 @@ export const works = [
       "Unsettling"
     ],
     "context": "Released in 1913 in Germany.",
-    "description": "The Student of Prague, a fantasy film from Germany (1913).",
+    "description": "The Student of Prague, a horror film from Germany (1913).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Wegener%20als%20Student%20von%20Prag%2C%20Filmplakat%201913.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -1654,15 +1743,15 @@ export const works = [
     }
   },
   {
-    "id": "madame-butterfly-1915-q610607",
-    "title": "Madame Butterfly",
-    "creator": "Sidney Olcott",
+    "id": "halbblut-1919-q574120",
+    "title": "Halbblut",
+    "creator": "Fritz Lang",
     "medium": "film",
-    "year": 1915,
+    "year": 1919,
     "decade": "1910s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States silent film, 1910s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany silent film, 1910s",
     "genre": "silent film",
     "style": [
       "silent film",
@@ -1675,87 +1764,19 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1915 in United States.",
-    "description": "Madame Butterfly, a silent film from United States (1915).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Madame%20Butterfly%201915%20poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
+    "context": "Released in 1919 in Germany.",
+    "description": "Halbblut, a silent film from Germany (1919).",
+    "image": null,
+    "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q610607"
+      "sourceId": "Q574120"
     }
   },
   {
-    "id": "arizona-1918-q634389",
-    "title": "Arizona",
-    "creator": "Albert Parker, Douglas Fairbanks",
-    "medium": "film",
-    "year": 1918,
-    "decade": "1910s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States romance film, 1910s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "romantic comedy",
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "romantic comedy",
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1918 in United States.",
-    "description": "Arizona, a romance film from United States (1918).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arizona-1918-lobby-poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q634389"
-    }
-  },
-  {
-    "id": "ace-of-the-saddle-1919-q642740",
-    "title": "Ace of the Saddle",
-    "creator": "John Ford",
-    "medium": "film",
-    "year": 1919,
-    "decade": "1910s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States western film, 1910s",
-    "genre": "Western film",
-    "style": [
-      "Western film",
-      "silent film"
-    ],
-    "themes": [
-      "Western film",
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1919 in United States.",
-    "description": "Ace of the Saddle, a western film from United States (1919).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ace%20of%20the%20Saddle%20%281919%29%20-%20Carey%20%26%20Barry.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q642740"
-    }
-  },
-  {
-    "id": "carmen-1918-q832816",
-    "title": "Carmen",
-    "creator": "Ernst Lubitsch",
+    "id": "the-yellow-ticket-1918-q576232",
+    "title": "The Yellow Ticket",
+    "creator": "Eugen Illés, Victor Janson, Paul L. Stein",
     "medium": "film",
     "year": 1918,
     "decade": "1910s",
@@ -1775,12 +1796,12 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1918 in Germany.",
-    "description": "Carmen, a silent film from Germany (1918).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pola%20Negri%201.png",
+    "description": "The Yellow Ticket, a silent film from Germany (1918).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pola%20Negri%20Devils%20Pawn%206.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
-      "sourceId": "Q832816"
+      "sourceId": "Q576232"
     }
   },
   {
@@ -1792,23 +1813,23 @@ export const works = [
     "decade": "1910s",
     "country": "United States",
     "language": "English",
-    "movement": "United States science fiction film, 1910s",
-    "genre": "science fiction film",
+    "movement": "United States silent film, 1910s",
+    "genre": "silent film",
     "style": [
+      "silent film",
       "science fiction film",
-      "adventure film",
-      "silent film"
+      "adventure film"
     ],
     "themes": [
+      "silent film",
       "science fiction film",
-      "adventure film",
-      "silent film"
+      "adventure film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1916 in United States.",
-    "description": "20,000 Leagues Under the Sea, a science fiction film from United States (1916).",
+    "description": "20,000 Leagues Under the Sea, a silent film from United States (1916).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20%2C000%20Leagues%20under%20the%20Sea%20-%20movie%20scene%20-%20newspaper%20July%201917.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -1885,21 +1906,21 @@ export const works = [
     "decade": "1910s",
     "country": "Australia",
     "language": "unknown",
-    "movement": "Australia comedy film, 1910s",
-    "genre": "comedy film",
+    "movement": "Australia silent film, 1910s",
+    "genre": "silent film",
     "style": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "themes": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1916 in Australia.",
-    "description": "Get-Rich-Quick Wallingford, a comedy film from Australia (1916).",
+    "description": "Get-Rich-Quick Wallingford, a silent film from Australia (1916).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -2065,7 +2086,7 @@ export const works = [
   {
     "id": "the-extraordinary-adventures-of-saturnino-farandola-1913-q152438",
     "title": "The Extraordinary Adventures of Saturnino Farandola",
-    "creator": "Luigi Maggi, Marcel Perez",
+    "creator": "Marcel Perez, Luigi Maggi",
     "medium": "film",
     "year": 1913,
     "decade": "1910s",
@@ -2075,13 +2096,13 @@ export const works = [
     "genre": "serial film",
     "style": [
       "serial film",
-      "science fiction film",
-      "silent film"
+      "silent film",
+      "science fiction film"
     ],
     "themes": [
       "serial film",
-      "science fiction film",
-      "silent film"
+      "silent film",
+      "science fiction film"
     ],
     "mood": [
       "Evocative"
@@ -2170,14 +2191,14 @@ export const works = [
     "genre": "disaster film",
     "style": [
       "disaster film",
-      "science fiction film",
       "silent film",
+      "science fiction film",
       "drama film"
     ],
     "themes": [
       "disaster film",
-      "science fiction film",
       "silent film",
+      "science fiction film",
       "drama film"
     ],
     "mood": [
@@ -2201,23 +2222,23 @@ export const works = [
     "decade": "1910s",
     "country": "United States",
     "language": "English",
-    "movement": "United States adventure film, 1910s",
-    "genre": "adventure film",
+    "movement": "United States silent film, 1910s",
+    "genre": "silent film",
     "style": [
+      "silent film",
       "adventure film",
-      "action film",
-      "silent film"
+      "action film"
     ],
     "themes": [
+      "silent film",
       "adventure film",
-      "action film",
-      "silent film"
+      "action film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1918 in United States.",
-    "description": "Tarzan of the Apes, a adventure film from United States (1918).",
+    "description": "Tarzan of the Apes, a silent film from United States (1918).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -2292,7 +2313,7 @@ export const works = [
   {
     "id": "heart-o-the-hills-1919-q218869",
     "title": "Heart o' the Hills",
-    "creator": "Joe De Grasse, Sidney Franklin",
+    "creator": "Sidney Franklin, Joe De Grasse",
     "medium": "film",
     "year": 1919,
     "decade": "1910s",
@@ -2397,21 +2418,21 @@ export const works = [
     "decade": "1910s",
     "country": "United States",
     "language": "English",
-    "movement": "United States comedy film, 1910s",
-    "genre": "comedy film",
+    "movement": "United States silent film, 1910s",
+    "genre": "silent film",
     "style": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "themes": [
-      "comedy film",
-      "silent film"
+      "silent film",
+      "comedy film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1919 in United States.",
-    "description": "Captain Kidd, Jr., a comedy film from United States (1919).",
+    "description": "Captain Kidd, Jr., a silent film from United States (1919).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Captain%20Kidd%2C%20Jr.%20poster.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -2459,57 +2480,26 @@ export const works = [
     "decade": "1910s",
     "country": "Germany",
     "language": "German",
-    "movement": "Germany horror film, 1910s",
-    "genre": "horror film",
+    "movement": "Germany silent film, 1910s",
+    "genre": "silent film",
     "style": [
-      "horror film",
-      "silent film"
+      "silent film",
+      "horror film"
     ],
     "themes": [
-      "horror film",
-      "silent film"
+      "silent film",
+      "horror film"
     ],
     "mood": [
       "Unsettling"
     ],
     "context": "Released in 1918 in Germany.",
-    "description": "The Eyes of the Mummy, a horror film from Germany (1918).",
+    "description": "The Eyes of the Mummy, a silent film from Germany (1918).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
       "sourceId": "Q285430"
-    }
-  },
-  {
-    "id": "the-fatal-woman-1915-q302773",
-    "title": "The Fatal Woman",
-    "creator": "Louis H. Chrispijn, Maurits Binger",
-    "medium": "film",
-    "year": 1915,
-    "decade": "1910s",
-    "country": "Netherlands",
-    "language": "unknown",
-    "movement": "Netherlands silent film, 1910s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1915 in Netherlands.",
-    "description": "The Fatal Woman, a silent film from Netherlands (1915).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q302773"
     }
   },
   {
@@ -2519,7 +2509,7 @@ export const works = [
     "medium": "tv",
     "year": 1914,
     "decade": "1910s",
-    "country": "Unknown",
+    "country": "unknown",
     "language": "unknown",
     "movement": "work, 1910s",
     "genre": "Uncategorized",
@@ -2532,8 +2522,8 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1914 in Unknown.",
-    "description": "The Beloved Adventurer, a work from Unknown (1914).",
+    "context": "Released in 1914 in unknown.",
+    "description": "The Beloved Adventurer, a work from unknown (1914).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lottie%20Briscoe%201914.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -2693,15 +2683,310 @@ export const works = [
     }
   },
   {
-    "id": "das-wandernde-bild-1920-q4744",
-    "title": "Das wandernde Bild",
-    "creator": "Fritz Lang",
+    "id": "wings-1927-q272036",
+    "title": "Wings",
+    "creator": "William A. Wellman, Harry d'Abbadie d'Arrast",
     "medium": "film",
-    "year": 1920,
+    "year": 1927,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States war film, 1920s",
+    "genre": "war film",
+    "style": [
+      "war film",
+      "action film",
+      "drama film",
+      "silent film",
+      "romance film"
+    ],
+    "themes": [
+      "war film",
+      "action film",
+      "drama film",
+      "silent film",
+      "romance film"
+    ],
+    "mood": [
+      "Tender",
+      "Unflinching"
+    ],
+    "context": "Released in 1927 in United States.",
+    "description": "Wings, a war film from United States (1927).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wings%20%281927%29%20poster.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q272036"
+    }
+  },
+  {
+    "id": "the-prude-s-fall-1924-q278687",
+    "title": "The Prude's Fall",
+    "creator": "Graham Cutts",
+    "medium": "film",
+    "year": 1924,
+    "decade": "1920s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1924 in United Kingdom.",
+    "description": "The Prude's Fall, a silent film from United Kingdom (1924).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q278687"
+    }
+  },
+  {
+    "id": "the-sky-pilot-1921-q282666",
+    "title": "The Sky Pilot",
+    "creator": "King Vidor",
+    "medium": "film",
+    "year": 1921,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "Western film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "Western film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1921 in United States.",
+    "description": "The Sky Pilot, a silent film from United States (1921).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Sky%20Pilot%20%281921%29%20-%20Vidor%20%26%20Moore.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q282666"
+    }
+  },
+  {
+    "id": "feu-mathias-pascal-1926-q284980",
+    "title": "Feu Mathias Pascal",
+    "creator": "Marcel L'Herbier",
+    "medium": "film",
+    "year": 1926,
+    "decade": "1920s",
+    "country": "France",
+    "language": "French",
+    "movement": "France silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1926 in France.",
+    "description": "Feu Mathias Pascal, a silent film from France (1926).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Feu%20Mathias%20Pascal%20%28poster%201%29.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q284980"
+    }
+  },
+  {
+    "id": "i-kiss-your-hand-madame-1929-q304931",
+    "title": "I Kiss Your Hand, Madame",
+    "creator": "Robert Land",
+    "medium": "film",
+    "year": 1929,
     "decade": "1920s",
     "country": "Germany",
     "language": "German",
-    "movement": "Germany romance film, 1920s",
+    "movement": "Germany silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1929 in Germany.",
+    "description": "I Kiss Your Hand, Madame, a silent film from Germany (1929).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A0%D0%B8%D1%85%D0%B0%D1%80%D0%B4%20%D0%A2%D0%B0%D1%83%D0%B1%D0%B5%D1%80.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q304931"
+    }
+  },
+  {
+    "id": "the-blackguard-1925-q320226",
+    "title": "The Blackguard",
+    "creator": "Graham Cutts",
+    "medium": "film",
+    "year": 1925,
+    "decade": "1920s",
+    "country": "Germany",
+    "language": "English",
+    "movement": "Germany silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1925 in Germany.",
+    "description": "The Blackguard, a silent film from Germany (1925).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Die%20Prinzessin%20und%20der%20Geiger%20%281925%29%20-%201.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q320226"
+    }
+  },
+  {
+    "id": "the-haunted-castle-1921-q320814",
+    "title": "The Haunted Castle",
+    "creator": "F. W. Murnau",
+    "medium": "film",
+    "year": 1921,
+    "decade": "1920s",
+    "country": "Weimar Republic",
+    "language": "German",
+    "movement": "Weimar Republic mystery film, 1920s",
+    "genre": "mystery film",
+    "style": [
+      "mystery film",
+      "crime film",
+      "horror film",
+      "silent film"
+    ],
+    "themes": [
+      "mystery film",
+      "crime film",
+      "horror film",
+      "silent film"
+    ],
+    "mood": [
+      "Tense",
+      "Unsettling"
+    ],
+    "context": "Released in 1921 in Weimar Republic.",
+    "description": "The Haunted Castle, a mystery film from Weimar Republic (1921).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q320814"
+    }
+  },
+  {
+    "id": "sex-in-chains-1928-q325260",
+    "title": "Sex in Chains",
+    "creator": "William Dieterle",
+    "medium": "film",
+    "year": 1928,
+    "decade": "1920s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany lgbtq-related film, 1920s",
+    "genre": "LGBTQ-related film",
+    "style": [
+      "LGBTQ-related film",
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "LGBTQ-related film",
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1928 in Germany.",
+    "description": "Sex in Chains, a lgbtq-related film from Germany (1928).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q325260"
+    }
+  },
+  {
+    "id": "the-devious-path-1928-q336193",
+    "title": "The Devious Path",
+    "creator": "Georg Wilhelm Pabst",
+    "medium": "film",
+    "year": 1928,
+    "decade": "1920s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1928 in Germany.",
+    "description": "The Devious Path, a silent film from Germany (1928).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q336193"
+    }
+  },
+  {
+    "id": "sunrise-a-song-of-two-humans-1927-q431093",
+    "title": "Sunrise: A Song of Two Humans",
+    "creator": "F. W. Murnau",
+    "medium": "film",
+    "year": 1927,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States romance film, 1920s",
     "genre": "romance film",
     "style": [
       "romance film",
@@ -2717,8 +3002,145 @@ export const works = [
       "Tender",
       "Unflinching"
     ],
+    "context": "Released in 1927 in United States.",
+    "description": "Sunrise: A Song of Two Humans, a romance film from United States (1927).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Janet%20Gaynor%20-%20Sunrise%20%281927%29.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q431093"
+    }
+  },
+  {
+    "id": "the-student-prince-in-old-heidelberg-1927-q432930",
+    "title": "The Student Prince in Old Heidelberg",
+    "creator": "John M. Stahl, Ernst Lubitsch",
+    "medium": "film",
+    "year": 1927,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States comedy drama, 1920s",
+    "genre": "comedy drama",
+    "style": [
+      "comedy drama",
+      "romantic comedy film",
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "comedy drama",
+      "romantic comedy film",
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Playful",
+      "Unflinching"
+    ],
+    "context": "Released in 1927 in United States.",
+    "description": "The Student Prince in Old Heidelberg, a comedy drama from United States (1927).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Student%20Prince%20in%20Old%20Heidelberg%20lobby%20card.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q432930"
+    }
+  },
+  {
+    "id": "satan-1920-q442861",
+    "title": "Satan",
+    "creator": "F. W. Murnau",
+    "medium": "film",
+    "year": 1920,
+    "decade": "1920s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany horror film, 1920s",
+    "genre": "horror film",
+    "style": [
+      "horror film",
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "horror film",
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching",
+      "Unsettling"
+    ],
     "context": "Released in 1920 in Germany.",
-    "description": "Das wandernde Bild, a romance film from Germany (1920).",
+    "description": "Satan, a horror film from Germany (1920).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Satan%C3%A1s%201.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q442861"
+    }
+  },
+  {
+    "id": "the-last-of-the-mohicans-1920-q444242",
+    "title": "The Last of the Mohicans",
+    "creator": "Maurice Tourneur, Clarence Brown",
+    "medium": "film",
+    "year": 1920,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States adventure film, 1920s",
+    "genre": "adventure film",
+    "style": [
+      "adventure film",
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "adventure film",
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1920 in United States.",
+    "description": "The Last of the Mohicans, a adventure film from United States (1920).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Last%20of%20the%20Mohicans%20%281920%29%20-%20Moving%20Picture%20World%201920.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q444242"
+    }
+  },
+  {
+    "id": "das-wandernde-bild-1920-q4744",
+    "title": "Das wandernde Bild",
+    "creator": "Fritz Lang",
+    "medium": "film",
+    "year": 1920,
+    "decade": "1920s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "romance film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "romance film",
+      "drama film"
+    ],
+    "mood": [
+      "Tender",
+      "Unflinching"
+    ],
+    "context": "Released in 1920 in Germany.",
+    "description": "Das wandernde Bild, a silent film from Germany (1920).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -2740,14 +3162,14 @@ export const works = [
     "style": [
       "serial film",
       "mystery film",
-      "action film",
-      "silent film"
+      "silent film",
+      "action film"
     ],
     "themes": [
       "serial film",
       "mystery film",
-      "action film",
-      "silent film"
+      "silent film",
+      "action film"
     ],
     "mood": [
       "Evocative"
@@ -2764,7 +3186,7 @@ export const works = [
   {
     "id": "the-screaming-shadow-1920-q27130",
     "title": "The Screaming Shadow",
-    "creator": "Ben F. Wilson, Duke Worne",
+    "creator": "Duke Worne, Ben F. Wilson",
     "medium": "film",
     "year": 1920,
     "decade": "1920s",
@@ -2774,15 +3196,15 @@ export const works = [
     "genre": "serial film",
     "style": [
       "serial film",
-      "action film",
+      "silent film",
       "adventure film",
-      "silent film"
+      "action film"
     ],
     "themes": [
       "serial film",
-      "action film",
+      "silent film",
       "adventure film",
-      "silent film"
+      "action film"
     ],
     "mood": [
       "Evocative"
@@ -2809,13 +3231,13 @@ export const works = [
     "genre": "serial film",
     "style": [
       "serial film",
-      "action film",
-      "silent film"
+      "silent film",
+      "action film"
     ],
     "themes": [
       "serial film",
-      "action film",
-      "silent film"
+      "silent film",
+      "action film"
     ],
     "mood": [
       "Evocative"
@@ -2838,20 +3260,20 @@ export const works = [
     "decade": "1920s",
     "country": "Germany",
     "language": "English",
-    "movement": "Germany crime film, 1920s",
-    "genre": "crime film",
+    "movement": "Germany crime drama film, 1920s",
+    "genre": "crime drama film",
     "style": [
-      "crime film",
       "crime drama film",
       "melodrama",
       "silent film",
+      "crime film",
       "drama film"
     ],
     "themes": [
-      "crime film",
       "crime drama film",
       "melodrama",
       "silent film",
+      "crime film",
       "drama film"
     ],
     "mood": [
@@ -2859,7 +3281,7 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1925 in Germany.",
-    "description": "The Pleasure Garden, a crime film from Germany (1925).",
+    "description": "The Pleasure Garden, a crime drama film from Germany (1925).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Pleasure%20Garden%20%281925%29%20Alfred%20Hitchcock%20intertitles.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -2932,171 +3354,6 @@ export const works = [
     }
   },
   {
-    "id": "sunrise-a-song-of-two-humans-1927-q431093",
-    "title": "Sunrise: A Song of Two Humans",
-    "creator": "F. W. Murnau",
-    "medium": "film",
-    "year": 1927,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film",
-      "romance film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film",
-      "romance film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1927 in United States.",
-    "description": "Sunrise: A Song of Two Humans, a silent film from United States (1927).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Janet%20Gaynor%20-%20Sunrise%20%281927%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q431093"
-    }
-  },
-  {
-    "id": "we-faw-down-1928-q497252",
-    "title": "We Faw Down",
-    "creator": "Leo McCarey",
-    "medium": "film",
-    "year": 1928,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "buddy film",
-      "comedy film"
-    ],
-    "themes": [
-      "silent film",
-      "buddy film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1928 in United States.",
-    "description": "We Faw Down, a silent film from United States (1928).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q497252"
-    }
-  },
-  {
-    "id": "sodom-and-gomorrah-1922-q498501",
-    "title": "Sodom and Gomorrah",
-    "creator": "Michael Curtiz",
-    "medium": "film",
-    "year": 1922,
-    "decade": "1920s",
-    "country": "Austria",
-    "language": "German",
-    "movement": "Austria silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1922 in Austria.",
-    "description": "Sodom and Gomorrah, a silent film from Austria (1922).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q498501"
-    }
-  },
-  {
-    "id": "the-ring-1927-q499031",
-    "title": "The Ring",
-    "creator": "Alfred Hitchcock",
-    "medium": "film",
-    "year": 1927,
-    "decade": "1920s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom boxing film, 1920s",
-    "genre": "boxing film",
-    "style": [
-      "boxing film",
-      "silent film",
-      "drama film",
-      "romance film"
-    ],
-    "themes": [
-      "boxing film",
-      "silent film",
-      "drama film",
-      "romance film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1927 in United Kingdom.",
-    "description": "The Ring, a boxing film from United Kingdom (1927).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Ring%20%281927%20film%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q499031"
-    }
-  },
-  {
-    "id": "dr-jack-1922-q512617",
-    "title": "Dr. Jack",
-    "creator": "Fred C. Newmeyer",
-    "medium": "film",
-    "year": 1922,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "comedy film"
-    ],
-    "themes": [
-      "silent film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1922 in United States.",
-    "description": "Dr. Jack, a silent film from United States (1922).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Doctor%20Jack%20%281922%29%20Still.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q512617"
-    }
-  },
-  {
     "id": "hamlet-1921-q120231",
     "title": "Hamlet",
     "creator": "Svend Gade, Heinz Schall",
@@ -3130,22 +3387,22 @@ export const works = [
   {
     "id": "tempest-1928-q125925",
     "title": "Tempest",
-    "creator": "Sam Taylor, Lewis Milestone, Victor Tourjansky",
+    "creator": "Victor Tourjansky, Lewis Milestone, Sam Taylor",
     "medium": "film",
     "year": 1928,
     "decade": "1920s",
     "country": "United States",
     "language": "English",
-    "movement": "United States romance film, 1920s",
-    "genre": "romance film",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
     "style": [
-      "romance film",
       "silent film",
+      "romance film",
       "drama film"
     ],
     "themes": [
-      "romance film",
       "silent film",
+      "romance film",
       "drama film"
     ],
     "mood": [
@@ -3153,7 +3410,7 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1928 in United States.",
-    "description": "Tempest, a romance film from United States (1928).",
+    "description": "Tempest, a silent film from United States (1928).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -3170,17 +3427,17 @@ export const works = [
     "decade": "1920s",
     "country": "United States",
     "language": "English",
-    "movement": "United States romance film, 1920s",
-    "genre": "romance film",
+    "movement": "United States comedy drama, 1920s",
+    "genre": "comedy drama",
     "style": [
-      "romance film",
       "comedy drama",
-      "silent film"
+      "silent film",
+      "romance film"
     ],
     "themes": [
-      "romance film",
       "comedy drama",
-      "silent film"
+      "silent film",
+      "romance film"
     ],
     "mood": [
       "Playful",
@@ -3188,173 +3445,12 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1925 in United States.",
-    "description": "Lady Windermere's Fan, a romance film from United States (1925).",
+    "description": "Lady Windermere's Fan, a comedy drama from United States (1925).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady%20Windermere%27s%20Fan%20%281925%29%20-%207.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
       "sourceId": "Q126135"
-    }
-  },
-  {
-    "id": "the-golden-stallion-1927-q128486",
-    "title": "The Golden Stallion",
-    "creator": "Harry S. Webb",
-    "medium": "film",
-    "year": 1927,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1920s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "silent film",
-      "Western film"
-    ],
-    "themes": [
-      "action film",
-      "silent film",
-      "Western film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1927 in United States.",
-    "description": "The Golden Stallion, a action film from United States (1927).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q128486"
-    }
-  },
-  {
-    "id": "the-whirlwind-1920-q128595",
-    "title": "The Whirlwind",
-    "creator": "Joseph A. Golden",
-    "medium": "film",
-    "year": 1920,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States serial film, 1920s",
-    "genre": "serial film",
-    "style": [
-      "serial film",
-      "silent film"
-    ],
-    "themes": [
-      "serial film",
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1920 in United States.",
-    "description": "The Whirlwind, a serial film from United States (1920).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Whirlwind%20%281920%29%20-%20Ad%201.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q128595"
-    }
-  },
-  {
-    "id": "the-trail-of-the-tiger-1927-q128737",
-    "title": "The Trail of the Tiger",
-    "creator": "Henry MacRae",
-    "medium": "film",
-    "year": 1927,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States serial film, 1920s",
-    "genre": "serial film",
-    "style": [
-      "serial film",
-      "silent film"
-    ],
-    "themes": [
-      "serial film",
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1927 in United States.",
-    "description": "The Trail of the Tiger, a serial film from United States (1927).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q128737"
-    }
-  },
-  {
-    "id": "fighting-with-buffalo-bill-1926-q130668",
-    "title": "Fighting with Buffalo Bill",
-    "creator": "Ray Taylor",
-    "medium": "film",
-    "year": 1926,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "Western film"
-    ],
-    "themes": [
-      "silent film",
-      "Western film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1926 in United States.",
-    "description": "Fighting with Buffalo Bill, a silent film from United States (1926).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fighting%20with%20Buffalo%20Bill%20-%201926%20-%20lobby%20card.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q130668"
-    }
-  },
-  {
-    "id": "the-man-without-a-face-1928-q130725",
-    "title": "The Man Without a Face",
-    "creator": "Spencer Gordon Bennet",
-    "medium": "film",
-    "year": 1928,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States serial film, 1920s",
-    "genre": "serial film",
-    "style": [
-      "serial film",
-      "action film",
-      "adventure film",
-      "silent film"
-    ],
-    "themes": [
-      "serial film",
-      "action film",
-      "adventure film",
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1928 in United States.",
-    "description": "The Man Without a Face, a serial film from United States (1928).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q130725"
     }
   },
   {
@@ -3452,6 +3548,195 @@ export const works = [
     }
   },
   {
+    "id": "wolf-blood-1925-q165932",
+    "title": "Wolf Blood",
+    "creator": "George Chesebro",
+    "medium": "film",
+    "year": 1925,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "horror film",
+      "fantasy film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "horror film",
+      "fantasy film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching",
+      "Unsettling"
+    ],
+    "context": "Released in 1925 in United States.",
+    "description": "Wolf Blood, a silent film from United States (1925).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolfblood%20-%20title%20page.png",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q165932"
+    }
+  },
+  {
+    "id": "ten-scars-make-a-man-1924-q167055",
+    "title": "Ten Scars Make a Man",
+    "creator": "William Parke",
+    "medium": "film",
+    "year": 1924,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film"
+    ],
+    "themes": [
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1924 in United States.",
+    "description": "Ten Scars Make a Man, a silent film from United States (1924).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q167055"
+    }
+  },
+  {
+    "id": "hurricane-hutch-1921-q167081",
+    "title": "Hurricane Hutch",
+    "creator": "George B. Seitz",
+    "medium": "film",
+    "year": 1921,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film"
+    ],
+    "themes": [
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1921 in United States.",
+    "description": "Hurricane Hutch, a silent film from United States (1921).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hurricane%20Hutch%201921%20episode%205.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q167081"
+    }
+  },
+  {
+    "id": "snowed-in-1926-q167092",
+    "title": "Snowed In",
+    "creator": "Spencer Gordon Bennet",
+    "medium": "film",
+    "year": 1926,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1926 in United States.",
+    "description": "Snowed In, a silent film from United States (1926).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Snowed%20In%20lobby%20card.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q167092"
+    }
+  },
+  {
+    "id": "the-fighting-marine-1926-q169284",
+    "title": "The Fighting Marine",
+    "creator": "Spencer Gordon Bennet",
+    "medium": "film",
+    "year": 1926,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "drama film"
+    ],
+    "themes": [
+      "silent film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1926 in United States.",
+    "description": "The Fighting Marine, a silent film from United States (1926).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Fighting%20Marine%20ad%20in%20Motion%20Picture%20News%2C%201926.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q169284"
+    }
+  },
+  {
+    "id": "the-prisoner-of-zenda-1922-q179554",
+    "title": "The Prisoner of Zenda",
+    "creator": "Rex Ingram",
+    "medium": "film",
+    "year": 1922,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States silent film, 1920s",
+    "genre": "silent film",
+    "style": [
+      "silent film",
+      "swashbuckler film",
+      "romance film"
+    ],
+    "themes": [
+      "silent film",
+      "swashbuckler film",
+      "romance film"
+    ],
+    "mood": [
+      "Tender"
+    ],
+    "context": "Released in 1922 in United States.",
+    "description": "The Prisoner of Zenda, a silent film from United States (1922).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Prisoner%20of%20Zenda%20%281922%29%20-%202.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q179554"
+    }
+  },
+  {
     "id": "finis-terr-1929-q185750",
     "title": "Finis Terræ",
     "creator": "Jean Epstein",
@@ -3480,262 +3765,6 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q185750"
-    }
-  },
-  {
-    "id": "the-wild-party-1929-q195449",
-    "title": "The Wild Party",
-    "creator": "Dorothy Arzner",
-    "medium": "film",
-    "year": 1929,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy film, 1920s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1929 in United States.",
-    "description": "The Wild Party, a comedy film from United States (1929).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fredric%20March-Clara%20Bow%20in%20The%20Wild%20Party.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q195449"
-    }
-  },
-  {
-    "id": "tess-of-the-storm-country-1922-q195697",
-    "title": "Tess of the Storm Country",
-    "creator": "John S. Robertson",
-    "medium": "film",
-    "year": 1922,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1922 in United States.",
-    "description": "Tess of the Storm Country, a silent film from United States (1922).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tess%20of%20the%20Storm%20Country%20lobby%20card.tif",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q195697"
-    }
-  },
-  {
-    "id": "the-love-light-1921-q211366",
-    "title": "The Love Light",
-    "creator": "Frances Marion",
-    "medium": "film",
-    "year": 1921,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1921 in United States.",
-    "description": "The Love Light, a silent film from United States (1921).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Love%20Light%20lobby%20card.JPG",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q211366"
-    }
-  },
-  {
-    "id": "the-gold-rush-1925-q214723",
-    "title": "The Gold Rush",
-    "creator": "Charlie Chaplin",
-    "medium": "film",
-    "year": 1925,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States social comedy film, 1920s",
-    "genre": "social comedy film",
-    "style": [
-      "social comedy film",
-      "romantic comedy",
-      "silent film",
-      "comedy film"
-    ],
-    "themes": [
-      "social comedy film",
-      "romantic comedy",
-      "silent film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1925 in United States.",
-    "description": "The Gold Rush, a social comedy film from United States (1925).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaplin%20the%20gold%20rush%20boot.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q214723"
-    }
-  },
-  {
-    "id": "the-avenging-arrow-1921-q217938",
-    "title": "The Avenging Arrow",
-    "creator": "W. S. Van Dyke",
-    "medium": "film",
-    "year": 1921,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States serial film, 1920s",
-    "genre": "serial film",
-    "style": [
-      "serial film",
-      "thriller film",
-      "adventure film",
-      "silent film",
-      "Western film"
-    ],
-    "themes": [
-      "serial film",
-      "thriller film",
-      "adventure film",
-      "silent film",
-      "Western film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1921 in United States.",
-    "description": "The Avenging Arrow, a serial film from United States (1921).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q217938"
-    }
-  },
-  {
-    "id": "orphans-of-the-storm-1921-q232133",
-    "title": "Orphans of the Storm",
-    "creator": "D. W. Griffith",
-    "medium": "film",
-    "year": 1921,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1921 in United States.",
-    "description": "Orphans of the Storm, a silent film from United States (1921).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orphans%20of%20the%20Storm%20lobby%20card.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q232133"
-    }
-  },
-  {
-    "id": "the-vanishing-rider-1928-q248193",
-    "title": "The Vanishing Rider",
-    "creator": "Ray Taylor",
-    "medium": "film",
-    "year": 1928,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "Western film"
-    ],
-    "themes": [
-      "silent film",
-      "Western film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1928 in United States.",
-    "description": "The Vanishing Rider, a silent film from United States (1928).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q248193"
-    }
-  },
-  {
-    "id": "queen-of-the-northwoods-1929-q248464",
-    "title": "Queen of the Northwoods",
-    "creator": "Spencer Gordon Bennet",
-    "medium": "film",
-    "year": 1929,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1920s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "silent film"
-    ],
-    "themes": [
-      "action film",
-      "silent film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1929 in United States.",
-    "description": "Queen of the Northwoods, a action film from United States (1929).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q248464"
     }
   },
   {
@@ -3902,105 +3931,67 @@ export const works = [
     }
   },
   {
-    "id": "wings-1927-q272036",
-    "title": "Wings",
-    "creator": "Harry d'Abbadie d'Arrast, William A. Wellman",
+    "id": "the-golden-stallion-1927-q128486",
+    "title": "The Golden Stallion",
+    "creator": "Harry S. Webb",
     "medium": "film",
     "year": 1927,
     "decade": "1920s",
     "country": "United States",
     "language": "English",
-    "movement": "United States romance film, 1920s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "war film",
-      "action film",
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "war film",
-      "action film",
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1927 in United States.",
-    "description": "Wings, a romance film from United States (1927).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wings%20%281927%29%20poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q272036"
-    }
-  },
-  {
-    "id": "the-prude-s-fall-1924-q278687",
-    "title": "The Prude's Fall",
-    "creator": "Graham Cutts",
-    "medium": "film",
-    "year": 1924,
-    "decade": "1920s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom silent film, 1920s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1924 in United Kingdom.",
-    "description": "The Prude's Fall, a silent film from United Kingdom (1924).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q278687"
-    }
-  },
-  {
-    "id": "the-sky-pilot-1921-q282666",
-    "title": "The Sky Pilot",
-    "creator": "King Vidor",
-    "medium": "film",
-    "year": 1921,
-    "decade": "1920s",
-    "country": "United States",
-    "language": "unknown",
     "movement": "United States silent film, 1920s",
     "genre": "silent film",
     "style": [
       "silent film",
       "Western film",
-      "drama film"
+      "action film"
     ],
     "themes": [
       "silent film",
       "Western film",
-      "drama film"
+      "action film"
     ],
     "mood": [
-      "Unflinching"
+      "Evocative"
     ],
-    "context": "Released in 1921 in United States.",
-    "description": "The Sky Pilot, a silent film from United States (1921).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Sky%20Pilot%20%281921%29%20-%20Vidor%20%26%20Moore.jpg",
+    "context": "Released in 1927 in United States.",
+    "description": "The Golden Stallion, a silent film from United States (1927).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q128486"
+    }
+  },
+  {
+    "id": "the-whirlwind-1920-q128595",
+    "title": "The Whirlwind",
+    "creator": "Joseph A. Golden",
+    "medium": "film",
+    "year": 1920,
+    "decade": "1920s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States serial film, 1920s",
+    "genre": "serial film",
+    "style": [
+      "serial film",
+      "silent film"
+    ],
+    "themes": [
+      "serial film",
+      "silent film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1920 in United States.",
+    "description": "The Whirlwind, a serial film from United States (1920).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Whirlwind%20%281920%29%20-%20Ad%201.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
-      "sourceId": "Q282666"
+      "sourceId": "Q128595"
     }
   },
   {
@@ -4311,1290 +4302,6 @@ export const works = [
     }
   },
   {
-    "id": "gone-with-the-wind-1939-q2875",
-    "title": "Gone with the Wind",
-    "creator": "George Cukor, Sam Wood, Victor Fleming",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States melodrama, 1930s",
-    "genre": "melodrama",
-    "style": [
-      "melodrama",
-      "romance film",
-      "drama film",
-      "historical film",
-      "war film"
-    ],
-    "themes": [
-      "melodrama",
-      "romance film",
-      "drama film",
-      "historical film",
-      "war film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in United States.",
-    "description": "Gone with the Wind, a melodrama from United States (1939).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clark%20Gable%20and%20Vivien%20Leigh%20in%20Gone%20with%20the%20Wind.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2875"
-    }
-  },
-  {
-    "id": "july-14-1932-q24585",
-    "title": "July 14",
-    "creator": "René Clair",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "France",
-    "language": "French",
-    "movement": "France comedy drama, 1930s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "comedy film"
-    ],
-    "themes": [
-      "comedy drama",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1932 in France.",
-    "description": "July 14, a comedy drama from France (1932).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24585"
-    }
-  },
-  {
-    "id": "emil-and-the-detectives-1931-q25598",
-    "title": "Emil and the Detectives",
-    "creator": "Gerhard Lamprecht",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany comedy film, 1930s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1931 in Germany.",
-    "description": "Emil and the Detectives, a comedy film from Germany (1931).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25598"
-    }
-  },
-  {
-    "id": "goodbye-mr-chips-1939-q43228",
-    "title": "Goodbye, Mr. Chips",
-    "creator": "Sam Wood",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom flashback film, 1930s",
-    "genre": "flashback film",
-    "style": [
-      "flashback film",
-      "drama film"
-    ],
-    "themes": [
-      "flashback film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in United Kingdom.",
-    "description": "Goodbye, Mr. Chips, a flashback film from United Kingdom (1939).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garson-Donat-Goodbye-Mr-Chips.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q43228"
-    }
-  },
-  {
-    "id": "the-bartered-bride-1932-q43836",
-    "title": "The Bartered Bride",
-    "creator": "Max Ophüls",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany comedy film, 1930s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1932 in Germany.",
-    "description": "The Bartered Bride, a comedy film from Germany (1932).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siegmund%20von%20Suchodolski%201932.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q43836"
-    }
-  },
-  {
-    "id": "liebe-tod-und-teufel-1934-q43838",
-    "title": "Liebe, Tod und Teufel",
-    "creator": "Reinhart Steinbicker, Heinz Hilpert",
-    "medium": "film",
-    "year": 1934,
-    "decade": "1930s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany drama film, 1930s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1934 in Germany.",
-    "description": "Liebe, Tod und Teufel, a drama film from Germany (1934).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q43838"
-    }
-  },
-  {
-    "id": "42nd-street-1933-q44662",
-    "title": "42nd Street",
-    "creator": "Lloyd Bacon",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "drama film"
-    ],
-    "themes": [
-      "musical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1933 in United States.",
-    "description": "42nd Street, a musical film from United States (1933).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DanBaxtCred42ndSt1933Trailer.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q44662"
-    }
-  },
-  {
-    "id": "modern-times-1936-q45602",
-    "title": "Modern Times",
-    "creator": "Charlie Chaplin",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy film, 1930s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "tragicomedy",
-      "comedy drama",
-      "silent film"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "tragicomedy",
-      "comedy drama",
-      "silent film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1936 in United States.",
-    "description": "Modern Times, a romantic comedy film from United States (1936).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Modern%20Times%20poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q45602"
-    }
-  },
-  {
-    "id": "stagecoach-1939-q50714",
-    "title": "Stagecoach",
-    "creator": "John Ford",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1930s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "Western film",
-      "drama film"
-    ],
-    "themes": [
-      "action film",
-      "Western film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in United States.",
-    "description": "Stagecoach, a action film from United States (1939).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stagecoach-09.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q50714"
-    }
-  },
-  {
-    "id": "the-patriots-1933-q52442",
-    "title": "The Patriots",
-    "creator": "Boris Barnet",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "Soviet Union",
-    "language": "Russian",
-    "movement": "Soviet Union war film, 1930s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1933 in Soviet Union.",
-    "description": "The Patriots, a war film from Soviet Union (1933).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q52442"
-    }
-  },
-  {
-    "id": "pawe-i-gawe-1938-q55020",
-    "title": "Paweł i Gaweł",
-    "creator": "Mieczysław Krawicz",
-    "medium": "film",
-    "year": 1938,
-    "decade": "1930s",
-    "country": "Poland",
-    "language": "Polish",
-    "movement": "Poland comedy film, 1930s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1938 in Poland.",
-    "description": "Paweł i Gaweł, a comedy film from Poland (1938).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q55020"
-    }
-  },
-  {
-    "id": "earth-1930-q55188",
-    "title": "Earth",
-    "creator": "Oleksandr Dovzhenko",
-    "medium": "film",
-    "year": 1930,
-    "decade": "1930s",
-    "country": "Soviet Union",
-    "language": "unknown",
-    "movement": "Soviet Union silent film, 1930s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1930 in Soviet Union.",
-    "description": "Earth, a silent film from Soviet Union (1930).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1996.%20%D0%9A%D0%B0%D0%B4%D1%80%20%D0%B8%D0%B7%20%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0%20%D0%97%D0%B5%D0%BC%D0%BB%D1%8F.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q55188"
-    }
-  },
-  {
-    "id": "indramalati-1939-q61872",
-    "title": "Indramalati",
-    "creator": "Jyoti Prasad Agarwala",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "British Raj",
-    "language": "Assamese",
-    "movement": "British Raj romance film, 1930s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in British Raj.",
-    "description": "Indramalati, a romance film from British Raj (1939).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q61872"
-    }
-  },
-  {
-    "id": "she-done-him-wrong-1933-q62163",
-    "title": "She Done Him Wrong",
-    "creator": "Lowell Sherman",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy, 1930s",
-    "genre": "romantic comedy",
-    "style": [
-      "romantic comedy",
-      "drama film"
-    ],
-    "themes": [
-      "romantic comedy",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1933 in United States.",
-    "description": "She Done Him Wrong, a romantic comedy from United States (1933).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafaela%20Ottiano%20in%20She%20Done%20Him%20Wrong.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q62163"
-    }
-  },
-  {
-    "id": "the-year-1914-1932-q73457",
-    "title": "The Year 1914",
-    "creator": "Henryk Szaro",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "Poland",
-    "language": "Polish",
-    "movement": "Poland war film, 1930s",
-    "genre": "war film",
-    "style": [
-      "war film"
-    ],
-    "themes": [
-      "war film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1932 in Poland.",
-    "description": "The Year 1914, a war film from Poland (1932).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Film%20Rok1914.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q73457"
-    }
-  },
-  {
-    "id": "the-maltese-falcon-1931-q74315",
-    "title": "The Maltese Falcon",
-    "creator": "Roy Del Ruth",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "American English",
-    "movement": "United States lgbtq-related film, 1930s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "mystery film",
-      "crime film",
-      "action film",
-      "film noir",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "mystery film",
-      "crime film",
-      "action film",
-      "film noir",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1931 in United States.",
-    "description": "The Maltese Falcon, a lgbtq-related film from United States (1931).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q74315"
-    }
-  },
-  {
-    "id": "monte-carlo-madness-1931-q75641",
-    "title": "Monte Carlo Madness",
-    "creator": "Hanns Schwarz",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1931 in Germany.",
-    "description": "Monte Carlo Madness, a musical film from Germany (1931).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q75641"
-    }
-  },
-  {
-    "id": "private-number-1936-q82155",
-    "title": "Private Number",
-    "creator": "Roy Del Ruth",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romance film, 1930s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1936 in United States.",
-    "description": "Private Number, a romance film from United States (1936).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q82155"
-    }
-  },
-  {
-    "id": "kiki-1931-q94686",
-    "title": "Kiki",
-    "creator": "Sam Taylor",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy, 1930s",
-    "genre": "romantic comedy",
-    "style": [
-      "romantic comedy"
-    ],
-    "themes": [
-      "romantic comedy"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1931 in United States.",
-    "description": "Kiki, a romantic comedy from United States (1931).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Pickford%20in%20Kiki%201931.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q94686"
-    }
-  },
-  {
-    "id": "the-king-kong-that-appeared-in-edo-1938-q112275",
-    "title": "The King Kong That Appeared in Edo",
-    "creator": "Sōya Kumagai",
-    "medium": "film",
-    "year": 1938,
-    "decade": "1930s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan fantasy film, 1930s",
-    "genre": "fantasy film",
-    "style": [
-      "fantasy film"
-    ],
-    "themes": [
-      "fantasy film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1938 in Japan.",
-    "description": "The King Kong That Appeared in Edo, a fantasy film from Japan (1938).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q112275"
-    }
-  },
-  {
-    "id": "the-immortal-heart-1939-q124246",
-    "title": "The Immortal Heart",
-    "creator": "Veit Harlan",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany drama film, 1930s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in Germany.",
-    "description": "The Immortal Heart, a drama film from Germany (1939).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q124246"
-    }
-  },
-  {
-    "id": "m-1931-q127021",
-    "title": "M",
-    "creator": "Fritz Lang",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "Weimar Republic",
-    "language": "German",
-    "movement": "Weimar Republic thriller film, 1930s",
-    "genre": "thriller film",
-    "style": [
-      "thriller film",
-      "film noir",
-      "drama film"
-    ],
-    "themes": [
-      "thriller film",
-      "film noir",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1931 in Weimar Republic.",
-    "description": "M, a thriller film from Weimar Republic (1931).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wandmalerei%20im%20Tanzcafe%20LiBella.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q127021"
-    }
-  },
-  {
-    "id": "wasei-kingu-kongu-1933-q127551",
-    "title": "Wasei Kingu Kongu",
-    "creator": "Torajirō Saitō",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "Japan",
-    "language": "unknown",
-    "movement": "Japan silent film, 1930s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "parody film",
-      "fantasy film"
-    ],
-    "themes": [
-      "silent film",
-      "parody film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1933 in Japan.",
-    "description": "Wasei Kingu Kongu, a silent film from Japan (1933).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Waseikingkong.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q127551"
-    }
-  },
-  {
-    "id": "the-son-of-kong-1933-q127632",
-    "title": "The Son of Kong",
-    "creator": "Ernest B. Schoedsack",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States adventure film, 1930s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film",
-      "horror film",
-      "science fiction film",
-      "fantasy film"
-    ],
-    "themes": [
-      "adventure film",
-      "horror film",
-      "science fiction film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1933 in United States.",
-    "description": "The Son of Kong, a adventure film from United States (1933).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Son%20of%20Kong.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q127632"
-    }
-  },
-  {
-    "id": "zenobia-1939-q189687",
-    "title": "Zenobia",
-    "creator": "Gordon Douglas",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy film, 1930s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1939 in United States.",
-    "description": "Zenobia, a comedy film from United States (1939).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q189687"
-    }
-  },
-  {
-    "id": "the-wizard-of-oz-1939-q193695",
-    "title": "The Wizard of Oz",
-    "creator": "Victor Fleming, King Vidor",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States family film, 1930s",
-    "genre": "family film",
-    "style": [
-      "family film",
-      "cinematic fairy tale",
-      "adventure film",
-      "musical film",
-      "fantasy film",
-      "drama film"
-    ],
-    "themes": [
-      "family film",
-      "cinematic fairy tale",
-      "adventure film",
-      "musical film",
-      "fantasy film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in United States.",
-    "description": "The Wizard of Oz, a family film from United States (1939).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/WIZARD%20OF%20OZ%20ORIGINAL%20POSTER%201939.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q193695"
-    }
-  },
-  {
-    "id": "skull-and-crown-1935-q194778",
-    "title": "Skull and Crown",
-    "creator": "Elmer Clifton",
-    "medium": "film",
-    "year": 1935,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1930s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "Western film"
-    ],
-    "themes": [
-      "action film",
-      "Western film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1935 in United States.",
-    "description": "Skull and Crown, a action film from United States (1935).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q194778"
-    }
-  },
-  {
-    "id": "girl-o-my-dreams-1934-q194784",
-    "title": "Girl o' My Dreams",
-    "creator": "Ray McCarey",
-    "medium": "film",
-    "year": 1934,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy drama, 1930s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "drama film"
-    ],
-    "themes": [
-      "comedy drama",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1934 in United States.",
-    "description": "Girl o' My Dreams, a comedy drama from United States (1934).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q194784"
-    }
-  },
-  {
-    "id": "mr-robinson-crusoe-1932-q194801",
-    "title": "Mr. Robinson Crusoe",
-    "creator": "A. Edward Sutherland",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States adventure film, 1930s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film",
-      "comedy film"
-    ],
-    "themes": [
-      "adventure film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1932 in United States.",
-    "description": "Mr. Robinson Crusoe, a adventure film from United States (1932).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q194801"
-    }
-  },
-  {
-    "id": "tarzan-the-ape-man-1932-q262793",
-    "title": "Tarzan the Ape Man",
-    "creator": "W. S. Van Dyke",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States adventure film, 1930s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "adventure film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1932 in United States.",
-    "description": "Tarzan the Ape Man, a adventure film from United States (1932).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tarzan%20the%20Ape%20Man%20%281932%29%20Trailer%20-O%27Sullivan%20%26%20Weissmuller.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q262793"
-    }
-  },
-  {
-    "id": "the-kid-from-spain-1932-q266656",
-    "title": "The Kid from Spain",
-    "creator": "Leo McCarey",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "romantic comedy"
-    ],
-    "themes": [
-      "musical film",
-      "romantic comedy"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1932 in United States.",
-    "description": "The Kid from Spain, a musical film from United States (1932).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Kid%20from%20Spain%20ad%20from%2C%20The%20Film%20Daily%2C%20Jul-Dec%201932%20%28page%201121%20crop%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q266656"
-    }
-  },
-  {
-    "id": "de-vergel-se-1939-q267638",
-    "title": "De vergeløse",
-    "creator": "Leif Sinding",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "Norway",
-    "language": "Norwegian",
-    "movement": "Norway drama film, 1930s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in Norway.",
-    "description": "De vergeløse, a drama film from Norway (1939).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q267638"
-    }
-  },
-  {
-    "id": "all-quiet-on-the-western-front-1930-q272599",
-    "title": "All Quiet on the Western Front",
-    "creator": "Lewis Milestone",
-    "medium": "film",
-    "year": 1930,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States anti-war film, 1930s",
-    "genre": "anti-war film",
-    "style": [
-      "anti-war film",
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "anti-war film",
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1930 in United States.",
-    "description": "All Quiet on the Western Front, a anti-war film from United States (1930).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/All%20Quiet%20on%20the%20Western%20Front%20%281930%20film%29%20poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q272599"
-    }
-  },
-  {
-    "id": "the-awful-truth-1937-q278513",
-    "title": "The Awful Truth",
-    "creator": "Leo McCarey",
-    "medium": "film",
-    "year": 1937,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy film, 1930s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "comedy of remarriage"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "comedy of remarriage"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1937 in United States.",
-    "description": "The Awful Truth, a romantic comedy film from United States (1937).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunne-Grant-Asta-The-Awful-Truth.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q278513"
-    }
-  },
-  {
-    "id": "british-agent-1934-q279058",
-    "title": "British Agent",
-    "creator": "Michael Curtiz",
-    "medium": "film",
-    "year": 1934,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States spy film, 1930s",
-    "genre": "spy film",
-    "style": [
-      "spy film",
-      "war film",
-      "romance film",
-      "drama film"
-    ],
-    "themes": [
-      "spy film",
-      "war film",
-      "romance film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1934 in United States.",
-    "description": "British Agent, a spy film from United States (1934).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q279058"
-    }
-  },
-  {
-    "id": "young-mr-lincoln-1939-q279284",
-    "title": "Young Mr. Lincoln",
-    "creator": "John Ford",
-    "medium": "film",
-    "year": 1939,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States trial film, 1930s",
-    "genre": "trial film",
-    "style": [
-      "trial film",
-      "biographical film",
-      "drama film"
-    ],
-    "themes": [
-      "trial film",
-      "biographical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1939 in United States.",
-    "description": "Young Mr. Lincoln, a trial film from United States (1939).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Fonda%20as%20Young%20Lincoln.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q279284"
-    }
-  },
-  {
-    "id": "dracula-1931-q279378",
-    "title": "Dracula",
-    "creator": "Karl Freund, Tod Browning",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States vampire film, 1930s",
-    "genre": "vampire film",
-    "style": [
-      "vampire film",
-      "horror film",
-      "drama film"
-    ],
-    "themes": [
-      "vampire film",
-      "horror film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching",
-      "Unsettling"
-    ],
-    "context": "Released in 1931 in United States.",
-    "description": "Dracula, a vampire film from United States (1931).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dracula%20%281931%20film%20poster%20-%20Style%20F%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q279378"
-    }
-  },
-  {
-    "id": "the-scarlet-empress-1934-q279465",
-    "title": "The Scarlet Empress",
-    "creator": "Josef von Sternberg",
-    "medium": "film",
-    "year": 1934,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States biographical film, 1930s",
-    "genre": "biographical film",
-    "style": [
-      "biographical film",
-      "drama film"
-    ],
-    "themes": [
-      "biographical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1934 in United States.",
-    "description": "The Scarlet Empress, a biographical film from United States (1934).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Scarlet%20Empress%2C%20Marlene%20Dietrich%20scene.png",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q279465"
-    }
-  },
-  {
-    "id": "souls-at-sea-1937-q280470",
-    "title": "Souls at Sea",
-    "creator": "Henry Hathaway",
-    "medium": "film",
-    "year": 1937,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1930s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1937 in United States.",
-    "description": "Souls at Sea, a action film from United States (1937).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q280470"
-    }
-  },
-  {
-    "id": "dracula-s-daughter-1936-q282276",
-    "title": "Dracula's Daughter",
-    "creator": "Lambert Hillyer",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States lgbtq-related film, 1930s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "vampire film",
-      "horror film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "vampire film",
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1936 in United States.",
-    "description": "Dracula's Daughter, a lgbtq-related film from United States (1936).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dracula%27s%20Daughter%20%281936%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q282276"
-    }
-  },
-  {
     "id": "wasp-s-nest-1937-q7972709",
     "title": "Wasp's Nest",
     "creator": "Unknown",
@@ -5682,6 +4389,270 @@ export const works = [
     }
   },
   {
+    "id": "samba-da-vida-1937-q51882451",
+    "title": "Samba da Vida",
+    "creator": "Luiz de Barros",
+    "medium": "film",
+    "year": 1937,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1930s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film",
+      "drama film"
+    ],
+    "themes": [
+      "comedy film",
+      "drama film"
+    ],
+    "mood": [
+      "Playful",
+      "Unflinching"
+    ],
+    "context": "Released in 1937 in Brazil.",
+    "description": "Samba da Vida, a comedy film from Brazil (1937).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q51882451"
+    }
+  },
+  {
+    "id": "family-football-1939-q51882847",
+    "title": "Family Football",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 1939,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1930s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1939 in Brazil.",
+    "description": "Family Football, a comedy film from Brazil (1939).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q51882847"
+    }
+  },
+  {
+    "id": "terere-nao-resolve-1938-q51882967",
+    "title": "Tererê Não Resolve",
+    "creator": "Luiz de Barros",
+    "medium": "film",
+    "year": 1938,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1930s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1938 in Brazil.",
+    "description": "Tererê Não Resolve, a comedy film from Brazil (1938).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q51882967"
+    }
+  },
+  {
+    "id": "carioca-maravilhosa-1936-q55606659",
+    "title": "Carioca Maravilhosa",
+    "creator": "Luiz de Barros",
+    "medium": "film",
+    "year": 1936,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil musical film, 1930s",
+    "genre": "musical film",
+    "style": [
+      "musical film"
+    ],
+    "themes": [
+      "musical film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1936 in Brazil.",
+    "description": "Carioca Maravilhosa, a musical film from Brazil (1936).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q55606659"
+    }
+  },
+  {
+    "id": "honra-e-ciumes-1933-q55613929",
+    "title": "Honra e Ciúmes",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 1933,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil musical film, 1930s",
+    "genre": "musical film",
+    "style": [
+      "musical film"
+    ],
+    "themes": [
+      "musical film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1933 in Brazil.",
+    "description": "Honra e Ciúmes, a musical film from Brazil (1933).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q55613929"
+    }
+  },
+  {
+    "id": "mulher-1931-q55624093",
+    "title": "Mulher",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 1931,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil drama film, 1930s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1931 in Brazil.",
+    "description": "Mulher, a drama film from Brazil (1931).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q55624093"
+    }
+  },
+  {
+    "id": "maridinho-de-luxo-1938-q56351118",
+    "title": "Maridinho de Luxo",
+    "creator": "Luiz de Barros",
+    "medium": "film",
+    "year": 1938,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "English",
+    "movement": "Brazil comedy film, 1930s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1938 in Brazil.",
+    "description": "Maridinho de Luxo, a comedy film from Brazil (1938).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q56351118"
+    }
+  },
+  {
+    "id": "ao-redor-do-brasil-1932-q60034716",
+    "title": "Ao Redor do Brasil",
+    "creator": "Luiz Thomaz Reis",
+    "medium": "film",
+    "year": 1932,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "unknown",
+    "movement": "Brazil documentary film, 1930s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1932 in Brazil.",
+    "description": "Ao Redor do Brasil, a documentary film from Brazil (1932).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q60034716"
+    }
+  },
+  {
+    "id": "aves-sem-ninho-1939-q113324527",
+    "title": "Aves Sem Ninho",
+    "creator": "Raul Roulien",
+    "medium": "film",
+    "year": 1939,
+    "decade": "1930s",
+    "country": "Brazil",
+    "language": "unknown",
+    "movement": "Brazil drama film, 1930s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1939 in Brazil.",
+    "description": "Aves Sem Ninho, a drama film from Brazil (1939).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q113324527"
+    }
+  },
+  {
     "id": "ganga-bruta-1933-q976815",
     "title": "Ganga Bruta",
     "creator": "Humberto Mauro",
@@ -5708,279 +4679,6 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q976815"
-    }
-  },
-  {
-    "id": "limite-1931-q6549483",
-    "title": "Limite",
-    "creator": "Mário Peixoto",
-    "medium": "film",
-    "year": 1931,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil silent film, 1930s",
-    "genre": "silent film",
-    "style": [
-      "silent film",
-      "experimental film",
-      "drama film"
-    ],
-    "themes": [
-      "silent film",
-      "experimental film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1931 in Brazil.",
-    "description": "Limite, a silent film from Brazil (1931).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Limite%20scene%2C%20by%20Peixoto.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6549483"
-    }
-  },
-  {
-    "id": "hello-hello-carnival-1936-q9609317",
-    "title": "Hello, Hello, Carnival!",
-    "creator": "Adhemar Gonzaga",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1936 in Brazil.",
-    "description": "Hello, Hello, Carnival!, a musical film from Brazil (1936).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aloalocarnaval%201936.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q9609317"
-    }
-  },
-  {
-    "id": "estudantes-1935-q10276681",
-    "title": "Estudantes",
-    "creator": "Wallace Downey",
-    "medium": "film",
-    "year": 1935,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1935 in Brazil.",
-    "description": "Estudantes, a musical film from Brazil (1935).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carmen%20Miranda%20em%20Estudantes%20-%201935.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10276681"
-    }
-  },
-  {
-    "id": "labios-sem-beijos-1930-q10321898",
-    "title": "Lábios Sem beijos",
-    "creator": "Humberto Mauro",
-    "medium": "film",
-    "year": 1930,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1930s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1930 in Brazil.",
-    "description": "Lábios Sem beijos, a drama film from Brazil (1930).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10321898"
-    }
-  },
-  {
-    "id": "o-carnaval-cantado-de-1932-1932-q10338835",
-    "title": "O Carnaval Cantado de 1932",
-    "creator": "Vital Ramos de Castro",
-    "medium": "film",
-    "year": 1932,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1932 in Brazil.",
-    "description": "O Carnaval Cantado de 1932, a musical film from Brazil (1932).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10338835"
-    }
-  },
-  {
-    "id": "o-descobrimento-do-brasil-1936-q10338996",
-    "title": "O Descobrimento do Brasil",
-    "creator": "Humberto Mauro",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil adventure film, 1930s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film"
-    ],
-    "themes": [
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1936 in Brazil.",
-    "description": "O Descobrimento do Brasil, a adventure film from Brazil (1936).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10338996"
-    }
-  },
-  {
-    "id": "a-voz-do-carnaval-1933-q16144043",
-    "title": "A Voz do Carnaval",
-    "creator": "Adhemar Gonzaga",
-    "medium": "film",
-    "year": 1933,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1933 in Brazil.",
-    "description": "A Voz do Carnaval, a musical film from Brazil (1933).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q16144043"
-    }
-  },
-  {
-    "id": "city-woman-1936-q16482488",
-    "title": "City Woman",
-    "creator": "Humberto Mauro",
-    "medium": "film",
-    "year": 1936,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1936 in Brazil.",
-    "description": "City Woman, a musical film from Brazil (1936).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q16482488"
-    }
-  },
-  {
-    "id": "hello-hello-brazil-1935-q16488902",
-    "title": "Hello, Hello Brazil!",
-    "creator": "Wallace Downey",
-    "medium": "film",
-    "year": 1935,
-    "decade": "1930s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1930s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1935 in Brazil.",
-    "description": "Hello, Hello Brazil!, a musical film from Brazil (1935).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q16488902"
     }
   },
   {
@@ -6173,7 +4871,7 @@ export const works = [
     "year": 1949,
     "decade": "1940s",
     "country": "United States",
-    "language": "Spanish",
+    "language": "English",
     "movement": "United States variety show, 1940s",
     "genre": "variety show",
     "style": [
@@ -6282,216 +4980,6 @@ export const works = [
     }
   },
   {
-    "id": "something-for-the-boys-1944-q7560207",
-    "title": "Something for the Boys",
-    "creator": "Lewis Seiler",
-    "medium": "film",
-    "year": 1944,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "English",
-    "movement": "Brazil musical film, 1940s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1944 in Brazil.",
-    "description": "Something for the Boys, a musical film from Brazil (1944).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Something%20for%20the%20Boys%20Poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q7560207"
-    }
-  },
-  {
-    "id": "inconfidencia-mineira-1948-q10301887",
-    "title": "Inconfidência Mineira",
-    "creator": "Carmen Santos",
-    "medium": "film",
-    "year": 1948,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1940s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1948 in Brazil.",
-    "description": "Inconfidência Mineira, a drama film from Brazil (1948).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Inconfid%C3%AAncia%20Mineira%20%28Cover%29%201948.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10301887"
-    }
-  },
-  {
-    "id": "iracema-1949-q10303529",
-    "title": "Iracema",
-    "creator": "Gino Talamo",
-    "medium": "film",
-    "year": 1949,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil romance film, 1940s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1949 in Brazil.",
-    "description": "Iracema, a romance film from Brazil (1949).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10303529"
-    }
-  },
-  {
-    "id": "o-ebrio-1946-q10339971",
-    "title": "O Ébrio",
-    "creator": "Gilda de Abreu",
-    "medium": "film",
-    "year": 1946,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1940s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "drama film"
-    ],
-    "themes": [
-      "musical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1946 in Brazil.",
-    "description": "O Ébrio, a musical film from Brazil (1946).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10339971"
-    }
-  },
-  {
-    "id": "samba-in-berlin-1943-q16933043",
-    "title": "Samba in Berlin",
-    "creator": "Luiz de Barros",
-    "medium": "film",
-    "year": 1943,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1940s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1943 in Brazil.",
-    "description": "Samba in Berlin, a musical film from Brazil (1943).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q16933043"
-    }
-  },
-  {
-    "id": "argila-1940-q17512693",
-    "title": "Argila",
-    "creator": "Humberto Mauro",
-    "medium": "film",
-    "year": 1940,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil romance film, 1940s",
-    "genre": "romance film",
-    "style": [
-      "romance film"
-    ],
-    "themes": [
-      "romance film"
-    ],
-    "mood": [
-      "Tender"
-    ],
-    "context": "Released in 1940 in Brazil.",
-    "description": "Argila, a romance film from Brazil (1940).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q17512693"
-    }
-  },
-  {
-    "id": "berlin-to-the-samba-beat-1944-q18110405",
-    "title": "Berlin to the Samba Beat",
-    "creator": "Luiz de Barros",
-    "medium": "film",
-    "year": 1944,
-    "decade": "1940s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1940s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1944 in Brazil.",
-    "description": "Berlin to the Samba Beat, a musical film from Brazil (1944).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18110405"
-    }
-  },
-  {
     "id": "folias-cariocas-1948-q18124863",
     "title": "Folias Cariocas",
     "creator": "Unknown",
@@ -6579,46 +5067,15 @@ export const works = [
     }
   },
   {
-    "id": "hue-and-cry-1951-q71861",
-    "title": "Hue and Cry",
-    "creator": "Charles Crichton",
+    "id": "luar-do-sertao-1949-q22000203",
+    "title": "Luar do Sertão",
+    "creator": "Unknown",
     "medium": "film",
-    "year": 1951,
-    "decade": "1950s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom adventure film, 1950s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film",
-      "comedy film"
-    ],
-    "themes": [
-      "adventure film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1951 in United Kingdom.",
-    "description": "Hue and Cry, a adventure film from United Kingdom (1951).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q71861"
-    }
-  },
-  {
-    "id": "two-tickets-to-broadway-1951-q73944",
-    "title": "Two Tickets to Broadway",
-    "creator": "James V. Kern",
-    "medium": "film",
-    "year": 1951,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States musical film, 1950s",
+    "year": 1949,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil musical film, 1940s",
     "genre": "musical film",
     "style": [
       "musical film"
@@ -6629,226 +5086,25 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1951 in United States.",
-    "description": "Two Tickets to Broadway, a musical film from United States (1951).",
+    "context": "Released in 1949 in Brazil.",
+    "description": "Luar do Sertão, a musical film from Brazil (1949).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q73944"
+      "sourceId": "Q22000203"
     }
   },
   {
-    "id": "the-bells-of-nagasaki-1950-q81789",
-    "title": "The Bells of Nagasaki",
-    "creator": "Hideo Ōba",
+    "id": "o-dia-e-nosso-1941-q23899104",
+    "title": "O Dia é Nosso",
+    "creator": "Unknown",
     "medium": "film",
-    "year": 1950,
-    "decade": "1950s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1950 in Japan.",
-    "description": "The Bells of Nagasaki, a drama film from Japan (1950).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q81789"
-    }
-  },
-  {
-    "id": "canal-1957-q94792",
-    "title": "Canal",
-    "creator": "Andrzej Wajda",
-    "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "Poland",
-    "language": "Polish",
-    "movement": "Poland war film, 1950s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1957 in Poland.",
-    "description": "Canal, a war film from Poland (1957).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q94792"
-    }
-  },
-  {
-    "id": "the-great-dictator-1958-q109116",
-    "title": "The Great Dictator",
-    "creator": "Charlie Chaplin",
-    "medium": "film",
-    "year": 1958,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy of error, 1950s",
-    "genre": "comedy of error",
-    "style": [
-      "comedy of error",
-      "political satire",
-      "anti-war film",
-      "slapstick",
-      "parody film",
-      "comedy drama",
-      "war film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy of error",
-      "political satire",
-      "anti-war film",
-      "slapstick",
-      "parody film",
-      "comedy drama",
-      "war film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1958 in United States.",
-    "description": "The Great Dictator, a comedy of error from United States (1958).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Dictator%20still%20cropped%20%28high%20quality%20version%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q109116"
-    }
-  },
-  {
-    "id": "the-mayor-of-zalamea-1956-q185377",
-    "title": "The Mayor of Zalamea",
-    "creator": "Martin Hellberg",
-    "medium": "film",
-    "year": 1956,
-    "decade": "1950s",
-    "country": "East Germany",
-    "language": "German",
-    "movement": "East Germany drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1956 in East Germany.",
-    "description": "The Mayor of Zalamea, a drama film from East Germany (1956).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q185377"
-    }
-  },
-  {
-    "id": "web-of-passion-1959-q185528",
-    "title": "Web of Passion",
-    "creator": "Philippe de Broca, Claude Chabrol",
-    "medium": "film",
-    "year": 1959,
-    "decade": "1950s",
-    "country": "France",
-    "language": "French",
-    "movement": "France crime film, 1950s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1959 in France.",
-    "description": "Web of Passion, a crime film from France (1959).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q185528"
-    }
-  },
-  {
-    "id": "a-time-to-love-and-a-time-to-die-1958-q185834",
-    "title": "A Time to Love and a Time to Die",
-    "creator": "Douglas Sirk",
-    "medium": "film",
-    "year": 1958,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romance film, 1950s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1958 in United States.",
-    "description": "A Time to Love and a Time to Die, a romance film from United States (1958).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Time%20to%20Love%20and%20a%20Time%20to%20Die%20%281958%29%20trailer%203.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q185834"
-    }
-  },
-  {
-    "id": "13-kleine-esel-und-der-sonnenhof-1958-q186881",
-    "title": "13 kleine Esel und der Sonnenhof",
-    "creator": "Hans Deppe",
-    "medium": "film",
-    "year": 1958,
-    "decade": "1950s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany comedy film, 1950s",
+    "year": 1941,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1940s",
     "genre": "comedy film",
     "style": [
       "comedy film"
@@ -6859,938 +5115,83 @@ export const works = [
     "mood": [
       "Playful"
     ],
-    "context": "Released in 1958 in Germany.",
-    "description": "13 kleine Esel und der Sonnenhof, a comedy film from Germany (1958).",
+    "context": "Released in 1941 in Brazil.",
+    "description": "O Dia é Nosso, a comedy film from Brazil (1941).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q186881"
+      "sourceId": "Q23899104"
     }
   },
   {
-    "id": "the-bridge-on-the-river-kwai-1957-q188718",
-    "title": "The Bridge on the River Kwai",
-    "creator": "David Lean",
+    "id": "o-cacula-do-barulho-1949-q26752812",
+    "title": "O Caçula do Barulho",
+    "creator": "Riccardo Freda",
     "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom war film, 1950s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1957 in United Kingdom.",
-    "description": "The Bridge on the River Kwai, a war film from United Kingdom (1957).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Bridge%20on%20the%20River%20Kwai%20%28trailer%20screenshot%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q188718"
-    }
-  },
-  {
-    "id": "seven-samurai-1954-q189540",
-    "title": "Seven Samurai",
-    "creator": "Akira Kurosawa",
-    "medium": "film",
-    "year": 1954,
-    "decade": "1950s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan historical drama, 1950s",
-    "genre": "historical drama",
-    "style": [
-      "historical drama",
-      "epic film",
-      "adventure film",
-      "action film",
-      "samurai cinema",
-      "drama film"
-    ],
-    "themes": [
-      "historical drama",
-      "epic film",
-      "adventure film",
-      "action film",
-      "samurai cinema",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1954 in Japan.",
-    "description": "Seven Samurai, a historical drama from Japan (1954).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seven%20Samurai%20poster2.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q189540"
-    }
-  },
-  {
-    "id": "sunset-boulevard-1950-q193570",
-    "title": "Sunset Boulevard",
-    "creator": "Billy Wilder",
-    "medium": "film",
-    "year": 1950,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States flashback film, 1950s",
-    "genre": "flashback film",
-    "style": [
-      "flashback film",
-      "film noir",
-      "drama film"
-    ],
-    "themes": [
-      "flashback film",
-      "film noir",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1950 in United States.",
-    "description": "Sunset Boulevard, a flashback film from United States (1950).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Boulevard%20%281950%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q193570"
-    }
-  },
-  {
-    "id": "12-angry-men-1957-q2345",
-    "title": "12 Angry Men",
-    "creator": "Sidney Lumet",
-    "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States huis-clos film, 1950s",
-    "genre": "huis-clos film",
-    "style": [
-      "huis-clos film",
-      "trial film",
-      "drama film"
-    ],
-    "themes": [
-      "huis-clos film",
-      "trial film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1957 in United States.",
-    "description": "12 Angry Men, a huis-clos film from United States (1957).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/12%20Angry%20Men%20%281957%20film%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2345"
-    }
-  },
-  {
-    "id": "throne-of-blood-1957-q257818",
-    "title": "Throne of Blood",
-    "creator": "Akira Kurosawa",
-    "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan samurai cinema, 1950s",
-    "genre": "samurai cinema",
-    "style": [
-      "samurai cinema",
-      "drama film"
-    ],
-    "themes": [
-      "samurai cinema",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1957 in Japan.",
-    "description": "Throne of Blood, a samurai cinema from Japan (1957).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q257818"
-    }
-  },
-  {
-    "id": "house-on-haunted-hill-1958-q263583",
-    "title": "House on Haunted Hill",
-    "creator": "William Castle",
-    "medium": "film",
-    "year": 1958,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime drama film, 1950s",
-    "genre": "crime drama film",
-    "style": [
-      "crime drama film",
-      "comedy horror film",
-      "supernatural horror film",
-      "ghost film",
-      "crime film",
-      "exploitation film",
-      "crime thriller film",
-      "suspense film",
-      "thriller film",
-      "independent film",
-      "mystery film",
-      "horror film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "crime drama film",
-      "comedy horror film",
-      "supernatural horror film",
-      "ghost film",
-      "crime film",
-      "exploitation film",
-      "crime thriller film",
-      "suspense film",
-      "thriller film",
-      "independent film",
-      "mystery film",
-      "horror film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Playful",
-      "Unflinching",
-      "Unsettling"
-    ],
-    "context": "Released in 1958 in United States.",
-    "description": "House on Haunted Hill, a crime drama film from United States (1958).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20on%20Haunted%20Hill.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q263583"
-    }
-  },
-  {
-    "id": "nujum-pak-belalang-1959-q267310",
-    "title": "Nujum Pak Belalang",
-    "creator": "P. Ramlee",
-    "medium": "film",
-    "year": 1959,
-    "decade": "1950s",
-    "country": "Singapore",
-    "language": "Malay",
-    "movement": "Singapore musical film, 1950s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1959 in Singapore.",
-    "description": "Nujum Pak Belalang, a musical film from Singapore (1959).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q267310"
-    }
-  },
-  {
-    "id": "the-third-man-1950-q271830",
-    "title": "The Third Man",
-    "creator": "Carol Reed",
-    "medium": "film",
-    "year": 1950,
-    "decade": "1950s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom thriller film, 1950s",
-    "genre": "thriller film",
-    "style": [
-      "thriller film",
-      "mystery film",
-      "adventure film",
-      "film noir",
-      "drama film"
-    ],
-    "themes": [
-      "thriller film",
-      "mystery film",
-      "adventure film",
-      "film noir",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1950 in United Kingdom.",
-    "description": "The Third Man, a thriller film from United Kingdom (1950).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Third%20Man%20%281949%20American%20theatrical%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q271830"
-    }
-  },
-  {
-    "id": "the-searchers-1956-q276769",
-    "title": "The Searchers",
-    "creator": "John Ford",
-    "medium": "film",
-    "year": 1956,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States war film, 1950s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "Western film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "Western film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1956 in United States.",
-    "description": "The Searchers, a war film from United States (1956).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20searchers%20Ford%20Trailer%20screenshot%20%2813-crop%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q276769"
-    }
-  },
-  {
-    "id": "witness-for-the-prosecution-1957-q196977",
-    "title": "Witness for the Prosecution",
-    "creator": "Billy Wilder",
-    "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States trial film, 1950s",
-    "genre": "trial film",
-    "style": [
-      "trial film",
-      "crime film"
-    ],
-    "themes": [
-      "trial film",
-      "crime film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1957 in United States.",
-    "description": "Witness for the Prosecution, a trial film from United States (1957).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrone%20Power%20in%20Witness%20for%20the%20Prosecution%20trailer%202.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q196977"
-    }
-  },
-  {
-    "id": "the-glass-slipper-1955-q200482",
-    "title": "The Glass Slipper",
-    "creator": "Charles Walters",
-    "medium": "film",
-    "year": 1955,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States musical film, 1950s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "romance film",
-      "fantasy film"
-    ],
-    "themes": [
-      "musical film",
-      "romance film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Tender"
-    ],
-    "context": "Released in 1955 in United States.",
-    "description": "The Glass Slipper, a musical film from United States (1955).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leslie%20Caron%20in%20%27The%20Glass%20Slipper%27%2C%201955.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q200482"
-    }
-  },
-  {
-    "id": "captain-horatio-hornblower-r-n-1951-q201209",
-    "title": "Captain Horatio Hornblower R.N.",
-    "creator": "Raoul Walsh",
-    "medium": "film",
-    "year": 1951,
-    "decade": "1950s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom adventure film, 1950s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film"
-    ],
-    "themes": [
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1951 in United Kingdom.",
-    "description": "Captain Horatio Hornblower R.N., a adventure film from United Kingdom (1951).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q201209"
-    }
-  },
-  {
-    "id": "roman-holiday-1953-q201293",
-    "title": "Roman Holiday",
-    "creator": "William Wyler",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy film, 1950s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in United States.",
-    "description": "Roman Holiday, a romantic comedy film from United States (1953).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hepburn%20Peck%201953.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q201293"
-    }
-  },
-  {
-    "id": "vertigo-1958-q202548",
-    "title": "Vertigo",
-    "creator": "Alfred Hitchcock",
-    "medium": "film",
-    "year": 1958,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States psychological thriller film, 1950s",
-    "genre": "psychological thriller film",
-    "style": [
-      "psychological thriller film",
-      "psychological drama film",
-      "thriller film",
-      "melodrama",
-      "romance film",
-      "mystery film",
-      "drama film"
-    ],
-    "themes": [
-      "psychological thriller film",
-      "psychological drama film",
-      "thriller film",
-      "melodrama",
-      "romance film",
-      "mystery film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1958 in United States.",
-    "description": "Vertigo, a psychological thriller film from United States (1958).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vertigo%201958%20trailer%20Stewart%20looking.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q202548"
-    }
-  },
-  {
-    "id": "the-treasure-of-bengal-1953-q203971",
-    "title": "The Treasure of Bengal",
-    "creator": "Gianni Vernuccio",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France adventure film, 1950s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film"
-    ],
-    "themes": [
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1953 in France.",
-    "description": "The Treasure of Bengal, a adventure film from France (1953).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q203971"
-    }
-  },
-  {
-    "id": "from-here-to-eternity-1953-q207588",
-    "title": "From Here to Eternity",
-    "creator": "Fred Zinnemann",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romance film, 1950s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in United States.",
-    "description": "From Here to Eternity, a romance film from United States (1953).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burt%20Lancaster%20and%20Deborah%20Kerr%20in%20From%20Here%20to%20Eternity%20trailer.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q207588"
-    }
-  },
-  {
-    "id": "letters-from-my-windmill-1954-q208844",
-    "title": "Letters from My Windmill",
-    "creator": "Marcel Pagnol",
-    "medium": "film",
-    "year": 1954,
-    "decade": "1950s",
-    "country": "France",
-    "language": "French",
-    "movement": "France comedy drama, 1950s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama"
-    ],
-    "themes": [
-      "comedy drama"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1954 in France.",
-    "description": "Letters from My Windmill, a comedy drama from France (1954).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q208844"
-    }
-  },
-  {
-    "id": "angel-face-1953-q210590",
-    "title": "Angel Face",
-    "creator": "Otto Preminger",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1950s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "film noir",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "film noir",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in United States.",
-    "description": "Angel Face, a crime film from United States (1953).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean%20Simmons%20in%20Angel%20Face%20trailer.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q210590"
-    }
-  },
-  {
-    "id": "on-the-waterfront-1954-q211372",
-    "title": "On the Waterfront",
-    "creator": "Elia Kazan",
-    "medium": "film",
-    "year": 1954,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1950s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "thriller film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "thriller film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1954 in United States.",
-    "description": "On the Waterfront, a crime film from United States (1954).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/On%20the%20Waterfront%20%281954%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q211372"
-    }
-  },
-  {
-    "id": "a-streetcar-named-desire-1951-q212129",
-    "title": "A Streetcar Named Desire",
-    "creator": "Elia Kazan",
-    "medium": "film",
-    "year": 1951,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1951 in United States.",
-    "description": "A Streetcar Named Desire, a drama film from United States (1951).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Streetcar%20Named%20Desire%20%281951%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q212129"
-    }
-  },
-  {
-    "id": "plan-9-from-outer-space-1959-q257515",
-    "title": "Plan 9 from Outer Space",
-    "creator": "Ed Wood",
-    "medium": "film",
-    "year": 1959,
-    "decade": "1950s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States zombie film, 1950s",
-    "genre": "zombie film",
-    "style": [
-      "zombie film",
-      "speculative fiction film",
-      "Z movie",
-      "science fiction film",
-      "horror film",
-      "action film"
-    ],
-    "themes": [
-      "zombie film",
-      "speculative fiction film",
-      "Z movie",
-      "science fiction film",
-      "horror film",
-      "action film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1959 in United States.",
-    "description": "Plan 9 from Outer Space, a zombie film from United States (1959).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PlanNine%2002.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q257515"
-    }
-  },
-  {
-    "id": "hab-ich-nur-deine-liebe-1953-q257592",
-    "title": "Hab’ ich nur Deine Liebe",
-    "creator": "Eduard von Borsody",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "Austria",
-    "language": "German",
-    "movement": "Austria musical film, 1950s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1953 in Austria.",
-    "description": "Hab’ ich nur Deine Liebe, a musical film from Austria (1953).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q257592"
-    }
-  },
-  {
-    "id": "the-man-between-1953-q3092",
-    "title": "The Man Between",
-    "creator": "Carol Reed",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in United Kingdom.",
-    "description": "The Man Between, a drama film from United Kingdom (1953).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q3092"
-    }
-  },
-  {
-    "id": "variety-lights-1950-q18395",
-    "title": "Variety Lights",
-    "creator": "Alberto Lattuada, Federico Fellini",
-    "medium": "film",
-    "year": 1950,
-    "decade": "1950s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy romance film, 1950s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1950 in Italy.",
-    "description": "Variety Lights, a romance film from Italy (1950).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giulietta%20Masina%2C%20Peppino%20De%20Filippo%20e%20Gina%20Mascetti%20in%20%22Luci%20del%20variet%C3%A0%22%20%28Lattuada%2C%20Fellini%201951%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18395"
-    }
-  },
-  {
-    "id": "the-white-sheik-1952-q18397",
-    "title": "The White Sheik",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1952,
-    "decade": "1950s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy comedy film, 1950s",
+    "year": 1949,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1940s",
     "genre": "comedy film",
     "style": [
-      "comedy film",
-      "drama film"
+      "comedy film"
     ],
     "themes": [
-      "comedy film",
-      "drama film"
+      "comedy film"
     ],
     "mood": [
-      "Playful",
-      "Unflinching"
+      "Playful"
     ],
-    "context": "Released in 1952 in Italy.",
-    "description": "The White Sheik, a comedy film from Italy (1952).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20Brunella%20Bovo%20in%20a%20scene%20from%20Lo%20sceicco%20bianco%2C%20a%201952%20film%20directed%20by%20Federico%20Fellini%201952%20-%20Touring%20Club%20Italiano%2004%201437.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
+    "context": "Released in 1949 in Brazil.",
+    "description": "O Caçula do Barulho, a comedy film from Brazil (1949).",
+    "image": null,
+    "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q18397"
+      "sourceId": "Q26752812"
     }
   },
   {
-    "id": "i-vitelloni-1953-q18399",
-    "title": "I Vitelloni",
-    "creator": "Federico Fellini",
+    "id": "poeira-de-estrelas-1948-q28219795",
+    "title": "Poeira de Estrelas",
+    "creator": "Unknown",
     "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France coming-of-age film, 1950s",
-    "genre": "coming-of-age film",
+    "year": 1948,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "unknown",
+    "movement": "Brazil musical film, 1940s",
+    "genre": "musical film",
     "style": [
-      "coming-of-age film",
-      "comedy film",
-      "drama film"
+      "musical film"
     ],
     "themes": [
-      "coming-of-age film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in France.",
-    "description": "I Vitelloni, a coming-of-age film from France (1953).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitelloni%20al%20bar.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18399"
-    }
-  },
-  {
-    "id": "love-in-the-city-1953-q18401",
-    "title": "Love in the City",
-    "creator": "Michelangelo Antonioni, Cesare Zavattini, Francesco Maselli, Dino Risi, Alberto Lattuada, Carlo Lizzani, Federico Fellini",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy anthology film, 1950s",
-    "genre": "anthology film",
-    "style": [
-      "anthology film"
-    ],
-    "themes": [
-      "anthology film"
+      "musical film"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1953 in Italy.",
-    "description": "Love in the City, a anthology film from Italy (1953).",
+    "context": "Released in 1948 in Brazil.",
+    "description": "Poeira de Estrelas, a musical film from Brazil (1948).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q18401"
+      "sourceId": "Q28219795"
     }
   },
   {
-    "id": "la-strada-1954-q18402",
-    "title": "La Strada",
-    "creator": "Federico Fellini",
+    "id": "caminho-do-ceu-1943-q48877808",
+    "title": "Caminho do Céu",
+    "creator": "Unknown",
     "medium": "film",
-    "year": 1954,
-    "decade": "1950s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy drama film, 1950s",
+    "year": 1943,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "unknown",
+    "movement": "Brazil drama film, 1940s",
     "genre": "drama film",
     "style": [
       "drama film"
@@ -7801,103 +5202,71 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1954 in Italy.",
-    "description": "La Strada, a drama film from Italy (1954).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20strada%20film.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18402"
-    }
-  },
-  {
-    "id": "il-bidone-1955-q18403",
-    "title": "Il bidone",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1955,
-    "decade": "1950s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France crime film, 1950s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1955 in France.",
-    "description": "Il bidone, a crime film from France (1955).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Il%20bidone%2C%20foto%20di%20scena%20Giulietta%20Masina%20e%20Richard%20Besehart.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18403"
-    }
-  },
-  {
-    "id": "nights-of-cabiria-1957-q18405",
-    "title": "Nights of Cabiria",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1957,
-    "decade": "1950s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1957 in France.",
-    "description": "Nights of Cabiria, a drama film from France (1957).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20Giulietta%20Masina%20in%20a%20scene%20from%20Le%20notti%20di%20Cabiria%2C%20a%201957%20film%20directed%20by%20Federico%20Fellini%201957%20-%20Touring%20Club%20Italiano%2004%201700.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18405"
-    }
-  },
-  {
-    "id": "do-bigha-zamin-1953-q23089",
-    "title": "Do Bigha Zamin",
-    "creator": "Bimal Roy",
-    "medium": "film",
-    "year": 1953,
-    "decade": "1950s",
-    "country": "India",
-    "language": "Hindi",
-    "movement": "India drama film, 1950s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1953 in India.",
-    "description": "Do Bigha Zamin, a drama film from India (1953).",
+    "context": "Released in 1943 in Brazil.",
+    "description": "Caminho do Céu, a drama film from Brazil (1943).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q23089"
+      "sourceId": "Q48877808"
+    }
+  },
+  {
+    "id": "24-horas-de-sonho-1941-q55454388",
+    "title": "24 Horas de Sonho",
+    "creator": "Chianca de Garcia",
+    "medium": "film",
+    "year": 1941,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil romantic comedy, 1940s",
+    "genre": "romantic comedy",
+    "style": [
+      "romantic comedy"
+    ],
+    "themes": [
+      "romantic comedy"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1941 in Brazil.",
+    "description": "24 Horas de Sonho, a romantic comedy from Brazil (1941).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q55454388"
+    }
+  },
+  {
+    "id": "caidos-do-ceu-1946-q55739343",
+    "title": "Caídos do Céu",
+    "creator": "Luiz de Barros",
+    "medium": "film",
+    "year": 1946,
+    "decade": "1940s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil musical film, 1940s",
+    "genre": "musical film",
+    "style": [
+      "musical film"
+    ],
+    "themes": [
+      "musical film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1946 in Brazil.",
+    "description": "Caídos do Céu, a musical film from Brazil (1946).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q55739343"
     }
   },
   {
@@ -7909,29 +5278,29 @@ export const works = [
     "decade": "1950s",
     "country": "Czechoslovakia",
     "language": "unknown",
-    "movement": "Czechoslovakia comedy television series, 1950s",
-    "genre": "comedy television series",
+    "movement": "Czechoslovakia children's film, 1950s",
+    "genre": "children's film",
     "style": [
+      "children's film",
       "comedy television series",
       "family film",
-      "children's film",
       "cinematic fairy tale",
-      "animated film",
-      "children's television series"
+      "children's television series",
+      "animated film"
     ],
     "themes": [
+      "children's film",
       "comedy television series",
       "family film",
-      "children's film",
       "cinematic fairy tale",
-      "animated film",
-      "children's television series"
+      "children's television series",
+      "animated film"
     ],
     "mood": [
       "Playful"
     ],
     "context": "Released in 1957 in Czechoslovakia.",
-    "description": "The Little Mole, a comedy television series from Czechoslovakia (1957).",
+    "description": "The Little Mole, a children's film from Czechoslovakia (1957).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Feustel%20s%20rodinou%20.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -7942,7 +5311,7 @@ export const works = [
   {
     "id": "the-roy-rogers-show-1951-q1977080",
     "title": "The Roy Rogers Show",
-    "creator": "John English, Leslie H. Martinson, Christian Nyby",
+    "creator": "Leslie H. Martinson, John English, Christian Nyby",
     "medium": "tv",
     "year": 1951,
     "decade": "1950s",
@@ -7971,7 +5340,7 @@ export const works = [
   {
     "id": "schipper-naast-mathilde-1955-q2118890",
     "title": "Schipper naast Mathilde",
-    "creator": "Mita Bergé, Nand Buyl",
+    "creator": "Nand Buyl, Mita Bergé",
     "medium": "tv",
     "year": 1955,
     "decade": "1950s",
@@ -8534,23 +5903,23 @@ export const works = [
     "decade": "1950s",
     "country": "United States",
     "language": "unknown",
-    "movement": "United States television serial, 1950s",
-    "genre": "television serial",
+    "movement": "United States speculative fiction film, 1950s",
+    "genre": "speculative fiction film",
     "style": [
-      "television serial",
       "speculative fiction film",
+      "television serial",
       "superhero film"
     ],
     "themes": [
-      "television serial",
       "speculative fiction film",
+      "television serial",
       "superhero film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1950 in United States.",
-    "description": "Atom Man vs. Superman, a television serial from United States (1950).",
+    "description": "Atom Man vs. Superman, a speculative fiction film from United States (1950).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -8590,7 +5959,7 @@ export const works = [
   {
     "id": "cannonball-1958-q5032811",
     "title": "Cannonball",
-    "creator": "Leslie Goodwins, Lesley Selander, Harry Keller",
+    "creator": "Harry Keller, Leslie Goodwins, Lesley Selander",
     "medium": "tv",
     "year": 1958,
     "decade": "1950s",
@@ -8654,18 +6023,18 @@ export const works = [
     "decade": "1950s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil romance film, 1950s",
-    "genre": "romance film",
+    "movement": "Brazil musical film, 1950s",
+    "genre": "musical film",
     "style": [
-      "romance film",
       "musical film",
+      "romance film",
       "fantasy film",
       "comedy film",
       "drama film"
     ],
     "themes": [
-      "romance film",
       "musical film",
+      "romance film",
       "fantasy film",
       "comedy film",
       "drama film"
@@ -8676,7 +6045,7 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1959 in Brazil.",
-    "description": "Black Orpheus, a romance film from Brazil (1959).",
+    "description": "Black Orpheus, a musical film from Brazil (1959).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orfeu%20Negro%2C%201959.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -8753,21 +6122,21 @@ export const works = [
     "decade": "1950s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil western film, 1950s",
-    "genre": "Western film",
+    "movement": "Brazil action film, 1950s",
+    "genre": "action film",
     "style": [
-      "Western film",
-      "action film"
+      "action film",
+      "Western film"
     ],
     "themes": [
-      "Western film",
-      "action film"
+      "action film",
+      "Western film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1958 in Brazil.",
-    "description": "Adventurer's Fate, a western film from Brazil (1958).",
+    "description": "Adventurer's Fate, a action film from Brazil (1958).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -8840,9 +6209,9 @@ export const works = [
     "medium": "film",
     "year": 1955,
     "decade": "1950s",
-    "country": "Argentina",
+    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Argentina drama film, 1950s",
+    "movement": "Brazil drama film, 1950s",
     "genre": "drama film",
     "style": [
       "drama film"
@@ -8853,8 +6222,8 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1955 in Argentina.",
-    "description": "Chico Viola Não Morreu, a drama film from Argentina (1955).",
+    "context": "Released in 1955 in Brazil.",
+    "description": "Chico Viola Não Morreu, a drama film from Brazil (1955).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -8865,27 +6234,27 @@ export const works = [
   {
     "id": "die-windrose-1957-q5274464",
     "title": "Die Windrose",
-    "creator": "Alex Viany, Alberto Cavalcanti, Sergei Gerasimov, Joris Ivens, Gillo Pontecorvo, Yannick Bellon",
+    "creator": "Alex Viany, Joris Ivens, Gillo Pontecorvo, Yannick Bellon, Alberto Cavalcanti, Sergei Gerasimov",
     "medium": "film",
     "year": 1957,
     "decade": "1950s",
-    "country": "East Germany",
+    "country": "Brazil",
     "language": "Russian",
-    "movement": "East Germany documentary film, 1950s",
-    "genre": "documentary film",
+    "movement": "Brazil drama film, 1950s",
+    "genre": "drama film",
     "style": [
-      "documentary film",
-      "drama film"
+      "drama film",
+      "documentary film"
     ],
     "themes": [
-      "documentary film",
-      "drama film"
+      "drama film",
+      "documentary film"
     ],
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1957 in East Germany.",
-    "description": "Die Windrose, a documentary film from East Germany (1957).",
+    "context": "Released in 1957 in Brazil.",
+    "description": "Die Windrose, a drama film from Brazil (1957).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -8894,40 +6263,11 @@ export const works = [
     }
   },
   {
-    "id": "naked-amazon-1954-q6960430",
-    "title": "Naked Amazon",
-    "creator": "Zygmunt Sulistrowski",
+    "id": "sai-da-frente-1952-q7399842",
+    "title": "Sai da frente",
+    "creator": "Abílio Pereira de Almeida, Tom Payne",
     "medium": "film",
-    "year": 1954,
-    "decade": "1950s",
-    "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil adventure film, 1950s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film"
-    ],
-    "themes": [
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1954 in Brazil.",
-    "description": "Naked Amazon, a adventure film from Brazil (1954).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6960430"
-    }
-  },
-  {
-    "id": "o-homem-do-sputnik-1959-q7073266",
-    "title": "O Homem do Sputnik",
-    "creator": "Carlos Manga",
-    "medium": "film",
-    "year": 1959,
+    "year": 1952,
     "decade": "1950s",
     "country": "Brazil",
     "language": "Portuguese",
@@ -8942,758 +6282,25 @@ export const works = [
     "mood": [
       "Playful"
     ],
-    "context": "Released in 1959 in Brazil.",
-    "description": "O Homem do Sputnik, a comedy film from Brazil (1959).",
+    "context": "Released in 1952 in Brazil.",
+    "description": "Sai da frente, a comedy film from Brazil (1952).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q7073266"
+      "sourceId": "Q7399842"
     }
   },
   {
-    "id": "arturo-s-island-1962-q75593",
-    "title": "Arturo's Island",
-    "creator": "Damiano Damiani",
+    "id": "sob-o-ceu-da-bahia-1956-q7549883",
+    "title": "Sob o Céu da Bahia",
+    "creator": "Ernesto Remani",
     "medium": "film",
-    "year": 1962,
-    "decade": "1960s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1962 in Italy.",
-    "description": "Arturo's Island, a drama film from Italy (1962).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q75593"
-    }
-  },
-  {
-    "id": "a-fistful-of-dollars-1964-q76479",
-    "title": "A Fistful of Dollars",
-    "creator": "Monte Hellman, Sergio Leone",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "West Germany",
-    "language": "English",
-    "movement": "West Germany action film, 1960s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "Western film",
-      "Spaghetti Western"
-    ],
-    "themes": [
-      "action film",
-      "Western film",
-      "Spaghetti Western"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1964 in West Germany.",
-    "description": "A Fistful of Dollars, a action film from West Germany (1964).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clint%20Eastwood%20-%201960s.JPG",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q76479"
-    }
-  },
-  {
-    "id": "cat-ballou-1965-q76824",
-    "title": "Cat Ballou",
-    "creator": "Elliot Silverstein",
-    "medium": "film",
-    "year": 1965,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States musical film, 1960s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "Western film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "Western film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1965 in United States.",
-    "description": "Cat Ballou, a musical film from United States (1965).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q76824"
-    }
-  },
-  {
-    "id": "black-city-1961-q77597",
-    "title": "Black City",
-    "creator": "Duilio Coletti",
-    "medium": "film",
-    "year": 1961,
-    "decade": "1960s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy comedy drama, 1960s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama"
-    ],
-    "themes": [
-      "comedy drama"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1961 in Italy.",
-    "description": "Black City, a comedy drama from Italy (1961).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Il%20re%20di%20Poggioreale%20-%20Ernest%20Borgnine.png",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q77597"
-    }
-  },
-  {
-    "id": "bonnie-and-clyde-1967-q181776",
-    "title": "Bonnie and Clyde",
-    "creator": "Arthur Penn",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1960s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "biographical film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "biographical film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1967 in United States.",
-    "description": "Bonnie and Clyde, a crime film from United States (1967).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonnie%20and%20Clyde%20%281967%20teaser%20poster%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q181776"
-    }
-  },
-  {
-    "id": "rough-night-in-jericho-1967-q3187",
-    "title": "Rough Night in Jericho",
-    "creator": "Arnold Laven",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States revisionist western, 1960s",
-    "genre": "revisionist Western",
-    "style": [
-      "revisionist Western",
-      "Western film"
-    ],
-    "themes": [
-      "revisionist Western",
-      "Western film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1967 in United States.",
-    "description": "Rough Night in Jericho, a revisionist western from United States (1967).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q3187"
-    }
-  },
-  {
-    "id": "cleopatra-1963-q4430",
-    "title": "Cleopatra",
-    "creator": "Joseph L. Mankiewicz",
-    "medium": "film",
-    "year": 1963,
-    "decade": "1960s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom historical film, 1960s",
-    "genre": "historical film",
-    "style": [
-      "historical film",
-      "sword-and-sandal film",
-      "romance film",
-      "biographical film",
-      "epic film",
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "historical film",
-      "sword-and-sandal film",
-      "romance film",
-      "biographical film",
-      "epic film",
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1963 in United Kingdom.",
-    "description": "Cleopatra, a historical film from United Kingdom (1963).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cleopatra%20poster.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q4430"
-    }
-  },
-  {
-    "id": "8-1963-q12018",
-    "title": "8½",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1963,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France comedy drama, 1960s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "fantasy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy drama",
-      "fantasy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1963 in France.",
-    "description": "8½, a comedy drama from France (1963).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q12018"
-    }
-  },
-  {
-    "id": "docking-the-boat-1965-q18331",
-    "title": "Docking the Boat",
-    "creator": "Tage Danielsson",
-    "medium": "film",
-    "year": 1965,
-    "decade": "1960s",
-    "country": "Sweden",
-    "language": "Swedish",
-    "movement": "Sweden comedy film, 1960s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1965 in Sweden.",
-    "description": "Docking the Boat, a comedy film from Sweden (1965).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monica%20Zetterlund%20brygga.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18331"
-    }
-  },
-  {
-    "id": "la-dolce-vita-1960-q18407",
-    "title": "La Dolce Vita",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "France",
-    "language": "English",
-    "movement": "France comedy film, 1960s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in France.",
-    "description": "La Dolce Vita, a comedy film from France (1960).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolce%20vita1.gif",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18407"
-    }
-  },
-  {
-    "id": "boccaccio-70-1962-q18409",
-    "title": "Boccaccio '70",
-    "creator": "Mario Monicelli, Vittorio De Sica, Luchino Visconti, Federico Fellini",
-    "medium": "film",
-    "year": 1962,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France romance film, 1960s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "romance film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender"
-    ],
-    "context": "Released in 1962 in France.",
-    "description": "Boccaccio '70, a romance film from France (1962).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boccaccio%2070%20-%20movie%20poster%20-%201962.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18409"
-    }
-  },
-  {
-    "id": "juliet-of-the-spirits-1965-q18411",
-    "title": "Juliet of the Spirits",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1965,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France comedy film, 1960s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "fantasy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "fantasy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1965 in France.",
-    "description": "Juliet of the Spirits, a comedy film from France (1965).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Milo1965.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18411"
-    }
-  },
-  {
-    "id": "the-magnificent-seven-1960-q19069",
-    "title": "The Magnificent Seven",
-    "creator": "John Sturges",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1960s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "Western film",
-      "drama film"
-    ],
-    "themes": [
-      "action film",
-      "Western film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in United States.",
-    "description": "The Magnificent Seven, a action film from United States (1960).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Magnificent%20Seven%20cast%20publicity%20photo.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q19069"
-    }
-  },
-  {
-    "id": "yojimbo-1961-q20475",
-    "title": "Yojimbo",
-    "creator": "Akira Kurosawa",
-    "medium": "film",
-    "year": 1961,
-    "decade": "1960s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1961 in Japan.",
-    "description": "Yojimbo, a drama film from Japan (1961).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q20475"
-    }
-  },
-  {
-    "id": "the-last-winter-1960-q24911",
-    "title": "The Last Winter",
-    "creator": "Frank Dunlop, Edvin Tiemroth, Anker Sørensen",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "Germany",
-    "language": "Danish",
-    "movement": "Germany war film, 1960s",
-    "genre": "war film",
-    "style": [
-      "war film"
-    ],
-    "themes": [
-      "war film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in Germany.",
-    "description": "The Last Winter, a war film from Germany (1960).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24911"
-    }
-  },
-  {
-    "id": "the-haunted-castle-1960-q24933",
-    "title": "The Haunted Castle",
-    "creator": "Kurt Hoffmann",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany ghost film, 1960s",
-    "genre": "ghost film",
-    "style": [
-      "ghost film",
-      "comedy film"
-    ],
-    "themes": [
-      "ghost film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1960 in Germany.",
-    "description": "The Haunted Castle, a ghost film from Germany (1960).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24933"
-    }
-  },
-  {
-    "id": "pay-or-die-1960-q25086",
-    "title": "Pay or Die",
-    "creator": "Richard Wilson",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in United States.",
-    "description": "Pay or Die, a drama film from United States (1960).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25086"
-    }
-  },
-  {
-    "id": "invitation-to-a-gunfighter-1964-q25466",
-    "title": "Invitation to a Gunfighter",
-    "creator": "Richard Wilson",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States western film, 1960s",
-    "genre": "Western film",
-    "style": [
-      "Western film",
-      "drama film"
-    ],
-    "themes": [
-      "Western film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1964 in United States.",
-    "description": "Invitation to a Gunfighter, a western film from United States (1964).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25466"
-    }
-  },
-  {
-    "id": "escape-from-zahrain-1962-q25471",
-    "title": "Escape from Zahrain",
-    "creator": "Ronald Neame",
-    "medium": "film",
-    "year": 1962,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1960s",
-    "genre": "action film",
-    "style": [
-      "action film"
-    ],
-    "themes": [
-      "action film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1962 in United States.",
-    "description": "Escape from Zahrain, a action film from United States (1962).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25471"
-    }
-  },
-  {
-    "id": "flight-from-ashiya-1964-q25506",
-    "title": "Flight from Ashiya",
-    "creator": "Michael Anderson",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romance film, 1960s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "adventure film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "adventure film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1964 in United States.",
-    "description": "Flight from Ashiya, a romance film from United States (1964).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25506"
-    }
-  },
-  {
-    "id": "paris-belongs-to-us-1961-q25513",
-    "title": "Paris Belongs to Us",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1961,
-    "decade": "1960s",
-    "country": "France",
-    "language": "French",
-    "movement": "France drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1961 in France.",
-    "description": "Paris Belongs to Us, a drama film from France (1961).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25513"
-    }
-  },
-  {
-    "id": "testament-of-orpheus-1960-q25521",
-    "title": "Testament of Orpheus",
-    "creator": "Jean Cocteau",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "France",
-    "language": "French",
-    "movement": "France fantasy film, 1960s",
-    "genre": "fantasy film",
-    "style": [
-      "fantasy film",
-      "drama film"
-    ],
-    "themes": [
-      "fantasy film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in France.",
-    "description": "Testament of Orpheus, a fantasy film from France (1960).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cath%C3%A9drale%20d%27images%20pr%C3%A8s%20des%20Baux%20de%20Provence.JPG",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25521"
-    }
-  },
-  {
-    "id": "cast-a-giant-shadow-1966-q25835",
-    "title": "Cast a Giant Shadow",
-    "creator": "Melville Shavelson",
-    "medium": "film",
-    "year": 1966,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States war film, 1960s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1966 in United States.",
-    "description": "Cast a Giant Shadow, a war film from United States (1966).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Douglas%20-%20Cast%20Shadow%20-%201966.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25835"
-    }
-  },
-  {
-    "id": "kings-of-the-sun-1963-q25858",
-    "title": "Kings of the Sun",
-    "creator": "J. Lee Thompson",
-    "medium": "film",
-    "year": 1963,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States adventure film, 1960s",
+    "year": 1956,
+    "decade": "1950s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil adventure film, 1950s",
     "genre": "adventure film",
     "style": [
       "adventure film"
@@ -9704,536 +6311,13 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1963 in United States.",
-    "description": "Kings of the Sun, a adventure film from United States (1963).",
+    "context": "Released in 1956 in Brazil.",
+    "description": "Sob o Céu da Bahia, a adventure film from Brazil (1956).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q25858"
-    }
-  },
-  {
-    "id": "bandits-in-milan-1968-q25994",
-    "title": "Bandits in Milan",
-    "creator": "Carlo Lizzani",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1968 in Italy.",
-    "description": "Bandits in Milan, a drama film from Italy (1968).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Banditi%20a%20Milano.JPG",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25994"
-    }
-  },
-  {
-    "id": "the-double-man-1967-q31148",
-    "title": "The Double Man",
-    "creator": "Franklin J. Schaffner",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom spy film, 1960s",
-    "genre": "spy film",
-    "style": [
-      "spy film"
-    ],
-    "themes": [
-      "spy film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1967 in United Kingdom.",
-    "description": "The Double Man, a spy film from United Kingdom (1967).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q31148"
-    }
-  },
-  {
-    "id": "more-than-a-miracle-1967-q31786",
-    "title": "More Than a Miracle",
-    "creator": "Francesco Rosi",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "France",
-    "language": "English",
-    "movement": "France romantic comedy film, 1960s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1967 in France.",
-    "description": "More Than a Miracle, a romantic comedy film from France (1967).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q31786"
-    }
-  },
-  {
-    "id": "the-nutty-professor-1963-q32228",
-    "title": "The Nutty Professor",
-    "creator": "Jerry Lewis",
-    "medium": "film",
-    "year": 1963,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy film, 1960s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "science fiction comedy",
-      "science fiction film"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "science fiction comedy",
-      "science fiction film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1963 in United States.",
-    "description": "The Nutty Professor, a romantic comedy film from United States (1963).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Der%20verr%C3%BCckte%20Professor%201963%20Logo.png",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q32228"
-    }
-  },
-  {
-    "id": "yor-yor-1964-q32686",
-    "title": "Yor-yor",
-    "creator": "Ali Hamroyev",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "Soviet Union",
-    "language": "Uzbek",
-    "movement": "Soviet Union musical film, 1960s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1964 in Soviet Union.",
-    "description": "Yor-yor, a musical film from Soviet Union (1964).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q32686"
-    }
-  },
-  {
-    "id": "the-file-of-the-golden-goose-1969-q38143",
-    "title": "The File of the Golden Goose",
-    "creator": "Sam Wanamaker",
-    "medium": "film",
-    "year": 1969,
-    "decade": "1960s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom spy film, 1960s",
-    "genre": "spy film",
-    "style": [
-      "spy film",
-      "thriller film",
-      "drama film"
-    ],
-    "themes": [
-      "spy film",
-      "thriller film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1969 in United Kingdom.",
-    "description": "The File of the Golden Goose, a spy film from United Kingdom (1969).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q38143"
-    }
-  },
-  {
-    "id": "the-long-duel-1967-q38365",
-    "title": "The Long Duel",
-    "creator": "Ken Annakin",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom adventure film, 1960s",
-    "genre": "adventure film",
-    "style": [
-      "adventure film",
-      "drama film"
-    ],
-    "themes": [
-      "adventure film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1967 in United Kingdom.",
-    "description": "The Long Duel, a adventure film from United Kingdom (1967).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q38365"
-    }
-  },
-  {
-    "id": "the-madwoman-of-chaillot-1969-q38561",
-    "title": "The Madwoman of Chaillot",
-    "creator": "Bryan Forbes, John Huston",
-    "medium": "film",
-    "year": 1969,
-    "decade": "1960s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom comedy film, 1960s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1969 in United Kingdom.",
-    "description": "The Madwoman of Chaillot, a comedy film from United Kingdom (1969).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q38561"
-    }
-  },
-  {
-    "id": "the-day-of-the-owl-1968-q38815",
-    "title": "The Day of the Owl",
-    "creator": "Damiano Damiani",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France crime thriller film, 1960s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film",
-      "drama film"
-    ],
-    "themes": [
-      "crime thriller film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1968 in France.",
-    "description": "The Day of the Owl, a crime thriller film from France (1968).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Foto%20di%20scena%20Il%20giorno%20della%20civetta.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q38815"
-    }
-  },
-  {
-    "id": "barbarella-1968-q41132",
-    "title": "Barbarella",
-    "creator": "Roger Vadim",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "France",
-    "language": "English",
-    "movement": "France retrofuturism, 1960s",
-    "genre": "retrofuturism",
-    "style": [
-      "retrofuturism",
-      "erotic film",
-      "science fiction film",
-      "space opera",
-      "adventure film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "retrofuturism",
-      "erotic film",
-      "science fiction film",
-      "space opera",
-      "adventure film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1968 in France.",
-    "description": "Barbarella, a retrofuturism from France (1968).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Vadim%20and%20Jane%20Fonda%20in%20Rome%20-%20May%201967.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q41132"
-    }
-  },
-  {
-    "id": "planet-of-the-apes-1968-q59534",
-    "title": "Planet of the Apes",
-    "creator": "Franklin J. Schaffner",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States dystopian film, 1960s",
-    "genre": "dystopian film",
-    "style": [
-      "dystopian film",
-      "speculative fiction film",
-      "science fiction film"
-    ],
-    "themes": [
-      "dystopian film",
-      "speculative fiction film",
-      "science fiction film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1968 in United States.",
-    "description": "Planet of the Apes, a dystopian film from United States (1968).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heston%20and%20harrison%20planet%20of%20the%20apes.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q59534"
-    }
-  },
-  {
-    "id": "madigan-1968-q45304",
-    "title": "Madigan",
-    "creator": "Don Siegel",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1960s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1968 in United States.",
-    "description": "Madigan, a crime film from United States (1968).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q45304"
-    }
-  },
-  {
-    "id": "coogan-s-bluff-1968-q45388",
-    "title": "Coogan's Bluff",
-    "creator": "Don Siegel",
-    "medium": "film",
-    "year": 1968,
-    "decade": "1960s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime thriller film, 1960s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film",
-      "buddy cop film",
-      "thriller film",
-      "mystery film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "crime thriller film",
-      "buddy cop film",
-      "thriller film",
-      "mystery film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1968 in United States.",
-    "description": "Coogan's Bluff, a crime thriller film from United States (1968).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clint%20Eastwood-Susan%20Clark%20in%20Coogan%27s%20Bluff%20trailer.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q45388"
-    }
-  },
-  {
-    "id": "letters-by-a-novice-1960-q46361",
-    "title": "Letters by a Novice",
-    "creator": "Alberto Lattuada",
-    "medium": "film",
-    "year": 1960,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1960 in France.",
-    "description": "Letters by a Novice, a drama film from France (1960).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lettere%20di%20una%20novizia%20-Petit-.png",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46361"
-    }
-  },
-  {
-    "id": "l-imprevisto-1961-q46386",
-    "title": "L'imprevisto",
-    "creator": "Alberto Lattuada",
-    "medium": "film",
-    "year": 1961,
-    "decade": "1960s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France crime film, 1960s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1961 in France.",
-    "description": "L'imprevisto, a crime film from France (1961).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46386"
-    }
-  },
-  {
-    "id": "don-juan-in-sicily-1967-q46477",
-    "title": "Don Juan in Sicily",
-    "creator": "Alberto Lattuada",
-    "medium": "film",
-    "year": 1967,
-    "decade": "1960s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy comedy drama, 1960s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "comedy film"
-    ],
-    "themes": [
-      "comedy drama",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1967 in Italy.",
-    "description": "Don Juan in Sicily, a comedy drama from Italy (1967).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Don%20Giovanni%20in%20Sicilia%20-%20Lando%20Buzzanca.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46477"
+      "sourceId": "Q7549883"
     }
   },
   {
@@ -10771,24 +6855,24 @@ export const works = [
     "decade": "1960s",
     "country": "United States",
     "language": "English",
-    "movement": "United States drama television series, 1960s",
-    "genre": "drama television series",
+    "movement": "United States police television drama, 1960s",
+    "genre": "police television drama",
     "style": [
-      "drama television series",
+      "police television drama",
       "crime television series",
-      "police television drama"
+      "drama television series"
     ],
     "themes": [
-      "drama television series",
+      "police television drama",
       "crime television series",
-      "police television drama"
+      "drama television series"
     ],
     "mood": [
       "Tense",
       "Unflinching"
     ],
     "context": "Released in 1967 in United States.",
-    "description": "N.Y.P.D., a drama television series from United States (1967).",
+    "description": "N.Y.P.D., a police television drama from United States (1967).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NYPD%201969.JPG",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -10973,40 +7057,71 @@ export const works = [
     }
   },
   {
-    "id": "o-pagador-de-promessas-1962-q1482269",
-    "title": "O Pagador de Promessas",
-    "creator": "Anselmo Duarte",
+    "id": "girl-of-ipanema-1967-q10288371",
+    "title": "Girl of Ipanema",
+    "creator": "Leon Hirszman",
     "medium": "film",
-    "year": 1962,
+    "year": 1967,
     "decade": "1960s",
     "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1960s",
-    "genre": "drama film",
+    "language": "unknown",
+    "movement": "Brazil musical film, 1960s",
+    "genre": "musical film",
     "style": [
-      "drama film"
+      "musical film",
+      "romance film"
     ],
     "themes": [
-      "drama film"
+      "musical film",
+      "romance film"
     ],
     "mood": [
-      "Unflinching"
+      "Tender"
     ],
-    "context": "Released in 1962 in Brazil.",
-    "description": "O Pagador de Promessas, a drama film from Brazil (1962).",
+    "context": "Released in 1967 in Brazil.",
+    "description": "Girl of Ipanema, a musical film from Brazil (1967).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1482269"
+      "sourceId": "Q10288371"
     }
   },
   {
-    "id": "macunaima-1969-q1576347",
-    "title": "Macunaíma",
-    "creator": "Joaquim Pedro de Andrade",
+    "id": "grande-sertao-1965-q10291299",
+    "title": "Grande Sertão",
+    "creator": "Unknown",
     "medium": "film",
-    "year": 1969,
+    "year": 1965,
+    "decade": "1960s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil work, 1960s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1965 in Brazil.",
+    "description": "Grande Sertão, a work from Brazil (1965).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10291299"
+    }
+  },
+  {
+    "id": "how-to-start-a-chaos-1960-q10294801",
+    "title": "How to Start a Chaos",
+    "creator": "Amácio Mazzaropi",
+    "medium": "film",
+    "year": 1960,
     "decade": "1960s",
     "country": "Brazil",
     "language": "Portuguese",
@@ -11021,25 +7136,25 @@ export const works = [
     "mood": [
       "Playful"
     ],
-    "context": "Released in 1969 in Brazil.",
-    "description": "Macunaíma, a comedy film from Brazil (1969).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo%20Jos%C3%A9%20em%20Macuna%C3%ADma%20%281971%29.tif",
-    "imageCredit": "Image via Wikimedia Commons.",
+    "context": "Released in 1960 in Brazil.",
+    "description": "How to Start a Chaos, a comedy film from Brazil (1960).",
+    "image": null,
+    "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1576347"
+      "sourceId": "Q10294801"
     }
   },
   {
-    "id": "lana-queen-of-the-amazons-1964-q1801756",
-    "title": "Lana, Queen of the Amazons",
-    "creator": "Géza von Cziffra",
+    "id": "lampiao-king-of-the-badlands-1964-q10316170",
+    "title": "Lampiao, King of the Badlands",
+    "creator": "Carlos Coimbra",
     "medium": "film",
     "year": 1964,
     "decade": "1960s",
-    "country": "West Germany",
-    "language": "German",
-    "movement": "West Germany adventure film, 1960s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil adventure film, 1960s",
     "genre": "adventure film",
     "style": [
       "adventure film"
@@ -11050,21 +7165,21 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1964 in West Germany.",
-    "description": "Lana, Queen of the Amazons, a adventure film from West Germany (1964).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lana%20-%20K%C3%B6nigin%20der%20Amazonen%20Logo%20001.svg",
-    "imageCredit": "Image via Wikimedia Commons.",
+    "context": "Released in 1964 in Brazil.",
+    "description": "Lampiao, King of the Badlands, a adventure film from Brazil (1964).",
+    "image": null,
+    "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1801756"
+      "sourceId": "Q10316170"
     }
   },
   {
-    "id": "entranced-earth-1967-q1848967",
-    "title": "Entranced Earth",
-    "creator": "Glauber Rocha",
+    "id": "lance-maior-1968-q10316193",
+    "title": "Lance Maior",
+    "creator": "Sylvio Back",
     "medium": "film",
-    "year": 1967,
+    "year": 1968,
     "decade": "1960s",
     "country": "Brazil",
     "language": "Portuguese",
@@ -11079,174 +7194,111 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1967 in Brazil.",
-    "description": "Entranced Earth, a drama film from Brazil (1967).",
+    "context": "Released in 1968 in Brazil.",
+    "description": "Lance Maior, a drama film from Brazil (1968).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1848967"
+      "sourceId": "Q10316193"
     }
   },
   {
-    "id": "black-god-white-devil-1964-q1884859",
-    "title": "Black God, White Devil",
-    "creator": "Glauber Rocha",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil crime film, 1960s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1964 in Brazil.",
-    "description": "Black God, White Devil, a crime film from Brazil (1964).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Othon%20Bastos%20em%20Deus%20e%20o%20Diabo%20na%20Terra%20do%20Sol%20%281964%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1884859"
-    }
-  },
-  {
-    "id": "at-midnight-i-ll-take-your-soul-1964-q2051858",
-    "title": "At Midnight I'll Take Your Soul",
-    "creator": "José Mojica Marins",
-    "medium": "film",
-    "year": 1964,
-    "decade": "1960s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil horror film, 1960s",
-    "genre": "horror film",
-    "style": [
-      "horror film"
-    ],
-    "themes": [
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1964 in Brazil.",
-    "description": "At Midnight I'll Take Your Soul, a horror film from Brazil (1964).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2051858"
-    }
-  },
-  {
-    "id": "barren-lives-1963-q2192521",
-    "title": "Barren Lives",
-    "creator": "Nelson Pereira dos Santos",
-    "medium": "film",
-    "year": 1963,
-    "decade": "1960s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1960s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1963 in Brazil.",
-    "description": "Barren Lives, a drama film from Brazil (1963).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2192521"
-    }
-  },
-  {
-    "id": "o-dragao-da-maldade-contra-o-santo-guerreiro-1969-q2435697",
-    "title": "O Dragão da Maldade Contra o Santo Guerreiro",
-    "creator": "Glauber Rocha",
+    "id": "o-anjo-nasceu-1969-q10338719",
+    "title": "O Anjo Nasceu",
+    "creator": "Júlio Bressane",
     "medium": "film",
     "year": 1969,
     "decade": "1960s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil western film, 1960s",
-    "genre": "Western film",
+    "movement": "Brazil drama film, 1960s",
+    "genre": "drama film",
     "style": [
-      "Western film",
       "drama film"
     ],
     "themes": [
-      "Western film",
       "drama film"
     ],
     "mood": [
       "Unflinching"
     ],
     "context": "Released in 1969 in Brazil.",
-    "description": "O Dragão da Maldade Contra o Santo Guerreiro, a western film from Brazil (1969).",
+    "description": "O Anjo Nasceu, a drama film from Brazil (1969).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2435697"
+      "sourceId": "Q10338719"
     }
   },
   {
-    "id": "barravento-1962-q2885509",
-    "title": "Barravento",
-    "creator": "Glauber Rocha",
+    "id": "assault-on-the-pay-train-1962-q10338736",
+    "title": "Assault on the Pay Train",
+    "creator": "Roberto Farias",
     "medium": "film",
     "year": 1962,
     "decade": "1960s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil drama film, 1960s",
-    "genre": "drama film",
+    "movement": "Brazil heist film, 1960s",
+    "genre": "heist film",
     "style": [
-      "drama film"
+      "heist film"
     ],
     "themes": [
-      "drama film"
+      "heist film"
     ],
     "mood": [
-      "Unflinching"
+      "Evocative"
     ],
     "context": "Released in 1962 in Brazil.",
-    "description": "Barravento, a drama film from Brazil (1962).",
+    "description": "Assault on the Pay Train, a heist film from Brazil (1962).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2885509"
+      "sourceId": "Q10338736"
     }
   },
   {
-    "id": "benito-cereno-1969-q2895945",
-    "title": "Benito Cereno",
-    "creator": "Serge Roullet",
+    "id": "o-corintiano-1966-q10338934",
+    "title": "O Corintiano",
+    "creator": "Milton Amaral",
     "medium": "film",
-    "year": 1969,
+    "year": 1966,
     "decade": "1960s",
     "country": "Brazil",
-    "language": "French",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1960s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1966 in Brazil.",
+    "description": "O Corintiano, a comedy film from Brazil (1966).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10338934"
+    }
+  },
+  {
+    "id": "o-desafio-1966-q10338991",
+    "title": "O Desafio",
+    "creator": "Paulo César Saraceni",
+    "medium": "film",
+    "year": 1966,
+    "decade": "1960s",
+    "country": "Brazil",
+    "language": "Portuguese",
     "movement": "Brazil drama film, 1960s",
     "genre": "drama film",
     "style": [
@@ -11258,13 +7310,42 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1969 in Brazil.",
-    "description": "Benito Cereno, a drama film from Brazil (1969).",
+    "context": "Released in 1966 in Brazil.",
+    "description": "O Desafio, a drama film from Brazil (1966).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2895945"
+      "sourceId": "Q10338991"
+    }
+  },
+  {
+    "id": "o-homem-nu-1968-q10339231",
+    "title": "O Homem Nu",
+    "creator": "Roberto Santos",
+    "medium": "film",
+    "year": 1968,
+    "decade": "1960s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1960s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1968 in Brazil.",
+    "description": "O Homem Nu, a comedy film from Brazil (1968).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10339231"
     }
   },
   {
@@ -11326,6 +7407,124 @@ export const works = [
     }
   },
   {
+    "id": "some-mothers-do-ave-em-1973-q2211680",
+    "title": "Some Mothers Do 'Ave 'Em",
+    "creator": "Sydney Lotterby",
+    "medium": "tv",
+    "year": 1973,
+    "decade": "1970s",
+    "country": "United Kingdom",
+    "language": "unknown",
+    "movement": "United Kingdom sitcom, 1970s",
+    "genre": "sitcom",
+    "style": [
+      "sitcom"
+    ],
+    "themes": [
+      "sitcom"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1973 in United Kingdom.",
+    "description": "Some Mothers Do 'Ave 'Em, a sitcom from United Kingdom (1973).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2211680"
+    }
+  },
+  {
+    "id": "crazylegs-crane-1970-q3281262",
+    "title": "Crazylegs Crane",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1970,
+    "decade": "1970s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States work, 1970s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1970 in United States.",
+    "description": "Crazylegs Crane, a work from United States (1970).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3281262"
+    }
+  },
+  {
+    "id": "baggy-pants-and-the-nitwits-1977-q3283068",
+    "title": "Baggy Pants and the Nitwits",
+    "creator": "Brad Case",
+    "medium": "tv",
+    "year": 1977,
+    "decade": "1970s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States work, 1970s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1977 in United States.",
+    "description": "Baggy Pants and the Nitwits, a work from United States (1977).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3283068"
+    }
+  },
+  {
+    "id": "the-gong-show-1976-q3290131",
+    "title": "The Gong Show",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1976,
+    "decade": "1970s",
+    "country": "Indonesia",
+    "language": "English",
+    "movement": "Indonesia comedy television series, 1970s",
+    "genre": "comedy television series",
+    "style": [
+      "comedy television series",
+      "game show"
+    ],
+    "themes": [
+      "comedy television series",
+      "game show"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1976 in Indonesia.",
+    "description": "The Gong Show, a comedy television series from Indonesia (1976).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3290131"
+    }
+  },
+  {
     "id": "die-alpensaga-1976-q177153",
     "title": "Die Alpensaga",
     "creator": "Dieter Berner",
@@ -11361,9 +7560,9 @@ export const works = [
     "medium": "tv",
     "year": 1975,
     "decade": "1970s",
-    "country": "Yugoslavia",
+    "country": "Socialist Federal Republic of Yugoslavia",
     "language": "unknown",
-    "movement": "Yugoslavia work, 1970s",
+    "movement": "Socialist Federal Republic of Yugoslavia work, 1970s",
     "genre": "Uncategorized",
     "style": [
       "Uncategorized"
@@ -11374,8 +7573,8 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1975 in Yugoslavia.",
-    "description": "Grlom u jagode, a work from Yugoslavia (1975).",
+    "context": "Released in 1975 in Socialist Federal Republic of Yugoslavia.",
+    "description": "Grlom u jagode, a work from Socialist Federal Republic of Yugoslavia (1975).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -11448,9 +7647,9 @@ export const works = [
     "medium": "tv",
     "year": 1976,
     "decade": "1970s",
-    "country": "France",
+    "country": "Italy",
     "language": "Italian",
-    "movement": "France work, 1970s",
+    "movement": "Italy work, 1970s",
     "genre": "Uncategorized",
     "style": [
       "Uncategorized"
@@ -11461,8 +7660,8 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1976 in France.",
-    "description": "Sandokan, a work from France (1976).",
+    "context": "Released in 1976 in Italy.",
+    "description": "Sandokan, a work from Italy (1976).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -11531,7 +7730,7 @@ export const works = [
   {
     "id": "the-incredible-hulk-1977-q670579",
     "title": "The Incredible Hulk",
-    "creator": "Kenneth Johnson, Mike Vejar, James D. Parriott, Chuck Bowman, Bernard McEveety, Alan J. Levi, Michael Preece, Joseph Pevney, John McPherson, L. Q. Jones, Jack Colvin, Bill Bixby, Ray Danton, Reza Badiyi",
+    "creator": "Alan J. Levi, Kenneth Johnson, Michael Preece, Mike Vejar, Joseph Pevney, James D. Parriott, Chuck Bowman, Bernard McEveety, John McPherson, L. Q. Jones, Ray Danton, Bill Bixby, Reza Badiyi, Jack Colvin",
     "medium": "tv",
     "year": 1977,
     "decade": "1970s",
@@ -11541,15 +7740,15 @@ export const works = [
     "genre": "science fiction television series",
     "style": [
       "science fiction television series",
-      "drama television series",
       "fantasy television series",
-      "adventure television series"
+      "adventure television series",
+      "drama television series"
     ],
     "themes": [
       "science fiction television series",
-      "drama television series",
       "fantasy television series",
-      "adventure television series"
+      "adventure television series",
+      "drama television series"
     ],
     "mood": [
       "Unflinching"
@@ -11630,22 +7829,22 @@ export const works = [
     "decade": "1970s",
     "country": "West Germany",
     "language": "Swedish",
-    "movement": "West Germany comedy television series, 1970s",
-    "genre": "comedy television series",
+    "movement": "West Germany fantasy television series, 1970s",
+    "genre": "fantasy television series",
     "style": [
-      "comedy television series",
-      "drama television series",
       "fantasy television series",
       "adventure television series",
+      "comedy television series",
       "children's television series",
+      "drama television series",
       "family television series"
     ],
     "themes": [
-      "comedy television series",
-      "drama television series",
       "fantasy television series",
       "adventure television series",
+      "comedy television series",
       "children's television series",
+      "drama television series",
       "family television series"
     ],
     "mood": [
@@ -11653,7 +7852,7 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1975 in West Germany.",
-    "description": "Pippi Longstocking, a comedy television series from West Germany (1975).",
+    "description": "Pippi Longstocking, a fantasy television series from West Germany (1975).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Villa%20villekulla.jpg",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -11670,21 +7869,21 @@ export const works = [
     "decade": "1970s",
     "country": "United States",
     "language": "English",
-    "movement": "United States drama television series, 1970s",
-    "genre": "drama television series",
+    "movement": "United States adventure television series, 1970s",
+    "genre": "adventure television series",
     "style": [
-      "drama television series",
-      "adventure television series"
+      "adventure television series",
+      "drama television series"
     ],
     "themes": [
-      "drama television series",
-      "adventure television series"
+      "adventure television series",
+      "drama television series"
     ],
     "mood": [
       "Unflinching"
     ],
     "context": "Released in 1974 in United States.",
-    "description": "The Life and Times of Grizzly Adams, a drama television series from United States (1974).",
+    "description": "The Life and Times of Grizzly Adams, a adventure television series from United States (1974).",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grizzly%20Adams%201977.JPG",
     "imageCredit": "Image via Wikimedia Commons.",
     "source": {
@@ -11898,15 +8097,15 @@ export const works = [
     }
   },
   {
-    "id": "once-upon-a-time-1992-q1366603",
+    "id": "once-upon-a-time-1978-q1366603",
     "title": "Once Upon a Time...",
     "creator": "Unknown",
     "medium": "tv",
-    "year": 1992,
-    "decade": "1990s",
+    "year": 1978,
+    "decade": "1970s",
     "country": "Netherlands",
     "language": "French",
-    "movement": "Netherlands educational television, 1990s",
+    "movement": "Netherlands educational television, 1970s",
     "genre": "educational television",
     "style": [
       "educational television"
@@ -11917,8 +8116,8 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1992 in Netherlands.",
-    "description": "Once Upon a Time..., a educational television from Netherlands (1992).",
+    "context": "Released in 1978 in Netherlands.",
+    "description": "Once Upon a Time..., a educational television from Netherlands (1978).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -11956,44 +8155,44 @@ export const works = [
     }
   },
   {
-    "id": "nightline-1979-q1768706",
-    "title": "Nightline",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1979,
+    "id": "morte-e-vida-severina-1977-q10332546",
+    "title": "Morte e Vida Severina",
+    "creator": "José Viana de Oliveira Paula",
+    "medium": "film",
+    "year": 1977,
     "decade": "1970s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States news broadcasting, 1970s",
-    "genre": "news broadcasting",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil drama film, 1970s",
+    "genre": "drama film",
     "style": [
-      "news broadcasting"
+      "drama film"
     ],
     "themes": [
-      "news broadcasting"
+      "drama film"
     ],
     "mood": [
-      "Evocative"
+      "Unflinching"
     ],
-    "context": "Released in 1979 in United States.",
-    "description": "Nightline, a news broadcasting from United States (1979).",
+    "context": "Released in 1977 in Brazil.",
+    "description": "Morte e Vida Severina, a drama film from Brazil (1977).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1768706"
+      "sourceId": "Q10332546"
     }
   },
   {
-    "id": "maxe-baumann-1976-q1913746",
-    "title": "Maxe Baumann",
-    "creator": "Peter Hill, Günter Stahnke",
-    "medium": "tv",
-    "year": 1976,
+    "id": "motel-1975-q10332663",
+    "title": "Motel",
+    "creator": "Alcino Diniz",
+    "medium": "film",
+    "year": 1975,
     "decade": "1970s",
-    "country": "East Germany",
-    "language": "German",
-    "movement": "East Germany comedy film, 1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1970s",
     "genre": "comedy film",
     "style": [
       "comedy film"
@@ -12004,54 +8203,170 @@ export const works = [
     "mood": [
       "Playful"
     ],
-    "context": "Released in 1976 in East Germany.",
-    "description": "Maxe Baumann, a comedy film from East Germany (1976).",
+    "context": "Released in 1975 in Brazil.",
+    "description": "Motel, a comedy film from Brazil (1975).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1913746"
+      "sourceId": "Q10332663"
     }
   },
   {
-    "id": "kamen-rider-1971-q1982608",
-    "title": "Kamen Rider",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1971,
+    "id": "muito-prazer-1979-q10333041",
+    "title": "Muito Prazer",
+    "creator": "David Neves",
+    "medium": "film",
+    "year": 1979,
     "decade": "1970s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan tokusatsu, 1970s",
-    "genre": "tokusatsu",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1970s",
+    "genre": "comedy film",
     "style": [
-      "tokusatsu"
+      "comedy film"
     ],
     "themes": [
-      "tokusatsu"
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1979 in Brazil.",
+    "description": "Muito Prazer, a comedy film from Brazil (1979).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10333041"
+    }
+  },
+  {
+    "id": "nos-embalos-de-ipanema-1978-q10337524",
+    "title": "Nos Embalos de Ipanema",
+    "creator": "Antônio Calmon",
+    "medium": "film",
+    "year": 1978,
+    "decade": "1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1970s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1978 in Brazil.",
+    "description": "Nos Embalos de Ipanema, a comedy film from Brazil (1978).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10337524"
+    }
+  },
+  {
+    "id": "nos-tempos-da-vaselina-1979-q10337528",
+    "title": "Nos Tempos da Vaselina",
+    "creator": "José Miziara",
+    "medium": "film",
+    "year": 1979,
+    "decade": "1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 1970s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1979 in Brazil.",
+    "description": "Nos Tempos da Vaselina, a comedy film from Brazil (1979).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10337528"
+    }
+  },
+  {
+    "id": "o-aleijadinho-1978-q10338673",
+    "title": "O Aleijadinho",
+    "creator": "Joaquim Pedro de Andrade",
+    "medium": "film",
+    "year": 1978,
+    "decade": "1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil documentary film, 1970s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1971 in Japan.",
-    "description": "Kamen Rider, a tokusatsu from Japan (1971).",
+    "context": "Released in 1978 in Brazil.",
+    "description": "O Aleijadinho, a documentary film from Brazil (1978).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1982608"
+      "sourceId": "Q10338673"
     }
   },
   {
-    "id": "butler-parker-1972-q2091659",
-    "title": "Butler Parker",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1972,
+    "id": "o-anjo-da-noite-1974-q10338720",
+    "title": "O Anjo da Noite",
+    "creator": "Walter Hugo Khouri",
+    "medium": "film",
+    "year": 1974,
     "decade": "1970s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany crime film, 1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil drama film, 1970s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1974 in Brazil.",
+    "description": "O Anjo da Noite, a drama film from Brazil (1974).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10338720"
+    }
+  },
+  {
+    "id": "o-descarte-1973-q10338993",
+    "title": "O Descarte",
+    "creator": "Anselmo Duarte",
+    "medium": "film",
+    "year": 1973,
+    "decade": "1970s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil crime film, 1970s",
     "genre": "crime film",
     "style": [
       "crime film"
@@ -12062,13 +8377,13 @@ export const works = [
     "mood": [
       "Tense"
     ],
-    "context": "Released in 1972 in Germany.",
-    "description": "Butler Parker, a crime film from Germany (1972).",
+    "context": "Released in 1973 in Brazil.",
+    "description": "O Descarte, a crime film from Brazil (1973).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2091659"
+      "sourceId": "Q10338993"
     }
   },
   {
@@ -12127,240 +8442,6 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q963734"
-    }
-  },
-  {
-    "id": "o-bem-dotado-o-homem-de-itu-1978-q1245903",
-    "title": "O Bem Dotado - O Homem de Itu",
-    "creator": "José Miziara",
-    "medium": "film",
-    "year": 1978,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil comedy film, 1970s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1978 in Brazil.",
-    "description": "O Bem Dotado - O Homem de Itu, a comedy film from Brazil (1978).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1245903"
-    }
-  },
-  {
-    "id": "in-the-family-1971-q1592219",
-    "title": "In the Family",
-    "creator": "Paulo Porto",
-    "medium": "film",
-    "year": 1971,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1970s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1971 in Brazil.",
-    "description": "In the Family, a drama film from Brazil (1971).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1592219"
-    }
-  },
-  {
-    "id": "joao-and-the-knife-1972-q6298438",
-    "title": "João and the Knife",
-    "creator": "George Sluizer",
-    "medium": "film",
-    "year": 1972,
-    "decade": "1970s",
-    "country": "Netherlands",
-    "language": "Portuguese",
-    "movement": "Netherlands drama film, 1970s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1972 in Netherlands.",
-    "description": "João and the Knife, a drama film from Netherlands (1972).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6298438"
-    }
-  },
-  {
-    "id": "monica-e-cebolinha-no-mundo-de-romeu-e-julieta-1979-q6373185",
-    "title": "Mônica e Cebolinha: No Mundo de Romeu e Julieta",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 1979,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil musical film, 1970s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1979 in Brazil.",
-    "description": "Mônica e Cebolinha: No Mundo de Romeu e Julieta, a musical film from Brazil (1979).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6373185"
-    }
-  },
-  {
-    "id": "lady-on-the-bus-1978-q6470718",
-    "title": "Lady on the Bus",
-    "creator": "Neville d'Almeida",
-    "medium": "film",
-    "year": 1978,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1970s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1978 in Brazil.",
-    "description": "Lady on the Bus, a drama film from Brazil (1978).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6470718"
-    }
-  },
-  {
-    "id": "the-amulet-of-ogum-1974-q6822609",
-    "title": "The Amulet of Ogum",
-    "creator": "Nelson Pereira dos Santos",
-    "medium": "film",
-    "year": 1974,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1970s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1974 in Brazil.",
-    "description": "The Amulet of Ogum, a drama film from Brazil (1974).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6822609"
-    }
-  },
-  {
-    "id": "mortal-sin-1970-q6914385",
-    "title": "Mortal Sin",
-    "creator": "Miguel Faria, Jr.",
-    "medium": "film",
-    "year": 1970,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil drama film, 1970s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1970 in Brazil.",
-    "description": "Mortal Sin, a drama film from Brazil (1970).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q6914385"
-    }
-  },
-  {
-    "id": "perversion-1979-q7171249",
-    "title": "Perversion",
-    "creator": "José Mojica Marins",
-    "medium": "film",
-    "year": 1979,
-    "decade": "1970s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil horror film, 1970s",
-    "genre": "horror film",
-    "style": [
-      "horror film"
-    ],
-    "themes": [
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1979 in Brazil.",
-    "description": "Perversion, a horror film from Brazil (1979).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q7171249"
     }
   },
   {
@@ -12509,52 +8590,15 @@ export const works = [
     }
   },
   {
-    "id": "deathstalker-and-the-warriors-from-hell-1988-q72168",
-    "title": "Deathstalker and the Warriors from Hell",
-    "creator": "Alfonso Corona Blake",
-    "medium": "film",
-    "year": 1988,
+    "id": "einzug-ins-paradies-1987-q1310334",
+    "title": "Einzug ins Paradies",
+    "creator": "Achim Hübner",
+    "medium": "tv",
+    "year": 1987,
     "decade": "1980s",
-    "country": "Mexico",
-    "language": "English",
-    "movement": "Mexico sword and sorcery film, 1980s",
-    "genre": "sword and sorcery film",
-    "style": [
-      "sword and sorcery film",
-      "science fiction film",
-      "fantasy film",
-      "action film",
-      "adventure film"
-    ],
-    "themes": [
-      "sword and sorcery film",
-      "science fiction film",
-      "fantasy film",
-      "action film",
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1988 in Mexico.",
-    "description": "Deathstalker and the Warriors from Hell, a sword and sorcery film from Mexico (1988).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q72168"
-    }
-  },
-  {
-    "id": "a-short-film-about-killing-1988-q72325",
-    "title": "A Short Film About Killing",
-    "creator": "Krzysztof Kieślowski",
-    "medium": "film",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "Poland",
-    "language": "Polish",
-    "movement": "Poland drama film, 1980s",
+    "country": "East Germany",
+    "language": "German",
+    "movement": "East Germany drama film, 1980s",
     "genre": "drama film",
     "style": [
       "drama film"
@@ -12565,1329 +8609,54 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1988 in Poland.",
-    "description": "A Short Film About Killing, a drama film from Poland (1988).",
+    "context": "Released in 1987 in East Germany.",
+    "description": "Einzug ins Paradies, a drama film from East Germany (1987).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q72325"
+      "sourceId": "Q1310334"
     }
   },
   {
-    "id": "return-from-the-river-kwai-1989-q73583",
-    "title": "Return from the River Kwai",
-    "creator": "Andrew V. McLaglen",
-    "medium": "film",
-    "year": 1989,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States war film, 1980s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1989 in United States.",
-    "description": "Return from the River Kwai, a war film from United States (1989).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q73583"
-    }
-  },
-  {
-    "id": "typhoon-club-1985-q74437",
-    "title": "Typhoon Club",
-    "creator": "Shinji Sōmai",
-    "medium": "film",
-    "year": 1985,
-    "decade": "1980s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan lgbtq-related film, 1980s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1985 in Japan.",
-    "description": "Typhoon Club, a lgbtq-related film from Japan (1985).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q74437"
-    }
-  },
-  {
-    "id": "night-of-the-creeps-1986-q77013",
-    "title": "Night of the Creeps",
-    "creator": "Fred Dekker",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy horror film, 1980s",
-    "genre": "comedy horror film",
-    "style": [
-      "comedy horror film",
-      "zombie comedy",
-      "science fiction film",
-      "comedy film"
-    ],
-    "themes": [
-      "comedy horror film",
-      "zombie comedy",
-      "science fiction film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Unsettling"
-    ],
-    "context": "Released in 1986 in United States.",
-    "description": "Night of the Creeps, a comedy horror film from United States (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q77013"
-    }
-  },
-  {
-    "id": "crimes-and-misdemeanors-1989-q181555",
-    "title": "Crimes and Misdemeanors",
-    "creator": "Woody Allen",
-    "medium": "film",
-    "year": 1989,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1980s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1989 in United States.",
-    "description": "Crimes and Misdemeanors, a crime film from United States (1989).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q181555"
-    }
-  },
-  {
-    "id": "star-wars-episode-v-the-empire-strikes-back-1980-q181795",
-    "title": "Star Wars: Episode V – The Empire Strikes Back",
-    "creator": "Irvin Kershner",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States epic film, 1980s",
-    "genre": "epic film",
-    "style": [
-      "epic film",
-      "science fiction film",
-      "space opera",
-      "fantasy film",
-      "action film",
-      "adventure film"
-    ],
-    "themes": [
-      "epic film",
-      "science fiction film",
-      "space opera",
-      "fantasy film",
-      "action film",
-      "adventure film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1980 in United States.",
-    "description": "Star Wars: Episode V – The Empire Strikes Back, a epic film from United States (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q181795"
-    }
-  },
-  {
-    "id": "the-elusive-summer-of-68-1984-q213345",
-    "title": "The Elusive Summer of '68",
-    "creator": "Goran Paskaljević",
-    "medium": "film",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "Yugoslavia",
-    "language": "Serbian",
-    "movement": "Yugoslavia romance film, 1980s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "comedy film"
-    ],
-    "themes": [
-      "romance film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender"
-    ],
-    "context": "Released in 1984 in Yugoslavia.",
-    "description": "The Elusive Summer of '68, a romance film from Yugoslavia (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q213345"
-    }
-  },
-  {
-    "id": "pink-floyd-the-wall-1982-q213683",
-    "title": "Pink Floyd – The Wall",
-    "creator": "Alan Parker",
-    "medium": "film",
-    "year": 1982,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom art film, 1980s",
-    "genre": "art film",
-    "style": [
-      "art film",
-      "musical film",
-      "drama film"
-    ],
-    "themes": [
-      "art film",
-      "musical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1982 in United Kingdom.",
-    "description": "Pink Floyd – The Wall, a art film from United Kingdom (1982).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q213683"
-    }
-  },
-  {
-    "id": "dirty-dancing-1987-q253978",
-    "title": "Dirty Dancing",
-    "creator": "Emile Ardolino",
-    "medium": "film",
+    "id": "eyes-on-the-prize-1987-q1385782",
+    "title": "Eyes on the Prize",
+    "creator": "Unknown",
+    "medium": "tv",
     "year": 1987,
     "decade": "1980s",
     "country": "United States",
     "language": "English",
-    "movement": "United States dance film, 1980s",
-    "genre": "dance film",
+    "movement": "United States documentary television program, 1980s",
+    "genre": "documentary television program",
     "style": [
-      "dance film",
-      "teen film",
-      "romance film",
-      "musical film",
-      "drama film"
+      "documentary television program"
     ],
     "themes": [
-      "dance film",
-      "teen film",
-      "romance film",
-      "musical film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1987 in United States.",
-    "description": "Dirty Dancing, a dance film from United States (1987).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q253978"
-    }
-  },
-  {
-    "id": "masters-of-the-universe-1987-q58972",
-    "title": "Masters of the Universe",
-    "creator": "Gary Goddard",
-    "medium": "film",
-    "year": 1987,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action film, 1980s",
-    "genre": "action film",
-    "style": [
-      "action film",
-      "sword and sorcery film",
-      "superhero film",
-      "adventure film",
-      "fantasy film"
-    ],
-    "themes": [
-      "action film",
-      "sword and sorcery film",
-      "superhero film",
-      "adventure film",
-      "fantasy film"
+      "documentary television program"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1987 in United States.",
-    "description": "Masters of the Universe, a action film from United States (1987).",
+    "description": "Eyes on the Prize, a documentary television program from United States (1987).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q58972"
+      "sourceId": "Q1385782"
     }
   },
   {
-    "id": "places-in-the-heart-1984-q59073",
-    "title": "Places in the Heart",
-    "creator": "Robert Benton",
-    "medium": "film",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1984 in United States.",
-    "description": "Places in the Heart, a drama film from United States (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q59073"
-    }
-  },
-  {
-    "id": "and-the-ship-sails-on-1983-q18437",
-    "title": "And the Ship Sails On",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1983,
-    "decade": "1980s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France musical film, 1980s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "pritcha",
-      "war film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "musical film",
-      "pritcha",
-      "war film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1983 in France.",
-    "description": "And the Ship Sails On, a musical film from France (1983).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18437"
-    }
-  },
-  {
-    "id": "ginger-and-fred-1985-q18439",
-    "title": "Ginger and Fred",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1985,
-    "decade": "1980s",
-    "country": "Germany",
-    "language": "Italian",
-    "movement": "Germany comedy drama, 1980s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "comedy film",
-      "LGBTQ-related film"
-    ],
-    "themes": [
-      "comedy drama",
-      "comedy film",
-      "LGBTQ-related film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1985 in Germany.",
-    "description": "Ginger and Fred, a comedy drama from Germany (1985).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18439"
-    }
-  },
-  {
-    "id": "intervista-1987-q18441",
-    "title": "Intervista",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1987,
-    "decade": "1980s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy biographical film, 1980s",
-    "genre": "biographical film",
-    "style": [
-      "biographical film",
-      "drama film"
-    ],
-    "themes": [
-      "biographical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1987 in Italy.",
-    "description": "Intervista, a biographical film from Italy (1987).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18441"
-    }
-  },
-  {
-    "id": "paradise-alley-1980-q19268",
-    "title": "Paradise Alley",
-    "creator": "Sylvester Stallone",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States sport film, 1980s",
-    "genre": "sport film",
-    "style": [
-      "sport film",
-      "drama film"
-    ],
-    "themes": [
-      "sport film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1980 in United States.",
-    "description": "Paradise Alley, a sport film from United States (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q19268"
-    }
-  },
-  {
-    "id": "monty-python-s-life-of-brian-1980-q24953",
-    "title": "Monty Python’s Life of Brian",
-    "creator": "Terry Jones",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom religious satire, 1980s",
-    "genre": "religious satire",
-    "style": [
-      "religious satire",
-      "parody film",
-      "comedy film"
-    ],
-    "themes": [
-      "religious satire",
-      "parody film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1980 in United Kingdom.",
-    "description": "Monty Python’s Life of Brian, a religious satire from United Kingdom (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24953"
-    }
-  },
-  {
-    "id": "monty-python-s-the-meaning-of-life-1983-q24980",
-    "title": "Monty Python's The Meaning of Life",
-    "creator": "Terry Jones",
-    "medium": "film",
-    "year": 1983,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom musical film, 1980s",
-    "genre": "musical film",
-    "style": [
-      "musical film",
-      "comedy film"
-    ],
-    "themes": [
-      "musical film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1983 in United Kingdom.",
-    "description": "Monty Python's The Meaning of Life, a musical film from United Kingdom (1983).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24980"
-    }
-  },
-  {
-    "id": "brazil-1985-q25057",
-    "title": "Brazil",
-    "creator": "Terry Gilliam",
-    "medium": "film",
-    "year": 1985,
-    "decade": "1980s",
-    "country": "Australia",
-    "language": "English",
-    "movement": "Australia dystopian film, 1980s",
-    "genre": "dystopian film",
-    "style": [
-      "dystopian film",
-      "arthouse science fiction film",
-      "science fiction comedy",
-      "Christmas film",
-      "neo-noir",
-      "science fiction film",
-      "retrofuturism",
-      "comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "dystopian film",
-      "arthouse science fiction film",
-      "science fiction comedy",
-      "Christmas film",
-      "neo-noir",
-      "science fiction film",
-      "retrofuturism",
-      "comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Tense",
-      "Playful"
-    ],
-    "context": "Released in 1985 in Australia.",
-    "description": "Brazil, a dystopian film from Australia (1985).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25057"
-    }
-  },
-  {
-    "id": "gang-of-four-1990-q25468",
-    "title": "Gang of Four",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "France",
-    "language": "French",
-    "movement": "France mystery film, 1990s",
-    "genre": "mystery film",
-    "style": [
-      "mystery film",
-      "drama film"
-    ],
-    "themes": [
-      "mystery film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1990 in France.",
-    "description": "Gang of Four, a mystery film from France (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25468"
-    }
-  },
-  {
-    "id": "le-pont-du-nord-1981-q25503",
-    "title": "Le Pont du Nord",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1981,
-    "decade": "1980s",
-    "country": "France",
-    "language": "French",
-    "movement": "France drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1981 in France.",
-    "description": "Le Pont du Nord, a drama film from France (1981).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25503"
-    }
-  },
-  {
-    "id": "love-on-the-ground-1984-q25508",
-    "title": "Love on the Ground",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "France",
-    "language": "French",
-    "movement": "France drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1984 in France.",
-    "description": "Love on the Ground, a drama film from France (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25508"
-    }
-  },
-  {
-    "id": "merry-go-round-1980-q25519",
-    "title": "Merry-Go-Round",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "France",
-    "language": "English",
-    "movement": "France crime film, 1980s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1980 in France.",
-    "description": "Merry-Go-Round, a crime film from France (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25519"
-    }
-  },
-  {
-    "id": "hurlevent-1985-q25524",
-    "title": "Hurlevent",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1985,
-    "decade": "1980s",
-    "country": "France",
-    "language": "French",
-    "movement": "France drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1985 in France.",
-    "description": "Hurlevent, a drama film from France (1985).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25524"
-    }
-  },
-  {
-    "id": "strike-commando-2-1988-q25947",
-    "title": "Strike Commando 2",
-    "creator": "Claudio Fragasso, Bruno Mattei",
-    "medium": "film",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "Italy",
-    "language": "English",
-    "movement": "Italy action film, 1980s",
-    "genre": "action film",
-    "style": [
-      "action film"
-    ],
-    "themes": [
-      "action film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1988 in Italy.",
-    "description": "Strike Commando 2, a action film from Italy (1988).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25947"
-    }
-  },
-  {
-    "id": "wildcats-1986-q26665",
-    "title": "Wildcats",
-    "creator": "Michael Ritchie",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States american football film, 1980s",
-    "genre": "American football film",
-    "style": [
-      "American football film",
-      "comedy film"
-    ],
-    "themes": [
-      "American football film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1986 in United States.",
-    "description": "Wildcats, a american football film from United States (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q26665"
-    }
-  },
-  {
-    "id": "the-hills-have-eyes-part-ii-1984-q27536",
-    "title": "The Hills Have Eyes Part II",
-    "creator": "Wes Craven",
-    "medium": "film",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States slasher film, 1980s",
-    "genre": "slasher film",
-    "style": [
-      "slasher film",
-      "television film",
-      "body horror film",
-      "thriller film",
-      "monster film",
-      "horror film"
-    ],
-    "themes": [
-      "slasher film",
-      "television film",
-      "body horror film",
-      "thriller film",
-      "monster film",
-      "horror film"
-    ],
-    "mood": [
-      "Tense",
-      "Unsettling"
-    ],
-    "context": "Released in 1984 in United States.",
-    "description": "The Hills Have Eyes Part II, a slasher film from United States (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q27536"
-    }
-  },
-  {
-    "id": "the-master-1989-q28312",
-    "title": "The Master",
-    "creator": "Tsui Hark",
-    "medium": "film",
-    "year": 1989,
-    "decade": "1980s",
-    "country": "Hong Kong",
-    "language": "Cantonese",
-    "movement": "Hong Kong kung fu film, 1980s",
-    "genre": "kung fu film",
-    "style": [
-      "kung fu film",
-      "action film"
-    ],
-    "themes": [
-      "kung fu film",
-      "action film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1989 in Hong Kong.",
-    "description": "The Master, a kung fu film from Hong Kong (1989).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jet%20Li%20-%20Annual%20Meeting%20of%20the%20New%20Champions%20Tianjin%202008.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q28312"
-    }
-  },
-  {
-    "id": "tell-me-a-riddle-1980-q31198",
-    "title": "Tell Me a Riddle",
-    "creator": "Lee Grant",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1980 in United States.",
-    "description": "Tell Me a Riddle, a drama film from United States (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q31198"
-    }
-  },
-  {
-    "id": "the-postman-always-rings-twice-1981-q36739",
-    "title": "The Postman Always Rings Twice",
-    "creator": "Bob Rafelson",
-    "medium": "film",
-    "year": 1981,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States neo-noir, 1980s",
-    "genre": "neo-noir",
-    "style": [
-      "neo-noir",
-      "romance film",
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "neo-noir",
-      "romance film",
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1981 in United States.",
-    "description": "The Postman Always Rings Twice, a neo-noir from United States (1981).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q36739"
-    }
-  },
-  {
-    "id": "basileus-quartet-1982-q38226",
-    "title": "Basileus Quartet",
-    "creator": "Fabio Carpi",
-    "medium": "film",
-    "year": 1982,
-    "decade": "1980s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1982 in France.",
-    "description": "Basileus Quartet, a drama film from France (1982).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q38226"
-    }
-  },
-  {
-    "id": "my-neighbor-totoro-1988-q39571",
-    "title": "My Neighbor Totoro",
-    "creator": "Hayao Miyazaki",
-    "medium": "film",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan fantasy anime and manga, 1980s",
-    "genre": "fantasy anime and manga",
-    "style": [
-      "fantasy anime and manga",
-      "drama anime and manga",
-      "supernatural anime",
-      "children's film",
-      "fantasy film"
-    ],
-    "themes": [
-      "fantasy anime and manga",
-      "drama anime and manga",
-      "supernatural anime",
-      "children's film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1988 in Japan.",
-    "description": "My Neighbor Totoro, a fantasy anime and manga from Japan (1988).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonari%20no%20Totoro%20title%20%28green%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q39571"
-    }
-  },
-  {
-    "id": "iron-eagle-1986-q39956",
-    "title": "Iron Eagle",
-    "creator": "Sidney J. Furie",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States thriller film, 1980s",
-    "genre": "thriller film",
-    "style": [
-      "thriller film",
-      "war film",
-      "action film"
-    ],
-    "themes": [
-      "thriller film",
-      "war film",
-      "action film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1986 in United States.",
-    "description": "Iron Eagle, a thriller film from United States (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q39956"
-    }
-  },
-  {
-    "id": "labyrinth-of-passion-1990-q46044",
-    "title": "Labyrinth of Passion",
-    "creator": "Pedro Almodóvar",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "Spain",
-    "language": "Spanish",
-    "movement": "Spain lgbtq-related film, 1990s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1990 in Spain.",
-    "description": "Labyrinth of Passion, a lgbtq-related film from Spain (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46044"
-    }
-  },
-  {
-    "id": "favorites-of-the-moon-1984-q46533",
-    "title": "Favorites of the Moon",
-    "creator": "Otar Iosseliani",
-    "medium": "film",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "Soviet Union",
-    "language": "French",
-    "movement": "Soviet Union drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1984 in Soviet Union.",
-    "description": "Favorites of the Moon, a drama film from Soviet Union (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46533"
-    }
-  },
-  {
-    "id": "una-spina-nel-cuore-1986-q46609",
-    "title": "Una spina nel cuore",
-    "creator": "Alberto Lattuada",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "France",
-    "language": "Italian",
-    "movement": "France drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1986 in France.",
-    "description": "Una spina nel cuore, a drama film from France (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46609"
-    }
-  },
-  {
-    "id": "maximum-overdrive-1986-q46637",
-    "title": "Maximum Overdrive",
-    "creator": "Stephen King",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States science fiction film, 1980s",
-    "genre": "science fiction film",
-    "style": [
-      "science fiction film",
-      "horror film",
-      "action film",
-      "comedy film"
-    ],
-    "themes": [
-      "science fiction film",
-      "horror film",
-      "action film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Unsettling"
-    ],
-    "context": "Released in 1986 in United States.",
-    "description": "Maximum Overdrive, a science fiction film from United States (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q46637"
-    }
-  },
-  {
-    "id": "scarface-1983-q47075",
-    "title": "Scarface",
-    "creator": "Brian De Palma",
-    "medium": "film",
-    "year": 1983,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime thriller film, 1980s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film",
-      "suspense film",
-      "epic film",
-      "thriller film",
-      "neo-noir",
-      "crime drama film",
-      "police procedural film",
-      "gangster film",
-      "crime film",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "crime thriller film",
-      "suspense film",
-      "epic film",
-      "thriller film",
-      "neo-noir",
-      "crime drama film",
-      "police procedural film",
-      "gangster film",
-      "crime film",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1983 in United States.",
-    "description": "Scarface, a crime thriller film from United States (1983).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q47075"
-    }
-  },
-  {
-    "id": "orchestra-rehearsal-1980-q18431",
-    "title": "Orchestra Rehearsal",
-    "creator": "Federico Fellini",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "Germany",
-    "language": "Italian",
-    "movement": "Germany comedy film, 1980s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1980 in Germany.",
-    "description": "Orchestra Rehearsal, a comedy film from Germany (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18431"
-    }
-  },
-  {
-    "id": "the-midas-touch-1988-q51121",
-    "title": "The Midas Touch",
-    "creator": "Géza Bereményi",
-    "medium": "film",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "Hungary",
-    "language": "Hungarian",
-    "movement": "Hungary drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1988 in Hungary.",
-    "description": "The Midas Touch, a drama film from Hungary (1988).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q51121"
-    }
-  },
-  {
-    "id": "alf-1986-q264221",
-    "title": "ALF",
+    "id": "canned-film-festival-1986-q2936396",
+    "title": "Canned Film Festival",
     "creator": "Unknown",
     "medium": "tv",
     "year": 1986,
     "decade": "1980s",
     "country": "United States",
-    "language": "English",
-    "movement": "United States science fiction television series, 1980s",
-    "genre": "science fiction television series",
-    "style": [
-      "science fiction television series",
-      "sitcom"
-    ],
-    "themes": [
-      "science fiction television series",
-      "sitcom"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1986 in United States.",
-    "description": "ALF, a science fiction television series from United States (1986).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alf-1.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q264221"
-    }
-  },
-  {
-    "id": "a-d-1984-q278193",
-    "title": "A.D.",
-    "creator": "Stuart Cooper",
-    "medium": "tv",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "Italy",
-    "language": "English",
-    "movement": "Italy work, 1980s",
+    "language": "unknown",
+    "movement": "United States work, 1980s",
     "genre": "Uncategorized",
     "style": [
       "Uncategorized"
@@ -13898,42 +8667,100 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1984 in Italy.",
-    "description": "A.D., a work from Italy (1984).",
+    "context": "Released in 1986 in United States.",
+    "description": "Canned Film Festival, a work from United States (1986).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q278193"
+      "sourceId": "Q2936396"
     }
   },
   {
-    "id": "amerika-1987-q468052",
-    "title": "Amerika",
-    "creator": "Donald Wrye",
+    "id": "mijn-vader-woont-in-rio-1989-q2967442",
+    "title": "Mijn vader woont in Rio",
+    "creator": "Ben Sombogaart",
+    "medium": "tv",
+    "year": 1989,
+    "decade": "1980s",
+    "country": "Netherlands",
+    "language": "Dutch",
+    "movement": "Netherlands work, 1980s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1989 in Netherlands.",
+    "description": "Mijn vader woont in Rio, a work from Netherlands (1989).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2967442"
+    }
+  },
+  {
+    "id": "dolly-1987-q3033969",
+    "title": "Dolly",
+    "creator": "Unknown",
     "medium": "tv",
     "year": 1987,
     "decade": "1980s",
     "country": "United States",
-    "language": "English",
-    "movement": "United States science fiction television series, 1980s",
-    "genre": "science fiction television series",
+    "language": "unknown",
+    "movement": "United States variety show, 1980s",
+    "genre": "variety show",
     "style": [
-      "science fiction television series"
+      "variety show"
     ],
     "themes": [
-      "science fiction television series"
+      "variety show"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1987 in United States.",
-    "description": "Amerika, a science fiction television series from United States (1987).",
+    "description": "Dolly, a variety show from United States (1987).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q468052"
+      "sourceId": "Q3033969"
+    }
+  },
+  {
+    "id": "hezardastan-1987-q3135109",
+    "title": "Hezardastan",
+    "creator": "Ali Hatami",
+    "medium": "tv",
+    "year": 1987,
+    "decade": "1980s",
+    "country": "Iran",
+    "language": "Persian",
+    "movement": "Iran work, 1980s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1987 in Iran.",
+    "description": "Hezardastan, a work from Iran (1987).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3135109"
     }
   },
   {
@@ -14148,17 +8975,17 @@ export const works = [
     "decade": "1980s",
     "country": "West Germany",
     "language": "Czech",
-    "movement": "West Germany science fiction television series, 1980s",
-    "genre": "science fiction television series",
+    "movement": "West Germany fantasy television series, 1980s",
+    "genre": "fantasy television series",
     "style": [
-      "science fiction television series",
       "fantasy television series",
+      "science fiction television series",
       "comedy television series",
       "family television series"
     ],
     "themes": [
-      "science fiction television series",
       "fantasy television series",
+      "science fiction television series",
       "comedy television series",
       "family television series"
     ],
@@ -14166,7 +8993,7 @@ export const works = [
       "Playful"
     ],
     "context": "Released in 1984 in West Germany.",
-    "description": "The Flying Cestmír, a science fiction television series from West Germany (1984).",
+    "description": "The Flying Cestmír, a fantasy television series from West Germany (1984).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -14233,276 +9060,46 @@ export const works = [
     }
   },
   {
-    "id": "einzug-ins-paradies-1987-q1310334",
-    "title": "Einzug ins Paradies",
-    "creator": "Achim Hübner",
-    "medium": "tv",
-    "year": 1987,
-    "decade": "1980s",
-    "country": "East Germany",
-    "language": "German",
-    "movement": "East Germany drama film, 1980s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1987 in East Germany.",
-    "description": "Einzug ins Paradies, a drama film from East Germany (1987).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1310334"
-    }
-  },
-  {
-    "id": "eyes-on-the-prize-1987-q1385782",
-    "title": "Eyes on the Prize",
+    "id": "alf-1986-q264221",
+    "title": "ALF",
     "creator": "Unknown",
-    "medium": "tv",
-    "year": 1987,
-    "decade": "1980s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States documentary television program, 1980s",
-    "genre": "documentary television program",
-    "style": [
-      "documentary television program"
-    ],
-    "themes": [
-      "documentary television program"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1987 in United States.",
-    "description": "Eyes on the Prize, a documentary television program from United States (1987).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1385782"
-    }
-  },
-  {
-    "id": "brideshead-revisited-1981-q1481423",
-    "title": "Brideshead Revisited",
-    "creator": "Charles Sturridge, John Mortimer",
-    "medium": "tv",
-    "year": 1981,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom drama television series, 1980s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series"
-    ],
-    "themes": [
-      "drama television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1981 in United Kingdom.",
-    "description": "Brideshead Revisited, a drama television series from United Kingdom (1981).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brideshead%20Revisited%20ITV%201981.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1481423"
-    }
-  },
-  {
-    "id": "busters-verden-1984-q1760358",
-    "title": "Busters verden",
-    "creator": "Bille August",
-    "medium": "tv",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "Denmark",
-    "language": "Danish",
-    "movement": "Denmark children's television series, 1980s",
-    "genre": "children's television series",
-    "style": [
-      "children's television series"
-    ],
-    "themes": [
-      "children's television series"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1984 in Denmark.",
-    "description": "Busters verden, a children's television series from Denmark (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1760358"
-    }
-  },
-  {
-    "id": "korkmazlar-1988-q1784451",
-    "title": "Korkmazlar",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "Germany",
-    "language": "Turkish",
-    "movement": "Germany work, 1980s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1988 in Germany.",
-    "description": "Korkmazlar, a work from Germany (1988).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1784451"
-    }
-  },
-  {
-    "id": "spot-the-dog-1980-q1972398",
-    "title": "Spot the Dog",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "unknown",
-    "movement": "United Kingdom children's television series, 1980s",
-    "genre": "children's television series",
-    "style": [
-      "children's television series"
-    ],
-    "themes": [
-      "children's television series"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1980 in United Kingdom.",
-    "description": "Spot the Dog, a children's television series from United Kingdom (1980).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1972398"
-    }
-  },
-  {
-    "id": "the-lion-the-witch-and-the-wardrobe-1988-q2078932",
-    "title": "The Lion, the Witch and the Wardrobe",
-    "creator": "Marilyn Fox",
-    "medium": "tv",
-    "year": 1988,
-    "decade": "1980s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom fantasy television series, 1980s",
-    "genre": "fantasy television series",
-    "style": [
-      "fantasy television series"
-    ],
-    "themes": [
-      "fantasy television series"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1988 in United Kingdom.",
-    "description": "The Lion, the Witch and the Wardrobe, a fantasy television series from United Kingdom (1988).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2078932"
-    }
-  },
-  {
-    "id": "anthonsen-1984-q2111069",
-    "title": "Anthonsen",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1984,
-    "decade": "1980s",
-    "country": "Denmark",
-    "language": "Danish",
-    "movement": "Denmark crime film, 1980s",
-    "genre": "crime film",
-    "style": [
-      "crime film"
-    ],
-    "themes": [
-      "crime film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1984 in Denmark.",
-    "description": "Anthonsen, a crime film from Denmark (1984).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2111069"
-    }
-  },
-  {
-    "id": "sachsens-glanz-und-preu-ens-gloria-grafin-cosel-1985-q2210683",
-    "title": "Sachsens Glanz und Preußens Gloria: Gräfin Cosel",
-    "creator": "Hans-Joachim Kasprzik",
-    "medium": "tv",
-    "year": 1985,
-    "decade": "1980s",
-    "country": "East Germany",
-    "language": "German",
-    "movement": "East Germany historical film, 1980s",
-    "genre": "historical film",
-    "style": [
-      "historical film"
-    ],
-    "themes": [
-      "historical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1985 in East Germany.",
-    "description": "Sachsens Glanz und Preußens Gloria: Gräfin Cosel, a historical film from East Germany (1985).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2210683"
-    }
-  },
-  {
-    "id": "peter-the-great-1986-q2267401",
-    "title": "Peter the Great",
-    "creator": "Marvin J. Chomsky, Lawrence Schiller",
     "medium": "tv",
     "year": 1986,
     "decade": "1980s",
     "country": "United States",
     "language": "English",
-    "movement": "United States work, 1980s",
+    "movement": "United States science fiction television series, 1980s",
+    "genre": "science fiction television series",
+    "style": [
+      "science fiction television series",
+      "sitcom"
+    ],
+    "themes": [
+      "science fiction television series",
+      "sitcom"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1986 in United States.",
+    "description": "ALF, a science fiction television series from United States (1986).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alf-1.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q264221"
+    }
+  },
+  {
+    "id": "a-d-1984-q278193",
+    "title": "A.D.",
+    "creator": "Stuart Cooper",
+    "medium": "tv",
+    "year": 1984,
+    "decade": "1980s",
+    "country": "Italy",
+    "language": "English",
+    "movement": "Italy work, 1980s",
     "genre": "Uncategorized",
     "style": [
       "Uncategorized"
@@ -14513,44 +9110,216 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1986 in United States.",
-    "description": "Peter the Great, a work from United States (1986).",
+    "context": "Released in 1984 in Italy.",
+    "description": "A.D., a work from Italy (1984).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2267401"
+      "sourceId": "Q278193"
     }
   },
   {
-    "id": "spuk-im-hochhaus-1982-q2314383",
-    "title": "Spuk im Hochhaus",
-    "creator": "Unknown",
+    "id": "amerika-1987-q468052",
+    "title": "Amerika",
+    "creator": "Donald Wrye",
     "medium": "tv",
-    "year": 1982,
+    "year": 1987,
     "decade": "1980s",
-    "country": "East Germany",
-    "language": "German",
-    "movement": "East Germany children's television series, 1980s",
-    "genre": "children's television series",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States science fiction television series, 1980s",
+    "genre": "science fiction television series",
     "style": [
-      "children's television series",
-      "comedy film"
+      "science fiction television series"
     ],
     "themes": [
-      "children's television series",
-      "comedy film"
+      "science fiction television series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1987 in United States.",
+    "description": "Amerika, a science fiction television series from United States (1987).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q468052"
+    }
+  },
+  {
+    "id": "teresa-1989-q3518335",
+    "title": "Teresa",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1989,
+    "decade": "1980s",
+    "country": "Mexico",
+    "language": "Spanish",
+    "movement": "Mexico telenovela, 1980s",
+    "genre": "telenovela",
+    "style": [
+      "telenovela"
+    ],
+    "themes": [
+      "telenovela"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1989 in Mexico.",
+    "description": "Teresa, a telenovela from Mexico (1989).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3518335"
+    }
+  },
+  {
+    "id": "telefrancais-1984-q3546611",
+    "title": "Téléfrançais!",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1984,
+    "decade": "1980s",
+    "country": "Canada",
+    "language": "French",
+    "movement": "Canada children's television program, 1980s",
+    "genre": "children's television program",
+    "style": [
+      "children's television program"
+    ],
+    "themes": [
+      "children's television program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1984 in Canada.",
+    "description": "Téléfrançais!, a children's television program from Canada (1984).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3546611"
+    }
+  },
+  {
+    "id": "vivaldi-1988-q3561428",
+    "title": "Vivaldi",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1988,
+    "decade": "1980s",
+    "country": "Canada",
+    "language": "unknown",
+    "movement": "Canada work, 1980s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1988 in Canada.",
+    "description": "Vivaldi, a work from Canada (1988).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3561428"
+    }
+  },
+  {
+    "id": "disney-parks-christmas-day-parade-1983-q3565636",
+    "title": "Disney Parks Christmas Day Parade",
+    "creator": "Stephen Collins",
+    "medium": "tv",
+    "year": 1983,
+    "decade": "1980s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States christmas film, 1980s",
+    "genre": "Christmas film",
+    "style": [
+      "Christmas film"
+    ],
+    "themes": [
+      "Christmas film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1983 in United States.",
+    "description": "Disney Parks Christmas Day Parade, a christmas film from United States (1983).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3565636"
+    }
+  },
+  {
+    "id": "amanda-s-1983-q3613580",
+    "title": "Amanda's",
+    "creator": "Marc Daniels",
+    "medium": "tv",
+    "year": 1983,
+    "decade": "1980s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States sitcom, 1980s",
+    "genre": "sitcom",
+    "style": [
+      "sitcom"
+    ],
+    "themes": [
+      "sitcom"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1983 in United States.",
+    "description": "Amanda's, a sitcom from United States (1983).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3613580"
+    }
+  },
+  {
+    "id": "arriva-cristina-1988-q3623806",
+    "title": "Arriva Cristina",
+    "creator": "Francesco Vicario",
+    "medium": "tv",
+    "year": 1988,
+    "decade": "1980s",
+    "country": "Italy",
+    "language": "Italian",
+    "movement": "Italy comedy, 1980s",
+    "genre": "comedy",
+    "style": [
+      "comedy"
+    ],
+    "themes": [
+      "comedy"
     ],
     "mood": [
       "Playful"
     ],
-    "context": "Released in 1982 in East Germany.",
-    "description": "Spuk im Hochhaus, a children's television series from East Germany (1982).",
+    "context": "Released in 1988 in Italy.",
+    "description": "Arriva Cristina, a comedy from Italy (1988).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q2314383"
+      "sourceId": "Q3623806"
     }
   },
   {
@@ -14592,7 +9361,7 @@ export const works = [
     "year": 1985,
     "decade": "1980s",
     "country": "Brazil",
-    "language": "Italian",
+    "language": "Portuguese",
     "movement": "Brazil horror film, 1980s",
     "genre": "horror film",
     "style": [
@@ -14650,7 +9419,7 @@ export const works = [
     "year": 1984,
     "decade": "1980s",
     "country": "Brazil",
-    "language": "Italian",
+    "language": "Portuguese",
     "movement": "Brazil comedy film, 1980s",
     "genre": "comedy film",
     "style": [
@@ -14683,16 +9452,16 @@ export const works = [
     "decade": "1980s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil crime film, 1980s",
-    "genre": "crime film",
+    "movement": "Brazil lgbtq-related film, 1980s",
+    "genre": "LGBTQ-related film",
     "style": [
-      "crime film",
       "LGBTQ-related film",
+      "crime film",
       "drama film"
     ],
     "themes": [
-      "crime film",
       "LGBTQ-related film",
+      "crime film",
       "drama film"
     ],
     "mood": [
@@ -14700,7 +9469,7 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 1980 in Brazil.",
-    "description": "Pixote, a crime film from Brazil (1980).",
+    "description": "Pixote, a lgbtq-related film from Brazil (1980).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -14716,20 +9485,20 @@ export const works = [
     "year": 1985,
     "decade": "1980s",
     "country": "Brazil",
-    "language": "English",
+    "language": "Portuguese",
     "movement": "Brazil lgbtq-related film, 1980s",
     "genre": "LGBTQ-related film",
     "style": [
       "LGBTQ-related film",
-      "independent film",
+      "drama film",
       "prison film",
-      "drama film"
+      "independent film"
     ],
     "themes": [
       "LGBTQ-related film",
-      "independent film",
+      "drama film",
       "prison film",
-      "drama film"
+      "independent film"
     ],
     "mood": [
       "Unflinching"
@@ -14744,123 +9513,123 @@ export const works = [
     }
   },
   {
-    "id": "o-grande-mentecapto-1986-q10339199",
-    "title": "O Grande Mentecapto",
-    "creator": "Oswaldo Caldeira",
-    "medium": "film",
-    "year": 1986,
-    "decade": "1980s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil comedy film, 1980s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1986 in Brazil.",
-    "description": "O Grande Mentecapto, a comedy film from Brazil (1986).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10339199"
-    }
-  },
-  {
-    "id": "o-homem-do-pau-brasil-1982-q10339245",
-    "title": "O Homem do Pau-brasil",
-    "creator": "Joaquim Pedro de Andrade",
+    "id": "o-sonho-nao-acabou-1982-q10339827",
+    "title": "O Sonho Não Acabou",
+    "creator": "Sérgio Rezende",
     "medium": "film",
     "year": 1982,
     "decade": "1980s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil comedy film, 1980s",
-    "genre": "comedy film",
+    "movement": "Brazil drama film, 1980s",
+    "genre": "drama film",
     "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1982 in Brazil.",
-    "description": "O Homem do Pau-brasil, a comedy film from Brazil (1982).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10339245"
-    }
-  },
-  {
-    "id": "quilas-the-bad-of-the-picture-1980-q1741224",
-    "title": "Quilas, the Bad of the Picture",
-    "creator": "José Fonseca e Costa",
-    "medium": "film",
-    "year": 1980,
-    "decade": "1980s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil mystery film, 1980s",
-    "genre": "mystery film",
-    "style": [
-      "mystery film",
       "drama film"
     ],
     "themes": [
-      "mystery film",
       "drama film"
     ],
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 1980 in Brazil.",
-    "description": "Quilas, the Bad of the Picture, a mystery film from Brazil (1980).",
+    "context": "Released in 1982 in Brazil.",
+    "description": "O Sonho Não Acabou, a drama film from Brazil (1982).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1741224"
+      "sourceId": "Q10339827"
     }
   },
   {
-    "id": "os-trapalhoes-e-o-magico-de-oroz-1984-q7105480",
-    "title": "Os Trapalhões e o Mágico de Oróz",
-    "creator": "Dedé Santana",
+    "id": "the-torturer-1981-q10339883",
+    "title": "The Torturer",
+    "creator": "Antônio Calmon",
+    "medium": "film",
+    "year": 1981,
+    "decade": "1980s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil action film, 1980s",
+    "genre": "action film",
+    "style": [
+      "action film"
+    ],
+    "themes": [
+      "action film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1981 in Brazil.",
+    "description": "The Torturer, a action film from Brazil (1981).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10339883"
+    }
+  },
+  {
+    "id": "o-trapalhao-na-arca-de-noe-1983-q10339889",
+    "title": "O Trapalhão na Arca de Noé",
+    "creator": "Del Rangel",
+    "medium": "film",
+    "year": 1983,
+    "decade": "1980s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil romantic comedy film, 1980s",
+    "genre": "romantic comedy film",
+    "style": [
+      "romantic comedy film",
+      "adventure film",
+      "children's film"
+    ],
+    "themes": [
+      "romantic comedy film",
+      "adventure film",
+      "children's film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1983 in Brazil.",
+    "description": "O Trapalhão na Arca de Noé, a romantic comedy film from Brazil (1983).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q10339889"
+    }
+  },
+  {
+    "id": "oh-rebuceteio-1984-q10340406",
+    "title": "Oh! Rebuceteio",
+    "creator": "Cláudio Cunha",
     "medium": "film",
     "year": 1984,
     "decade": "1980s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil parody film, 1980s",
-    "genre": "parody film",
+    "movement": "Brazil erotic film, 1980s",
+    "genre": "erotic film",
     "style": [
-      "parody film",
-      "musical film"
+      "erotic film"
     ],
     "themes": [
-      "parody film",
-      "musical film"
+      "erotic film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1984 in Brazil.",
-    "description": "Os Trapalhões e o Mágico de Oróz, a parody film from Brazil (1984).",
+    "description": "Oh! Rebuceteio, a erotic film from Brazil (1984).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q7105480"
+      "sourceId": "Q10340406"
     }
   },
   {
@@ -15154,1310 +9923,6 @@ export const works = [
     }
   },
   {
-    "id": "swept-away-1991-q1365",
-    "title": "Swept Away",
-    "creator": "Lina Wertmüller",
-    "medium": "film",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy comedy film, 1990s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1991 in Italy.",
-    "description": "Swept Away, a comedy film from Italy (1991).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MelatoGianniniTravolti1974WP.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1365"
-    }
-  },
-  {
-    "id": "adhisaya-manithan-1990-q3998",
-    "title": "Adhisaya Manithan",
-    "creator": "Velu Prabhakaran",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "India",
-    "language": "Tamil",
-    "movement": "India horror film, 1990s",
-    "genre": "horror film",
-    "style": [
-      "horror film"
-    ],
-    "themes": [
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1990 in India.",
-    "description": "Adhisaya Manithan, a horror film from India (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q3998"
-    }
-  },
-  {
-    "id": "vaa-arugil-vaa-1991-q4005",
-    "title": "Vaa Arugil Vaa",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "India",
-    "language": "Tamil",
-    "movement": "India horror film, 1990s",
-    "genre": "horror film",
-    "style": [
-      "horror film"
-    ],
-    "themes": [
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1991 in India.",
-    "description": "Vaa Arugil Vaa, a horror film from India (1991).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q4005"
-    }
-  },
-  {
-    "id": "special-effects-anything-can-happen-1996-q8547",
-    "title": "Special Effects: Anything Can Happen",
-    "creator": "Ben Burtt",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States documentary film, 1990s",
-    "genre": "documentary film",
-    "style": [
-      "documentary film"
-    ],
-    "themes": [
-      "documentary film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1996 in United States.",
-    "description": "Special Effects: Anything Can Happen, a documentary film from United States (1996).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q8547"
-    }
-  },
-  {
-    "id": "101-dalmatians-1996-q8594",
-    "title": "101 Dalmatians",
-    "creator": "Stephen Herek",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States family film, 1990s",
-    "genre": "family film",
-    "style": [
-      "family film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "family film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1996 in United States.",
-    "description": "101 Dalmatians, a family film from United States (1996).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q8594"
-    }
-  },
-  {
-    "id": "hackers-1995-q13908",
-    "title": "Hackers",
-    "creator": "Iain Softley",
-    "medium": "film",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime thriller film, 1990s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film",
-      "teen film",
-      "thriller film",
-      "crime film",
-      "techno-thriller",
-      "drama film"
-    ],
-    "themes": [
-      "crime thriller film",
-      "teen film",
-      "thriller film",
-      "crime film",
-      "techno-thriller",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1995 in United States.",
-    "description": "Hackers, a crime thriller film from United States (1995).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hackers%20Iain%20Softley.svg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q13908"
-    }
-  },
-  {
-    "id": "godzilla-1998-q24075",
-    "title": "Godzilla",
-    "creator": "Roland Emmerich",
-    "medium": "film",
-    "year": 1998,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "Japanese",
-    "movement": "United States monster film, 1990s",
-    "genre": "monster film",
-    "style": [
-      "monster film",
-      "thriller film",
-      "science fiction film",
-      "horror film",
-      "action film"
-    ],
-    "themes": [
-      "monster film",
-      "thriller film",
-      "science fiction film",
-      "horror film",
-      "action film"
-    ],
-    "mood": [
-      "Tense",
-      "Unsettling"
-    ],
-    "context": "Released in 1998 in United States.",
-    "description": "Godzilla, a monster film from United States (1998).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24075"
-    }
-  },
-  {
-    "id": "batman-returns-1992-q189054",
-    "title": "Batman Returns",
-    "creator": "Tim Burton",
-    "medium": "film",
-    "year": 1992,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States superhero film, 1990s",
-    "genre": "superhero film",
-    "style": [
-      "superhero film",
-      "thriller film",
-      "neo-noir",
-      "Christmas film",
-      "science fiction film",
-      "action film",
-      "fantasy film"
-    ],
-    "themes": [
-      "superhero film",
-      "thriller film",
-      "neo-noir",
-      "Christmas film",
-      "science fiction film",
-      "action film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1992 in United States.",
-    "description": "Batman Returns, a superhero film from United States (1992).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q189054"
-    }
-  },
-  {
-    "id": "alligator-ii-the-mutation-1991-q24151",
-    "title": "Alligator II – The Mutation",
-    "creator": "Jon Hess",
-    "medium": "film",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States science fiction film, 1990s",
-    "genre": "science fiction film",
-    "style": [
-      "science fiction film",
-      "horror film"
-    ],
-    "themes": [
-      "science fiction film",
-      "horror film"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 1991 in United States.",
-    "description": "Alligator II – The Mutation, a science fiction film from United States (1991).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24151"
-    }
-  },
-  {
-    "id": "visions-of-light-1992-q24258",
-    "title": "Visions of Light",
-    "creator": "Todd McCarthy",
-    "medium": "film",
-    "year": 1992,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States documentary film, 1990s",
-    "genre": "documentary film",
-    "style": [
-      "documentary film"
-    ],
-    "themes": [
-      "documentary film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1992 in United States.",
-    "description": "Visions of Light, a documentary film from United States (1992).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24258"
-    }
-  },
-  {
-    "id": "anna-karamazoff-1991-q24340",
-    "title": "Anna Karamazoff",
-    "creator": "Rustam Khamdamov",
-    "medium": "film",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "Soviet Union",
-    "language": "Russian",
-    "movement": "Soviet Union drama film, 1990s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1991 in Soviet Union.",
-    "description": "Anna Karamazoff, a drama film from Soviet Union (1991).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24340"
-    }
-  },
-  {
-    "id": "jaded-1997-q24618",
-    "title": "Jaded",
-    "creator": "Caryn Krooth",
-    "medium": "film",
-    "year": 1997,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States lgbtq-related film, 1990s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "trial film",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "trial film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1997 in United States.",
-    "description": "Jaded, a lgbtq-related film from United States (1997).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q24618"
-    }
-  },
-  {
-    "id": "the-ogre-1996-q25069",
-    "title": "The Ogre",
-    "creator": "Volker Schlöndorff",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "Germany",
-    "language": "English",
-    "movement": "Germany war film, 1990s",
-    "genre": "war film",
-    "style": [
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1996 in Germany.",
-    "description": "The Ogre, a war film from Germany (1996).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25069"
-    }
-  },
-  {
-    "id": "american-beauty-1999-q25139",
-    "title": "American Beauty",
-    "creator": "Sam Mendes",
-    "medium": "film",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States lgbtq-related film, 1990s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "flashback film",
-      "black comedy film",
-      "comedy drama",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "flashback film",
-      "black comedy film",
-      "comedy drama",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in United States.",
-    "description": "American Beauty, a lgbtq-related film from United States (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25139"
-    }
-  },
-  {
-    "id": "charisma-1999-q25518",
-    "title": "Charisma",
-    "creator": "Kiyoshi Kurosawa",
-    "medium": "film",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama film, 1990s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in Japan.",
-    "description": "Charisma, a drama film from Japan (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25518"
-    }
-  },
-  {
-    "id": "unakkaga-ellam-unakkaga-1999-q25539",
-    "title": "Unakkaga Ellam Unakkaga",
-    "creator": "Sundar C",
-    "medium": "film",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "India",
-    "language": "Tamil",
-    "movement": "India romantic comedy film, 1990s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film"
-    ],
-    "themes": [
-      "romantic comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1999 in India.",
-    "description": "Unakkaga Ellam Unakkaga, a romantic comedy film from India (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25539"
-    }
-  },
-  {
-    "id": "top-secret-1998-q25552",
-    "title": "Top Secret",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1998,
-    "decade": "1990s",
-    "country": "France",
-    "language": "French",
-    "movement": "France drama film, 1990s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1998 in France.",
-    "description": "Top Secret, a drama film from France (1998).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25552"
-    }
-  },
-  {
-    "id": "up-down-fragile-1995-q25617",
-    "title": "Up, Down, Fragile",
-    "creator": "Jacques Rivette",
-    "medium": "film",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "France",
-    "language": "French",
-    "movement": "France musical film, 1990s",
-    "genre": "musical film",
-    "style": [
-      "musical film"
-    ],
-    "themes": [
-      "musical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1995 in France.",
-    "description": "Up, Down, Fragile, a musical film from France (1995).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25617"
-    }
-  },
-  {
-    "id": "terminal-velocity-1994-q25760",
-    "title": "Terminal Velocity",
-    "creator": "Deran Sarafian",
-    "medium": "film",
-    "year": 1994,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action thriller, 1990s",
-    "genre": "action thriller",
-    "style": [
-      "action thriller",
-      "spy film",
-      "action film"
-    ],
-    "themes": [
-      "action thriller",
-      "spy film",
-      "action film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1994 in United States.",
-    "description": "Terminal Velocity, a action thriller from United States (1994).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q25760"
-    }
-  },
-  {
-    "id": "chasing-amy-1997-q40115",
-    "title": "Chasing Amy",
-    "creator": "Kevin Smith",
-    "medium": "film",
-    "year": 1997,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romantic comedy film, 1990s",
-    "genre": "romantic comedy film",
-    "style": [
-      "romantic comedy film",
-      "romance film",
-      "comedy drama",
-      "comedy film",
-      "drama film",
-      "LGBTQ-related film"
-    ],
-    "themes": [
-      "romantic comedy film",
-      "romance film",
-      "comedy drama",
-      "comedy film",
-      "drama film",
-      "LGBTQ-related film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1997 in United States.",
-    "description": "Chasing Amy, a romantic comedy film from United States (1997).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q40115"
-    }
-  },
-  {
-    "id": "titanic-1997-q44578",
-    "title": "Titanic",
-    "creator": "James Cameron",
-    "medium": "film",
-    "year": 1997,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States historical film, 1990s",
-    "genre": "historical film",
-    "style": [
-      "historical film",
-      "disaster film",
-      "romance film",
-      "melodrama",
-      "flashback film",
-      "epic film",
-      "drama film"
-    ],
-    "themes": [
-      "historical film",
-      "disaster film",
-      "romance film",
-      "melodrama",
-      "flashback film",
-      "epic film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1997 in United States.",
-    "description": "Titanic, a historical film from United States (1997).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q44578"
-    }
-  },
-  {
-    "id": "city-hall-1996-q44686",
-    "title": "City Hall",
-    "creator": "Harold Becker",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime film, 1990s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1996 in United States.",
-    "description": "City Hall, a crime film from United States (1996).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City-hall.png",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q44686"
-    }
-  },
-  {
-    "id": "liar-liar-1997-q48980",
-    "title": "Liar Liar",
-    "creator": "Tom Shadyac",
-    "medium": "film",
-    "year": 1997,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States trial film, 1990s",
-    "genre": "trial film",
-    "style": [
-      "trial film",
-      "fantasy comedy film"
-    ],
-    "themes": [
-      "trial film",
-      "fantasy comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1997 in United States.",
-    "description": "Liar Liar, a trial film from United States (1997).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q48980"
-    }
-  },
-  {
-    "id": "ghost-1990-q49003",
-    "title": "Ghost",
-    "creator": "Jerry Zucker",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States ghost film, 1990s",
-    "genre": "ghost film",
-    "style": [
-      "ghost film",
-      "romance film",
-      "fantasy film",
-      "drama film"
-    ],
-    "themes": [
-      "ghost film",
-      "romance film",
-      "fantasy film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1990 in United States.",
-    "description": "Ghost, a ghost film from United States (1990).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghost%20opening%20title.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q49003"
-    }
-  },
-  {
-    "id": "tall-tale-1995-q49006",
-    "title": "Tall Tale",
-    "creator": "Jeremiah S. Chechik",
-    "medium": "film",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States family film, 1990s",
-    "genre": "family film",
-    "style": [
-      "family film",
-      "adventure film",
-      "Western film",
-      "fantasy film"
-    ],
-    "themes": [
-      "family film",
-      "adventure film",
-      "Western film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1995 in United States.",
-    "description": "Tall Tale, a family film from United States (1995).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q49006"
-    }
-  },
-  {
-    "id": "fly-away-home-1996-q49018",
-    "title": "Fly Away Home",
-    "creator": "Carroll Ballard",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States comedy drama, 1990s",
-    "genre": "comedy drama",
-    "style": [
-      "comedy drama",
-      "biographical film",
-      "drama film"
-    ],
-    "themes": [
-      "comedy drama",
-      "biographical film",
-      "drama film"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 1996 in United States.",
-    "description": "Fly Away Home, a comedy drama from United States (1996).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fly%20Away%20Home%20aircraft.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q49018"
-    }
-  },
-  {
-    "id": "message-in-a-bottle-1999-q49021",
-    "title": "Message in a Bottle",
-    "creator": "Luis Mandoki",
-    "medium": "film",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States romance film, 1990s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "melodrama",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "melodrama",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in United States.",
-    "description": "Message in a Bottle, a romance film from United States (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q49021"
-    }
-  },
-  {
-    "id": "to-live-and-die-in-tsimshatsui-1994-q56862",
-    "title": "To Live and Die in Tsimshatsui",
-    "creator": "Andrew Lau",
-    "medium": "film",
-    "year": 1994,
-    "decade": "1990s",
-    "country": "Hong Kong",
-    "language": "Cantonese",
-    "movement": "Hong Kong crime film, 1990s",
-    "genre": "crime film",
-    "style": [
-      "crime film"
-    ],
-    "themes": [
-      "crime film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1994 in Hong Kong.",
-    "description": "To Live and Die in Tsimshatsui, a crime film from Hong Kong (1994).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q56862"
-    }
-  },
-  {
-    "id": "drunken-master-iii-1994-q56864",
-    "title": "Drunken Master III",
-    "creator": "Lau Kar-leung",
-    "medium": "film",
-    "year": 1994,
-    "decade": "1990s",
-    "country": "Hong Kong",
-    "language": "Cantonese",
-    "movement": "Hong Kong kung fu film, 1990s",
-    "genre": "kung fu film",
-    "style": [
-      "kung fu film",
-      "action comedy film"
-    ],
-    "themes": [
-      "kung fu film",
-      "action comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1994 in Hong Kong.",
-    "description": "Drunken Master III, a kung fu film from Hong Kong (1994).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q56864"
-    }
-  },
-  {
-    "id": "teenage-mutant-ninja-turtles-1990-q58439",
-    "title": "Teenage Mutant Ninja Turtles",
-    "creator": "Steve Barron",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States ninja film, 1990s",
-    "genre": "ninja film",
-    "style": [
-      "ninja film",
-      "science fiction film",
-      "action film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "themes": [
-      "ninja film",
-      "science fiction film",
-      "action film",
-      "comedy film",
-      "fantasy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1990 in United States.",
-    "description": "Teenage Mutant Ninja Turtles, a ninja film from United States (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q58439"
-    }
-  },
-  {
-    "id": "scream-1996-q27411",
-    "title": "Scream",
-    "creator": "Wes Craven",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States slasher film, 1990s",
-    "genre": "slasher film",
-    "style": [
-      "slasher film",
-      "teen film",
-      "mystery film",
-      "horror film",
-      "comedy film"
-    ],
-    "themes": [
-      "slasher film",
-      "teen film",
-      "mystery film",
-      "horror film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Unsettling"
-    ],
-    "context": "Released in 1996 in United States.",
-    "description": "Scream, a slasher film from United States (1996).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q27411"
-    }
-  },
-  {
-    "id": "aimee-jaguar-1999-q29600",
-    "title": "Aimée & Jaguar",
-    "creator": "Max Färberböck",
-    "medium": "film",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany lgbtq-related film, 1990s",
-    "genre": "LGBTQ-related film",
-    "style": [
-      "LGBTQ-related film",
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "themes": [
-      "LGBTQ-related film",
-      "romance film",
-      "war film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in Germany.",
-    "description": "Aimée & Jaguar, a lgbtq-related film from Germany (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q29600"
-    }
-  },
-  {
-    "id": "mother-1990-q29816",
-    "title": "Mother",
-    "creator": "Gleb Panfilov",
-    "medium": "film",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "Soviet Union",
-    "language": "Russian",
-    "movement": "Soviet Union historical drama, 1990s",
-    "genre": "historical drama",
-    "style": [
-      "historical drama",
-      "drama film"
-    ],
-    "themes": [
-      "historical drama",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1990 in Soviet Union.",
-    "description": "Mother, a historical drama from Soviet Union (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q29816"
-    }
-  },
-  {
-    "id": "soldier-boyz-1995-q32217",
-    "title": "Soldier Boyz",
-    "creator": "Louis Morneau",
-    "medium": "film",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States action thriller, 1990s",
-    "genre": "action thriller",
-    "style": [
-      "action thriller",
-      "thriller film",
-      "B movie",
-      "action film",
-      "drama film"
-    ],
-    "themes": [
-      "action thriller",
-      "thriller film",
-      "B movie",
-      "action film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1995 in United States.",
-    "description": "Soldier Boyz, a action thriller from United States (1995).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q32217"
-    }
-  },
-  {
-    "id": "map-of-the-human-heart-1992-q32424",
-    "title": "Map of the Human Heart",
-    "creator": "Vincent Ward",
-    "medium": "film",
-    "year": 1992,
-    "decade": "1990s",
-    "country": "Australia",
-    "language": "English",
-    "movement": "Australia drama film, 1990s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1992 in Australia.",
-    "description": "Map of the Human Heart, a drama film from Australia (1992).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q32424"
-    }
-  },
-  {
-    "id": "rear-window-1995-q34414",
-    "title": "Rear Window",
-    "creator": "Alfred Hitchcock",
-    "medium": "film",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States crime thriller film, 1990s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film",
-      "crime drama film",
-      "psychological thriller film",
-      "psychological drama film",
-      "detective film",
-      "thriller film",
-      "mystery film",
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime thriller film",
-      "crime drama film",
-      "psychological thriller film",
-      "psychological drama film",
-      "detective film",
-      "thriller film",
-      "mystery film",
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1995 in United States.",
-    "description": "Rear Window, a crime thriller film from United States (1995).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rearwindow%20trailer%203.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q34414"
-    }
-  },
-  {
-    "id": "celluloide-1996-q34643",
-    "title": "Celluloide",
-    "creator": "Carlo Lizzani",
-    "medium": "film",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy drama film, 1990s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1996 in Italy.",
-    "description": "Celluloide, a drama film from Italy (1996).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q34643"
-    }
-  },
-  {
-    "id": "the-trial-1993-q35725",
-    "title": "The Trial",
-    "creator": "David Hugh Jones",
-    "medium": "film",
-    "year": 1993,
-    "decade": "1990s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom dystopian film, 1990s",
-    "genre": "dystopian film",
-    "style": [
-      "dystopian film",
-      "trial film",
-      "drama film"
-    ],
-    "themes": [
-      "dystopian film",
-      "trial film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1993 in United Kingdom.",
-    "description": "The Trial, a dystopian film from United Kingdom (1993).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q35725"
-    }
-  },
-  {
-    "id": "wwe-smackdown-1999-q35622",
-    "title": "WWE SmackDown",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "American English",
-    "movement": "United States professional wrestling, 1990s",
-    "genre": "professional wrestling",
-    "style": [
-      "professional wrestling",
-      "sports entertainment"
-    ],
-    "themes": [
-      "professional wrestling",
-      "sports entertainment"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1999 in United States.",
-    "description": "WWE SmackDown, a professional wrestling from United States (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q35622"
-    }
-  },
-  {
     "id": "wwe-raw-1993-q18754",
     "title": "WWE Raw",
     "creator": "Unknown",
@@ -16486,6 +9951,331 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q18754"
+    }
+  },
+  {
+    "id": "wwe-smackdown-1999-q35622",
+    "title": "WWE SmackDown",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1999,
+    "decade": "1990s",
+    "country": "United States",
+    "language": "American English",
+    "movement": "United States sports entertainment, 1990s",
+    "genre": "sports entertainment",
+    "style": [
+      "sports entertainment",
+      "professional wrestling"
+    ],
+    "themes": [
+      "sports entertainment",
+      "professional wrestling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1999 in United States.",
+    "description": "WWE SmackDown, a sports entertainment from United States (1999).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q35622"
+    }
+  },
+  {
+    "id": "lava-lava-1995-q1369533",
+    "title": "Lava-Lava!",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1995,
+    "decade": "1990s",
+    "country": "France",
+    "language": "unknown",
+    "movement": "France slapstick, 1990s",
+    "genre": "slapstick",
+    "style": [
+      "slapstick"
+    ],
+    "themes": [
+      "slapstick"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1995 in France.",
+    "description": "Lava-Lava!, a slapstick from France (1995).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1369533"
+    }
+  },
+  {
+    "id": "muppets-tonight-1996-q1426628",
+    "title": "Muppets Tonight",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1996,
+    "decade": "1990s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States comedy television series, 1990s",
+    "genre": "comedy television series",
+    "style": [
+      "comedy television series"
+    ],
+    "themes": [
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1996 in United States.",
+    "description": "Muppets Tonight, a comedy television series from United States (1996).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1426628"
+    }
+  },
+  {
+    "id": "the-civil-war-1990-q672443",
+    "title": "The Civil War",
+    "creator": "Ken Burns",
+    "medium": "tv",
+    "year": 1990,
+    "decade": "1990s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States documentary film, 1990s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1990 in United States.",
+    "description": "The Civil War, a documentary film from United States (1990).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q672443"
+    }
+  },
+  {
+    "id": "die-neue-eine-frau-mit-kaliber-1998-q681675",
+    "title": "Die Neue – Eine Frau mit Kaliber",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1998,
+    "decade": "1990s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany crime film, 1990s",
+    "genre": "crime film",
+    "style": [
+      "crime film"
+    ],
+    "themes": [
+      "crime film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 1998 in Germany.",
+    "description": "Die Neue – Eine Frau mit Kaliber, a crime film from Germany (1998).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q681675"
+    }
+  },
+  {
+    "id": "kindaichi-case-files-1995-q701189",
+    "title": "Kindaichi Case Files",
+    "creator": "Yukihiko Tsutsumi",
+    "medium": "tv",
+    "year": 1995,
+    "decade": "1990s",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan drama television series, 1990s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1995 in Japan.",
+    "description": "Kindaichi Case Files, a drama television series from Japan (1995).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q701189"
+    }
+  },
+  {
+    "id": "warriors-1999-q838306",
+    "title": "Warriors",
+    "creator": "Peter Kosminsky",
+    "medium": "tv",
+    "year": 1999,
+    "decade": "1990s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom drama television series, 1990s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1999 in United Kingdom.",
+    "description": "Warriors, a drama television series from United Kingdom (1999).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q838306"
+    }
+  },
+  {
+    "id": "ecw-hardcore-tv-1993-q867288",
+    "title": "ECW Hardcore TV",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1993,
+    "decade": "1990s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States work, 1990s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1993 in United States.",
+    "description": "ECW Hardcore TV, a work from United States (1993).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q867288"
+    }
+  },
+  {
+    "id": "keizoku-1999-q870952",
+    "title": "Keizoku",
+    "creator": "Yukihiko Tsutsumi",
+    "medium": "tv",
+    "year": 1999,
+    "decade": "1990s",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan drama television series, 1990s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series",
+      "drama film"
+    ],
+    "themes": [
+      "drama television series",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1999 in Japan.",
+    "description": "Keizoku, a drama television series from Japan (1999).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q870952"
+    }
+  },
+  {
+    "id": "inspector-gadget-s-field-trip-1996-q956298",
+    "title": "Inspector Gadget's Field Trip",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1996,
+    "decade": "1990s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States live action/animated television series, 1990s",
+    "genre": "live action/animated television series",
+    "style": [
+      "live action/animated television series",
+      "comedy television series"
+    ],
+    "themes": [
+      "live action/animated television series",
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 1996 in United States.",
+    "description": "Inspector Gadget's Field Trip, a live action/animated television series from United States (1996).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q956298"
+    }
+  },
+  {
+    "id": "ein-mann-am-zug-1993-q1304880",
+    "title": "Ein Mann am Zug",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1993,
+    "decade": "1990s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany family television series, 1990s",
+    "genre": "family television series",
+    "style": [
+      "family television series"
+    ],
+    "themes": [
+      "family television series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1993 in Germany.",
+    "description": "Ein Mann am Zug, a family television series from Germany (1993).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1304880"
     }
   },
   {
@@ -16669,9 +10459,9 @@ export const works = [
     "medium": "tv",
     "year": 1998,
     "decade": "1990s",
-    "country": "France",
+    "country": "Italy",
     "language": "French",
-    "movement": "France romance television series, 1990s",
+    "movement": "Italy romance television series, 1990s",
     "genre": "romance television series",
     "style": [
       "romance television series",
@@ -16686,8 +10476,8 @@ export const works = [
     "mood": [
       "Tender"
     ],
-    "context": "Released in 1998 in France.",
-    "description": "The Count of Monte Cristo, a romance television series from France (1998).",
+    "context": "Released in 1998 in Italy.",
+    "description": "The Count of Monte Cristo, a romance television series from Italy (1998).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -16725,127 +10515,98 @@ export const works = [
     }
   },
   {
-    "id": "the-civil-war-1990-q672443",
-    "title": "The Civil War",
-    "creator": "Ken Burns",
+    "id": "scratches-in-the-table-1998-q2621560",
+    "title": "Scratches in the Table",
+    "creator": "Ineke Houtman",
     "medium": "tv",
-    "year": 1990,
+    "year": 1998,
+    "decade": "1990s",
+    "country": "Netherlands",
+    "language": "Dutch",
+    "movement": "Netherlands drama film, 1990s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 1998 in Netherlands.",
+    "description": "Scratches in the Table, a drama film from Netherlands (1998).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2621560"
+    }
+  },
+  {
+    "id": "house-hunters-1999-q2642532",
+    "title": "House Hunters",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 1999,
     "decade": "1990s",
     "country": "United States",
     "language": "English",
-    "movement": "United States documentary film, 1990s",
-    "genre": "documentary film",
+    "movement": "United States reality television, 1990s",
+    "genre": "reality television",
     "style": [
-      "documentary film"
+      "reality television"
     ],
     "themes": [
-      "documentary film"
+      "reality television"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1990 in United States.",
-    "description": "The Civil War, a documentary film from United States (1990).",
+    "context": "Released in 1999 in United States.",
+    "description": "House Hunters, a reality television from United States (1999).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q672443"
+      "sourceId": "Q2642532"
     }
   },
   {
-    "id": "die-neue-eine-frau-mit-kaliber-1998-q681675",
-    "title": "Die Neue – Eine Frau mit Kaliber",
+    "id": "matki-zony-i-kochanki-1996-q2799436",
+    "title": "Matki, żony i kochanki",
+    "creator": "Juliusz Machulski",
+    "medium": "tv",
+    "year": 1996,
+    "decade": "1990s",
+    "country": "Poland",
+    "language": "unknown",
+    "movement": "Poland slice of life, 1990s",
+    "genre": "slice of life",
+    "style": [
+      "slice of life"
+    ],
+    "themes": [
+      "slice of life"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1996 in Poland.",
+    "description": "Matki, żony i kochanki, a slice of life from Poland (1996).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q2799436"
+    }
+  },
+  {
+    "id": "pop-up-video-1996-q2812317",
+    "title": "Pop-Up Video",
     "creator": "Unknown",
     "medium": "tv",
-    "year": 1998,
-    "decade": "1990s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany crime film, 1990s",
-    "genre": "crime film",
-    "style": [
-      "crime film"
-    ],
-    "themes": [
-      "crime film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1998 in Germany.",
-    "description": "Die Neue – Eine Frau mit Kaliber, a crime film from Germany (1998).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q681675"
-    }
-  },
-  {
-    "id": "kindaichi-case-files-2001-q701189",
-    "title": "Kindaichi Case Files",
-    "creator": "Yukihiko Tsutsumi",
-    "medium": "tv",
-    "year": 2001,
-    "decade": "2000s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama television series, 2000s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series"
-    ],
-    "themes": [
-      "drama television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2001 in Japan.",
-    "description": "Kindaichi Case Files, a drama television series from Japan (2001).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q701189"
-    }
-  },
-  {
-    "id": "warriors-1999-q838306",
-    "title": "Warriors",
-    "creator": "Peter Kosminsky",
-    "medium": "tv",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom drama television series, 1990s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series"
-    ],
-    "themes": [
-      "drama television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in United Kingdom.",
-    "description": "Warriors, a drama television series from United Kingdom (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q838306"
-    }
-  },
-  {
-    "id": "ecw-hardcore-tv-1993-q867288",
-    "title": "ECW Hardcore TV",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1993,
+    "year": 1996,
     "decade": "1990s",
     "country": "United States",
     "language": "unknown",
@@ -16860,75 +10621,13 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 1993 in United States.",
-    "description": "ECW Hardcore TV, a work from United States (1993).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q867288"
-    }
-  },
-  {
-    "id": "keizoku-1999-q870952",
-    "title": "Keizoku",
-    "creator": "Yukihiko Tsutsumi",
-    "medium": "tv",
-    "year": 1999,
-    "decade": "1990s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama television series, 1990s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "drama film"
-    ],
-    "themes": [
-      "drama television series",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 1999 in Japan.",
-    "description": "Keizoku, a drama television series from Japan (1999).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q870952"
-    }
-  },
-  {
-    "id": "inspector-gadget-s-field-trip-1996-q956298",
-    "title": "Inspector Gadget's Field Trip",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1996,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States live action/animated television series, 1990s",
-    "genre": "live action/animated television series",
-    "style": [
-      "live action/animated television series",
-      "comedy television series"
-    ],
-    "themes": [
-      "live action/animated television series",
-      "comedy television series"
-    ],
-    "mood": [
-      "Playful"
-    ],
     "context": "Released in 1996 in United States.",
-    "description": "Inspector Gadget's Field Trip, a live action/animated television series from United States (1996).",
+    "description": "Pop-Up Video, a work from United States (1996).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q956298"
+      "sourceId": "Q2812317"
     }
   },
   {
@@ -16940,273 +10639,28 @@ export const works = [
     "decade": "1990s",
     "country": "United States",
     "language": "English",
-    "movement": "United States superhero television program, 1990s",
-    "genre": "superhero television program",
+    "movement": "United States science fiction television series, 1990s",
+    "genre": "science fiction television series",
     "style": [
+      "science fiction television series",
       "superhero television program",
-      "adventure television series",
-      "science fiction television series"
+      "adventure television series"
     ],
     "themes": [
+      "science fiction television series",
       "superhero television program",
-      "adventure television series",
-      "science fiction television series"
+      "adventure television series"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 1993 in United States.",
-    "description": "The Flash, a superhero television program from United States (1993).",
+    "description": "The Flash, a science fiction television series from United States (1993).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
       "sourceId": "Q1031248"
-    }
-  },
-  {
-    "id": "really-wild-animals-1993-q1096084",
-    "title": "Really Wild Animals",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1993,
-    "decade": "1990s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States nature documentary, 1990s",
-    "genre": "nature documentary",
-    "style": [
-      "nature documentary"
-    ],
-    "themes": [
-      "nature documentary"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1993 in United States.",
-    "description": "Really Wild Animals, a nature documentary from United States (1993).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1096084"
-    }
-  },
-  {
-    "id": "the-territory-of-white-deer-1991-q1168076",
-    "title": "The Territory of White Deer",
-    "creator": "Ludvík Ráža",
-    "medium": "tv",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "Czechoslovakia",
-    "language": "Czech",
-    "movement": "Czechoslovakia adventure television series, 1990s",
-    "genre": "adventure television series",
-    "style": [
-      "adventure television series",
-      "crime television series",
-      "family film",
-      "crime film",
-      "adventure film",
-      "family television series"
-    ],
-    "themes": [
-      "adventure television series",
-      "crime television series",
-      "family film",
-      "crime film",
-      "adventure film",
-      "family television series"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 1991 in Czechoslovakia.",
-    "description": "The Territory of White Deer, a adventure television series from Czechoslovakia (1991).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1168076"
-    }
-  },
-  {
-    "id": "death-is-a-master-from-deutschland-1990-q1197473",
-    "title": "Death is a master from Deutschland",
-    "creator": "Lea Rosh, Eberhard Jäckel",
-    "medium": "tv",
-    "year": 1990,
-    "decade": "1990s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany documentary film, 1990s",
-    "genre": "documentary film",
-    "style": [
-      "documentary film"
-    ],
-    "themes": [
-      "documentary film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1990 in Germany.",
-    "description": "Death is a master from Deutschland, a documentary film from Germany (1990).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1197473"
-    }
-  },
-  {
-    "id": "north-of-60-1992-q1214862",
-    "title": "North of 60",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1992,
-    "decade": "1990s",
-    "country": "Canada",
-    "language": "English",
-    "movement": "Canada soap opera, 1990s",
-    "genre": "soap opera",
-    "style": [
-      "soap opera"
-    ],
-    "themes": [
-      "soap opera"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1992 in Canada.",
-    "description": "North of 60, a soap opera from Canada (1992).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1214862"
-    }
-  },
-  {
-    "id": "ein-mann-am-zug-1993-q1304880",
-    "title": "Ein Mann am Zug",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1993,
-    "decade": "1990s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany family television series, 1990s",
-    "genre": "family television series",
-    "style": [
-      "family television series"
-    ],
-    "themes": [
-      "family television series"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1993 in Germany.",
-    "description": "Ein Mann am Zug, a family television series from Germany (1993).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1304880"
-    }
-  },
-  {
-    "id": "lava-lava-1995-q1369533",
-    "title": "Lava-Lava!",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 1995,
-    "decade": "1990s",
-    "country": "France",
-    "language": "unknown",
-    "movement": "France slapstick, 1990s",
-    "genre": "slapstick",
-    "style": [
-      "slapstick"
-    ],
-    "themes": [
-      "slapstick"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 1995 in France.",
-    "description": "Lava-Lava!, a slapstick from France (1995).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1369533"
-    }
-  },
-  {
-    "id": "little-book-of-love-1997-q10348464",
-    "title": "Little Book of Love",
-    "creator": "Sandra Werneck",
-    "medium": "film",
-    "year": 1997,
-    "decade": "1990s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil romance film, 1990s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "comedy film"
-    ],
-    "themes": [
-      "romance film",
-      "comedy film"
-    ],
-    "mood": [
-      "Playful",
-      "Tender"
-    ],
-    "context": "Released in 1997 in Brazil.",
-    "description": "Little Book of Love, a romance film from Brazil (1997).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10348464"
-    }
-  },
-  {
-    "id": "policarpo-quaresma-heroi-do-brasil-1998-q10350810",
-    "title": "Policarpo Quaresma, Herói do Brasil",
-    "creator": "Paulo Thiago",
-    "medium": "film",
-    "year": 1998,
-    "decade": "1990s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil comedy film, 1990s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 1998 in Brazil.",
-    "description": "Policarpo Quaresma, Herói do Brasil, a comedy film from Brazil (1998).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q10350810"
     }
   },
   {
@@ -17306,15 +10760,15 @@ export const works = [
     }
   },
   {
-    "id": "central-station-2018-q1054036",
+    "id": "central-station-1998-q1054036",
     "title": "Central Station",
     "creator": "Walter Salles",
     "medium": "film",
-    "year": 2018,
-    "decade": "2010s",
-    "country": "France",
+    "year": 1998,
+    "decade": "1990s",
+    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "France drama film, 2010s",
+    "movement": "Brazil drama film, 1990s",
     "genre": "drama film",
     "style": [
       "drama film"
@@ -17325,13 +10779,74 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 2018 in France.",
-    "description": "Central Station, a drama film from France (2018).",
+    "context": "Released in 1998 in Brazil.",
+    "description": "Central Station, a drama film from Brazil (1998).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
       "sourceId": "Q1054036"
+    }
+  },
+  {
+    "id": "a-grande-arte-1991-q1962699",
+    "title": "A Grande Arte",
+    "creator": "Walter Salles",
+    "medium": "film",
+    "year": 1991,
+    "decade": "1990s",
+    "country": "Brazil",
+    "language": "English",
+    "movement": "Brazil crime film, 1990s",
+    "genre": "crime film",
+    "style": [
+      "crime film",
+      "drama film"
+    ],
+    "themes": [
+      "crime film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 1991 in Brazil.",
+    "description": "A Grande Arte, a crime film from Brazil (1991).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1962699"
+    }
+  },
+  {
+    "id": "talons-of-the-eagle-1992-q7680299",
+    "title": "Talons of the Eagle",
+    "creator": "Michael Kennedy",
+    "medium": "film",
+    "year": 1992,
+    "decade": "1990s",
+    "country": "Brazil",
+    "language": "English",
+    "movement": "Brazil martial arts film, 1990s",
+    "genre": "martial arts film",
+    "style": [
+      "martial arts film"
+    ],
+    "themes": [
+      "martial arts film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 1992 in Brazil.",
+    "description": "Talons of the Eagle, a martial arts film from Brazil (1992).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q7680299"
     }
   },
   {
@@ -17342,7 +10857,7 @@ export const works = [
     "year": 1995,
     "decade": "1990s",
     "country": "Brazil",
-    "language": "Portuguese",
+    "language": "Italian",
     "movement": "Brazil romance film, 1990s",
     "genre": "romance film",
     "style": [
@@ -17396,38 +10911,6 @@ export const works = [
     }
   },
   {
-    "id": "a-grande-arte-1991-q1962699",
-    "title": "A Grande Arte",
-    "creator": "Walter Salles",
-    "medium": "film",
-    "year": 1991,
-    "decade": "1990s",
-    "country": "Brazil",
-    "language": "English",
-    "movement": "Brazil crime film, 1990s",
-    "genre": "crime film",
-    "style": [
-      "crime film",
-      "drama film"
-    ],
-    "themes": [
-      "crime film",
-      "drama film"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 1991 in Brazil.",
-    "description": "A Grande Arte, a crime film from Brazil (1991).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1962699"
-    }
-  },
-  {
     "id": "foolish-heart-1996-q3415168",
     "title": "Foolish Heart",
     "creator": "Héctor Babenco",
@@ -17454,6 +10937,40 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q3415168"
+    }
+  },
+  {
+    "id": "tieta-of-agreste-1996-q3490852",
+    "title": "Tieta of Agreste",
+    "creator": "Carlos Diegues",
+    "medium": "film",
+    "year": 1996,
+    "decade": "1990s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy drama, 1990s",
+    "genre": "comedy drama",
+    "style": [
+      "comedy drama",
+      "comedy film",
+      "drama film"
+    ],
+    "themes": [
+      "comedy drama",
+      "comedy film",
+      "drama film"
+    ],
+    "mood": [
+      "Playful",
+      "Unflinching"
+    ],
+    "context": "Released in 1996 in Brazil.",
+    "description": "Tieta of Agreste, a comedy drama from Brazil (1996).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q3490852"
     }
   },
   {
@@ -17580,7 +11097,7 @@ export const works = [
     "year": 1992,
     "decade": "1990s",
     "country": "Brazil",
-    "language": "Portuguese",
+    "language": "Brazilian Portuguese",
     "movement": "Brazil telenovela, 1990s",
     "genre": "telenovela",
     "style": [
@@ -17755,21 +11272,21 @@ export const works = [
     "decade": "2000s",
     "country": "United States",
     "language": "English",
-    "movement": "United States teen sitcom, 2000s",
-    "genre": "teen sitcom",
+    "movement": "United States music television, 2000s",
+    "genre": "music television",
     "style": [
-      "teen sitcom",
-      "music television"
+      "music television",
+      "teen sitcom"
     ],
     "themes": [
-      "teen sitcom",
-      "music television"
+      "music television",
+      "teen sitcom"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 2006 in United States.",
-    "description": "Hannah Montana, a teen sitcom from United States (2006).",
+    "description": "Hannah Montana, a music television from United States (2006).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -17865,93 +11382,6 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q288061"
-    }
-  },
-  {
-    "id": "die-rote-zora-und-ihre-bande-2008-q323809",
-    "title": "Die rote Zora und ihre Bande",
-    "creator": "Fritz Umgelter",
-    "medium": "tv",
-    "year": 2008,
-    "decade": "2000s",
-    "country": "West Germany",
-    "language": "German",
-    "movement": "West Germany children's television series, 2000s",
-    "genre": "children's television series",
-    "style": [
-      "children's television series"
-    ],
-    "themes": [
-      "children's television series"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2008 in West Germany.",
-    "description": "Die rote Zora und ihre Bande, a children's television series from West Germany (2008).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q323809"
-    }
-  },
-  {
-    "id": "agathe-kann-s-nicht-lassen-2005-q391311",
-    "title": "Agathe kann’s nicht lassen",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2005,
-    "decade": "2000s",
-    "country": "Austria",
-    "language": "German",
-    "movement": "Austria crime television series, 2000s",
-    "genre": "crime television series",
-    "style": [
-      "crime television series"
-    ],
-    "themes": [
-      "crime television series"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 2005 in Austria.",
-    "description": "Agathe kann’s nicht lassen, a crime television series from Austria (2005).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q391311"
-    }
-  },
-  {
-    "id": "hanazakarino-kimitachihe-2006-q428375",
-    "title": "Hanazakarino Kimitachihe",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2006,
-    "decade": "2000s",
-    "country": "Taiwan",
-    "language": "Standard Taiwanese Mandarin",
-    "movement": "Taiwan romance film, 2000s",
-    "genre": "romance film",
-    "style": [
-      "romance film"
-    ],
-    "themes": [
-      "romance film"
-    ],
-    "mood": [
-      "Tender"
-    ],
-    "context": "Released in 2006 in Taiwan.",
-    "description": "Hanazakarino Kimitachihe, a romance film from Taiwan (2006).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q428375"
     }
   },
   {
@@ -18085,16 +11515,16 @@ export const works = [
     "genre": "war television series",
     "style": [
       "war television series",
+      "war film",
       "drama television series",
       "biographical film",
-      "war film",
       "drama film"
     ],
     "themes": [
       "war television series",
+      "war film",
       "drama television series",
       "biographical film",
-      "war film",
       "drama film"
     ],
     "mood": [
@@ -18181,15 +11611,15 @@ export const works = [
     "style": [
       "comedy television series",
       "action film",
-      "melodrama",
       "adventure film",
+      "melodrama",
       "comedy film"
     ],
     "themes": [
       "comedy television series",
       "action film",
-      "melodrama",
       "adventure film",
+      "melodrama",
       "comedy film"
     ],
     "mood": [
@@ -18206,212 +11636,341 @@ export const works = [
     }
   },
   {
-    "id": "v-ijune-41-ho-2008-q580347",
-    "title": "V ijune 41-ho",
-    "creator": "Aleksandr Franskevich-Laye",
+    "id": "kuchu-buranko-2004-q1153434",
+    "title": "Kūchū Buranko",
+    "creator": "Unknown",
     "medium": "tv",
-    "year": 2008,
-    "decade": "2000s",
-    "country": "Russia",
-    "language": "Russian",
-    "movement": "Russia war television series, 2000s",
-    "genre": "war television series",
-    "style": [
-      "war television series"
-    ],
-    "themes": [
-      "war television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2008 in Russia.",
-    "description": "V ijune 41-ho, a war television series from Russia (2008).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q580347"
-    }
-  },
-  {
-    "id": "ninpuu-sentai-hurricaneger-2002-q591029",
-    "title": "Ninpuu Sentai Hurricaneger",
-    "creator": "Katsuya Watanabe",
-    "medium": "tv",
-    "year": 2002,
+    "year": 2004,
     "decade": "2000s",
     "country": "Japan",
     "language": "Japanese",
-    "movement": "Japan drama television series, 2000s",
-    "genre": "drama television series",
+    "movement": "Japan comedy drama, 2000s",
+    "genre": "comedy drama",
     "style": [
-      "drama television series",
-      "tokusatsu"
+      "comedy drama",
+      "drama television series"
     ],
     "themes": [
-      "drama television series",
-      "tokusatsu"
+      "comedy drama",
+      "drama television series"
     ],
     "mood": [
+      "Playful",
       "Unflinching"
     ],
-    "context": "Released in 2002 in Japan.",
-    "description": "Ninpuu Sentai Hurricaneger, a drama television series from Japan (2002).",
+    "context": "Released in 2004 in Japan.",
+    "description": "Kūchū Buranko, a comedy drama from Japan (2004).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q591029"
+      "sourceId": "Q1153434"
     }
   },
   {
-    "id": "i-love-new-york-2-2007-q594716",
-    "title": "I Love New York 2",
-    "creator": "Unknown",
+    "id": "tokusou-sentai-dekaranger-2004-q1156862",
+    "title": "Tokusou Sentai Dekaranger",
+    "creator": "Katsuya Watanabe",
     "medium": "tv",
-    "year": 2007,
+    "year": 2004,
     "decade": "2000s",
-    "country": "United States",
-    "language": "unknown",
-    "movement": "United States reality television, 2000s",
-    "genre": "reality television",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan tokusatsu, 2000s",
+    "genre": "tokusatsu",
     "style": [
-      "reality television"
+      "tokusatsu"
     ],
     "themes": [
-      "reality television"
+      "tokusatsu"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2007 in United States.",
-    "description": "I Love New York 2, a reality television from United States (2007).",
+    "context": "Released in 2004 in Japan.",
+    "description": "Tokusou Sentai Dekaranger, a tokusatsu from Japan (2004).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q594716"
+      "sourceId": "Q1156862"
     }
   },
   {
-    "id": "plebania-2000-q608711",
-    "title": "Plebania",
-    "creator": "Wojciech Solarz",
+    "id": "secret-smile-2005-q1193339",
+    "title": "Secret Smile",
+    "creator": "Christopher Menaul",
+    "medium": "tv",
+    "year": 2005,
+    "decade": "2000s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom drama television series, 2000s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2005 in United Kingdom.",
+    "description": "Secret Smile, a drama television series from United Kingdom (2005).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1193339"
+    }
+  },
+  {
+    "id": "dexter-2007-q23577",
+    "title": "Dexter",
+    "creator": "Steve Shill, Marcos Siega, Robert Lieberman, Keith Gordon, Jeremy Podeswa, Michael Cuesta, Tony Goldwyn, Adam Davidson",
+    "medium": "tv",
+    "year": 2007,
+    "decade": "2000s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States police procedural, 2000s",
+    "genre": "police procedural",
+    "style": [
+      "police procedural",
+      "drama television series",
+      "thriller"
+    ],
+    "themes": [
+      "police procedural",
+      "drama television series",
+      "thriller"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2007 in United States.",
+    "description": "Dexter, a police procedural from United States (2007).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q23577"
+    }
+  },
+  {
+    "id": "wwe-superstars-2009-q35752",
+    "title": "WWE Superstars",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2009,
+    "decade": "2000s",
+    "country": "United States",
+    "language": "American English",
+    "movement": "United States sports entertainment, 2000s",
+    "genre": "sports entertainment",
+    "style": [
+      "sports entertainment",
+      "professional wrestling"
+    ],
+    "themes": [
+      "sports entertainment",
+      "professional wrestling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2009 in United States.",
+    "description": "WWE Superstars, a sports entertainment from United States (2009).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SuperstarsuniversalWWEHDset%20%28cropped%29.JPG",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q35752"
+    }
+  },
+  {
+    "id": "najbolje-godine-2009-q1247871",
+    "title": "Najbolje godine",
+    "creator": "Kristijan Milić",
+    "medium": "tv",
+    "year": 2009,
+    "decade": "2000s",
+    "country": "Croatia",
+    "language": "Croatian",
+    "movement": "Croatia soap opera, 2000s",
+    "genre": "soap opera",
+    "style": [
+      "soap opera"
+    ],
+    "themes": [
+      "soap opera"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2009 in Croatia.",
+    "description": "Najbolje godine, a soap opera from Croatia (2009).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1247871"
+    }
+  },
+  {
+    "id": "ancient-rome-the-rise-and-fall-of-an-empire-2006-q1278085",
+    "title": "Ancient Rome: The Rise and Fall of an Empire",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2006,
+    "decade": "2000s",
+    "country": "United Kingdom",
+    "language": "unknown",
+    "movement": "United Kingdom docudrama, 2000s",
+    "genre": "docudrama",
+    "style": [
+      "docudrama",
+      "documentary film"
+    ],
+    "themes": [
+      "docudrama",
+      "documentary film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2006 in United Kingdom.",
+    "description": "Ancient Rome: The Rise and Fall of an Empire, a docudrama from United Kingdom (2006).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1278085"
+    }
+  },
+  {
+    "id": "wwe-velocity-2002-q1315674",
+    "title": "WWE Velocity",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2002,
+    "decade": "2000s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States sports television program, 2000s",
+    "genre": "sports television program",
+    "style": [
+      "sports television program"
+    ],
+    "themes": [
+      "sports television program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2002 in United States.",
+    "description": "WWE Velocity, a sports television program from United States (2002).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1315674"
+    }
+  },
+  {
+    "id": "space-race-2005-q1362065",
+    "title": "Space Race",
+    "creator": "Mark Everest, Christopher Spencer",
+    "medium": "tv",
+    "year": 2005,
+    "decade": "2000s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom docudrama, 2000s",
+    "genre": "docudrama",
+    "style": [
+      "docudrama",
+      "documentary film"
+    ],
+    "themes": [
+      "docudrama",
+      "documentary film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2005 in United Kingdom.",
+    "description": "Space Race, a docudrama from United Kingdom (2005).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1362065"
+    }
+  },
+  {
+    "id": "wallander-2007-q1784319",
+    "title": "Wallander",
+    "creator": "Anders Engström, Stephan Apelgren, Kathrine Windfeld, Jonas Grimås, Charlotte Brändström, Agneta Fagerström-Olsson, Mikael Marcimain, Peter Flinth, Kjell-Åke Andersson",
+    "medium": "tv",
+    "year": 2007,
+    "decade": "2000s",
+    "country": "Sweden",
+    "language": "Swedish",
+    "movement": "Sweden thriller television series, 2000s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "themes": [
+      "thriller television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2007 in Sweden.",
+    "description": "Wallander, a thriller television series from Sweden (2007).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1784319"
+    }
+  },
+  {
+    "id": "m-jak-mi-osc-2000-q1882160",
+    "title": "M jak miłość",
+    "creator": "Ryszard Zatorski",
     "medium": "tv",
     "year": 2000,
     "decade": "2000s",
     "country": "Poland",
-    "language": "Polish",
-    "movement": "Poland slice of life, 2000s",
-    "genre": "slice of life",
+    "language": "unknown",
+    "movement": "Poland soap opera, 2000s",
+    "genre": "soap opera",
     "style": [
-      "slice of life"
+      "soap opera"
     ],
     "themes": [
-      "slice of life"
+      "soap opera"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 2000 in Poland.",
-    "description": "Plebania, a slice of life from Poland (2000).",
+    "description": "M jak miłość, a soap opera from Poland (2000).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q608711"
-    }
-  },
-  {
-    "id": "love-it-or-list-it-2008-q610525",
-    "title": "Love It or List It",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2008,
-    "decade": "2000s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States home renovation show, 2000s",
-    "genre": "home renovation show",
-    "style": [
-      "home renovation show",
-      "reality television"
-    ],
-    "themes": [
-      "home renovation show",
-      "reality television"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2008 in United States.",
-    "description": "Love It or List It, a home renovation show from United States (2008).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q610525"
-    }
-  },
-  {
-    "id": "deep-love-2002-q614433",
-    "title": "Deep Love",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2002,
-    "decade": "2000s",
-    "country": "Japan",
-    "language": "unknown",
-    "movement": "Japan drama television series, 2000s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "tragedy"
-    ],
-    "themes": [
-      "drama television series",
-      "tragedy"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2002 in Japan.",
-    "description": "Deep Love, a drama television series from Japan (2002).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q614433"
-    }
-  },
-  {
-    "id": "ver-van-familie-2008-q656708",
-    "title": "Ver Van Familie",
-    "creator": "Marion Bloem",
-    "medium": "tv",
-    "year": 2008,
-    "decade": "2000s",
-    "country": "Netherlands",
-    "language": "Dutch",
-    "movement": "Netherlands drama film, 2000s",
-    "genre": "drama film",
-    "style": [
-      "drama film"
-    ],
-    "themes": [
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2008 in Netherlands.",
-    "description": "Ver Van Familie, a drama film from Netherlands (2008).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q656708"
+      "sourceId": "Q1882160"
     }
   },
   {
@@ -18479,9 +12038,9 @@ export const works = [
     "medium": "film",
     "year": 2008,
     "decade": "2000s",
-    "country": "France",
+    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "France crime film, 2000s",
+    "movement": "Brazil crime film, 2000s",
     "genre": "crime film",
     "style": [
       "crime film",
@@ -18495,8 +12054,8 @@ export const works = [
       "Tense",
       "Unflinching"
     ],
-    "context": "Released in 2008 in France.",
-    "description": "Last Stop 174, a crime film from France (2008).",
+    "context": "Released in 2008 in Brazil.",
+    "description": "Last Stop 174, a crime film from Brazil (2008).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -18544,23 +12103,23 @@ export const works = [
     "decade": "2000s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil lgbtq-related film, 2000s",
-    "genre": "LGBTQ-related film",
+    "movement": "Brazil fetish film, 2000s",
+    "genre": "fetish film",
     "style": [
-      "LGBTQ-related film",
       "fetish film",
+      "LGBTQ-related film",
       "pornographic film"
     ],
     "themes": [
-      "LGBTQ-related film",
       "fetish film",
+      "LGBTQ-related film",
       "pornographic film"
     ],
     "mood": [
       "Evocative"
     ],
     "context": "Released in 2007 in Brazil.",
-    "description": "Hungry Bitches, a lgbtq-related film from Brazil (2007).",
+    "description": "Hungry Bitches, a fetish film from Brazil (2007).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -18576,7 +12135,7 @@ export const works = [
     "year": 2000,
     "decade": "2000s",
     "country": "Brazil",
-    "language": "Portuguese",
+    "language": "Spanish",
     "movement": "Brazil romantic comedy, 2000s",
     "genre": "romantic comedy",
     "style": [
@@ -18609,9 +12168,9 @@ export const works = [
     "medium": "film",
     "year": 2002,
     "decade": "2000s",
-    "country": "France",
+    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "France coming-of-age film, 2000s",
+    "movement": "Brazil coming-of-age film, 2000s",
     "genre": "coming-of-age film",
     "style": [
       "coming-of-age film",
@@ -18629,50 +12188,13 @@ export const works = [
       "Tense",
       "Unflinching"
     ],
-    "context": "Released in 2002 in France.",
-    "description": "City of God, a coming-of-age film from France (2002).",
+    "context": "Released in 2002 in Brazil.",
+    "description": "City of God, a coming-of-age film from Brazil (2002).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
       "sourceId": "Q220741"
-    }
-  },
-  {
-    "id": "the-motorcycle-diaries-2004-q309246",
-    "title": "The Motorcycle Diaries",
-    "creator": "Walter Salles",
-    "medium": "film",
-    "year": 2004,
-    "decade": "2000s",
-    "country": "France",
-    "language": "Spanish",
-    "movement": "France biographical film, 2000s",
-    "genre": "biographical film",
-    "style": [
-      "biographical film",
-      "road movie",
-      "adventure film",
-      "coming-of-age film",
-      "drama film"
-    ],
-    "themes": [
-      "biographical film",
-      "road movie",
-      "adventure film",
-      "coming-of-age film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2004 in France.",
-    "description": "The Motorcycle Diaries, a biographical film from France (2004).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q309246"
     }
   },
   {
@@ -18737,45 +12259,69 @@ export const works = [
     }
   },
   {
-    "id": "from-beginning-to-end-2010-q302842",
-    "title": "From Beginning to End",
-    "creator": "Aluizio Abranches",
+    "id": "the-happy-cricket-2001-q617002",
+    "title": "The Happy Cricket",
+    "creator": "Walbercy Ribas",
     "medium": "film",
-    "year": 2010,
-    "decade": "2010s",
+    "year": 2001,
+    "decade": "2000s",
     "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil coming-of-age film, 2010s",
-    "genre": "coming-of-age film",
+    "movement": "Brazil children's film, 2000s",
+    "genre": "children's film",
     "style": [
-      "coming-of-age film",
-      "LGBTQ-related film",
-      "romance film",
-      "drama film"
+      "children's film"
     ],
     "themes": [
-      "coming-of-age film",
-      "LGBTQ-related film",
-      "romance film",
-      "drama film"
+      "children's film"
     ],
     "mood": [
-      "Tender",
-      "Unflinching"
+      "Evocative"
     ],
-    "context": "Released in 2010 in Brazil.",
-    "description": "From Beginning to End, a coming-of-age film from Brazil (2010).",
+    "context": "Released in 2001 in Brazil.",
+    "description": "The Happy Cricket, a children's film from Brazil (2001).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q302842"
+      "sourceId": "Q617002"
     }
   },
   {
-    "id": "adrift-2009-q1625927",
-    "title": "Adrift",
-    "creator": "Heitor Dhalia",
+    "id": "december-2008-q657731",
+    "title": "December",
+    "creator": "Selton Mello",
+    "medium": "film",
+    "year": 2008,
+    "decade": "2000s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil christmas film, 2000s",
+    "genre": "Christmas film",
+    "style": [
+      "Christmas film",
+      "drama film"
+    ],
+    "themes": [
+      "Christmas film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2008 in Brazil.",
+    "description": "December, a christmas film from Brazil (2008).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q657731"
+    }
+  },
+  {
+    "id": "peacetime-2009-q657755",
+    "title": "Peacetime",
+    "creator": "Daniel Filho",
     "medium": "film",
     "year": 2009,
     "decade": "2000s",
@@ -18793,12 +12339,12 @@ export const works = [
       "Unflinching"
     ],
     "context": "Released in 2009 in Brazil.",
-    "description": "Adrift, a drama film from Brazil (2009).",
+    "description": "Peacetime, a drama film from Brazil (2009).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q1625927"
+      "sourceId": "Q657755"
     }
   },
   {
@@ -19121,33 +12667,64 @@ export const works = [
     }
   },
   {
+    "id": "jessie-2011-q659653",
+    "title": "Jessie",
+    "creator": "Phill Lewis",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States children's television series, 2010s",
+    "genre": "children's television series",
+    "style": [
+      "children's television series",
+      "comedy television series"
+    ],
+    "themes": [
+      "children's television series",
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2011 in United States.",
+    "description": "Jessie, a children's television series from United States (2011).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jessie%20Cast.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q659653"
+    }
+  },
+  {
     "id": "strangers-6-2012-q720838",
     "title": "Strangers 6",
     "creator": "Jōji Iida",
     "medium": "tv",
     "year": 2012,
     "decade": "2010s",
-    "country": "South Korea",
+    "country": "CJK",
     "language": "Korean",
-    "movement": "South Korea disaster film, 2010s",
-    "genre": "disaster film",
+    "movement": "CJK drama television series, 2010s",
+    "genre": "drama television series",
     "style": [
-      "disaster film",
-      "suspense",
       "drama television series",
-      "action fiction"
+      "action fiction",
+      "disaster film",
+      "suspense"
     ],
     "themes": [
-      "disaster film",
-      "suspense",
       "drama television series",
-      "action fiction"
+      "action fiction",
+      "disaster film",
+      "suspense"
     ],
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 2012 in South Korea.",
-    "description": "Strangers 6, a disaster film from South Korea (2012).",
+    "context": "Released in 2012 in CJK.",
+    "description": "Strangers 6, a drama television series from CJK (2012).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -19185,6 +12762,378 @@ export const works = [
     }
   },
   {
+    "id": "mockingbird-lane-2012-q181492",
+    "title": "Mockingbird Lane",
+    "creator": "Bryan Singer",
+    "medium": "tv",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States black comedy, 2010s",
+    "genre": "black comedy",
+    "style": [
+      "black comedy"
+    ],
+    "themes": [
+      "black comedy"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2012 in United States.",
+    "description": "Mockingbird Lane, a black comedy from United States (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q181492"
+    }
+  },
+  {
+    "id": "sonny-with-a-chance-2010-q219942",
+    "title": "Sonny with a Chance",
+    "creator": "David Trainer",
+    "medium": "tv",
+    "year": 2010,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States teen sitcom, 2010s",
+    "genre": "teen sitcom",
+    "style": [
+      "teen sitcom"
+    ],
+    "themes": [
+      "teen sitcom"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2010 in United States.",
+    "description": "Sonny with a Chance, a teen sitcom from United States (2010).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q219942"
+    }
+  },
+  {
+    "id": "elementary-2013-q247643",
+    "title": "Elementary",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2013,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States detective television series, 2010s",
+    "genre": "detective television series",
+    "style": [
+      "detective television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "themes": [
+      "detective television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2013 in United States.",
+    "description": "Elementary, a detective television series from United States (2013).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q247643"
+    }
+  },
+  {
+    "id": "familien-im-brennpunkt-2011-q266343",
+    "title": "Familien im Brennpunkt",
+    "creator": "Okil Khamidov",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany docu-soap, 2010s",
+    "genre": "docu-soap",
+    "style": [
+      "docu-soap"
+    ],
+    "themes": [
+      "docu-soap"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2011 in Germany.",
+    "description": "Familien im Brennpunkt, a docu-soap from Germany (2011).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q266343"
+    }
+  },
+  {
+    "id": "bates-motel-2013-q323722",
+    "title": "Bates Motel",
+    "creator": "Ed Bianchi, Christopher Nelson, Roxann Dawson, Tucker Gates",
+    "medium": "tv",
+    "year": 2013,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States thriller television series, 2010s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series",
+      "horror television series",
+      "drama television series"
+    ],
+    "themes": [
+      "thriller television series",
+      "horror television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching",
+      "Unsettling"
+    ],
+    "context": "Released in 2013 in United States.",
+    "description": "Bates Motel, a thriller television series from United States (2013).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20de%20la%20s%C3%A9rie%20t%C3%A9l%C3%A9vis%C3%A9e%20Bates%20Motel.png",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q323722"
+    }
+  },
+  {
+    "id": "terrace-house-2012-q332909",
+    "title": "Terrace House",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan reality television, 2010s",
+    "genre": "reality television",
+    "style": [
+      "reality television"
+    ],
+    "themes": [
+      "reality television"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2012 in Japan.",
+    "description": "Terrace House, a reality television from Japan (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q332909"
+    }
+  },
+  {
+    "id": "heartstrings-2011-q483389",
+    "title": "Heartstrings",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "South Korea",
+    "language": "Korean",
+    "movement": "South Korea drama television series, 2010s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2011 in South Korea.",
+    "description": "Heartstrings, a drama television series from South Korea (2011).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q483389"
+    }
+  },
+  {
+    "id": "artista-academy-2012-q490867",
+    "title": "Artista Academy",
+    "creator": "Mac Alejandre",
+    "medium": "tv",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "Philippines",
+    "language": "unknown",
+    "movement": "Philippines reality television, 2010s",
+    "genre": "reality television",
+    "style": [
+      "reality television"
+    ],
+    "themes": [
+      "reality television"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2012 in Philippines.",
+    "description": "Artista Academy, a reality television from Philippines (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q490867"
+    }
+  },
+  {
+    "id": "family-outing-2-2010-q498334",
+    "title": "Family Outing 2",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2010,
+    "decade": "2010s",
+    "country": "South Korea",
+    "language": "Korean",
+    "movement": "South Korea reality television, 2010s",
+    "genre": "reality television",
+    "style": [
+      "reality television"
+    ],
+    "themes": [
+      "reality television"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2010 in South Korea.",
+    "description": "Family Outing 2, a reality television from South Korea (2010).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q498334"
+    }
+  },
+  {
+    "id": "the-americans-2014-q498438",
+    "title": "The Americans",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2014,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "Russian",
+    "movement": "United States thriller television series, 2010s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series",
+      "espionage television series",
+      "drama television series"
+    ],
+    "themes": [
+      "thriller television series",
+      "espionage television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2014 in United States.",
+    "description": "The Americans, a thriller television series from United States (2014).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q498438"
+    }
+  },
+  {
+    "id": "mia-and-me-2011-q509210",
+    "title": "Mia and Me",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "Germany",
+    "language": "English",
+    "movement": "Germany adventure television series, 2010s",
+    "genre": "adventure television series",
+    "style": [
+      "adventure television series",
+      "live action/animated television series",
+      "fantasy television series",
+      "children's television series"
+    ],
+    "themes": [
+      "adventure television series",
+      "live action/animated television series",
+      "fantasy television series",
+      "children's television series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2011 in Germany.",
+    "description": "Mia and Me, a adventure television series from Germany (2011).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q509210"
+    }
+  },
+  {
+    "id": "sex-death-and-the-meaning-of-life-2010-q1299388",
+    "title": "Sex, Death and the Meaning of Life",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2010,
+    "decade": "2010s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom documentary television program, 2010s",
+    "genre": "documentary television program",
+    "style": [
+      "documentary television program",
+      "documentary film"
+    ],
+    "themes": [
+      "documentary television program",
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2010 in United Kingdom.",
+    "description": "Sex, Death and the Meaning of Life, a documentary television program from United Kingdom (2010).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q1299388"
+    }
+  },
+  {
     "id": "zingzillas-2010-q926778",
     "title": "ZingZillas",
     "creator": "Unknown",
@@ -19211,6 +13160,180 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q926778"
+    }
+  },
+  {
+    "id": "the-pillars-of-the-earth-2010-q283073",
+    "title": "The Pillars of the Earth",
+    "creator": "Sergio Mimica-Gezzan",
+    "medium": "tv",
+    "year": 2010,
+    "decade": "2010s",
+    "country": "Germany",
+    "language": "English",
+    "movement": "Germany drama television series, 2010s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2010 in Germany.",
+    "description": "The Pillars of the Earth, a drama television series from Germany (2010).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saeulen%20der%20Erde-Premierenfoto.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q283073"
+    }
+  },
+  {
+    "id": "shake-it-up-2011-q308700",
+    "title": "Shake It Up",
+    "creator": "Joel Zwick",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States teen sitcom, 2010s",
+    "genre": "teen sitcom",
+    "style": [
+      "teen sitcom"
+    ],
+    "themes": [
+      "teen sitcom"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2011 in United States.",
+    "description": "Shake It Up, a teen sitcom from United States (2011).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q308700"
+    }
+  },
+  {
+    "id": "oyle-bir-gecer-zaman-ki-2010-q557505",
+    "title": "Öyle Bir Geçer Zaman ki",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2010,
+    "decade": "2010s",
+    "country": "Turkey",
+    "language": "Turkish",
+    "movement": "Turkey telenovela, 2010s",
+    "genre": "telenovela",
+    "style": [
+      "telenovela"
+    ],
+    "themes": [
+      "telenovela"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2010 in Turkey.",
+    "description": "Öyle Bir Geçer Zaman ki, a telenovela from Turkey (2010).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q557505"
+    }
+  },
+  {
+    "id": "allah-islam-2012-q559128",
+    "title": "Allah Islam",
+    "creator": "Zvi Yehezkeli, David Deri",
+    "medium": "tv",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "Israel",
+    "language": "unknown",
+    "movement": "Israel documentary film, 2010s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2012 in Israel.",
+    "description": "Allah Islam, a documentary film from Israel (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q559128"
+    }
+  },
+  {
+    "id": "regu-y-gry-2012-q665424",
+    "title": "Reguły Gry",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "Poland",
+    "language": "unknown",
+    "movement": "Poland work, 2010s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2012 in Poland.",
+    "description": "Reguły Gry, a work from Poland (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q665424"
+    }
+  },
+  {
+    "id": "afsar-bitiya-2011-q380166",
+    "title": "Afsar Bitiya",
+    "creator": "Arvind Babbal",
+    "medium": "tv",
+    "year": 2011,
+    "decade": "2010s",
+    "country": "India",
+    "language": "Hindi",
+    "movement": "India work, 2010s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2011 in India.",
+    "description": "Afsar Bitiya, a work from India (2011).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q380166"
     }
   },
   {
@@ -19272,591 +13395,15 @@ export const works = [
     }
   },
   {
-    "id": "sex-death-and-the-meaning-of-life-2010-q1299388",
-    "title": "Sex, Death and the Meaning of Life",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom documentary television program, 2010s",
-    "genre": "documentary television program",
-    "style": [
-      "documentary television program",
-      "documentary film"
-    ],
-    "themes": [
-      "documentary television program",
-      "documentary film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2010 in United Kingdom.",
-    "description": "Sex, Death and the Meaning of Life, a documentary television program from United Kingdom (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1299388"
-    }
-  },
-  {
-    "id": "el-dorado-2010-q1324081",
-    "title": "El Dorado",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "adventure film"
-    ],
-    "themes": [
-      "drama television series",
-      "adventure film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2010 in United States.",
-    "description": "El Dorado, a drama television series from United States (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1324081"
-    }
-  },
-  {
-    "id": "es-kommt-noch-dicker-2012-q1366484",
-    "title": "Es kommt noch dicker",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2012,
-    "decade": "2010s",
-    "country": "Austria",
-    "language": "German",
-    "movement": "Austria sitcom, 2010s",
-    "genre": "sitcom",
-    "style": [
-      "sitcom"
-    ],
-    "themes": [
-      "sitcom"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2012 in Austria.",
-    "description": "Es kommt noch dicker, a sitcom from Austria (2012).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1366484"
-    }
-  },
-  {
-    "id": "fc-ruckpass-2010-q1387589",
-    "title": "FC Rückpass",
-    "creator": "Leopold Bauer",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "Austria",
-    "language": "German",
-    "movement": "Austria comedy film, 2010s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 2010 in Austria.",
-    "description": "FC Rückpass, a comedy film from Austria (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1387589"
-    }
-  },
-  {
-    "id": "dos-por-uno-2013-q1444300",
-    "title": "Dos por uno",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2013,
-    "decade": "2010s",
-    "country": "Chile",
-    "language": "unknown",
-    "movement": "Chile work, 2010s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2013 in Chile.",
-    "description": "Dos por uno, a work from Chile (2013).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1444300"
-    }
-  },
-  {
-    "id": "poppixie-2010-q1507728",
-    "title": "PopPixie",
-    "creator": "Iginio Straffi",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "Italy",
-    "language": "Italian",
-    "movement": "Italy fantasy television series, 2010s",
-    "genre": "fantasy television series",
-    "style": [
-      "fantasy television series",
-      "magical girl"
-    ],
-    "themes": [
-      "fantasy television series",
-      "magical girl"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2010 in Italy.",
-    "description": "PopPixie, a fantasy television series from Italy (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1507728"
-    }
-  },
-  {
-    "id": "scandal-2013-q1525645",
-    "title": "Scandal",
-    "creator": "Tom Verica",
-    "medium": "tv",
-    "year": 2013,
-    "decade": "2010s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "thriller television series",
-      "LGBT-related television series"
-    ],
-    "themes": [
-      "drama television series",
-      "thriller television series",
-      "LGBT-related television series"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 2013 in United States.",
-    "description": "Scandal, a drama television series from United States (2013).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1525645"
-    }
-  },
-  {
-    "id": "grimmsberg-2011-q1546899",
-    "title": "Grimmsberg",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany fantasy film, 2010s",
-    "genre": "fantasy film",
-    "style": [
-      "fantasy film"
-    ],
-    "themes": [
-      "fantasy film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in Germany.",
-    "description": "Grimmsberg, a fantasy film from Germany (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1546899"
-    }
-  },
-  {
-    "id": "dog-with-a-blog-2013-q1571652",
-    "title": "Dog with a Blog",
-    "creator": "Shelley Jensen, Neal Israel",
-    "medium": "tv",
-    "year": 2013,
-    "decade": "2010s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States children's television series, 2010s",
-    "genre": "children's television series",
-    "style": [
-      "children's television series",
-      "sitcom"
-    ],
-    "themes": [
-      "children's television series",
-      "sitcom"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2013 in United States.",
-    "description": "Dog with a Blog, a children's television series from United States (2013).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1571652"
-    }
-  },
-  {
-    "id": "nils-holgerssons-wunderbare-reise-2011-q1992357",
-    "title": "Nils Holgerssons wunderbare Reise",
-    "creator": "Dirk Regel",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany children's film, 2010s",
-    "genre": "children's film",
-    "style": [
-      "children's film"
-    ],
-    "themes": [
-      "children's film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in Germany.",
-    "description": "Nils Holgerssons wunderbare Reise, a children's film from Germany (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1992357"
-    }
-  },
-  {
-    "id": "conspiracy-365-2012-q2201173",
-    "title": "Conspiracy 365",
-    "creator": "Paul Goldman",
-    "medium": "tv",
-    "year": 2012,
-    "decade": "2010s",
-    "country": "Australia",
-    "language": "unknown",
-    "movement": "Australia drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series"
-    ],
-    "themes": [
-      "drama television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2012 in Australia.",
-    "description": "Conspiracy 365, a drama television series from Australia (2012).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2201173"
-    }
-  },
-  {
-    "id": "dipdap-2011-q2254391",
-    "title": "Dipdap",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "United Kingdom",
-    "language": "unknown",
-    "movement": "United Kingdom work, 2010s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in United Kingdom.",
-    "description": "Dipdap, a work from United Kingdom (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2254391"
-    }
-  },
-  {
-    "id": "hotel-52-2010-q2285700",
-    "title": "Hotel 52",
-    "creator": "Michał Kwieciński",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "Poland",
-    "language": "unknown",
-    "movement": "Poland slice of life, 2010s",
-    "genre": "slice of life",
-    "style": [
-      "slice of life"
-    ],
-    "themes": [
-      "slice of life"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2010 in Poland.",
-    "description": "Hotel 52, a slice of life from Poland (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2285700"
-    }
-  },
-  {
-    "id": "planet-dinosaur-2011-q2366574",
-    "title": "Planet Dinosaur",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "United Kingdom",
-    "language": "unknown",
-    "movement": "United Kingdom popular science film, 2010s",
-    "genre": "popular science film",
-    "style": [
-      "popular science film"
-    ],
-    "themes": [
-      "popular science film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in United Kingdom.",
-    "description": "Planet Dinosaur, a popular science film from United Kingdom (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2366574"
-    }
-  },
-  {
-    "id": "la-gira-2011-q2403228",
-    "title": "La Gira",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "Spain",
-    "language": "Spanish",
-    "movement": "Spain sitcom, 2010s",
-    "genre": "sitcom",
-    "style": [
-      "sitcom"
-    ],
-    "themes": [
-      "sitcom"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in Spain.",
-    "description": "La Gira, a sitcom from Spain (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2403228"
-    }
-  },
-  {
-    "id": "kurohyo-ryu-ga-gotoku-shinsho-2010-q2472384",
-    "title": "Kurohyō: Ryū ga Gotoku Shinshō",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2010,
-    "decade": "2010s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "action-adventure game"
-    ],
-    "themes": [
-      "drama television series",
-      "action-adventure game"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2010 in Japan.",
-    "description": "Kurohyō: Ryū ga Gotoku Shinshō, a drama television series from Japan (2010).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2472384"
-    }
-  },
-  {
-    "id": "moordvrouw-2012-q2489839",
-    "title": "Moordvrouw",
-    "creator": "Joram Lürsen",
-    "medium": "tv",
-    "year": 2012,
-    "decade": "2010s",
-    "country": "Netherlands",
-    "language": "Dutch",
-    "movement": "Netherlands drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "crime television series",
-      "action television series"
-    ],
-    "themes": [
-      "drama television series",
-      "crime television series",
-      "action television series"
-    ],
-    "mood": [
-      "Tense",
-      "Unflinching"
-    ],
-    "context": "Released in 2012 in Netherlands.",
-    "description": "Moordvrouw, a drama television series from Netherlands (2012).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2489839"
-    }
-  },
-  {
-    "id": "moyashimon-2012-q2555837",
-    "title": "Moyashimon",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2012,
-    "decade": "2010s",
-    "country": "Japan",
-    "language": "Japanese",
-    "movement": "Japan drama television series, 2010s",
-    "genre": "drama television series",
-    "style": [
-      "drama television series",
-      "supernatural anime",
-      "comedy anime and manga"
-    ],
-    "themes": [
-      "drama television series",
-      "supernatural anime",
-      "comedy anime and manga"
-    ],
-    "mood": [
-      "Playful",
-      "Unflinching"
-    ],
-    "context": "Released in 2012 in Japan.",
-    "description": "Moyashimon, a drama television series from Japan (2012).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2555837"
-    }
-  },
-  {
-    "id": "weltflug-tv-the-gyrocopter-world-tour-2012-q2558211",
-    "title": "Weltflug.tv – The Gyrocopter World Tour",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2012,
-    "decade": "2010s",
-    "country": "Germany",
-    "language": "unknown",
-    "movement": "Germany documentary film, 2010s",
-    "genre": "documentary film",
-    "style": [
-      "documentary film"
-    ],
-    "themes": [
-      "documentary film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2012 in Germany.",
-    "description": "Weltflug.tv – The Gyrocopter World Tour, a documentary film from Germany (2012).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q2558211"
-    }
-  },
-  {
     "id": "clandestine-childhood-2011-q72162",
     "title": "Clandestine Childhood",
     "creator": "Benjamín Ávila",
     "medium": "film",
     "year": 2011,
     "decade": "2010s",
-    "country": "Argentina",
+    "country": "Brazil",
     "language": "Spanish",
-    "movement": "Argentina romance film, 2010s",
+    "movement": "Brazil romance film, 2010s",
     "genre": "romance film",
     "style": [
       "romance film",
@@ -19870,8 +13417,8 @@ export const works = [
       "Tender",
       "Unflinching"
     ],
-    "context": "Released in 2011 in Argentina.",
-    "description": "Clandestine Childhood, a romance film from Argentina (2011).",
+    "context": "Released in 2011 in Brazil.",
+    "description": "Clandestine Childhood, a romance film from Brazil (2011).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -19943,6 +13490,41 @@ export const works = [
     }
   },
   {
+    "id": "on-the-road-2012-q938858",
+    "title": "On the Road",
+    "creator": "Sam Riley, Walter Salles",
+    "medium": "film",
+    "year": 2012,
+    "decade": "2010s",
+    "country": "Brazil",
+    "language": "French",
+    "movement": "Brazil road movie, 2010s",
+    "genre": "road movie",
+    "style": [
+      "road movie",
+      "adventure film",
+      "drama film",
+      "LGBTQ-related film"
+    ],
+    "themes": [
+      "road movie",
+      "adventure film",
+      "drama film",
+      "LGBTQ-related film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2012 in Brazil.",
+    "description": "On the Road, a road movie from Brazil (2012).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q938858"
+    }
+  },
+  {
     "id": "qualquer-gato-vira-lata-2011-q281809",
     "title": "Qualquer Gato Vira-Lata",
     "creator": "Tomas Portella, Daniela De Carlo",
@@ -19978,9 +13560,9 @@ export const works = [
     "medium": "film",
     "year": 2012,
     "decade": "2010s",
-    "country": "Colombia",
+    "country": "Brazil",
     "language": "Spanish",
-    "movement": "Colombia drama film, 2010s",
+    "movement": "Brazil drama film, 2010s",
     "genre": "drama film",
     "style": [
       "drama film"
@@ -19991,8 +13573,8 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 2012 in Colombia.",
-    "description": "La Playa DC, a drama film from Colombia (2012).",
+    "context": "Released in 2012 in Brazil.",
+    "description": "La Playa DC, a drama film from Brazil (2012).",
     "image": null,
     "imageCredit": null,
     "source": {
@@ -20034,165 +13616,107 @@ export const works = [
     }
   },
   {
-    "id": "on-the-road-2012-q938858",
-    "title": "On the Road",
-    "creator": "Sam Riley, Walter Salles",
+    "id": "360-2011-q1653284",
+    "title": "360",
+    "creator": "Fernando Meirelles",
     "medium": "film",
-    "year": 2012,
+    "year": 2011,
     "decade": "2010s",
-    "country": "France",
-    "language": "English",
-    "movement": "France road movie, 2010s",
-    "genre": "road movie",
+    "country": "Brazil",
+    "language": "Arabic",
+    "movement": "Brazil romance film, 2010s",
+    "genre": "romance film",
     "style": [
-      "road movie",
-      "LGBTQ-related film",
-      "adventure film",
+      "romance film",
       "drama film"
     ],
     "themes": [
-      "road movie",
-      "LGBTQ-related film",
-      "adventure film",
+      "romance film",
       "drama film"
     ],
     "mood": [
+      "Tender",
       "Unflinching"
     ],
-    "context": "Released in 2012 in France.",
-    "description": "On the Road, a road movie from France (2012).",
-    "image": null,
-    "imageCredit": null,
+    "context": "Released in 2011 in Brazil.",
+    "description": "360, a romance film from Brazil (2011).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fernando%20Meirelles%2C%20Ernst%20A.%20Grandits%20-%20%C3%96sterreichpremiere%20360%20Wiener%20Volkstheater%2001.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
-      "sourceId": "Q938858"
+      "sourceId": "Q1653284"
     }
   },
   {
-    "id": "violeta-2011-q942581",
-    "title": "Violeta",
-    "creator": "Andrés Wood",
+    "id": "the-clown-2011-q1219329",
+    "title": "The Clown",
+    "creator": "Selton Mello",
     "medium": "film",
     "year": 2011,
     "decade": "2010s",
-    "country": "Argentina",
-    "language": "Spanish",
-    "movement": "Argentina biographical film, 2010s",
-    "genre": "biographical film",
-    "style": [
-      "biographical film"
-    ],
-    "themes": [
-      "biographical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in Argentina.",
-    "description": "Violeta, a biographical film from Argentina (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q942581"
-    }
-  },
-  {
-    "id": "morde-assopra-2011-q3282950",
-    "title": "Morde & Assopra",
-    "creator": "Pedro Vasconcellos",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
     "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil telenovela, 2010s",
-    "genre": "telenovela",
+    "language": "Portuguese",
+    "movement": "Brazil comedy drama, 2010s",
+    "genre": "comedy drama",
     "style": [
-      "telenovela"
+      "comedy drama",
+      "comedy film"
     ],
     "themes": [
-      "telenovela"
+      "comedy drama",
+      "comedy film"
     ],
     "mood": [
-      "Evocative"
+      "Playful",
+      "Unflinching"
     ],
     "context": "Released in 2011 in Brazil.",
-    "description": "Morde & Assopra, a telenovela from Brazil (2011).",
+    "description": "The Clown, a comedy drama from Brazil (2011).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q3282950"
+      "sourceId": "Q1219329"
     }
   },
   {
-    "id": "mascaras-2012-q4283862",
-    "title": "Máscaras",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2012,
+    "id": "waste-land-2010-q1692016",
+    "title": "Waste Land",
+    "creator": "Lucy Walker",
+    "medium": "film",
+    "year": 2010,
     "decade": "2010s",
     "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil telenovela, 2010s",
-    "genre": "telenovela",
+    "language": "Portuguese",
+    "movement": "Brazil documentary film, 2010s",
+    "genre": "documentary film",
     "style": [
-      "telenovela"
+      "documentary film"
     ],
     "themes": [
-      "telenovela"
+      "documentary film"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2012 in Brazil.",
-    "description": "Máscaras, a telenovela from Brazil (2012).",
+    "context": "Released in 2010 in Brazil.",
+    "description": "Waste Land, a documentary film from Brazil (2010).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q4283862"
+      "sourceId": "Q1692016"
     }
   },
   {
-    "id": "cordel-encantado-2011-q8350955",
-    "title": "Cordel Encantado",
-    "creator": "Amora Mautner",
-    "medium": "tv",
-    "year": 2011,
-    "decade": "2010s",
-    "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil telenovela, 2010s",
-    "genre": "telenovela",
-    "style": [
-      "telenovela"
-    ],
-    "themes": [
-      "telenovela"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2011 in Brazil.",
-    "description": "Cordel Encantado, a telenovela from Brazil (2011).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q8350955"
-    }
-  },
-  {
-    "id": "haunted-tales-for-wicked-kids-2013-q10297340",
-    "title": "Haunted Tales for Wicked Kids",
+    "id": "the-under-undergrounds-2016-q25439080",
+    "title": "The Under-Undergrounds",
     "creator": "Unknown",
     "medium": "tv",
-    "year": 2013,
+    "year": 2016,
     "decade": "2010s",
     "country": "Brazil",
-    "language": "unknown",
+    "language": "Portuguese",
     "movement": "Brazil work, 2010s",
     "genre": "Uncategorized",
     "style": [
@@ -20204,85 +13728,21 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2013 in Brazil.",
-    "description": "Haunted Tales for Wicked Kids, a work from Brazil (2013).",
+    "context": "Released in 2016 in Brazil.",
+    "description": "The Under-Undergrounds, a work from Brazil (2016).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q10297340"
+      "sourceId": "Q25439080"
     }
   },
   {
-    "id": "alem-do-horizonte-2013-q15618832",
-    "title": "Além do Horizonte",
-    "creator": "Ricardo Waddington",
+    "id": "escrava-mae-2016-q25449723",
+    "title": "Escrava Mãe",
+    "creator": "Ivan Zettel",
     "medium": "tv",
-    "year": 2013,
-    "decade": "2010s",
-    "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil adventure television series, 2010s",
-    "genre": "adventure television series",
-    "style": [
-      "adventure television series",
-      "telenovela"
-    ],
-    "themes": [
-      "adventure television series",
-      "telenovela"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2013 in Brazil.",
-    "description": "Além do Horizonte, a adventure television series from Brazil (2013).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q15618832"
-    }
-  },
-  {
-    "id": "meu-pedacinho-de-chao-2014-q16004503",
-    "title": "Meu Pedacinho de Chão",
-    "creator": "Luiz Fernando Carvalho",
-    "medium": "tv",
-    "year": 2014,
-    "decade": "2010s",
-    "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil romance television series, 2010s",
-    "genre": "romance television series",
-    "style": [
-      "romance television series",
-      "fantasy television series",
-      "telenovela"
-    ],
-    "themes": [
-      "romance television series",
-      "fantasy television series",
-      "telenovela"
-    ],
-    "mood": [
-      "Tender"
-    ],
-    "context": "Released in 2014 in Brazil.",
-    "description": "Meu Pedacinho de Chão, a romance television series from Brazil (2014).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q16004503"
-    }
-  },
-  {
-    "id": "vitoria-2014-q17053354",
-    "title": "Vitória",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2014,
+    "year": 2016,
     "decade": "2010s",
     "country": "Brazil",
     "language": "Brazilian Portuguese",
@@ -20297,24 +13757,84 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2014 in Brazil.",
-    "description": "Vitória, a telenovela from Brazil (2014).",
+    "context": "Released in 2016 in Brazil.",
+    "description": "Escrava Mãe, a telenovela from Brazil (2016).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q17053354"
+      "sourceId": "Q25449723"
     }
   },
   {
-    "id": "imperio-2014-q17329432",
-    "title": "Império",
-    "creator": "Rogério Gomes",
+    "id": "a-lei-do-amor-2016-q26821249",
+    "title": "A Lei do Amor",
+    "creator": "Unknown",
     "medium": "tv",
-    "year": 2014,
+    "year": 2016,
     "decade": "2010s",
     "country": "Brazil",
-    "language": "Brazilian Portuguese",
+    "language": "Portuguese",
+    "movement": "Brazil drama fiction, 2010s",
+    "genre": "drama fiction",
+    "style": [
+      "drama fiction",
+      "telenovela"
+    ],
+    "themes": [
+      "drama fiction",
+      "telenovela"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2016 in Brazil.",
+    "description": "A Lei do Amor, a drama fiction from Brazil (2016).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q26821249"
+    }
+  },
+  {
+    "id": "de-ferias-com-o-ex-2016-q28677598",
+    "title": "De Férias com o Ex",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2016,
+    "decade": "2010s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil reality show, 2010s",
+    "genre": "reality show",
+    "style": [
+      "reality show"
+    ],
+    "themes": [
+      "reality show"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2016 in Brazil.",
+    "description": "De Férias com o Ex, a reality show from Brazil (2016).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q28677598"
+    }
+  },
+  {
+    "id": "os-dias-eram-assim-2017-q29168248",
+    "title": "Os Dias Eram Assim",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2017,
+    "decade": "2010s",
+    "country": "Brazil",
+    "language": "Portuguese",
     "movement": "Brazil lgbt-related television series, 2010s",
     "genre": "LGBT-related television series",
     "style": [
@@ -20328,21 +13848,21 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2014 in Brazil.",
-    "description": "Império, a lgbt-related television series from Brazil (2014).",
+    "context": "Released in 2017 in Brazil.",
+    "description": "Os Dias Eram Assim, a lgbt-related television series from Brazil (2017).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q17329432"
+      "sourceId": "Q29168248"
     }
   },
   {
-    "id": "boogie-oogie-2014-q17563226",
-    "title": "Boogie Oogie",
-    "creator": "Ricardo Waddington",
+    "id": "belaventura-2017-q33147597",
+    "title": "Belaventura",
+    "creator": "Unknown",
     "medium": "tv",
-    "year": 2014,
+    "year": 2017,
     "decade": "2010s",
     "country": "Brazil",
     "language": "Portuguese",
@@ -20357,292 +13877,56 @@ export const works = [
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2014 in Brazil.",
-    "description": "Boogie Oogie, a telenovela from Brazil (2014).",
+    "context": "Released in 2017 in Brazil.",
+    "description": "Belaventura, a telenovela from Brazil (2017).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q17563226"
+      "sourceId": "Q33147597"
     }
   },
   {
-    "id": "dona-xepa-2013-q18246065",
-    "title": "Dona Xepa",
+    "id": "o-outro-lado-do-paraiso-2017-q40692600",
+    "title": "O Outro Lado do Paraíso",
     "creator": "Unknown",
     "medium": "tv",
-    "year": 2013,
+    "year": 2017,
     "decade": "2010s",
     "country": "Brazil",
-    "language": "unknown",
-    "movement": "Brazil telenovela, 2010s",
-    "genre": "telenovela",
-    "style": [
-      "telenovela"
-    ],
-    "themes": [
-      "telenovela"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2013 in Brazil.",
-    "description": "Dona Xepa, a telenovela from Brazil (2013).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q18246065"
-    }
-  },
-  {
-    "id": "goedam-2020-q98348188",
-    "title": "Goedam",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "South Korea",
-    "language": "Korean",
-    "movement": "South Korea horror television series, 2020s",
-    "genre": "horror television series",
-    "style": [
-      "horror television series",
-      "mystery television series",
-      "anthology series"
-    ],
-    "themes": [
-      "horror television series",
-      "mystery television series",
-      "anthology series"
-    ],
-    "mood": [
-      "Unsettling"
-    ],
-    "context": "Released in 2020 in South Korea.",
-    "description": "Goedam, a horror television series from South Korea (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98348188"
-    }
-  },
-  {
-    "id": "chumbak-2020-q98371941",
-    "title": "Chumbak",
-    "creator": "Sushant Mani",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "India",
-    "language": "unknown",
-    "movement": "India work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2020 in India.",
-    "description": "Chumbak, a work from India (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98371941"
-    }
-  },
-  {
-    "id": "72-hours-2020-q98373826",
-    "title": "72 Hours",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "India",
-    "language": "Odia",
-    "movement": "India crime thriller film, 2020s",
-    "genre": "crime thriller film",
-    "style": [
-      "crime thriller film"
-    ],
-    "themes": [
-      "crime thriller film"
-    ],
-    "mood": [
-      "Tense"
-    ],
-    "context": "Released in 2020 in India.",
-    "description": "72 Hours, a crime thriller film from India (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98373826"
-    }
-  },
-  {
-    "id": "ichha-2020-q98374390",
-    "title": "Ichha",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "India",
-    "language": "unknown",
-    "movement": "India work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2020 in India.",
-    "description": "Ichha, a work from India (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98374390"
-    }
-  },
-  {
-    "id": "oktoberfest-beer-blood-2020-q98397045",
-    "title": "Oktoberfest: Beer & Blood",
-    "creator": "Stephan Lacant, Hannu Salonen",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Czech Republic",
-    "language": "German",
-    "movement": "Czech Republic historical film, 2020s",
-    "genre": "historical film",
-    "style": [
-      "historical film",
-      "drama film"
-    ],
-    "themes": [
-      "historical film",
-      "drama film"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2020 in Czech Republic.",
-    "description": "Oktoberfest: Beer & Blood, a historical film from Czech Republic (2020).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-09-16-Oktoberfest%201990%20Deutscher%20Fernsehpreis%202021%20-4159.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98397045"
-    }
-  },
-  {
-    "id": "um-crush-em-milagres-2020-q98419190",
-    "title": "Um Crush em Milagres",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil reality show, 2020s",
-    "genre": "reality show",
+    "movement": "Brazil lgbt-related television series, 2010s",
+    "genre": "LGBT-related television series",
     "style": [
-      "reality show"
+      "LGBT-related television series",
+      "telenovela"
     ],
     "themes": [
-      "reality show"
+      "LGBT-related television series",
+      "telenovela"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2020 in Brazil.",
-    "description": "Um Crush em Milagres, a reality show from Brazil (2020).",
+    "context": "Released in 2017 in Brazil.",
+    "description": "O Outro Lado do Paraíso, a lgbt-related television series from Brazil (2017).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q98419190"
+      "sourceId": "Q40692600"
     }
   },
   {
-    "id": "riot-police-2020-q98593733",
-    "title": "Riot Police",
-    "creator": "Rodrigo Sorogoyen",
+    "id": "supermax-2017-q48784965",
+    "title": "Supermax",
+    "creator": "Daniel Burman",
     "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Spain",
+    "year": 2017,
+    "decade": "2010s",
+    "country": "Brazil",
     "language": "Spanish",
-    "movement": "Spain police television drama, 2020s",
-    "genre": "police television drama",
-    "style": [
-      "police television drama"
-    ],
-    "themes": [
-      "police television drama"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2020 in Spain.",
-    "description": "Riot Police, a police television drama from Spain (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98593733"
-    }
-  },
-  {
-    "id": "tovbeler-olsun-2020-q98650044",
-    "title": "Tövbeler Olsun",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Turkey",
-    "language": "Turkish",
-    "movement": "Turkey comedy, 2020s",
-    "genre": "comedy",
-    "style": [
-      "comedy"
-    ],
-    "themes": [
-      "comedy"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 2020 in Turkey.",
-    "description": "Tövbeler Olsun, a comedy from Turkey (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98650044"
-    }
-  },
-  {
-    "id": "crews-gangs-2020-q98704319",
-    "title": "Crews & Gangs",
-    "creator": "Unknown",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany drama television series, 2020s",
+    "movement": "Brazil drama television series, 2010s",
     "genre": "drama television series",
     "style": [
       "drama television series"
@@ -20653,142 +13937,73 @@ export const works = [
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 2020 in Germany.",
-    "description": "Crews & Gangs, a drama television series from Germany (2020).",
+    "context": "Released in 2017 in Brazil.",
+    "description": "Supermax, a drama television series from Brazil (2017).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q98704319"
+      "sourceId": "Q48784965"
     }
   },
   {
-    "id": "commando-s-2020-q98793279",
-    "title": "Commando’s",
-    "creator": "Hanro Smitsman",
+    "id": "the-beginning-of-life-the-series-2016-q51922094",
+    "title": "The Beginning of Life, The Series",
+    "creator": "Estela Renner",
     "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Netherlands",
-    "language": "Dutch",
-    "movement": "Netherlands action television series, 2020s",
-    "genre": "action television series",
+    "year": 2016,
+    "decade": "2010s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil documentary television program, 2010s",
+    "genre": "documentary television program",
     "style": [
-      "action television series"
+      "documentary television program"
     ],
     "themes": [
-      "action television series"
+      "documentary television program"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2020 in Netherlands.",
-    "description": "Commando’s, a action television series from Netherlands (2020).",
+    "context": "Released in 2016 in Brazil.",
+    "description": "The Beginning of Life, The Series, a documentary television program from Brazil (2016).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q98793279"
+      "sourceId": "Q51922094"
     }
   },
   {
-    "id": "valley-of-tears-2020-q98805592",
-    "title": "Valley of Tears",
-    "creator": "Yaron Zilberman",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Israel",
-    "language": "Hebrew",
-    "movement": "Israel historical television series, 2020s",
-    "genre": "historical television series",
-    "style": [
-      "historical television series",
-      "war television series",
-      "drama television series",
-      "action television series"
-    ],
-    "themes": [
-      "historical television series",
-      "war television series",
-      "drama television series",
-      "action television series"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2020 in Israel.",
-    "description": "Valley of Tears, a historical television series from Israel (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98805592"
-    }
-  },
-  {
-    "id": "zdf-magazin-royale-2020-q98826340",
-    "title": "ZDF Magazin Royale",
+    "id": "as-aventuras-de-poliana-2018-q52646890",
+    "title": "As Aventuras de Poliana",
     "creator": "Unknown",
     "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "Germany",
-    "language": "German",
-    "movement": "Germany satirical television series, 2020s",
-    "genre": "satirical television series",
+    "year": 2018,
+    "decade": "2010s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil children's television series, 2010s",
+    "genre": "children's television series",
     "style": [
-      "satirical television series",
-      "comedy television series",
-      "investigative journalism"
+      "children's television series",
+      "telenovela"
     ],
     "themes": [
-      "satirical television series",
-      "comedy television series",
-      "investigative journalism"
+      "children's television series",
+      "telenovela"
     ],
     "mood": [
-      "Playful"
+      "Evocative"
     ],
-    "context": "Released in 2020 in Germany.",
-    "description": "ZDF Magazin Royale, a satirical television series from Germany (2020).",
+    "context": "Released in 2018 in Brazil.",
+    "description": "As Aventuras de Poliana, a children's television series from Brazil (2018).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q98826340"
-    }
-  },
-  {
-    "id": "two-weeks-to-live-2020-q98839071",
-    "title": "Two Weeks to Live",
-    "creator": "Al Campbell",
-    "medium": "tv",
-    "year": 2020,
-    "decade": "2020s",
-    "country": "United Kingdom",
-    "language": "English",
-    "movement": "United Kingdom comedy television program, 2020s",
-    "genre": "comedy television program",
-    "style": [
-      "comedy television program",
-      "action thriller"
-    ],
-    "themes": [
-      "comedy television program",
-      "action thriller"
-    ],
-    "mood": [
-      "Tense",
-      "Playful"
-    ],
-    "context": "Released in 2020 in United Kingdom.",
-    "description": "Two Weeks to Live, a comedy television program from United Kingdom (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q98839071"
+      "sourceId": "Q52646890"
     }
   },
   {
@@ -20818,35 +14033,6 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q640760"
-    }
-  },
-  {
-    "id": "filter-2026-q1029390",
-    "title": "Filter",
-    "creator": "David Semler",
-    "medium": "tv",
-    "year": 2026,
-    "decade": "2020s",
-    "country": "Czech Republic",
-    "language": "English",
-    "movement": "Czech Republic work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2026 in Czech Republic.",
-    "description": "Filter, a work from Czech Republic (2026).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q1029390"
     }
   },
   {
@@ -20908,38 +14094,32 @@ export const works = [
     }
   },
   {
-    "id": "pbs-news-hour-2024-q7118447",
-    "title": "PBS News Hour",
-    "creator": "Unknown",
+    "id": "filter-2026-q1029390",
+    "title": "Filter",
+    "creator": "David Semler",
     "medium": "tv",
-    "year": 2024,
+    "year": 2026,
     "decade": "2020s",
-    "country": "United States",
+    "country": "Czech Republic",
     "language": "English",
-    "movement": "United States news commentary podcast, 2020s",
-    "genre": "news commentary podcast",
+    "movement": "Czech Republic work, 2020s",
+    "genre": "Uncategorized",
     "style": [
-      "news commentary podcast",
-      "daily news podcast",
-      "news program",
-      "news"
+      "Uncategorized"
     ],
     "themes": [
-      "news commentary podcast",
-      "daily news podcast",
-      "news program",
-      "news"
+      "Storytelling"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2024 in United States.",
-    "description": "PBS News Hour, a news commentary podcast from United States (2024).",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Day%20in%20the%20Life%20-%20June%202%2C%202014%20%2814199047160%29.jpg",
-    "imageCredit": "Image via Wikimedia Commons.",
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Filter, a work from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q7118447"
+      "sourceId": "Q1029390"
     }
   },
   {
@@ -21005,32 +14185,397 @@ export const works = [
     }
   },
   {
-    "id": "no-gods-no-masters-a-history-of-anarchism-2020-q29391005",
-    "title": "No Gods, No Masters: A History of Anarchism",
-    "creator": "Tancrède Ramonet",
+    "id": "cooked-with-cannabis-2020-q91851084",
+    "title": "Cooked with Cannabis",
+    "creator": "Unknown",
     "medium": "tv",
     "year": 2020,
     "decade": "2020s",
-    "country": "France",
-    "language": "French",
-    "movement": "France documentary film, 2020s",
-    "genre": "documentary film",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States cooking show, 2020s",
+    "genre": "cooking show",
     "style": [
-      "documentary film"
+      "cooking show"
     ],
     "themes": [
-      "documentary film"
+      "cooking show"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2020 in France.",
-    "description": "No Gods, No Masters: A History of Anarchism, a documentary film from France (2020).",
+    "context": "Released in 2020 in United States.",
+    "description": "Cooked with Cannabis, a cooking show from United States (2020).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q29391005"
+      "sourceId": "Q91851084"
+    }
+  },
+  {
+    "id": "deutscher-2020-q92053750",
+    "title": "Deutscher",
+    "creator": "Sophie Linnenbaum, Simon Ostermann",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany dystopian fiction, 2020s",
+    "genre": "dystopian fiction",
+    "style": [
+      "dystopian fiction"
+    ],
+    "themes": [
+      "dystopian fiction"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Germany.",
+    "description": "Deutscher, a dystopian fiction from Germany (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q92053750"
+    }
+  },
+  {
+    "id": "prop-culture-2020-q93754011",
+    "title": "Prop Culture",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "unknown",
+    "movement": "United States work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in United States.",
+    "description": "Prop Culture, a work from United States (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q93754011"
+    }
+  },
+  {
+    "id": "ei-haukku-haavaa-tee-2020-q93881820",
+    "title": "Ei Haukku haavaa tee",
+    "creator": "Lauri Nurkse, Olli Salonen",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Finland",
+    "language": "Finnish",
+    "movement": "Finland work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Finland.",
+    "description": "Ei Haukku haavaa tee, a work from Finland (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q93881820"
+    }
+  },
+  {
+    "id": "parlement-2020-q93965549",
+    "title": "Parlement",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "English",
+    "movement": "Germany political satire, 2020s",
+    "genre": "political satire",
+    "style": [
+      "political satire"
+    ],
+    "themes": [
+      "political satire"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Germany.",
+    "description": "Parlement, a political satire from Germany (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q93965549"
+    }
+  },
+  {
+    "id": "trial-by-media-2020-q94247121",
+    "title": "Trial by Media",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States true crime, 2020s",
+    "genre": "true crime",
+    "style": [
+      "true crime"
+    ],
+    "themes": [
+      "true crime"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2020 in United States.",
+    "description": "Trial by Media, a true crime from United States (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q94247121"
+    }
+  },
+  {
+    "id": "vamos-juan-2020-q88963640",
+    "title": "Vamos Juan",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Spain",
+    "language": "Spanish",
+    "movement": "Spain comedy television series, 2020s",
+    "genre": "comedy television series",
+    "style": [
+      "comedy television series"
+    ],
+    "themes": [
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2020 in Spain.",
+    "description": "Vamos Juan, a comedy television series from Spain (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q88963640"
+    }
+  },
+  {
+    "id": "micke-steffe-show-2020-q89189292",
+    "title": "Micke & Steffe show",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Finland",
+    "language": "unknown",
+    "movement": "Finland work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Finland.",
+    "description": "Micke & Steffe show, a work from Finland (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q89189292"
+    }
+  },
+  {
+    "id": "the-nest-2020-q89554752",
+    "title": "The Nest",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Scotland",
+    "language": "unknown",
+    "movement": "Scotland thriller television series, 2020s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series"
+    ],
+    "themes": [
+      "thriller television series"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2020 in Scotland.",
+    "description": "The Nest, a thriller television series from Scotland (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q89554752"
+    }
+  },
+  {
+    "id": "tehran-2020-q90389788",
+    "title": "Tehran",
+    "creator": "Daniel Syrkin",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Israel",
+    "language": "Persian",
+    "movement": "Israel thriller, 2020s",
+    "genre": "thriller",
+    "style": [
+      "thriller"
+    ],
+    "themes": [
+      "thriller"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2020 in Israel.",
+    "description": "Tehran, a thriller from Israel (2020).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tehrana%20TV%20S%200-2-CLR.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q90389788"
+    }
+  },
+  {
+    "id": "perfect-commando-2020-q90413702",
+    "title": "Perfect Commando",
+    "creator": "Jalmari Helander",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Finland",
+    "language": "English",
+    "movement": "Finland comedy, 2020s",
+    "genre": "comedy",
+    "style": [
+      "comedy"
+    ],
+    "themes": [
+      "comedy"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2020 in Finland.",
+    "description": "Perfect Commando, a comedy from Finland (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q90413702"
+    }
+  },
+  {
+    "id": "neboa-2020-q76734000",
+    "title": "Néboa",
+    "creator": "Gonzalo López-Gallego",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Spain",
+    "language": "Spanish",
+    "movement": "Spain police television drama, 2020s",
+    "genre": "police television drama",
+    "style": [
+      "police television drama",
+      "crime television series",
+      "drama television series",
+      "mystery television series",
+      "thriller television series",
+      "action television series"
+    ],
+    "themes": [
+      "police television drama",
+      "crime television series",
+      "drama television series",
+      "mystery television series",
+      "thriller television series",
+      "action television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2020 in Spain.",
+    "description": "Néboa, a police television drama from Spain (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q76734000"
+    }
+  },
+  {
+    "id": "magomaev-2020-q87432446",
+    "title": "Magomaev",
+    "creator": "Dmitry Tyurin, Roman Prygunov",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Russia",
+    "language": "Russian",
+    "movement": "Russia drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series",
+      "drama fiction",
+      "musical film",
+      "biographical film"
+    ],
+    "themes": [
+      "drama television series",
+      "drama fiction",
+      "musical film",
+      "biographical film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2020 in Russia.",
+    "description": "Magomaev, a drama television series from Russia (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q87432446"
     }
   },
   {
@@ -21063,223 +14608,313 @@ export const works = [
     }
   },
   {
-    "id": "cursed-2020-q55608702",
-    "title": "Cursed",
-    "creator": "Zetna Fuentes",
+    "id": "king-of-boys-the-return-of-the-king-2021-q108166990",
+    "title": "King of Boys: The Return of the King",
+    "creator": "Kemi Adetiba",
     "medium": "tv",
-    "year": 2020,
+    "year": 2021,
     "decade": "2020s",
-    "country": "United States",
-    "language": "English",
-    "movement": "United States fantasy television series, 2020s",
-    "genre": "fantasy television series",
+    "country": "Nigeria",
+    "language": "Yoruba",
+    "movement": "Nigeria drama television series, 2020s",
+    "genre": "drama television series",
     "style": [
-      "fantasy television series",
-      "adventure television series",
-      "teen drama television"
+      "drama television series",
+      "political thriller"
     ],
     "themes": [
-      "fantasy television series",
-      "adventure television series",
-      "teen drama television"
+      "drama television series",
+      "political thriller"
     ],
     "mood": [
+      "Tense",
       "Unflinching"
     ],
-    "context": "Released in 2020 in United States.",
-    "description": "Cursed, a fantasy television series from United States (2020).",
+    "context": "Released in 2021 in Nigeria.",
+    "description": "King of Boys: The Return of the King, a drama television series from Nigeria (2021).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q55608702"
+      "sourceId": "Q108166990"
     }
   },
   {
-    "id": "self-made-inspired-by-the-life-of-madam-c-j-walker-2020-q56275326",
-    "title": "Self Made: Inspired by the Life of Madam C. J. Walker",
-    "creator": "Kasi Lemmons",
+    "id": "echo-3-2022-q108240337",
+    "title": "Echo 3",
+    "creator": "Pablo Trapero, Claudia Llosa, Mark Boal",
+    "medium": "tv",
+    "year": 2022,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2022 in United States.",
+    "description": "Echo 3, a drama television series from United States (2022).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q108240337"
+    }
+  },
+  {
+    "id": "survivors-2021-q108274725",
+    "title": "Survivors",
+    "creator": "Andrei Proshkin",
+    "medium": "tv",
+    "year": 2021,
+    "decade": "2020s",
+    "country": "Russia",
+    "language": "unknown",
+    "movement": "Russia post-apocalyptic film, 2020s",
+    "genre": "post-apocalyptic film",
+    "style": [
+      "post-apocalyptic film"
+    ],
+    "themes": [
+      "post-apocalyptic film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2021 in Russia.",
+    "description": "Survivors, a post-apocalyptic film from Russia (2021).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q108274725"
+    }
+  },
+  {
+    "id": "big-dogs-2020-q108325629",
+    "title": "Big Dogs",
+    "creator": "Unknown",
     "medium": "tv",
     "year": 2020,
     "decade": "2020s",
     "country": "United States",
-    "language": "American English",
-    "movement": "United States biographical film, 2020s",
-    "genre": "biographical film",
+    "language": "unknown",
+    "movement": "United States work, 2020s",
+    "genre": "Uncategorized",
     "style": [
-      "biographical film",
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in United States.",
+    "description": "Big Dogs, a work from United States (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q108325629"
+    }
+  },
+  {
+    "id": "entrevias-2022-q108473156",
+    "title": "Entrevías",
+    "creator": "Aitor Gabilondo, David Bermejo",
+    "medium": "tv",
+    "year": 2022,
+    "decade": "2020s",
+    "country": "Spain",
+    "language": "Spanish",
+    "movement": "Spain crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series",
+      "drama film",
+      "thriller"
+    ],
+    "themes": [
+      "crime television series",
+      "drama film",
+      "thriller"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2022 in Spain.",
+    "description": "Entrevías, a crime television series from Spain (2022).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q108473156"
+    }
+  },
+  {
+    "id": "minha-familia-2022-q24885115",
+    "title": "Minha Família",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2022,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil comedy film, 2020s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2022 in Brazil.",
+    "description": "Minha Família, a comedy film from Brazil (2022).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q24885115"
+    }
+  },
+  {
+    "id": "mosquito-2020-q96238901",
+    "title": "Mosquito",
+    "creator": "João Nuno Pinto",
+    "medium": "film",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil historical film, 2020s",
+    "genre": "historical film",
+    "style": [
+      "historical film",
+      "action film"
+    ],
+    "themes": [
+      "historical film",
+      "action film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Brazil.",
+    "description": "Mosquito, a historical film from Brazil (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q96238901"
+    }
+  },
+  {
+    "id": "skull-the-mask-2020-q96405814",
+    "title": "Skull: The Mask",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Brazil.",
+    "description": "Skull: The Mask, a work from Brazil (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q96405814"
+    }
+  },
+  {
+    "id": "bergman-island-2021-q59065557",
+    "title": "Bergman Island",
+    "creator": "Mia Hansen-Løve",
+    "medium": "film",
+    "year": 2021,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "English",
+    "movement": "Brazil drama film, 2020s",
+    "genre": "drama film",
+    "style": [
       "drama film"
     ],
     "themes": [
-      "biographical film",
       "drama film"
     ],
     "mood": [
       "Unflinching"
     ],
-    "context": "Released in 2020 in United States.",
-    "description": "Self Made: Inspired by the Life of Madam C. J. Walker, a biographical film from United States (2020).",
-    "image": null,
-    "imageCredit": null,
+    "context": "Released in 2021 in Brazil.",
+    "description": "Bergman Island, a drama film from Brazil (2021).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergman%20Island%20Cannes%202021.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
     "source": {
       "type": "wikidata",
-      "sourceId": "Q56275326"
+      "sourceId": "Q59065557"
     }
   },
   {
-    "id": "devils-2020-q56277874",
-    "title": "Devils",
-    "creator": "Nick Hurran",
-    "medium": "tv",
-    "year": 2020,
+    "id": "beckett-2021-q65061274",
+    "title": "Beckett",
+    "creator": "Ferdinando Cito Filomarino",
+    "medium": "film",
+    "year": 2021,
     "decade": "2020s",
-    "country": "France",
+    "country": "Brazil",
     "language": "English",
-    "movement": "France financial thriller, 2020s",
-    "genre": "financial thriller",
+    "movement": "Brazil police film, 2020s",
+    "genre": "police film",
     "style": [
-      "financial thriller"
+      "police film",
+      "thriller film"
     ],
     "themes": [
-      "financial thriller"
+      "police film",
+      "thriller film"
     ],
     "mood": [
       "Tense"
     ],
-    "context": "Released in 2020 in France.",
-    "description": "Devils, a financial thriller from France (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q56277874"
-    }
-  },
-  {
-    "id": "a-garota-invisivel-2021-q106542241",
-    "title": "A Garota Invisível",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Brazil",
-    "language": "unknown",
-    "movement": "Brazil work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
     "context": "Released in 2021 in Brazil.",
-    "description": "A Garota Invisível, a work from Brazil (2021).",
+    "description": "Beckett, a police film from Brazil (2021).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q106542241"
+      "sourceId": "Q65061274"
     }
   },
   {
-    "id": "and-they-say-i-am-the-crazy-one-2021-q106543731",
-    "title": "And They Say I Am the Crazy One",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Brazil",
-    "language": "unknown",
-    "movement": "Brazil work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "And They Say I Am the Crazy One, a work from Brazil (2021).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106543731"
-    }
-  },
-  {
-    "id": "me-sinto-bem-com-voce-2021-q106546771",
-    "title": "Me Sinto Bem Com Você",
-    "creator": "Unknown",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Brazil",
-    "language": "unknown",
-    "movement": "Brazil romance film, 2020s",
-    "genre": "romance film",
-    "style": [
-      "romance film",
-      "drama film"
-    ],
-    "themes": [
-      "romance film",
-      "drama film"
-    ],
-    "mood": [
-      "Tender",
-      "Unflinching"
-    ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "Me Sinto Bem Com Você, a romance film from Brazil (2021).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106546771"
-    }
-  },
-  {
-    "id": "nao-vamos-pagar-nada-2020-q106546993",
-    "title": "Não Vamos Pagar Nada",
-    "creator": "João Fonseca",
+    "id": "airplane-mode-2020-q78890887",
+    "title": "Airplane Mode",
+    "creator": "César Rodrigues",
     "medium": "film",
     "year": 2020,
-    "decade": "2020s",
-    "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil comedy film, 2020s",
-    "genre": "comedy film",
-    "style": [
-      "comedy film"
-    ],
-    "themes": [
-      "comedy film"
-    ],
-    "mood": [
-      "Playful"
-    ],
-    "context": "Released in 2020 in Brazil.",
-    "description": "Não Vamos Pagar Nada, a comedy film from Brazil (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106546993"
-    }
-  },
-  {
-    "id": "o-auto-da-boa-mentira-2021-q106546999",
-    "title": "O Auto da Boa Mentira",
-    "creator": "José Eduardo Belmonte",
-    "medium": "film",
-    "year": 2021,
     "decade": "2020s",
     "country": "Brazil",
     "language": "Portuguese",
@@ -21294,161 +14929,165 @@ export const works = [
     "mood": [
       "Playful"
     ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "O Auto da Boa Mentira, a comedy film from Brazil (2021).",
+    "context": "Released in 2020 in Brazil.",
+    "description": "Airplane Mode, a comedy film from Brazil (2020).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q106546999"
+      "sourceId": "Q78890887"
     }
   },
   {
-    "id": "piedade-2021-q106547258",
-    "title": "Piedade",
-    "creator": "Cláudio Assis",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Brazil",
-    "language": "Portuguese",
-    "movement": "Brazil work, 2020s",
-    "genre": "Uncategorized",
-    "style": [
-      "Uncategorized"
-    ],
-    "themes": [
-      "Storytelling"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "Piedade, a work from Brazil (2021).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106547258"
-    }
-  },
-  {
-    "id": "1982-2021-q106582591",
-    "title": "1982",
-    "creator": "Lucas Gallo",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Argentina",
-    "language": "Spanish",
-    "movement": "Argentina historical film, 2020s",
-    "genre": "historical film",
-    "style": [
-      "historical film"
-    ],
-    "themes": [
-      "historical film"
-    ],
-    "mood": [
-      "Evocative"
-    ],
-    "context": "Released in 2021 in Argentina.",
-    "description": "1982, a historical film from Argentina (2021).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106582591"
-    }
-  },
-  {
-    "id": "music-for-bleeding-hearts-2020-q106632589",
-    "title": "Music for Bleeding Hearts",
-    "creator": "Rafael Gomes",
+    "id": "eduardo-e-monica-2020-q79483640",
+    "title": "Eduardo e Mônica",
+    "creator": "René Sampaio",
     "medium": "film",
     "year": 2020,
     "decade": "2020s",
     "country": "Brazil",
-    "language": "Brazilian Portuguese",
-    "movement": "Brazil romantic drama, 2020s",
-    "genre": "romantic drama",
-    "style": [
-      "romantic drama"
-    ],
-    "themes": [
-      "romantic drama"
-    ],
-    "mood": [
-      "Unflinching"
-    ],
-    "context": "Released in 2020 in Brazil.",
-    "description": "Music for Bleeding Hearts, a romantic drama from Brazil (2020).",
-    "image": null,
-    "imageCredit": null,
-    "source": {
-      "type": "wikidata",
-      "sourceId": "Q106632589"
-    }
-  },
-  {
-    "id": "the-secret-diary-of-an-exchange-student-2021-q106998019",
-    "title": "The Secret Diary of an Exchange Student",
-    "creator": "Bruno Garotti",
-    "medium": "film",
-    "year": 2021,
-    "decade": "2020s",
-    "country": "Brazil",
     "language": "Portuguese",
-    "movement": "Brazil romance film, 2020s",
-    "genre": "romance film",
+    "movement": "Brazil comedy drama, 2020s",
+    "genre": "comedy drama",
     "style": [
-      "romance film",
-      "comedy film"
+      "comedy drama"
     ],
     "themes": [
-      "romance film",
-      "comedy film"
+      "comedy drama"
     ],
     "mood": [
       "Playful",
-      "Tender"
+      "Unflinching"
     ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "The Secret Diary of an Exchange Student, a romance film from Brazil (2021).",
+    "context": "Released in 2020 in Brazil.",
+    "description": "Eduardo e Mônica, a comedy drama from Brazil (2020).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q106998019"
+      "sourceId": "Q79483640"
     }
   },
   {
-    "id": "there-s-something-about-mario-2021-q107344698",
-    "title": "There's Something About Mario",
-    "creator": "Unknown",
+    "id": "detectives-blue-building-movie-3-an-adventure-at-the-end-of-the-world-2020-q83809958",
+    "title": "Detectives Blue Building - Movie 3: An Adventure at the End of the World",
+    "creator": "Mauro Lima",
     "medium": "film",
-    "year": 2021,
+    "year": 2020,
     "decade": "2020s",
     "country": "Brazil",
-    "language": "unknown",
-    "movement": "Brazil work, 2020s",
-    "genre": "Uncategorized",
+    "language": "Portuguese",
+    "movement": "Brazil family film, 2020s",
+    "genre": "family film",
     "style": [
-      "Uncategorized"
+      "family film",
+      "adventure film",
+      "comedy film",
+      "fantasy film"
     ],
     "themes": [
-      "Storytelling"
+      "family film",
+      "adventure film",
+      "comedy film",
+      "fantasy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2020 in Brazil.",
+    "description": "Detectives Blue Building - Movie 3: An Adventure at the End of the World, a family film from Brazil (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q83809958"
+    }
+  },
+  {
+    "id": "all-the-dead-ones-2020-q84083939",
+    "title": "All the Dead Ones",
+    "creator": "Caetano Gotardo, Marco Dutra",
+    "medium": "film",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil drama film, 2020s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2020 in Brazil.",
+    "description": "All the Dead Ones, a drama film from Brazil (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q84083939"
+    }
+  },
+  {
+    "id": "sisters-in-the-end-of-the-world-2020-q85412142",
+    "title": "Sisters in the End of the World",
+    "creator": "Luciana Mazeto",
+    "medium": "film",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil teen film, 2020s",
+    "genre": "teen film",
+    "style": [
+      "teen film"
+    ],
+    "themes": [
+      "teen film"
     ],
     "mood": [
       "Evocative"
     ],
-    "context": "Released in 2021 in Brazil.",
-    "description": "There's Something About Mario, a work from Brazil (2021).",
+    "context": "Released in 2020 in Brazil.",
+    "description": "Sisters in the End of the World, a teen film from Brazil (2020).",
     "image": null,
     "imageCredit": null,
     "source": {
       "type": "wikidata",
-      "sourceId": "Q107344698"
+      "sourceId": "Q85412142"
+    }
+  },
+  {
+    "id": "um-crush-em-milagres-2020-q98419190",
+    "title": "Um Crush em Milagres",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2020,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil reality show, 2020s",
+    "genre": "reality show",
+    "style": [
+      "reality show"
+    ],
+    "themes": [
+      "reality show"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2020 in Brazil.",
+    "description": "Um Crush em Milagres, a reality show from Brazil (2020).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q98419190"
     }
   },
   {
@@ -21625,6 +15264,2626 @@ export const works = [
     "source": {
       "type": "wikidata",
       "sourceId": "Q140050797"
+    }
+  },
+  {
+    "id": "bora-2025-q116998475",
+    "title": "Bóra",
+    "creator": "Marek Najbrt, Zuzana Marianková",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Slovakia",
+    "language": "unknown",
+    "movement": "Slovakia crime film, 2020s",
+    "genre": "crime film",
+    "style": [
+      "crime film",
+      "comedy film"
+    ],
+    "themes": [
+      "crime film",
+      "comedy film"
+    ],
+    "mood": [
+      "Tense",
+      "Playful"
+    ],
+    "context": "Released in 2025 in Slovakia.",
+    "description": "Bóra, a crime film from Slovakia (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q116998475"
+    }
+  },
+  {
+    "id": "metoda-markovic-straka-2026-q116998480",
+    "title": "Metoda Markovič: Straka",
+    "creator": "Jan Vejnar, Tomáš Pavlíček",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Slovak",
+    "movement": "Czech Republic crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series"
+    ],
+    "themes": [
+      "crime television series"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Metoda Markovič: Straka, a crime television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q116998480"
+    }
+  },
+  {
+    "id": "the-weekend-2025-q123738778",
+    "title": "The Weekend",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States news program, 2020s",
+    "genre": "news program",
+    "style": [
+      "news program"
+    ],
+    "themes": [
+      "news program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "The Weekend, a news program from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q123738778"
+    }
+  },
+  {
+    "id": "gandhi-2025-q124013977",
+    "title": "Gandhi",
+    "creator": "Hansal Mehta",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "India",
+    "language": "unknown",
+    "movement": "India work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in India.",
+    "description": "Gandhi, a work from India (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q124013977"
+    }
+  },
+  {
+    "id": "stugo-2025-q131542201",
+    "title": "StuGo",
+    "creator": "Sunil Hall",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States comedy, 2020s",
+    "genre": "comedy",
+    "style": [
+      "comedy"
+    ],
+    "themes": [
+      "comedy"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "StuGo, a comedy from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q131542201"
+    }
+  },
+  {
+    "id": "lucky-luke-2026-q131701180",
+    "title": "Lucky Luke",
+    "creator": "Benjamin Rocher",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "France",
+    "language": "French",
+    "movement": "France work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in France.",
+    "description": "Lucky Luke, a work from France (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q131701180"
+    }
+  },
+  {
+    "id": "public-disorder-2025-q131785156",
+    "title": "Public Disorder",
+    "creator": "Michele Alhaique",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Italy",
+    "language": "Italian",
+    "movement": "Italy drama fiction, 2020s",
+    "genre": "drama fiction",
+    "style": [
+      "drama fiction",
+      "action television series",
+      "drama television series"
+    ],
+    "themes": [
+      "drama fiction",
+      "action television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Italy.",
+    "description": "Public Disorder, a drama fiction from Italy (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q131785156"
+    }
+  },
+  {
+    "id": "agenten-pappas-liv-og-l-gner-2025-q131926741",
+    "title": "Agenten - Pappas liv og løgner",
+    "creator": "Magnus Skatvold",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Norway",
+    "language": "Norwegian",
+    "movement": "Norway documentary television program, 2020s",
+    "genre": "documentary television program",
+    "style": [
+      "documentary television program"
+    ],
+    "themes": [
+      "documentary television program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Norway.",
+    "description": "Agenten - Pappas liv og løgner, a documentary television program from Norway (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q131926741"
+    }
+  },
+  {
+    "id": "khakee-the-bengal-chapter-2025-q132794913",
+    "title": "Khakee: The Bengal Chapter",
+    "creator": "Neeraj Pandey",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "India",
+    "language": "unknown",
+    "movement": "India work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in India.",
+    "description": "Khakee: The Bengal Chapter, a work from India (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q132794913"
+    }
+  },
+  {
+    "id": "silence-2025-q136024563",
+    "title": "Silence",
+    "creator": "Eduardo Casanova",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Spain",
+    "language": "Spanish",
+    "movement": "Spain vampire film, 2020s",
+    "genre": "vampire film",
+    "style": [
+      "vampire film",
+      "LGBTQ-related film"
+    ],
+    "themes": [
+      "vampire film",
+      "LGBTQ-related film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Spain.",
+    "description": "Silence, a vampire film from Spain (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136024563"
+    }
+  },
+  {
+    "id": "dream-stage-2026-q137248389",
+    "title": "Dream Stage",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Japan.",
+    "description": "Dream Stage, a drama television series from Japan (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q137248389"
+    }
+  },
+  {
+    "id": "inspekce-2026-q137426613",
+    "title": "Inspekce",
+    "creator": "David Laňka",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series",
+      "drama television series"
+    ],
+    "themes": [
+      "crime television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Inspekce, a crime television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q137426613"
+    }
+  },
+  {
+    "id": "kode-r-d-2026-q137770943",
+    "title": "Kode Rød",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Norway",
+    "language": "Norwegian",
+    "movement": "Norway reality television, 2020s",
+    "genre": "reality television",
+    "style": [
+      "reality television"
+    ],
+    "themes": [
+      "reality television"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Norway.",
+    "description": "Kode Rød, a reality television from Norway (2026).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryvingen%20fyr%2001.jpg",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q137770943"
+    }
+  },
+  {
+    "id": "girl-from-nowhere-the-reset-2026-q137786640",
+    "title": "Girl From Nowhere: The Reset",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Thailand",
+    "language": "Thai",
+    "movement": "Thailand fantasy television series, 2020s",
+    "genre": "fantasy television series",
+    "style": [
+      "fantasy television series",
+      "thriller television series",
+      "teen drama television"
+    ],
+    "themes": [
+      "fantasy television series",
+      "thriller television series",
+      "teen drama television"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Thailand.",
+    "description": "Girl From Nowhere: The Reset, a fantasy television series from Thailand (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q137786640"
+    }
+  },
+  {
+    "id": "affinity-2026-q137939253",
+    "title": "Affinity",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "People's Republic of China",
+    "language": "Putonghua",
+    "movement": "People's Republic of China science fiction television series, 2020s",
+    "genre": "science fiction television series",
+    "style": [
+      "science fiction television series",
+      "romance television series",
+      "thriller television series"
+    ],
+    "themes": [
+      "science fiction television series",
+      "romance television series",
+      "thriller television series"
+    ],
+    "mood": [
+      "Tense",
+      "Tender"
+    ],
+    "context": "Released in 2026 in People's Republic of China.",
+    "description": "Affinity, a science fiction television series from People's Republic of China (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q137939253"
+    }
+  },
+  {
+    "id": "no-mercy-2025-q136298745",
+    "title": "No Mercy",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "South Korea",
+    "language": "unknown",
+    "movement": "South Korea revenge tragedy, 2020s",
+    "genre": "revenge tragedy",
+    "style": [
+      "revenge tragedy",
+      "crime thriller film"
+    ],
+    "themes": [
+      "revenge tragedy",
+      "crime thriller film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2025 in South Korea.",
+    "description": "No Mercy, a revenge tragedy from South Korea (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136298745"
+    }
+  },
+  {
+    "id": "metal-tears-television-series-2025-q136304685",
+    "title": "Metal Tears (Television Series)",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "South Africa",
+    "language": "English",
+    "movement": "South Africa musical drama, 2020s",
+    "genre": "musical drama",
+    "style": [
+      "musical drama",
+      "adventure film"
+    ],
+    "themes": [
+      "musical drama",
+      "adventure film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in South Africa.",
+    "description": "Metal Tears (Television Series), a musical drama from South Africa (2025).",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Metal%20Tears%202025%20TV%20Series.png",
+    "imageCredit": "Image via Wikimedia Commons.",
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136304685"
+    }
+  },
+  {
+    "id": "naked-and-afraid-apocalypse-2025-q136387187",
+    "title": "Naked and Afraid: Apocalypse",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States reality television, 2020s",
+    "genre": "reality television",
+    "style": [
+      "reality television"
+    ],
+    "themes": [
+      "reality television"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "Naked and Afraid: Apocalypse, a reality television from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136387187"
+    }
+  },
+  {
+    "id": "squid-game-america-2025-q136905253",
+    "title": "Squid Game: America",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "Squid Game: America, a work from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136905253"
+    }
+  },
+  {
+    "id": "sun-chaser-2026-q136954347",
+    "title": "Sun Chaser",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Phillipines",
+    "language": "Filipino",
+    "movement": "Phillipines adventure television series, 2020s",
+    "genre": "adventure television series",
+    "style": [
+      "adventure television series",
+      "fantasy television series"
+    ],
+    "themes": [
+      "adventure television series",
+      "fantasy television series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Phillipines.",
+    "description": "Sun Chaser, a adventure television series from Phillipines (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q136954347"
+    }
+  },
+  {
+    "id": "la-rebelle-les-aventures-de-la-jeune-george-sand-2025-q125617949",
+    "title": "La Rebelle : Les Aventures de la jeune George Sand",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United Kingdom",
+    "language": "unknown",
+    "movement": "United Kingdom work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United Kingdom.",
+    "description": "La Rebelle : Les Aventures de la jeune George Sand, a work from United Kingdom (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q125617949"
+    }
+  },
+  {
+    "id": "dragonights-2026-q125676306",
+    "title": "Dragonights",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States science fiction television series, 2020s",
+    "genre": "science fiction television series",
+    "style": [
+      "science fiction television series",
+      "superhero television program",
+      "action television series"
+    ],
+    "themes": [
+      "science fiction television series",
+      "superhero television program",
+      "action television series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in United States.",
+    "description": "Dragonights, a science fiction television series from United States (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q125676306"
+    }
+  },
+  {
+    "id": "studna-2025-q125986325",
+    "title": "Studna",
+    "creator": "Tereza Kopáčová",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "unknown",
+    "movement": "Czech Republic crime film, 2020s",
+    "genre": "crime film",
+    "style": [
+      "crime film",
+      "drama film"
+    ],
+    "themes": [
+      "crime film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Czech Republic.",
+    "description": "Studna, a crime film from Czech Republic (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q125986325"
+    }
+  },
+  {
+    "id": "war-of-the-kingdoms-2025-q124685472",
+    "title": "War of the Kingdoms",
+    "creator": "Cyrill Boss, Philipp Stennert",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Germany.",
+    "description": "War of the Kingdoms, a drama television series from Germany (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q124685472"
+    }
+  },
+  {
+    "id": "sara-woman-in-the-shadows-2025-q130397686",
+    "title": "Sara: Woman in the Shadows",
+    "creator": "Carmine Elia",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Italy",
+    "language": "Italian",
+    "movement": "Italy work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Italy.",
+    "description": "Sara: Woman in the Shadows, a work from Italy (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130397686"
+    }
+  },
+  {
+    "id": "oddil-b-2026-q130739638",
+    "title": "Oddíl B",
+    "creator": "Jan Prušinovský",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic comedy television series, 2020s",
+    "genre": "comedy television series",
+    "style": [
+      "comedy television series"
+    ],
+    "themes": [
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Oddíl B, a comedy television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130739638"
+    }
+  },
+  {
+    "id": "decko-2025-q130739675",
+    "title": "Děcko",
+    "creator": "Rozálie Kohoutová, Radim Špaček",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic family film, 2020s",
+    "genre": "family film",
+    "style": [
+      "family film",
+      "drama film"
+    ],
+    "themes": [
+      "family film",
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Czech Republic.",
+    "description": "Děcko, a family film from Czech Republic (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130739675"
+    }
+  },
+  {
+    "id": "the-rigo-case-the-sock-killer-2026-q130739682",
+    "title": "The Rigo Case: The Sock Killer",
+    "creator": "Peter Bebjak",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Slovakia",
+    "language": "Slovak",
+    "movement": "Slovakia true crime, 2020s",
+    "genre": "true crime",
+    "style": [
+      "true crime",
+      "crime film",
+      "documentary film"
+    ],
+    "themes": [
+      "true crime",
+      "crime film",
+      "documentary film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2026 in Slovakia.",
+    "description": "The Rigo Case: The Sock Killer, a true crime from Slovakia (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130739682"
+    }
+  },
+  {
+    "id": "buldok-z-podebrad-2026-q130739685",
+    "title": "Buldok z Poděbrad",
+    "creator": "Jakub Šmíd, Jan Haluza",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series",
+      "comedy television series"
+    ],
+    "themes": [
+      "crime television series",
+      "comedy television series"
+    ],
+    "mood": [
+      "Tense",
+      "Playful"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Buldok z Poděbrad, a crime television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130739685"
+    }
+  },
+  {
+    "id": "limity-2025-q130739687",
+    "title": "Limity",
+    "creator": "Petr Zelenka",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "unknown",
+    "movement": "Czech Republic work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Czech Republic.",
+    "description": "Limity, a work from Czech Republic (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130739687"
+    }
+  },
+  {
+    "id": "the-fall-of-the-house-of-koller-2026-q130740128",
+    "title": "The Fall of the House of Koller",
+    "creator": "Jan Hřebejk",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic comedy television series, 2020s",
+    "genre": "comedy television series",
+    "style": [
+      "comedy television series",
+      "family television series"
+    ],
+    "themes": [
+      "comedy television series",
+      "family television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "The Fall of the House of Koller, a comedy television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q130740128"
+    }
+  },
+  {
+    "id": "bear-grylls-wild-reckoning-2026-q138031327",
+    "title": "Bear Grylls - Wild Reckoning",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "United Kingdom",
+    "language": "English",
+    "movement": "United Kingdom work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in United Kingdom.",
+    "description": "Bear Grylls - Wild Reckoning, a work from United Kingdom (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138031327"
+    }
+  },
+  {
+    "id": "destova-hul-2027-q138447855",
+    "title": "Dešťová hůl",
+    "creator": "Bohdan Sláma",
+    "medium": "tv",
+    "year": 2027,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2027 in Czech Republic.",
+    "description": "Dešťová hůl, a drama television series from Czech Republic (2027).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138447855"
+    }
+  },
+  {
+    "id": "kutnohorska-kauza-2027-q138447908",
+    "title": "Kutnohorská kauza",
+    "creator": "Adam Martinec, Tereza Kopáčová",
+    "medium": "tv",
+    "year": 2027,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2027 in Czech Republic.",
+    "description": "Kutnohorská kauza, a drama television series from Czech Republic (2027).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138447908"
+    }
+  },
+  {
+    "id": "the-prosecutor-2026-q138863546",
+    "title": "The prosecutor",
+    "creator": "Miguel Tovar, Paula Mónaco Felipe",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Mexico",
+    "language": "Spanish",
+    "movement": "Mexico drama film, 2020s",
+    "genre": "drama film",
+    "style": [
+      "drama film"
+    ],
+    "themes": [
+      "drama film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Mexico.",
+    "description": "The prosecutor, a drama film from Mexico (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138863546"
+    }
+  },
+  {
+    "id": "tenkosei-nano-2026-q139550328",
+    "title": "Tenkosei Nano",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Japan",
+    "language": "Japanese",
+    "movement": "Japan thriller film, 2020s",
+    "genre": "thriller film",
+    "style": [
+      "thriller film",
+      "anthology film",
+      "drama film"
+    ],
+    "themes": [
+      "thriller film",
+      "anthology film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Japan.",
+    "description": "Tenkosei Nano, a thriller film from Japan (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139550328"
+    }
+  },
+  {
+    "id": "seribu-tahun-2025-q139619040",
+    "title": "Seribu Tahun",
+    "creator": "Shahrulezad Mohameddin",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Malaysia",
+    "language": "Malay",
+    "movement": "Malaysia drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Malaysia.",
+    "description": "Seribu Tahun, a drama television series from Malaysia (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139619040"
+    }
+  },
+  {
+    "id": "no-mercy-against-the-law-2026-q139782237",
+    "title": "No Mercy - Against The Law",
+    "creator": "Umut Dağ",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "unknown",
+    "movement": "Germany work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Germany.",
+    "description": "No Mercy - Against The Law, a work from Germany (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139782237"
+    }
+  },
+  {
+    "id": "the-forgetting-2026-q139782326",
+    "title": "The Forgetting",
+    "creator": "Johanna Moder, Daniel Prochaska",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "German",
+    "movement": "Germany work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Germany.",
+    "description": "The Forgetting, a work from Germany (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139782326"
+    }
+  },
+  {
+    "id": "hype-2025-q140249610",
+    "title": "Hype",
+    "creator": "Fabio Mollo",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Italy",
+    "language": "Italian",
+    "movement": "Italy musical film, 2020s",
+    "genre": "musical film",
+    "style": [
+      "musical film"
+    ],
+    "themes": [
+      "musical film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Italy.",
+    "description": "Hype, a musical film from Italy (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140249610"
+    }
+  },
+  {
+    "id": "una-familia-complicada-2026-q140304050",
+    "title": "Una familia complicada",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Mexico",
+    "language": "Spanish",
+    "movement": "Mexico work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Mexico.",
+    "description": "Una familia complicada, a work from Mexico (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140304050"
+    }
+  },
+  {
+    "id": "tiger-island-2026-q140365741",
+    "title": "Tiger Island",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "unknown",
+    "language": "unknown",
+    "movement": "work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in unknown.",
+    "description": "Tiger Island, a work from unknown (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140365741"
+    }
+  },
+  {
+    "id": "the-noseybonk-incident-2026-q140373504",
+    "title": "The Noseybonk Incident",
+    "creator": "Mitchel Corrado",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "unknown",
+    "language": "English",
+    "movement": "horror fiction, 2020s",
+    "genre": "horror fiction",
+    "style": [
+      "horror fiction"
+    ],
+    "themes": [
+      "horror fiction"
+    ],
+    "mood": [
+      "Unsettling"
+    ],
+    "context": "Released in 2026 in unknown.",
+    "description": "The Noseybonk Incident, a horror fiction from unknown (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140373504"
+    }
+  },
+  {
+    "id": "the-prosecutor-s-proposal-2026-q140374307",
+    "title": "The Prosecutor's Proposal",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "South Korea",
+    "language": "Korean",
+    "movement": "South Korea work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in South Korea.",
+    "description": "The Prosecutor's Proposal, a work from South Korea (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140374307"
+    }
+  },
+  {
+    "id": "amantes-anonimos-2025-q140684964",
+    "title": "Amantes Anônimos",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "unknown",
+    "language": "unknown",
+    "movement": "work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in unknown.",
+    "description": "Amantes Anônimos, a work from unknown (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140684964"
+    }
+  },
+  {
+    "id": "hello-hum-bol-rahe-hain-2026-q140846297",
+    "title": "Hello! Hum Bol Rahe Hain",
+    "creator": "Abhyaank, Anand Singh",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "India",
+    "language": "Hindi",
+    "movement": "India thriller television series, 2020s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series",
+      "comedy television series",
+      "drama television series"
+    ],
+    "themes": [
+      "thriller television series",
+      "comedy television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Playful",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in India.",
+    "description": "Hello! Hum Bol Rahe Hain, a thriller television series from India (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140846297"
+    }
+  },
+  {
+    "id": "let-s-marry-harry-2026-q140935851",
+    "title": "Let's Marry Harry",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "unknown",
+    "language": "English",
+    "movement": "work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in unknown.",
+    "description": "Let's Marry Harry, a work from unknown (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140935851"
+    }
+  },
+  {
+    "id": "conservation-works-2026-q141257693",
+    "title": "Conservation Works",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States documentary television program, 2020s",
+    "genre": "documentary television program",
+    "style": [
+      "documentary television program"
+    ],
+    "themes": [
+      "documentary television program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in United States.",
+    "description": "Conservation Works, a documentary television program from United States (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q141257693"
+    }
+  },
+  {
+    "id": "shakespeare-street-2025-q133253481",
+    "title": "Shakespeare Street",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Russia",
+    "language": "Romani",
+    "movement": "Russia crime drama film, 2020s",
+    "genre": "crime drama film",
+    "style": [
+      "crime drama film"
+    ],
+    "themes": [
+      "crime drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Russia.",
+    "description": "Shakespeare Street, a crime drama film from Russia (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q133253481"
+    }
+  },
+  {
+    "id": "my-mafia-pilot-boyfriend-2025-q133448534",
+    "title": "My Mafia Pilot Boyfriend",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States lgbtq-related film, 2020s",
+    "genre": "LGBTQ-related film",
+    "style": [
+      "LGBTQ-related film"
+    ],
+    "themes": [
+      "LGBTQ-related film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "My Mafia Pilot Boyfriend, a lgbtq-related film from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q133448534"
+    }
+  },
+  {
+    "id": "eres-mi-sangre-2025-q133781543",
+    "title": "Eres Mi Sangre",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Peru",
+    "language": "Spanish",
+    "movement": "Peru mystery fiction, 2020s",
+    "genre": "mystery fiction",
+    "style": [
+      "mystery fiction",
+      "thriller",
+      "drama film",
+      "telenovela"
+    ],
+    "themes": [
+      "mystery fiction",
+      "thriller",
+      "drama film",
+      "telenovela"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Peru.",
+    "description": "Eres Mi Sangre, a mystery fiction from Peru (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q133781543"
+    }
+  },
+  {
+    "id": "cbs-evening-news-plus-2025-q134008483",
+    "title": "CBS Evening News Plus",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States news program, 2020s",
+    "genre": "news program",
+    "style": [
+      "news program"
+    ],
+    "themes": [
+      "news program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "CBS Evening News Plus, a news program from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q134008483"
+    }
+  },
+  {
+    "id": "kill-jackie-2026-q134302553",
+    "title": "Kill Jackie",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Australia",
+    "language": "English",
+    "movement": "Australia thriller, 2020s",
+    "genre": "thriller",
+    "style": [
+      "thriller"
+    ],
+    "themes": [
+      "thriller"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2026 in Australia.",
+    "description": "Kill Jackie, a thriller from Australia (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q134302553"
+    }
+  },
+  {
+    "id": "gram-chikitsalay-2025-q134436707",
+    "title": "Gram Chikitsalay",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "India",
+    "language": "Hindi",
+    "movement": "India drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in India.",
+    "description": "Gram Chikitsalay, a drama television series from India (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q134436707"
+    }
+  },
+  {
+    "id": "under-a-dark-sun-2025-q135087995",
+    "title": "Under a Dark Sun",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "France",
+    "language": "French",
+    "movement": "France thriller film, 2020s",
+    "genre": "thriller film",
+    "style": [
+      "thriller film",
+      "drama film"
+    ],
+    "themes": [
+      "thriller film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in France.",
+    "description": "Under a Dark Sun, a thriller film from France (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135087995"
+    }
+  },
+  {
+    "id": "mentiras-la-serie-2025-q135105499",
+    "title": "Mentiras, la serie",
+    "creator": "Gabriel Ripstein",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Mexico",
+    "language": "Spanish",
+    "movement": "Mexico comedy drama, 2020s",
+    "genre": "comedy drama",
+    "style": [
+      "comedy drama"
+    ],
+    "themes": [
+      "comedy drama"
+    ],
+    "mood": [
+      "Playful",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Mexico.",
+    "description": "Mentiras, la serie, a comedy drama from Mexico (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135105499"
+    }
+  },
+  {
+    "id": "marked-2025-q135180838",
+    "title": "Marked",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "South Africa",
+    "language": "Zulu",
+    "movement": "South Africa thriller television series, 2020s",
+    "genre": "thriller television series",
+    "style": [
+      "thriller television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "themes": [
+      "thriller television series",
+      "crime television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in South Africa.",
+    "description": "Marked, a thriller television series from South Africa (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135180838"
+    }
+  },
+  {
+    "id": "v-de-verguenza-2025-q135216683",
+    "title": "V de Vergüenza",
+    "creator": "Juan Zapata",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Colombia",
+    "language": "Spanish",
+    "movement": "Colombia lgbtq-related film, 2020s",
+    "genre": "LGBTQ-related film",
+    "style": [
+      "LGBTQ-related film"
+    ],
+    "themes": [
+      "LGBTQ-related film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Colombia.",
+    "description": "V de Vergüenza, a lgbtq-related film from Colombia (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135216683"
+    }
+  },
+  {
+    "id": "devika-danny-2025-q135219389",
+    "title": "Devika & Danny",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "India",
+    "language": "Telugu",
+    "movement": "India supernatural film, 2020s",
+    "genre": "supernatural film",
+    "style": [
+      "supernatural film"
+    ],
+    "themes": [
+      "supernatural film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in India.",
+    "description": "Devika & Danny, a supernatural film from India (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135219389"
+    }
+  },
+  {
+    "id": "rychle-sipy-2025-q135298302",
+    "title": "Rychlé šípy",
+    "creator": "Michal Žabka",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic family film, 2020s",
+    "genre": "family film",
+    "style": [
+      "family film",
+      "animated series"
+    ],
+    "themes": [
+      "family film",
+      "animated series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Czech Republic.",
+    "description": "Rychlé šípy, a family film from Czech Republic (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135298302"
+    }
+  },
+  {
+    "id": "dve-princezny-2025-q135313440",
+    "title": "Dvě princezny",
+    "creator": "Radim Grzybek, Jaromír Polišenský",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic fantasy, 2020s",
+    "genre": "fantasy",
+    "style": [
+      "fantasy"
+    ],
+    "themes": [
+      "fantasy"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Czech Republic.",
+    "description": "Dvě princezny, a fantasy from Czech Republic (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135313440"
+    }
+  },
+  {
+    "id": "monyova-2026-q135313451",
+    "title": "Monyová",
+    "creator": "Zuzana Kirchnerová",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic crime film, 2020s",
+    "genre": "crime film",
+    "style": [
+      "crime film",
+      "drama film"
+    ],
+    "themes": [
+      "crime film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Monyová, a crime film from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135313451"
+    }
+  },
+  {
+    "id": "rekordwoman-2026-q135313454",
+    "title": "Rekordwoman",
+    "creator": "Dan Wlodarczyk",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic drama television series, 2020s",
+    "genre": "drama television series",
+    "style": [
+      "drama television series"
+    ],
+    "themes": [
+      "drama television series"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Rekordwoman, a drama television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135313454"
+    }
+  },
+  {
+    "id": "spriznena-duse-2026-q135313457",
+    "title": "Spřízněná duše",
+    "creator": "Tereza Kopáčová",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "unknown",
+    "movement": "Czech Republic work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Spřízněná duše, a work from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135313457"
+    }
+  },
+  {
+    "id": "misto-zlocinu-zlin-2026-q135313460",
+    "title": "Místo zločinu Zlín",
+    "creator": "Jan Hřebejk, Martin Kopp, Jiří Chlumský",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Czech Republic",
+    "language": "Czech",
+    "movement": "Czech Republic crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series",
+      "drama television series"
+    ],
+    "themes": [
+      "crime television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in Czech Republic.",
+    "description": "Místo zločinu Zlín, a crime television series from Czech Republic (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135313460"
+    }
+  },
+  {
+    "id": "air-all-india-rankers-2025-q135337952",
+    "title": "AIR: All India Rankers",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "India",
+    "language": "Telugu",
+    "movement": "India coming-of-age television program, 2020s",
+    "genre": "coming-of-age television program",
+    "style": [
+      "coming-of-age television program"
+    ],
+    "themes": [
+      "coming-of-age television program"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in India.",
+    "description": "AIR: All India Rankers, a coming-of-age television program from India (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135337952"
+    }
+  },
+  {
+    "id": "the-altruists-2026-q135470331",
+    "title": "The Altruists",
+    "creator": "James Ponsoldt, Silver Tree, Mairzee Almas",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in United States.",
+    "description": "The Altruists, a work from United States (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135470331"
+    }
+  },
+  {
+    "id": "jokanak-river-2025-q135474830",
+    "title": "Jokanak River",
+    "creator": "Seyed Ali Mousavi Noor",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Iran",
+    "language": "Persian",
+    "movement": "Iran game show, 2020s",
+    "genre": "game show",
+    "style": [
+      "game show"
+    ],
+    "themes": [
+      "game show"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Iran.",
+    "description": "Jokanak River, a game show from Iran (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135474830"
+    }
+  },
+  {
+    "id": "open-bo-i-am-campus-2025-q135492098",
+    "title": "Open BO: I Am Campus",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Indonesia",
+    "language": "Indonesian",
+    "movement": "Indonesia romance film, 2020s",
+    "genre": "romance film",
+    "style": [
+      "romance film",
+      "comedy"
+    ],
+    "themes": [
+      "romance film",
+      "comedy"
+    ],
+    "mood": [
+      "Playful",
+      "Tender"
+    ],
+    "context": "Released in 2025 in Indonesia.",
+    "description": "Open BO: I Am Campus, a romance film from Indonesia (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135492098"
+    }
+  },
+  {
+    "id": "to-kill-a-monkey-2025-q135516521",
+    "title": "To Kill a Monkey",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Nigeria",
+    "language": "English",
+    "movement": "Nigeria thriller film, 2020s",
+    "genre": "thriller film",
+    "style": [
+      "thriller film",
+      "crime film"
+    ],
+    "themes": [
+      "thriller film",
+      "crime film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2025 in Nigeria.",
+    "description": "To Kill a Monkey, a thriller film from Nigeria (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135516521"
+    }
+  },
+  {
+    "id": "love-con-revenge-2025-q135685031",
+    "title": "Love Con Revenge",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States documentary series, 2020s",
+    "genre": "documentary series",
+    "style": [
+      "documentary series"
+    ],
+    "themes": [
+      "documentary series"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in United States.",
+    "description": "Love Con Revenge, a documentary series from United States (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135685031"
+    }
+  },
+  {
+    "id": "president-curtis-2026-q135742014",
+    "title": "President Curtis",
+    "creator": "Unknown",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "United States",
+    "language": "English",
+    "movement": "United States adult animated television series, 2020s",
+    "genre": "adult animated television series",
+    "style": [
+      "adult animated television series",
+      "comedy television series"
+    ],
+    "themes": [
+      "adult animated television series",
+      "comedy television series"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2026 in United States.",
+    "description": "President Curtis, a adult animated television series from United States (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135742014"
+    }
+  },
+  {
+    "id": "the-remarried-empress-2026-q135873455",
+    "title": "The Remarried Empress",
+    "creator": "Jo Soo-won",
+    "medium": "tv",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "South Korea",
+    "language": "Korean",
+    "movement": "South Korea fantasy television series, 2020s",
+    "genre": "fantasy television series",
+    "style": [
+      "fantasy television series",
+      "romance television series",
+      "drama television series"
+    ],
+    "themes": [
+      "fantasy television series",
+      "romance television series",
+      "drama television series"
+    ],
+    "mood": [
+      "Tender",
+      "Unflinching"
+    ],
+    "context": "Released in 2026 in South Korea.",
+    "description": "The Remarried Empress, a fantasy television series from South Korea (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135873455"
+    }
+  },
+  {
+    "id": "final-hours-2025-q135910819",
+    "title": "Final Hours",
+    "creator": "Christopher Schier",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "Czech",
+    "movement": "Germany film based on a literary work, 2020s",
+    "genre": "film based on a literary work",
+    "style": [
+      "film based on a literary work",
+      "historical play"
+    ],
+    "themes": [
+      "film based on a literary work",
+      "historical play"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Germany.",
+    "description": "Final Hours, a film based on a literary work from Germany (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135910819"
+    }
+  },
+  {
+    "id": "plaha-2025-q135961809",
+    "title": "Plaha",
+    "creator": "Igor Cobileanski",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Romania",
+    "language": "Romanian",
+    "movement": "Romania crime television series, 2020s",
+    "genre": "crime television series",
+    "style": [
+      "crime television series",
+      "political thriller"
+    ],
+    "themes": [
+      "crime television series",
+      "political thriller"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2025 in Romania.",
+    "description": "Plaha, a crime television series from Romania (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135961809"
+    }
+  },
+  {
+    "id": "dudes-2025-q135995699",
+    "title": "Dudes",
+    "creator": "Tobias Baumann, Jan Martin Scharf",
+    "medium": "tv",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Germany",
+    "language": "unknown",
+    "movement": "Germany comedy film, 2020s",
+    "genre": "comedy film",
+    "style": [
+      "comedy film"
+    ],
+    "themes": [
+      "comedy film"
+    ],
+    "mood": [
+      "Playful"
+    ],
+    "context": "Released in 2025 in Germany.",
+    "description": "Dudes, a comedy film from Germany (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q135995699"
+    }
+  },
+  {
+    "id": "the-blue-trail-2025-q131840191",
+    "title": "The Blue Trail",
+    "creator": "Gabriel Mascaro",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil drama film, 2020s",
+    "genre": "drama film",
+    "style": [
+      "drama film",
+      "dystopian film"
+    ],
+    "themes": [
+      "drama film",
+      "dystopian film"
+    ],
+    "mood": [
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "The Blue Trail, a drama film from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q131840191"
+    }
+  },
+  {
+    "id": "velhos-bandidos-2026-q132063588",
+    "title": "Velhos Bandidos",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Brazil.",
+    "description": "Velhos Bandidos, a work from Brazil (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q132063588"
+    }
+  },
+  {
+    "id": "the-secret-agent-2025-q132531438",
+    "title": "The Secret Agent",
+    "creator": "Kleber Mendonça Filho",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil political thriller film, 2020s",
+    "genre": "political thriller film",
+    "style": [
+      "political thriller film",
+      "thriller film",
+      "historical film",
+      "drama film"
+    ],
+    "themes": [
+      "political thriller film",
+      "thriller film",
+      "historical film",
+      "drama film"
+    ],
+    "mood": [
+      "Tense",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "The Secret Agent, a political thriller film from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q132531438"
+    }
+  },
+  {
+    "id": "here-the-whole-time-2025-q138861105",
+    "title": "Here The Whole Time",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil coming-of-age fiction, 2020s",
+    "genre": "coming-of-age fiction",
+    "style": [
+      "coming-of-age fiction",
+      "gay-related film",
+      "romance film",
+      "drama film"
+    ],
+    "themes": [
+      "coming-of-age fiction",
+      "gay-related film",
+      "romance film",
+      "drama film"
+    ],
+    "mood": [
+      "Tender",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "Here The Whole Time, a coming-of-age fiction from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138861105"
+    }
+  },
+  {
+    "id": "sao-gabriel-da-virgem-dolorosa-2025-q138991188",
+    "title": "São Gabriel da Virgem Dolorosa",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil biographical film, 2020s",
+    "genre": "biographical film",
+    "style": [
+      "biographical film",
+      "Christian film",
+      "historical film"
+    ],
+    "themes": [
+      "biographical film",
+      "Christian film",
+      "historical film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "São Gabriel da Virgem Dolorosa, a biographical film from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q138991188"
+    }
+  },
+  {
+    "id": "saverosa-2025-q139590581",
+    "title": "#SaveRosa",
+    "creator": "Susanna Lira",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Portuguese",
+    "movement": "Brazil thriller film, 2020s",
+    "genre": "thriller film",
+    "style": [
+      "thriller film"
+    ],
+    "themes": [
+      "thriller film"
+    ],
+    "mood": [
+      "Tense"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "#SaveRosa, a thriller film from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139590581"
+    }
+  },
+  {
+    "id": "beyond-appearances-2025-q139895240",
+    "title": "Beyond Appearances",
+    "creator": "Divino B'Atista",
+    "medium": "film",
+    "year": 2025,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil lgbtq-related film, 2020s",
+    "genre": "LGBTQ-related film",
+    "style": [
+      "LGBTQ-related film",
+      "romance film",
+      "comedy film",
+      "drama film"
+    ],
+    "themes": [
+      "LGBTQ-related film",
+      "romance film",
+      "comedy film",
+      "drama film"
+    ],
+    "mood": [
+      "Playful",
+      "Tender",
+      "Unflinching"
+    ],
+    "context": "Released in 2025 in Brazil.",
+    "description": "Beyond Appearances, a lgbtq-related film from Brazil (2025).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q139895240"
+    }
+  },
+  {
+    "id": "zico-o-samurai-de-quintino-2026-q140078860",
+    "title": "Zico, O Samurai de Quintino",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil documentary film, 2020s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Brazil.",
+    "description": "Zico, O Samurai de Quintino, a documentary film from Brazil (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140078860"
+    }
+  },
+  {
+    "id": "usa-94-brazil-s-return-to-glory-2026-q140278746",
+    "title": "USA 94: Brazil’s Return to Glory",
+    "creator": "Luis Ara",
+    "medium": "film",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil documentary film, 2020s",
+    "genre": "documentary film",
+    "style": [
+      "documentary film"
+    ],
+    "themes": [
+      "documentary film"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Brazil.",
+    "description": "USA 94: Brazil’s Return to Glory, a documentary film from Brazil (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140278746"
+    }
+  },
+  {
+    "id": "elize-shadows-of-a-woman-2026-q140524489",
+    "title": "Elize: Shadows of a Woman",
+    "creator": "Unknown",
+    "medium": "film",
+    "year": 2026,
+    "decade": "2020s",
+    "country": "Brazil",
+    "language": "Brazilian Portuguese",
+    "movement": "Brazil work, 2020s",
+    "genre": "Uncategorized",
+    "style": [
+      "Uncategorized"
+    ],
+    "themes": [
+      "Storytelling"
+    ],
+    "mood": [
+      "Evocative"
+    ],
+    "context": "Released in 2026 in Brazil.",
+    "description": "Elize: Shadows of a Woman, a work from Brazil (2026).",
+    "image": null,
+    "imageCredit": null,
+    "source": {
+      "type": "wikidata",
+      "sourceId": "Q140524489"
     }
   }
 ];
