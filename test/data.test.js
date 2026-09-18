@@ -7,8 +7,6 @@ const REQUIRED_STRING_FIELDS = ['id', 'title', 'creator', 'medium', 'country', '
 const REQUIRED_ARRAY_FIELDS = ['style', 'themes', 'mood'];
 const VALID_SOURCE_TYPES = new Set(['wikidata', 'musicbrainz', 'openlibrary', 'met']);
 
-// Grows as more source integrations land — see
-// docs/superpowers/specs/2026-09-02-resonance-data-sourcing-design.md.
 const SOURCED_MEDIA = ['film'];
 
 test('data.js exports at least one work', () => {
@@ -46,7 +44,7 @@ test('every work has a plausible 4-digit year and matching decade, or an honest 
       assert.equal(work.decade, 'unknown', `${work.id} has a null year but decade is not "unknown"`);
       continue;
     }
-    const maxPlausibleYear = new Date().getFullYear() + 1; // Wikidata carries future-dated items for announced titles
+    const maxPlausibleYear = new Date().getFullYear() + 1;
     assert.ok(Number.isInteger(work.year) && work.year > 1000 && work.year <= maxPlausibleYear, `${work.id} has invalid year ${work.year}`);
     assert.equal(work.decade, `${Math.floor(work.year / 10) * 10}s`, `${work.id} decade should match its year`);
   }
@@ -68,10 +66,6 @@ test('the collection spans every currently-integrated medium', () => {
   for (const medium of SOURCED_MEDIA) {
     assert.ok(mediaPresent.has(medium), `no work found for medium "${medium}"`);
   }
-});
-
-test('the collection includes at least one Brazilian work', () => {
-  assert.ok(works.some((w) => w.country === 'Brazil'), 'expected at least one Brazilian work');
 });
 
 test('every work has an image URL or an explicit null, with a matching credit rule', () => {

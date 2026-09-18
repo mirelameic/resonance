@@ -18,15 +18,9 @@ test('queryFilms sends a SPARQL query with the right date range and a User-Agent
 
   assert.equal(rows.length, 1);
   assert.ok(capturedUrl.includes('query.wikidata.org/sparql'));
-  // The lower bound of the decade range is checked on the aggregated earliest date, in
-  // HAVING (after GROUP BY) — see the next test for why the range check can't live in a
-  // plain per-row WHERE-clause FILTER for a property as commonly multi-valued as P577.
   assert.ok(decodeURIComponent(capturedUrl).includes('YEAR(?date) <= 2009'));
   assert.ok(decodeURIComponent(capturedUrl).includes('HAVING(YEAR(MIN(?date)) >= 2000 && YEAR(MIN(?date)) <= 2009)'));
   assert.ok(capturedHeaders && typeof capturedHeaders['User-Agent'] === 'string' && capturedHeaders['User-Agent'].length > 0);
-  // Guards against the exact bug the controller found and fixed during the real sync:
-  // a non-Latin1 character (an em dash) in this header broke every single fetch call,
-  // because fetch headers are ByteStrings and cannot carry arbitrary Unicode.
   assert.match(capturedHeaders['User-Agent'], /^[\x20-\x7E]+$/, 'User-Agent must be pure ASCII (fetch headers are ByteStrings)');
 });
 
@@ -45,18 +39,6 @@ test('queryFilms defaults to OFFSET 0 and passes through a non-zero offset for p
 });
 
 test('queryFilms buckets a multi-dated item by its EARLIEST publication date, not an arbitrary one', async (t) => {
-  // A first attempt at this fix used `FILTER NOT EXISTS { ?item wdt:P577 ?earlierDate .
-  // FILTER(?earlierDate < ?date) }`, which looked correct reading the SPARQL but silently
-  // deleted every multi-dated item from every bucket when run against the real WDQS
-  // endpoint (verified live against Q1054036 "Central Station", which has 6 P577 values —
-  // it vanished from the corpus entirely instead of being pinned to its 1998-01-16
-  // earliest date). A mocked-fetch unit test structurally cannot catch that kind of bug —
-  // it can only assert the query TEXT, never real SPARQL evaluation semantics — so this
-  // test asserts the query shape that was actually live-verified to work (MIN(?date) AS
-  // ?firstDate projected, then HAVING(YEAR(MIN(?date)) BETWEEN start AND end) after
-  // GROUP BY, so the range check runs on the aggregated earliest date, not on each raw
-  // per-date row before aggregation). Any change to this query shape MUST be re-verified
-  // against a real multi-dated item on the live endpoint, not just against this test.
   let capturedUrl;
   t.mock.method(globalThis, 'fetch', async (url) => {
     capturedUrl = url.toString();
@@ -116,7 +98,6 @@ test('queryFilms retries on transient errors (429/502/503/504) and eventually th
     () => queryFilms({ startYear: 2000, endYear: 2009, limit: 10 }),
     /Wikidata request failed: 429/
   );
-  // 1 initial attempt + 2 retries = 3 total fetch calls.
   assert.equal(globalThis.fetch.mock.callCount(), 3);
 });
 

@@ -224,10 +224,10 @@ function renderHome(mount) {
       <div class="hero__index tag reveal">[ 00 / ARCHIVE ]</div>
       <h1 class="hero__title reveal"><span class="hero__title-highlight">EVERY PIECE<br>ECHOES ANOTHER.</span></h1>
       <p class="hero__sub reveal">
-        RESONANCE is an artistic memory archive — ${works.length} works of music, film,
-        literature, photography, and visual art from Brazil and around the world, connected not by
-        genre but by the ideas, moods, and moments they share. Explore by parameter, or let the
-        archive surprise you.
+        RESONANCE is an artistic memory archive — ${works.length} works from around the
+        world (film today, with music, literature, and visual art joining gradually),
+        connected not by genre but by the ideas, moods, and moments they share. Explore
+        by parameter, or let the archive surprise you.
       </p>
       <div class="hero__actions reveal">
         <a class="pill" href="${buildHash('explore')}">EXPLORE THE ARCHIVE</a>

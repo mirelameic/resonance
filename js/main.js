@@ -3,7 +3,6 @@ import { parseRoute } from './router.js';
 import { renderView } from './render.js';
 import { works } from './data.js';
 
-// Theme toggle
 (function () {
   const root = document.documentElement;
   const toggle = document.getElementById('themeToggle');
@@ -20,7 +19,6 @@ import { works } from './data.js';
   });
 })();
 
-// Ambient drifting dots
 (function () {
   const field = document.getElementById('ambient');
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -40,7 +38,6 @@ import { works } from './data.js';
   field.appendChild(frag);
 })();
 
-// Cursor accent dot
 (function () {
   const dot = document.getElementById('cursorDot');
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

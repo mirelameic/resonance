@@ -17,7 +17,7 @@ test('runSync writes a fresh js/data.js and reports accurate counts when nothing
   ];
   const fetchFresh = async () => fakeFresh;
 
-  const result = await runSync({ dataFile, enrichmentFile, fetchFresh, apiKey: 'fake', incremental: false });
+  const result = await runSync({ dataFile, enrichmentFile, fetchFresh, incremental: false });
 
   assert.equal(result.existingCount, 0);
   assert.equal(result.freshCount, 2);
@@ -39,7 +39,7 @@ test('runSync merges fresh works into an existing generated data.js without dupl
   ])};\n`);
 
   const fetchFresh = async () => [{ id: 'a', title: 'New A', source: { type: 'wikidata', sourceId: '1' } }];
-  const result = await runSync({ dataFile, enrichmentFile, fetchFresh, apiKey: 'fake', incremental: false });
+  const result = await runSync({ dataFile, enrichmentFile, fetchFresh, incremental: false });
 
   assert.equal(result.totalCount, 1);
   const written = await import(`file://${dataFile}?t=${Date.now()}`);
@@ -56,13 +56,13 @@ test('runSync passes the enrichment map and incremental flag through to fetchFre
 
   let capturedEnrichment;
   let capturedIncremental;
-  const fetchFresh = async (apiKey, enrichmentMap, incremental) => {
+  const fetchFresh = async (enrichmentMap, incremental) => {
     capturedEnrichment = enrichmentMap;
     capturedIncremental = incremental;
     return [];
   };
 
-  await runSync({ dataFile, enrichmentFile, fetchFresh, apiKey: 'fake', incremental: true });
+  await runSync({ dataFile, enrichmentFile, fetchFresh, incremental: true });
 
   assert.deepEqual(capturedEnrichment, { 'wikidata:1': { movement: 'Curated' } });
   assert.equal(capturedIncremental, true);

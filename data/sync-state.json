@@ -3,64 +3,12 @@
     "offset": 80,
     "exhausted": false
   },
-  "wikidata:film:brazil:1900-1909": {
-    "offset": 1,
-    "exhausted": true
-  },
   "wikidata:film:1910-1919": {
     "offset": 80,
     "exhausted": false
   },
-  "wikidata:film:brazil:1910-1919": {
-    "offset": 5,
-    "exhausted": true
-  },
   "wikidata:film:1920-1929": {
     "offset": 80,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1920-1929": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1930-1939": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1940-1949": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1950-1959": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1960-1969": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1970-1979": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1980-1989": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:1990-1999": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:2000-2009": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:2010-2019": {
-    "offset": 20,
-    "exhausted": false
-  },
-  "wikidata:film:brazil:2020-2029": {
-    "offset": 20,
     "exhausted": false
   }
 }

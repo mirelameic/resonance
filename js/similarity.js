@@ -2,11 +2,6 @@ const WEIGHTS = { movement: 5, genre: 2, theme: 1.5, mood: 1, country: 1, creato
 const PERIOD_WEIGHT = 2;
 const PERIOD_DECAY_YEARS = 10;
 
-// The Wikidata mapper (scripts/lib/mapWikidata.mjs) emits these fallback sentinel values
-// when the source data is sparse (e.g. no director on record, no genre at all). They are
-// placeholders, not real shared attributes — two unrelated works that both happen to be
-// missing a director must never score a "same creator" match just because they share the
-// literal string 'Unknown'.
 const SENTINEL_VALUES = new Set(['Unknown', 'unknown', 'Uncategorized', 'Storytelling', 'Evocative']);
 
 function isRealValue(value) {
@@ -18,9 +13,6 @@ function sharedValues(a = [], b = []) {
   return a.filter((v) => isRealValue(v) && setB.has(v));
 }
 
-// All period-proximity reason strings share the "same era" prefix so callers
-// (e.g. pickUnexpectedConnection) can identify a period-only match without
-// depending on the exact wording below.
 function periodReason(yearsApart) {
   if (yearsApart === 0) return 'same era, released the same year';
   if (yearsApart < PERIOD_DECAY_YEARS) return `same era, ${yearsApart} year${yearsApart === 1 ? '' : 's'} apart`;

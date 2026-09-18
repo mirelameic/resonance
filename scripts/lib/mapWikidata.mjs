@@ -54,10 +54,6 @@ function deriveMovement(genres, year, country) {
   return country && country !== 'unknown' ? `${country} ${primaryGenre}, ${decade}` : `${primaryGenre}, ${decade}`;
 }
 
-// Wikidata's SPARQL endpoint resolves a commonsMedia property (P18, queried
-// via wdt:P18) directly to a full, pre-percent-encoded Commons Special:FilePath
-// URI (e.g. "http://commons.wikimedia.org/wiki/Special:FilePath/Foo%20bar.jpg"),
-// not a bare filename. Upgrade to https for a consistent, secure URL.
 function buildImage(imageUri) {
   if (!imageUri) return null;
   return imageUri.replace(/^http:\/\//, 'https://');
@@ -65,17 +61,7 @@ function buildImage(imageUri) {
 
 function mapWikidataToWork(binding, medium) {
   const title = value(binding, 'itemLabel') || 'Untitled';
-  // Bound as MIN(?date) AS ?firstDate (not a plain SAMPLE) so a multi-dated item (original
-  // release, re-releases, restorations) is always pinned to its earliest date, not an
-  // arbitrary one — see the SPARQL query in scripts/sources/wikidata.mjs.
   const year = parseYear(value(binding, 'firstDate'));
-  // When the query was restricted to a specific country (e.g. the Brazil-guarantee
-  // queries), ?filteredCountry is bound deterministically to that country. Prefer it
-  // over the sampled ?country, which aggregates over ALL of the item's countries of
-  // origin and can arbitrarily pick a co-production partner instead — see finding #3
-  // of the final review (Clandestine Childhood/La Playa DC/On the Road all being
-  // reported as their OTHER co-production country despite being fetched by the
-  // Brazil-filtered query).
   const country = value(binding, 'filteredCountry') || value(binding, 'country') || 'unknown';
   const language = value(binding, 'language') || 'unknown';
   const creator = value(binding, 'directors') || 'Unknown';
@@ -84,10 +70,6 @@ function mapWikidataToWork(binding, medium) {
   const qid = qidFromUri(value(binding, 'item'));
 
   return {
-    // The QID is appended so two different real works that happen to share a
-    // title and year (remakes, common titles, etc.) never collide on id —
-    // title+year alone is not a reliable uniqueness key across a large,
-    // real-world corpus (this was found via a live sync, not a unit test).
     id: `${slugify(title, year ?? 'unknown')}-${qid.toLowerCase()}`,
     title,
     creator,

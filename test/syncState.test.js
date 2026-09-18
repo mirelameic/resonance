@@ -53,7 +53,7 @@ test('saveSyncState then loadSyncState round-trips the state correctly', () => {
   const stateFile = join(dir, 'sync-state.json');
   const state = {
     'wikidata:film:1990-1999': { offset: 40, exhausted: false },
-    'wikidata:film:brazil:1990-1999': { offset: 10, exhausted: true },
+    'wikidata:film:2000-2009': { offset: 10, exhausted: true },
   };
   saveSyncState(stateFile, state);
   assert.deepEqual(loadSyncState(stateFile), state);

@@ -70,11 +70,6 @@ test('pickUnexpectedConnection falls back to a period-only connection when nothi
   assert.equal(result.work.id, 'y');
 });
 
-// Regression tests for finding #4 of the final review: sentinel fallback values emitted
-// by the Wikidata mapper when data is sparse (creator: 'Unknown', genre: 'Uncategorized',
-// style: ['Uncategorized'], themes: ['Storytelling'], mood: ['Evocative']) must never be
-// treated as a real shared attribute between two otherwise-unrelated works.
-
 test('two works that both have creator "Unknown" do not score a creator match', () => {
   const workA = { id: 'a', medium: 'film', year: 1970, country: 'unknown', movement: 'drama, 1970s', genre: 'Uncategorized', creator: 'Unknown', themes: ['Storytelling'], mood: ['Evocative'] };
   const workB = { id: 'b', medium: 'tv', year: 2015, country: 'unknown', movement: 'comedy, 2010s', genre: 'Uncategorized', creator: 'Unknown', themes: ['Storytelling'], mood: ['Evocative'] };
