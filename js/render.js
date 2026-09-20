@@ -1,5 +1,5 @@
 import { works } from './data.js';
-import { extractFacets, filterWorks } from './filters.js';
+import { extractFacets, filterWorks, MEDIUM_TABS, tabForMedium } from './filters.js';
 import { buildHash } from './router.js';
 import { computeConnections, pickUnexpectedConnection } from './similarity.js';
 import { observeReveals } from './reveal.js';
@@ -45,19 +45,45 @@ function renderWorkArt(work) {
 }
 
 function renderExplore(mount, query = {}) {
-  const facets = extractFacets(works);
+  const requestedMedium = query.medium && query.medium[0];
+  const activeTab = requestedMedium ? tabForMedium(requestedMedium) : MEDIUM_TABS[0];
+  const worksInTab = filterWorks(works, { medium: activeTab.mediums });
+
+  const tabsMarkup = `
+    <div class="medium-tabs reveal" role="tablist">
+      ${MEDIUM_TABS.map((tab) => `
+        <button type="button" class="medium-tab ${tab.id === activeTab.id ? 'is-active' : ''}" data-tab="${tab.id}">${escapeHtml(tab.label)}</button>
+      `).join('')}
+    </div>
+  `;
+
+  if (worksInTab.length === 0) {
+    mount.innerHTML = `
+      <section class="view view--explore">
+        <div class="section-label tag reveal">[ EXPLORE THE ARCHIVE ]</div>
+        ${tabsMarkup}
+        <div class="explore__empty tag reveal">[ ${escapeHtml(activeTab.label.toUpperCase())} — COMING SOON ]</div>
+      </section>
+    `;
+    wireExploreEvents(mount, {}, '', activeTab.mediums);
+    return;
+  }
+
+  const facets = extractFacets(worksInTab, activeTab.id);
   const activeFilters = { ...query };
   delete activeFilters.q;
+  delete activeFilters.medium;
   const searchText = (query.q && query.q[0]) || '';
-  const results = filterWorks(works, activeFilters, searchText);
+  const results = filterWorks(worksInTab, activeFilters, searchText);
 
   mount.innerHTML = `
     <section class="view view--explore">
       <div class="section-label tag reveal">[ EXPLORE THE ARCHIVE ]</div>
+      ${tabsMarkup}
       <div class="explore__layout">
         <aside class="filter-panel reveal">
           <input class="filter-panel__search" type="search" placeholder="Search by title or creator…" value="${escapeHtml(searchText)}" />
-          ${Object.entries(facets).map(([key, values]) => `
+          ${Object.entries(facets).filter(([key]) => key !== 'medium').map(([key, values]) => `
             <div class="filter-group">
               <div class="filter-group__label tag">${FACET_LABELS[key] || key}</div>
               <div class="filter-group__chips">
@@ -88,15 +114,22 @@ function renderExplore(mount, query = {}) {
     </section>
   `;
 
-  wireExploreEvents(mount, activeFilters, searchText);
+  wireExploreEvents(mount, activeFilters, searchText, activeTab.mediums);
 }
 
-function wireExploreEvents(mount, activeFilters, searchText) {
+function wireExploreEvents(mount, activeFilters, searchText, tabMedium) {
+  mount.querySelectorAll('.medium-tab').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tab = MEDIUM_TABS.find((t) => t.id === btn.dataset.tab);
+      window.location.hash = buildHash('explore', {}, { medium: tab.mediums });
+    });
+  });
+
   mount.querySelectorAll('.chip').forEach((chip) => {
     chip.addEventListener('click', () => {
       const facet = chip.dataset.facet;
       const value = chip.dataset.value;
-      const next = { ...activeFilters };
+      const next = { ...activeFilters, medium: tabMedium };
       const current = new Set(next[facet] || []);
       current.has(value) ? current.delete(value) : current.add(value);
       next[facet] = [...current];
@@ -108,7 +141,7 @@ function wireExploreEvents(mount, activeFilters, searchText) {
   const searchInput = mount.querySelector('.filter-panel__search');
   if (searchInput) {
     searchInput.addEventListener('change', () => {
-      const next = { ...activeFilters };
+      const next = { ...activeFilters, medium: tabMedium };
       if (searchInput.value.trim()) next.q = [searchInput.value.trim()];
       else delete next.q;
       window.location.hash = buildHash('explore', {}, next);
@@ -116,7 +149,7 @@ function wireExploreEvents(mount, activeFilters, searchText) {
   }
 
   const clearBtn = mount.querySelector('.filter-panel__clear');
-  if (clearBtn) clearBtn.addEventListener('click', () => { window.location.hash = buildHash('explore'); });
+  if (clearBtn) clearBtn.addEventListener('click', () => { window.location.hash = buildHash('explore', {}, { medium: tabMedium }); });
 }
 
 function renderWorkDetail(mount, id) {

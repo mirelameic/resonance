@@ -154,6 +154,18 @@ main { padding: 120px var(--edge) 0; }
 .explore__layout { display: grid; grid-template-columns: 1fr; gap: 32px; }
 @media (min-width: 900px) { .explore__layout { grid-template-columns: 260px 1fr; align-items: start; } }
 
+.medium-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 28px; }
+.medium-tab {
+  font-family: var(--f-mono); font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line);
+  background: transparent; color: var(--ink-soft); cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+}
+.medium-tab:hover { border-color: var(--moss); color: var(--ink); }
+.medium-tab.is-active { background: var(--moss); border-color: var(--moss); color: var(--bg); }
+
+.explore__empty { display: block; padding: 40px 0; }
+
 .filter-panel {
   display: flex; flex-direction: column; gap: 22px;
   border: 1px solid var(--line); padding: 18px; position: sticky; top: 100px;
