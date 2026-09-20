@@ -112,6 +112,15 @@ shape in `scripts/sources/wikidata.mjs`.
   (`SENTINEL_VALUES`) so two unrelated sparse works never score a fake
   match just because they share a placeholder string. If you add a new
   fallback value in the mapper, add it to that set too.
+- **Per-medium facet exclusions** (`js/filters.js`): `FACET_EXCLUSIONS_BY_MEDIUM` is an
+  exception-list keyed by tab id (`film`, `music`, `literature`, `visual-arts`) — it only
+  declares which facet keys a medium *hides* from the Explore filter panel (today: film
+  hides `movement`, since it's auto-derived noise there, not a curated taxonomy). A medium
+  with no entry shows every facet by default, so adding a new facet key later doesn't
+  require updating this map. `MEDIUM_TABS` is the tab list Explore renders from; the
+  Visual Arts tab matches two `medium` values (`visual-arts` and `photography`) rather
+  than one — see the "photography vs visual-arts" note in the schema (`VALID_MEDIA` in
+  `test/data.test.js`).
 - **Sync checkpointing** (`scripts/lib/syncState.mjs`): `recordBucketResult`
   is pure (never mutates the state passed in) and a bucket is marked
   exhausted the moment a query returns fewer rows than requested — that's

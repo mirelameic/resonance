@@ -1,8 +1,25 @@
 const FACET_KEYS = ['medium', 'decade', 'country', 'movement', 'genre', 'style', 'themes', 'mood', 'language'];
 
-export function extractFacets(works) {
+const FACET_EXCLUSIONS_BY_MEDIUM = {
+  film: ['movement'],
+};
+
+export const MEDIUM_TABS = [
+  { id: 'film', label: 'Film', mediums: ['film'] },
+  { id: 'music', label: 'Music', mediums: ['music'] },
+  { id: 'literature', label: 'Literature', mediums: ['literature'] },
+  { id: 'visual-arts', label: 'Visual Arts', mediums: ['visual-arts', 'photography'] },
+];
+
+export function tabForMedium(medium) {
+  return MEDIUM_TABS.find((tab) => tab.mediums.includes(medium)) || MEDIUM_TABS[0];
+}
+
+export function extractFacets(works, tabId) {
+  const excluded = new Set(FACET_EXCLUSIONS_BY_MEDIUM[tabId] || []);
   const facets = {};
   for (const key of FACET_KEYS) {
+    if (excluded.has(key)) continue;
     const values = new Set();
     for (const work of works) {
       const raw = work[key];
