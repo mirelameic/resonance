@@ -6,6 +6,24 @@ and how to run it. This file is implementation notes for whoever (human
 or AI) touches the code next — the code itself carries no comments by
 design; this is where the "why" lives instead.
 
+## Never run git commands that change state
+
+Read-only git commands (`git status`, `git diff`, `git log`, `git
+show`, etc.) are fine to run freely. Never run one that changes repo
+or working-tree state — `git add`, `git commit`, `git push`, `git
+checkout`, `git reset`, `git stash`, and so on. The user runs all of
+those themselves, whenever they decide to. Editing files is fine;
+staging or committing them is not, even if the work is finished and
+verified.
+
+**One exception:** an implementer subagent executing one task of a
+`superpowers:subagent-driven-development` plan may run `git add`/`git
+commit` locally as part of that task (the skill's per-task review
+relies on diffing commits) — never `git push` or anything that touches
+a remote. This exception is scoped to that implementer role only; the
+coordinating/interactive session (you, reading this outside that
+narrow role) still never touches git beyond read-only commands.
+
 ## Do not add comments in code
 
 Do not write `//`, `/* */`, or `<!-- -->` comments in any file in this
