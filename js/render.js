@@ -50,11 +50,11 @@ function renderExplore(mount, query = {}) {
   const worksInTab = filterWorks(works, { medium: activeTab.mediums });
 
   const tabsMarkup = `
-    <div class="medium-tabs reveal" role="tablist">
+    <nav class="medium-tabs reveal" aria-label="Medium">
       ${MEDIUM_TABS.map((tab) => `
-        <button type="button" class="medium-tab ${tab.id === activeTab.id ? 'is-active' : ''}" data-tab="${tab.id}">${escapeHtml(tab.label)}</button>
+        <button type="button" class="medium-tab ${tab.id === activeTab.id ? 'is-active' : ''}" data-tab="${tab.id}" aria-current="${tab.id === activeTab.id ? 'true' : 'false'}">${escapeHtml(tab.label)}</button>
       `).join('')}
-    </div>
+    </nav>
   `;
 
   if (worksInTab.length === 0) {

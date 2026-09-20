@@ -48,6 +48,14 @@ test('tabForMedium falls back to the first tab for an unrecognized medium', () =
   assert.equal(tabForMedium('made-up-medium').id, MEDIUM_TABS[0].id);
 });
 
+test('MEDIUM_TABS mediums cover every value in the schema\'s VALID_MEDIA', () => {
+  const VALID_MEDIA = ['music', 'film', 'literature', 'photography', 'visual-arts'];
+  const covered = new Set(MEDIUM_TABS.flatMap((tab) => tab.mediums));
+  for (const medium of VALID_MEDIA) {
+    assert.ok(covered.has(medium), `${medium} is not covered by any tab in MEDIUM_TABS`);
+  }
+});
+
 test('filterWorks: a single facet filters by OR within the category', () => {
   const result = filterWorks(sample, { country: ['Brazil'] });
   assert.deepEqual(result.map((w) => w.id).sort(), ['a', 'b']);
