@@ -48,3 +48,34 @@ test('roundtrip: a filter value containing a literal comma survives buildHash ->
   const parsed = parseRoute(hash);
   assert.deepEqual(parsed.query.movement, original);
 });
+
+test('buildHash: no query params means no "?" suffix at all', () => {
+  assert.equal(buildHash('explore'), '#/explore');
+  assert.equal(buildHash('surprise'), '#/surprise');
+});
+
+test('buildHash: an empty-array query value is dropped, not emitted as an empty param', () => {
+  assert.equal(buildHash('explore', {}, { country: [] }), '#/explore');
+});
+
+test('buildHash: work without an id behaves like a bare work route', () => {
+  assert.equal(buildHash('work', {}), '#/work');
+});
+
+test('parseRoute: percent-encoded keys and values are decoded', () => {
+  const result = parseRoute('#/explore?%73earch=hello%20world');
+  assert.deepEqual(result.query.search, ['hello world']);
+});
+
+test('parseRoute: a key with no "=" or value produces an empty (filtered-out) list', () => {
+  assert.deepEqual(parseRoute('#/explore?country').query.country, []);
+});
+
+test('parseRoute: a trailing "&" or empty query segment is ignored', () => {
+  const result = parseRoute('#/explore?medium=film&');
+  assert.deepEqual(result.query, { medium: ['film'] });
+});
+
+test('parseRoute: work view without a second path segment has no id param', () => {
+  assert.deepEqual(parseRoute('#/work').params, {});
+});

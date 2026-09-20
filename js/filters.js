@@ -31,6 +31,10 @@ export function extractFacets(works, tabId) {
   return facets;
 }
 
+export function sortByYearDescending(works) {
+  return [...works].sort((a, b) => (b.year ?? -Infinity) - (a.year ?? -Infinity));
+}
+
 export function filterWorks(works, filters, searchText = '') {
   const activeFacets = Object.entries(filters || {}).filter(([, values]) => values && values.length);
   const needle = searchText.trim().toLowerCase();

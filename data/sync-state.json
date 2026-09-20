@@ -1,14 +1,30 @@
 {
   "wikidata:film:1900-1909": {
-    "offset": 80,
-    "exhausted": false
+    "offset": 180,
+    "exhausted": true
   },
   "wikidata:film:1910-1919": {
-    "offset": 80,
+    "offset": 230,
     "exhausted": false
   },
   "wikidata:film:1920-1929": {
-    "offset": 80,
+    "offset": 180,
+    "exhausted": false
+  },
+  "wikidata:film:1930-1939": {
+    "offset": 100,
+    "exhausted": false
+  },
+  "wikidata:film:1940-1949": {
+    "offset": 100,
+    "exhausted": false
+  },
+  "wikidata:film:1950-1959": {
+    "offset": 50,
+    "exhausted": false
+  },
+  "wikidata:film:2000-2009": {
+    "offset": 50,
     "exhausted": false
   }
 }

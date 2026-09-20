@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "RESONANCE — a local, static artistic discovery archive connecting works across music, film, TV, literature, photography, and visual arts.",
+  "description": "RESONANCE — a local, static artistic discovery archive connecting works across film, music, literature, and visual art.",
   "scripts": {
     "test": "node --test",
     "serve": "python3 -m http.server 8000",
     "sync-data": "node scripts/sync-data.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
   }
 }

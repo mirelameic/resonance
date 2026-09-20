@@ -3,6 +3,7 @@ import { createThrottle, sleep } from '../lib/rateLimit.mjs';
 const ENDPOINT = 'https://query.wikidata.org/sparql';
 const USER_AGENT = 'RESONANCE-sync/1.0 (personal art-discovery project, non-commercial data sync script)';
 const throttle = createThrottle(1000);
+const MIN_SITELINKS = 3;
 
 const RETRYABLE_STATUS_CODES = new Set([429, 502, 503, 504]);
 const MAX_RETRIES = 2;
@@ -30,11 +31,12 @@ WHERE {
   ?item wdt:P577 ?date .
   FILTER(YEAR(?date) <= ${endYear})
   ?item rdfs:label ?itemLabel . FILTER(LANG(?itemLabel) = "en")
+  ?item wdt:P18 ?image .
+  ?item wikibase:sitelinks ?sitelinks . FILTER(?sitelinks >= ${MIN_SITELINKS})
   OPTIONAL { ?item wdt:P57 ?director. ?director rdfs:label ?directorLabel. FILTER(LANG(?directorLabel) = "en") }
   OPTIONAL { ?item wdt:P495 ?country. ?country rdfs:label ?countryLabel. FILTER(LANG(?countryLabel) = "en") }
   OPTIONAL { ?item wdt:P364 ?lang. ?lang rdfs:label ?langLabel. FILTER(LANG(?langLabel) = "en") }
   OPTIONAL { ?item wdt:P136 ?genre. ?genre rdfs:label ?genreLabel. FILTER(LANG(?genreLabel) = "en") }
-  OPTIONAL { ?item wdt:P18 ?image. }
 }
 GROUP BY ?item ?itemLabel
 HAVING(YEAR(MIN(?date)) >= ${startYear} && YEAR(MIN(?date)) <= ${endYear})

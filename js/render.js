@@ -1,5 +1,5 @@
 import { works } from './data.js';
-import { extractFacets, filterWorks, MEDIUM_TABS, tabForMedium } from './filters.js';
+import { extractFacets, filterWorks, sortByYearDescending, MEDIUM_TABS, tabForMedium } from './filters.js';
 import { buildHash } from './router.js';
 import { computeConnections, pickUnexpectedConnection } from './similarity.js';
 import { observeReveals } from './reveal.js';
@@ -9,7 +9,11 @@ const FACET_LABELS = {
   genre: 'Genre', style: 'Style', themes: 'Theme', mood: 'Mood', language: 'Language',
 };
 
+let filterSheetOpen = false;
+let lastExploreHash = null;
+
 export function renderView(mount, view, params, query) {
+  document.body.style.overflow = '';
   switch (view) {
     case 'explore':
       renderExplore(mount, query);
@@ -45,6 +49,10 @@ function renderWorkArt(work) {
 }
 
 function renderExplore(mount, query = {}) {
+  lastExploreHash = window.location.hash;
+  const previousPanel = mount.querySelector('.filter-panel');
+  const savedScrollTop = previousPanel ? previousPanel.scrollTop : 0;
+
   const requestedMedium = query.medium && query.medium[0];
   const activeTab = requestedMedium ? tabForMedium(requestedMedium) : MEDIUM_TABS[0];
   const worksInTab = filterWorks(works, { medium: activeTab.mediums });
@@ -60,7 +68,6 @@ function renderExplore(mount, query = {}) {
   if (worksInTab.length === 0) {
     mount.innerHTML = `
       <section class="view view--explore">
-        <div class="section-label tag reveal">[ EXPLORE THE ARCHIVE ]</div>
         ${tabsMarkup}
         <div class="explore__empty tag reveal">[ ${escapeHtml(activeTab.label.toUpperCase())} — COMING SOON ]</div>
       </section>
@@ -74,14 +81,17 @@ function renderExplore(mount, query = {}) {
   delete activeFilters.q;
   delete activeFilters.medium;
   const searchText = (query.q && query.q[0]) || '';
-  const results = filterWorks(worksInTab, activeFilters, searchText);
+  const results = sortByYearDescending(filterWorks(worksInTab, activeFilters, searchText));
+  const activeFilterCount = Object.keys(activeFilters).length;
 
   mount.innerHTML = `
     <section class="view view--explore">
-      <div class="section-label tag reveal">[ EXPLORE THE ARCHIVE ]</div>
       ${tabsMarkup}
       <div class="explore__layout">
-        <aside class="filter-panel reveal">
+        <div class="filter-backdrop ${filterSheetOpen ? 'is-open' : ''}" id="filterBackdrop"></div>
+        <aside class="filter-panel ${filterSheetOpen ? 'is-open' : ''}">
+          <button type="button" class="filter-panel__close tag" id="filterClose">[ OK ]</button>
+          ${activeFilterCount || searchText ? '<button type="button" class="filter-panel__clear tag">[ CLEAR ALL ]</button>' : ''}
           <input class="filter-panel__search" type="search" placeholder="Search by title or creator…" value="${escapeHtml(searchText)}" />
           ${Object.entries(facets).filter(([key]) => key !== 'medium').map(([key, values]) => `
             <div class="filter-group">
@@ -93,10 +103,12 @@ function renderExplore(mount, query = {}) {
               </div>
             </div>
           `).join('')}
-          ${Object.keys(activeFilters).length || searchText ? '<button type="button" class="filter-panel__clear tag">[ CLEAR ALL ]</button>' : ''}
         </aside>
         <div class="explore__results">
-          <div class="explore__count tag">${results.length} WORK${results.length === 1 ? '' : 'S'}</div>
+          <div class="explore__results-header">
+            <div class="explore__count tag">${results.length} WORK${results.length === 1 ? '' : 'S'}</div>
+            <button type="button" class="filter-trigger tag" id="filterTrigger">[ FILTERS${activeFilterCount ? ` (${activeFilterCount})` : ''} ]</button>
+          </div>
           <div class="card-grid">
             ${results.map((work) => `
               <a class="work-card reveal" href="${buildHash('work', { id: work.id })}">
@@ -114,10 +126,42 @@ function renderExplore(mount, query = {}) {
     </section>
   `;
 
+  if (filterSheetOpen) document.body.style.overflow = 'hidden';
+
+  const newPanel = mount.querySelector('.filter-panel');
+  if (newPanel) newPanel.scrollTop = savedScrollTop;
+
   wireExploreEvents(mount, activeFilters, searchText, activeTab.mediums);
 }
 
 function wireExploreEvents(mount, activeFilters, searchText, tabMedium) {
+  const closeFilterSheet = () => {
+    filterSheetOpen = false;
+    document.body.style.overflow = '';
+    const panel = mount.querySelector('.filter-panel');
+    const backdrop = mount.querySelector('.filter-backdrop');
+    if (panel) panel.classList.remove('is-open');
+    if (backdrop) backdrop.classList.remove('is-open');
+  };
+
+  const filterTrigger = mount.querySelector('#filterTrigger');
+  if (filterTrigger) {
+    filterTrigger.addEventListener('click', () => {
+      filterSheetOpen = true;
+      document.body.style.overflow = 'hidden';
+      const panel = mount.querySelector('.filter-panel');
+      const backdrop = mount.querySelector('.filter-backdrop');
+      if (panel) panel.classList.add('is-open');
+      if (backdrop) backdrop.classList.add('is-open');
+    });
+  }
+
+  const filterClose = mount.querySelector('#filterClose');
+  if (filterClose) filterClose.addEventListener('click', closeFilterSheet);
+
+  const filterBackdrop = mount.querySelector('#filterBackdrop');
+  if (filterBackdrop) filterBackdrop.addEventListener('click', closeFilterSheet);
+
   mount.querySelectorAll('.medium-tab').forEach((btn) => {
     btn.addEventListener('click', () => {
       const tab = MEDIUM_TABS.find((t) => t.id === btn.dataset.tab);
@@ -167,7 +211,7 @@ function renderWorkDetail(mount, id) {
 
   mount.innerHTML = `
     <section class="view view--detail">
-      <a class="tag detail__back" href="${buildHash('explore')}">[ ← BACK TO ARCHIVE ]</a>
+      <button type="button" class="tag detail__back" id="detailBack">[ ← BACK TO ARCHIVE ]</button>
       <div class="detail__layout reveal">
         <div class="detail__art">${renderWorkArt(work)}</div>
         <div class="detail__info">
@@ -200,6 +244,11 @@ function renderWorkDetail(mount, id) {
       ` : ''}
     </section>
   `;
+
+  const backBtn = mount.querySelector('#detailBack');
+  if (backBtn) backBtn.addEventListener('click', () => {
+    window.location.hash = lastExploreHash || buildHash('explore');
+  });
 }
 
 function renderSurprise(mount) {
@@ -253,8 +302,23 @@ function renderHome(mount) {
         <svg class="hero__ring hero__ring--a" viewBox="0 0 400 400"><circle cx="200" cy="200" r="180"/></svg>
         <svg class="hero__ring hero__ring--b" viewBox="0 0 400 400"><circle cx="200" cy="200" r="135"/></svg>
         <svg class="hero__ring hero__ring--c" viewBox="0 0 400 400"><circle cx="200" cy="200" r="95"/></svg>
+        <svg class="hero__constellation" viewBox="0 0 200 200">
+          <g class="hero__constellation-tri hero__constellation-tri--a">
+            <polygon class="hero__constellation-line" points="100,30 161,135 39,135" />
+            <circle class="hero__constellation-node hero__constellation-node--a" cx="100" cy="30" r="4" />
+            <circle class="hero__constellation-node hero__constellation-node--a" cx="161" cy="135" r="4" />
+            <circle class="hero__constellation-node hero__constellation-node--a" cx="39" cy="135" r="4" />
+          </g>
+          <g class="hero__constellation-tri hero__constellation-tri--b">
+            <polygon class="hero__constellation-line" points="161,65 100,170 39,65" />
+            <circle class="hero__constellation-node hero__constellation-node--c" cx="161" cy="65" r="4" />
+            <circle class="hero__constellation-node hero__constellation-node--c" cx="100" cy="170" r="4" />
+            <circle class="hero__constellation-node hero__constellation-node--c" cx="39" cy="65" r="4" />
+          </g>
+          <circle class="hero__constellation-hub" cx="100" cy="100" r="5" />
+        </svg>
       </div>
-      <h1 class="hero__title reveal"><span class="hero__title-highlight">EVERY PIECE<br>ECHOES ANOTHER.</span></h1>
+      <h1 class="hero__title reveal"><span class="hero__title-highlight">EVERY PIECE<br>ECHOES ANOTHER</span></h1>
       <div class="hero__actions reveal">
         <a class="pill" href="${buildHash('explore')}">EXPLORE THE ARCHIVE</a>
         <a class="pill" href="${buildHash('surprise')}">SURPRISE ME</a>

@@ -48,6 +48,29 @@ test('runSync merges fresh works into an existing generated data.js without dupl
   rmSync(dir, { recursive: true, force: true });
 });
 
+test('runSync excludes pornographic/erotic content from the written file, even if it was already present', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'resonance-sync-'));
+  const dataFile = join(dir, 'data.js');
+  const enrichmentFile = join(dir, 'enrichment.json');
+  writeFileSync(enrichmentFile, '{}');
+  writeFileSync(dataFile, `export const works = ${JSON.stringify([
+    { id: 'old-adult', title: 'Old Adult Film', genre: 'pornographic film', style: ['pornographic film'], source: { type: 'wikidata', sourceId: '1' } },
+  ])};\n`);
+
+  const fetchFresh = async () => [
+    { id: 'clean', title: 'A Clean Drama', genre: 'Drama', style: ['drama film'], source: { type: 'wikidata', sourceId: '2' } },
+    { id: 'new-adult', title: 'New Adult Film', genre: 'Drama', style: ['drama film', 'erotic film'], source: { type: 'wikidata', sourceId: '3' } },
+  ];
+
+  const result = await runSync({ dataFile, enrichmentFile, fetchFresh, incremental: false });
+
+  assert.equal(result.totalCount, 1, 'both the pre-existing and the freshly-fetched adult content must be dropped');
+  const written = await import(`file://${dataFile}?t=${Date.now()}`);
+  assert.deepEqual(written.works.map((w) => w.id), ['clean']);
+
+  rmSync(dir, { recursive: true, force: true });
+});
+
 test('runSync passes the enrichment map and incremental flag through to fetchFresh', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'resonance-sync-'));
   const dataFile = join(dir, 'data.js');

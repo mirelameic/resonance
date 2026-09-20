@@ -53,6 +53,20 @@ test('queryFilms buckets a multi-dated item by its EARLIEST publication date, no
   assert.ok(!decoded.includes('FILTER NOT EXISTS'), 'the FILTER NOT EXISTS approach was tried and found to silently delete multi-dated items on the live endpoint — do not reintroduce it');
 });
 
+test('queryFilms requires an image and a minimum sitelink count, not just optional signals', async (t) => {
+  let capturedUrl;
+  t.mock.method(globalThis, 'fetch', async (url) => {
+    capturedUrl = url.toString();
+    return { ok: true, json: async () => ({ results: { bindings: [] } }) };
+  });
+
+  await queryFilms({ startYear: 2000, endYear: 2009, limit: 10 });
+
+  const decoded = decodeURIComponent(capturedUrl);
+  assert.ok(decoded.includes('?item wdt:P18 ?image .'), 'an image must be a required triple, not OPTIONAL, so every synced work has one');
+  assert.ok(decoded.includes('?item wikibase:sitelinks ?sitelinks . FILTER(?sitelinks >= 3)'), 'a minimum sitelink count filters out non-notable, obscure items');
+});
+
 test('queryFilms with a countryQid adds a country-of-origin filter to the query', async (t) => {
   let capturedUrl;
   t.mock.method(globalThis, 'fetch', async (url) => {

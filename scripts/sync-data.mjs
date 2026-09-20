@@ -4,6 +4,7 @@ import { dirname, join } from 'node:path';
 
 import { DECADES } from './lib/coverage.mjs';
 import { mergeWorks } from './lib/mergeWorks.mjs';
+import { isExcludedContent } from './lib/contentFilter.mjs';
 import { applyEnrichment } from './lib/applyEnrichment.mjs';
 import { mapWikidataFilmToWork } from './lib/mapWikidata.mjs';
 import { loadSyncState, saveSyncState, getBucketProgress, recordBucketResult } from './lib/syncState.mjs';
@@ -14,7 +15,7 @@ const REAL_DATA_FILE = join(__dirname, '..', 'js', 'data.js');
 const REAL_ENRICHMENT_FILE = join(__dirname, '..', 'data', 'enrichment.json');
 const REAL_SYNC_STATE_FILE = join(__dirname, '..', 'data', 'sync-state.json');
 
-const TARGET_PER_DECADE_MOVIE = 40;
+const TARGET_PER_DECADE_MOVIE = 50;
 const RECENT_TARGET = 100;
 
 export async function loadExistingWorks(dataFile) {
@@ -89,7 +90,7 @@ export async function runSync({ dataFile, enrichmentFile, fetchFresh, incrementa
   const existing = await loadExistingWorks(dataFile);
   const enrichmentMap = loadEnrichment(enrichmentFile);
   const fresh = await fetchFresh(enrichmentMap, incremental);
-  const merged = mergeWorks(existing, fresh);
+  const merged = mergeWorks(existing, fresh).filter((work) => !isExcludedContent(work));
   writeDataFile(dataFile, merged);
   return { existingCount: existing.length, freshCount: fresh.length, totalCount: merged.length };
 }

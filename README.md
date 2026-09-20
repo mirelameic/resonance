@@ -21,8 +21,16 @@ Then open `http://localhost:8000/`.
 ## Testing
 
 ```bash
+npm install   # first time only — installs jsdom for DOM/integration tests
 npm test
 ```
+
+Pure logic (`js/router.js`, `js/filters.js`, `js/similarity.js`, the
+sync pipeline) is unit-tested with zero dependencies. `js/render.js`
+and `js/main.js` are integration-tested against a real DOM via
+`jsdom` — the one thing you need to `npm install`. The app itself
+still ships nothing extra: jsdom is a test-only dependency, never
+loaded by the browser.
 
 ## Structure
 

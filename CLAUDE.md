@@ -56,6 +56,38 @@ removed. Don't reintroduce per-country or per-region special-casing in the
 sync or in the copy — if a country/medium is underrepresented, that's a
 sourcing-strategy problem to solve generically, not with a hardcoded QID.
 
+## Product decision: no pornographic/erotic content, in any medium
+
+`scripts/lib/contentFilter.mjs`'s `isExcludedContent(work)` is applied to
+the merged result in `runSync` (`scripts/sync-data.mjs`) — it drops any
+work whose `genre`, `movement`, `style`, `themes`, `description`, or
+`context` matches a keyword on its blocklist (pornographic, erotic,
+sexploitation, fetish, hardcore, hentai, etc.), case-insensitively. This
+runs on *every* sync, so it also self-heals: if a match ever slips back
+into `js/data.js` some other way, the next `npm run sync-data` removes it
+again. Applies to every medium (music/literature/visual-arts too, once
+they're sourced), not just film. If you add a new data source, route its
+mapped output through this same filter rather than adding a parallel
+check.
+
+## Product decision: a quality bar for sourced works
+
+`scripts/sources/wikidata.mjs`'s `buildQuery` requires two things a
+film used to be able to skip: `?item wdt:P18 ?image` (an image is a
+required triple, not `OPTIONAL` — every synced work has a picture) and
+`?item wikibase:sitelinks ?sitelinks . FILTER(?sitelinks >= MIN_SITELINKS)`
+(currently 3 — a proxy for "enough people have written about this to
+have Wikipedia articles in several languages," not just "someone
+entered a Wikidata stub"). Wikidata's `film` class is enormous and
+mostly obscure/non-notable by a casual browser's standard — without
+this bar, most synced works were unillustrated and unrecognizable (a
+real problem hit in practice: 466 of 604 synced works had no image).
+Verified live that this doesn't gut international/arthouse
+representation either — e.g. 1960s Brazilian cinema still returns
+Cinema Novo classics like *Black God, White Devil* at this threshold.
+If you ever loosen or remove this filter, do it deliberately and
+re-check a non-English-heavy decade/country combination the same way.
+
 ## Data pipeline gotchas (Wikidata / WDQS)
 
 These were found the hard way, against the real public endpoint
@@ -134,12 +166,18 @@ shape in `scripts/sources/wikidata.mjs`.
 
 ## Testing
 
-- `npm test` runs every pure logic module under Node's built-in test
-  runner — no dependencies. Covers `js/router.js`, `js/filters.js`,
-  `js/similarity.js`, the `js/data.js` schema, and the whole sync
-  pipeline (`scripts/lib/*`, `scripts/sources/wikidata.mjs`).
-  `js/main.js`, `js/render.js`, `js/reveal.js` are DOM-touching and
-  intentionally untested here.
+- `npm test` runs under Node's built-in test runner. Pure logic modules
+  (`js/router.js`, `js/filters.js`, `js/similarity.js`, the `js/data.js`
+  schema, the whole sync pipeline) are plain unit tests with zero
+  dependencies. `js/render.js`, `js/main.js`, and `js/reveal.js` are
+  DOM-touching, so they're covered as integration tests instead, via
+  `jsdom` (the project's one test dependency — see `test/helpers/dom.mjs`):
+  a fake `document`/`window` is installed as globals before importing the
+  module under test, then real clicks/changes/hash navigations are
+  dispatched and asserted against the resulting DOM, the same way a
+  browser would drive the app. `js/render.js`'s tests build routes with
+  `parseRoute`/`renderView` together rather than mocking either one, so
+  the router-to-render seam is exercised for real.
 - `test/mapWikidata.test.js` uses `wd:Q220741` ("City of God") as a
   live-verified fixture QID — `wd:Q186358`, the QID a prior fixture
   assumed, actually resolves to "1860 Atlantic hurricane season". If you

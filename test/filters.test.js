@@ -1,11 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { extractFacets, filterWorks, MEDIUM_TABS, tabForMedium } from '../js/filters.js';
+import { extractFacets, filterWorks, sortByYearDescending, MEDIUM_TABS, tabForMedium } from '../js/filters.js';
 
 const sample = [
-  { id: 'a', title: 'Black Orpheus', creator: 'Marcel Camus', medium: 'film', decade: '1950s', country: 'Brazil', movement: 'Cinema Novo precursor', genre: 'Drama', style: ['Location shooting'], themes: ['Myth', 'Love'], mood: ['Vibrant'], language: 'Portuguese' },
-  { id: 'b', title: 'Tropicalia', creator: 'Various', medium: 'music', decade: '1960s', country: 'Brazil', movement: 'Tropicalia', genre: 'Psychedelic', style: ['Collage'], themes: ['Identity', 'Modernity'], mood: ['Playful'], language: 'Portuguese' },
-  { id: 'c', title: 'Seven Samurai', creator: 'Akira Kurosawa', medium: 'film', decade: '1950s', country: 'Japan', movement: 'Golden Age Japanese cinema', genre: 'Drama', style: ['Ensemble'], themes: ['Honor', 'Sacrifice'], mood: ['Epic'], language: 'Japanese' },
+  { id: 'a', title: 'Black Orpheus', creator: 'Marcel Camus', medium: 'film', year: 1959, decade: '1950s', country: 'Brazil', movement: 'Cinema Novo precursor', genre: 'Drama', style: ['Location shooting'], themes: ['Myth', 'Love'], mood: ['Vibrant'], language: 'Portuguese' },
+  { id: 'b', title: 'Tropicalia', creator: 'Various', medium: 'music', year: 1968, decade: '1960s', country: 'Brazil', movement: 'Tropicalia', genre: 'Psychedelic', style: ['Collage'], themes: ['Identity', 'Modernity'], mood: ['Playful'], language: 'Portuguese' },
+  { id: 'c', title: 'Seven Samurai', creator: 'Akira Kurosawa', medium: 'film', year: 1954, decade: '1950s', country: 'Japan', movement: 'Golden Age Japanese cinema', genre: 'Drama', style: ['Ensemble'], themes: ['Honor', 'Sacrifice'], mood: ['Epic'], language: 'Japanese' },
 ];
 
 test('extractFacets collects unique sorted values per facet', () => {
@@ -78,4 +78,21 @@ test('filterWorks: search text matches title or creator, case-insensitively', ()
 
 test('filterWorks: no filters or search returns everything', () => {
   assert.equal(filterWorks(sample, {}, '').length, 3);
+});
+
+test('sortByYearDescending orders most recent first', () => {
+  const result = sortByYearDescending(sample);
+  assert.deepEqual(result.map((w) => w.id), ['b', 'a', 'c']);
+});
+
+test('sortByYearDescending does not mutate the array it was given', () => {
+  const original = [...sample];
+  sortByYearDescending(sample);
+  assert.deepEqual(sample, original);
+});
+
+test('sortByYearDescending pushes works with an unknown (null) year to the end', () => {
+  const withUnknown = [...sample, { id: 'd', title: 'Undated Work', year: null }];
+  const result = sortByYearDescending(withUnknown);
+  assert.equal(result[result.length - 1].id, 'd');
 });
